@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Asset Tracker · hlash99</title>
+<style>
+  :root{--bg:#0f1115;--surface:#171a21;--surface2:#1e222b;--line:#272c36;--ink:#e9ecf1;--muted:#9aa3af;--accent:#6ea8fe;--up:#3ad29f;--down:#f4736b;}
+  @media (prefers-color-scheme: light){
+    :root{--bg:#f6f7f9;--surface:#ffffff;--surface2:#f0f2f5;--line:#e3e6ea;--ink:#1a1d21;--muted:#5f6772;--accent:#185FA5;--up:#13855f;--down:#c5413a;}
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    background:var(--bg);color:var(--ink);-webkit-font-smoothing:antialiased;line-height:1.5}
+  a{color:var(--accent);text-decoration:none}
+  .wrap{max-width:1100px;margin:0 auto;padding:40px 20px 90px}
+  .top{display:flex;justify-content:space-between;align-items:flex-start;gap:16px;flex-wrap:wrap}
+  .crumb{font-size:13px;color:var(--muted);margin-bottom:8px}
+  h1{font-size:28px;margin:0 0 4px;font-weight:700;letter-spacing:-.5px}
+  .sub{color:var(--muted);margin:0;font-size:14.5px}
+  .kpis{display:flex;gap:26px;flex-wrap:wrap;margin-top:6px}
+  .kpi .v{font-size:22px;font-weight:700;line-height:1.1}
+  .kpi .l{font-size:11.5px;color:var(--muted);text-transform:uppercase;letter-spacing:.05em}
+  h2{font-size:13px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin:42px 0 14px;font-weight:600;
+     display:flex;align-items:center;gap:10px}
+  h2 .rule{flex:1;height:1px;background:var(--line)}
+  .card{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:18px 18px 14px}
+  .hero{display:grid;grid-template-columns:1fr 1.4fr;gap:20px;align-items:center}
+  @media (max-width:760px){.hero{grid-template-columns:1fr}}
+  .hero .big{font-size:38px;font-weight:800;letter-spacing:-1px;line-height:1}
+  .hero .lbl{color:var(--muted);font-size:13px;margin-top:2px}
+  .hero .row{display:flex;gap:22px;margin-top:16px;flex-wrap:wrap}
+  .hero .row .v{font-size:16px;font-weight:600}
+  .hero .row .l{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.04em}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:16px}
+  .ac{position:relative;display:flex;flex-direction:column}
+  .ac .hd{display:flex;justify-content:space-between;align-items:flex-start;gap:8px}
+  .ac h3{margin:0;font-size:16px;font-weight:650}
+  .ac .src{font-size:11px;color:var(--muted);margin-top:1px}
+  .ac .price{font-size:21px;font-weight:750;text-align:right;line-height:1.05;white-space:nowrap}
+  .ac .note{font-size:12.5px;color:var(--muted);margin:8px 0 6px}
+  .chips{display:flex;gap:6px;flex-wrap:wrap;margin:2px 0 10px}
+  .chip{font-size:11.5px;border:1px solid var(--line);background:var(--surface2);border-radius:20px;padding:2px 9px;
+    display:inline-flex;gap:5px;align-items:center}
+  .chip b{font-weight:650}
+  .up{color:var(--up)} .down{color:var(--down)}
+  .cv{position:relative;width:100%;height:120px;margin-top:auto}
+  .cvbig{position:relative;width:100%;height:340px}
+  .meta{display:flex;gap:8px;flex-wrap:wrap;font-size:11px;color:var(--muted);margin-top:10px;align-items:center}
+  .dot{width:8px;height:8px;border-radius:50%;display:inline-block}
+  .seg{display:inline-flex;border:1px solid var(--line);border-radius:9px;overflow:hidden}
+  .seg button{background:var(--surface);color:var(--muted);border:0;padding:5px 11px;font-size:12px;cursor:pointer}
+  .seg button.on{background:var(--accent);color:#fff}
+  .legend{display:flex;flex-wrap:wrap;gap:6px 12px;margin-top:12px;font-size:12.5px}
+  .legend .li{display:inline-flex;align-items:center;gap:6px;cursor:pointer;opacity:.55;transition:opacity .12s}
+  .legend .li.on{opacity:1}
+  footer{margin-top:54px;color:var(--muted);font-size:12px;text-align:center;line-height:1.7}
+  .err{color:var(--down);font-size:14px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="top">
+    <div>
+      <div class="crumb"><a href="https://hlash99.github.io/">← hlash99 dashboard</a></div>
+      <h1>Collector Asset Tracker</h1>
+      <p class="sub">Live median market values from my price-tracker scripts — watches, Ferraris &amp; my Porsche.</p>
+    </div>
+    <div class="kpis" id="kpis"></div>
+  </div>
+
+  <div id="content"><p class="sub" style="margin-top:40px">Loading data…</p></div>
+
+  <footer id="foot"></footer>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<script>
+const $=s=>document.querySelector(s);
+const toMs=d=>new Date(d+'T00:00:00').getTime();
+const MON=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+const tickDate=ms=>{const d=new Date(ms);return MON[d.getMonth()]+" '"+String(d.getFullYear()).slice(2);};
+const fullDate=ms=>{const d=new Date(ms);return MON[d.getMonth()]+" "+d.getDate()+", "+d.getFullYear();};
+const fmtUSD=n=>"$"+Math.round(n).toLocaleString();
+const fmtK=n=>n>=1000?"$"+(n/1000).toFixed(n>=100000?0:1)+"k":fmtUSD(n);
+const css=v=>getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+const esc=s=>(s||"").replace(/&/g,"&amp;").replace(/</g,"&lt;");
+const chgClass=v=>v==null?"":v>=0?"up":"down";
+const chgTxt=v=>v==null?"—":(v>=0?"+":"")+v+"%";
+
+Chart.defaults.font.family=getComputedStyle(document.body).fontFamily;
+Chart.defaults.color=css('--muted');
+Chart.defaults.plugins.legend.display=false;
+Chart.defaults.maintainAspectRatio=false;
+
+const charts=[];
+function lineChart(ctx,datasets,{band=false,fmt=fmtK,height}={}){
+  const grid=css('--line'), ink=css('--ink');
+  const c=new Chart(ctx,{type:'line',data:{datasets},options:{
+    animation:false,parsing:false,normalized:true,
+    interaction:{mode:'index',intersect:false},
+    scales:{
+      x:{type:'linear',grid:{color:grid,drawTicks:false},
+         ticks:{maxRotation:0,autoSkip:true,maxTicksLimit:6,font:{size:10},callback:v=>tickDate(v)},border:{color:grid}},
+      y:{grid:{color:grid,drawTicks:false},border:{display:false},
+         ticks:{callback:v=>fmt(v),font:{size:10},maxTicksLimit:6}}
+    },
+    plugins:{tooltip:{backgroundColor:css('--surface'),titleColor:ink,bodyColor:ink,borderColor:grid,
+      borderWidth:1,padding:10,boxPadding:4,usePointStyle:true,
+      callbacks:{title:items=>items.length?fullDate(items[0].parsed.x):'',
+        label:c=>` ${c.dataset.label}: ${fmt(c.parsed.y)}`}}}
+  }});
+  charts.push(c); return c;
+}
+
+fetch('data.json?_='+Date.now()).then(r=>r.json()).then(render)
+  .catch(e=>{$('#content').innerHTML='<p class="err">Could not load data.json — '+esc(e.message)+'</p>';});
+
+function render(d){
+  // KPIs
+  const s=d.summary, updated=new Date(d.updated);
+  $('#kpis').innerHTML=[
+    [fmtUSD(s.portfolio_value),'tracked value'],
+    [s.n_assets,'assets'],
+    [s.n_cars+' · '+s.n_watches,'cars · watches'],
+    [updated.toLocaleDateString(undefined,{month:'short',day:'numeric'}),'last refresh']
+  ].map(([v,l])=>`<div class="kpi"><div class="v">${v}</div><div class="l">${l}</div></div>`).join('');
+
+  let html='';
+  // ── personal hero ──
+  if(d.personal){html+=`<h2>My Porsche 997.2 Turbo S<span class="rule"></span></h2>
+    <div class="card hero">
+      <div>
+        <div class="big">${fmtUSD(d.personal.latest_fmv)}</div>
+        <div class="lbl">personalized fair-market value</div>
+        <div class="row">
+          <div><div class="v ${chgClass(d.personal.change.all)}">${chgTxt(d.personal.change.all)}</div><div class="l">since ${d.personal.start.slice(0,7)}</div></div>
+          <div><div class="v">${d.personal.mileage.toLocaleString()} mi</div><div class="l">my mileage</div></div>
+          <div><div class="v">${d.personal.sold_n}</div><div class="l">sold comps</div></div>
+        </div>
+      </div>
+      <div class="cvbig"><canvas id="cv-personal"></canvas></div>
+    </div>`;}
+
+  // ── normalized comparison ──
+  html+=`<h2>Relative performance — indexed to 100 at first reading<span class="rule"></span></h2>
+    <div class="card"><div class="cvbig"><canvas id="cv-norm"></canvas></div>
+      <div class="legend" id="norm-legend"></div></div>`;
+
+  // ── asset sections ──
+  for(const cat of ['watch','car']){
+    const list=d.assets.filter(a=>a.category===cat);
+    if(!list.length)continue;
+    html+=`<h2>${cat==='watch'?'Watches':'Cars'}<span class="rule"></span></h2><div class="grid">`;
+    for(const a of list){
+      const ch=a.change;
+      const chip=(l,v)=>`<span class="chip">${l} <b class="${chgClass(v)}">${chgTxt(v)}</b></span>`;
+      html+=`<div class="card ac">
+        <div class="hd">
+          <div><h3>${esc(a.short)}</h3><div class="src">${esc(a.source)}</div></div>
+          <div class="price">${fmtUSD(a.latest)}</div>
+        </div>
+        <div class="note">${esc(a.note)}</div>
+        <div class="chips">${chip('7d',ch.d7)}${chip('30d',ch.d30)}${chip('90d',ch.d90)}${chip('all',ch.all)}</div>
+        <div class="cv"><canvas id="cv-${a.key}"></canvas></div>
+        <div class="meta"><span class="dot" style="background:${a.color}"></span>
+          <span>${a.n_listings} listings · band ${fmtK(a.range_lo)}–${fmtK(a.range_hi)}</span>
+          <span>·</span><span>updated ${a.updated}</span></div>
+      </div>`;
+    }
+    html+=`</div>`;
+  }
+  $('#content').innerHTML=html;
+
+  // footer
+  $('#foot').innerHTML=`Generated by <code>publish_trackers.py</code> from local scrape history ·
+    cars also auto-refresh twice daily via GitHub Actions · watches &amp; personal FMV update when I run the script locally.<br>
+    Last data refresh ${updated.toLocaleString()} · <a href="https://github.com/hlash99/asset-tracker">source ↗</a>`;
+
+  // ── draw charts ──
+  if(d.personal){
+    const p=d.personal.series;
+    lineChart($('#cv-personal'),[
+      {label:'p25–p75 band',data:p.map(x=>({x:toMs(x.date),y:x.p75})),borderWidth:0,pointRadius:0,
+        backgroundColor:hexA(d.personal.color,.12),fill:'+1',order:3},
+      {label:'_lo',data:p.map(x=>({x:toMs(x.date),y:x.p25})),borderWidth:0,pointRadius:0,fill:false,order:3},
+      {label:'FMV',data:p.map(x=>({x:toMs(x.date),y:x.fmv})),borderColor:d.personal.color,borderWidth:2.4,
+        pointRadius:0,tension:.25,fill:false,order:1},
+    ],{fmt:fmtUSD});
+  }
+
+  // normalized
+  const nds=d.assets.map(a=>({label:a.short,_key:a.key,
+    data:a.series.map(p=>({x:toMs(p.date),y:+(p.price/a.first*100).toFixed(1)})),
+    borderColor:a.color,borderWidth:2,pointRadius:0,tension:.2,fill:false}));
+  const norm=new Chart($('#cv-norm'),{type:'line',data:{datasets:nds},options:{
+    animation:false,parsing:false,interaction:{mode:'nearest',intersect:false},
+    scales:{x:{type:'linear',grid:{color:css('--line'),drawTicks:false},
+      ticks:{maxTicksLimit:7,maxRotation:0,font:{size:10},callback:v=>tickDate(v)},border:{color:css('--line')}},
+      y:{grid:{color:css('--line'),drawTicks:false},border:{display:false},
+        ticks:{callback:v=>v,font:{size:10}},title:{display:true,text:'index (100 = first reading)',font:{size:10},color:css('--muted')}}},
+    plugins:{tooltip:{backgroundColor:css('--surface'),titleColor:css('--ink'),bodyColor:css('--ink'),
+      borderColor:css('--line'),borderWidth:1,usePointStyle:true,
+      callbacks:{title:items=>items.length?fullDate(items[0].parsed.x):'',
+        label:c=>` ${c.dataset.label}: ${c.parsed.y}`}}}
+  }});
+  charts.push(norm);
+  $('#norm-legend').innerHTML=nds.map((ds,i)=>
+    `<span class="li on" data-i="${i}"><span class="dot" style="background:${ds.borderColor}"></span>${esc(ds.label)}</span>`).join('');
+  $('#norm-legend').querySelectorAll('.li').forEach(el=>el.onclick=()=>{
+    const i=+el.dataset.i, vis=norm.isDatasetVisible(i);
+    norm.setDatasetVisibility(i,!vis);el.classList.toggle('on',!vis);norm.update();
+  });
+
+  // per-asset mini charts
+  for(const a of d.assets){
+    lineChart($('#cv-'+a.key),[
+      {label:'asking',data:a.series.map(p=>({x:toMs(p.date),y:p.price})),borderColor:a.color,
+        borderWidth:2,pointRadius:0,tension:.2,fill:true,
+        backgroundColor:hexA(a.color,.10)}],{fmt:fmtK});
+  }
+}
+
+function hexA(hex,a){const h=hex.replace('#','');const n=parseInt(h.length===3?h.replace(/./g,c=>c+c):h,16);
+  return `rgba(${(n>>16)&255},${(n>>8)&255},${n&255},${a})`;}
+
+// redraw on dark/light switch
+matchMedia('(prefers-color-scheme: dark)').addEventListener('change',()=>location.reload());
+</script>
+</body>
+</html>
