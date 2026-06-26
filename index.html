@@ -144,11 +144,11 @@ function render(d){
     <div class="card hero">
       <div>
         <div class="big">${fmtUSD(d.personal.latest_fmv)}</div>
-        <div class="lbl">personalized fair-market value</div>
+        <div class="lbl">estimated value · mirrors the 997.2 market median</div>
         <div class="row">
           <div><div class="v ${chgClass(d.personal.change.all)}">${chgTxt(d.personal.change.all)}</div><div class="l">since ${d.personal.start.slice(0,7)}</div></div>
           <div><div class="v">${d.personal.mileage.toLocaleString()} mi</div><div class="l">my mileage</div></div>
-          <div><div class="v">${d.personal.sold_n}</div><div class="l">sold comps</div></div>
+          <div><div class="v">${d.personal.listings_n}</div><div class="l">live listings</div></div>
         </div>
       </div>
       <div class="cvbig"><canvas id="cv-personal"></canvas></div>
