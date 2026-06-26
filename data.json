@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-25T22:22:12Z",
+  "updated": "2026-06-26T01:53:19Z",
   "generated_by": "publish_trackers.py",
   "summary": {
     "portfolio_value": 2416369,
@@ -18,9 +18,9 @@
       "note": "Steel/white-gold GMT with a meteorite dial \u2014 bluespeak 'BLRO' bezel.",
       "currency": "USD",
       "updated": "2026-06-22",
-      "start": "2024-10-14",
+      "start": "2024-11-04",
       "latest": 62995,
-      "first": 80560,
+      "first": 47993,
       "n_listings": 22,
       "range_lo": 62995,
       "range_hi": 84000,
@@ -28,31 +28,10 @@
         "d7": 0.0,
         "d30": 0.8,
         "d90": 15.6,
-        "all": -21.8
+        "all": 31.3
       },
-      "points": 209,
+      "points": 206,
       "series": [
-        {
-          "date": "2024-10-14",
-          "price": 80560,
-          "n": 0,
-          "lo": 80560,
-          "hi": 80560
-        },
-        {
-          "date": "2024-10-17",
-          "price": 80560,
-          "n": 0,
-          "lo": 80560,
-          "hi": 80560
-        },
-        {
-          "date": "2024-11-03",
-          "price": 80560,
-          "n": 0,
-          "lo": 80560,
-          "hi": 80560
-        },
         {
           "date": "2024-11-04",
           "price": 47993,
@@ -1507,9 +1486,9 @@
       "note": "White-gold annual-calendar travel-time, fluted-style dial.",
       "currency": "USD",
       "updated": "2026-06-24",
-      "start": "2024-10-14",
+      "start": "2024-11-04",
       "latest": 65855,
-      "first": 139000,
+      "first": 67500,
       "n_listings": 20,
       "range_lo": 65855,
       "range_hi": 75553,
@@ -1517,31 +1496,10 @@
         "d7": -0.9,
         "d30": -3.2,
         "d90": -2.2,
-        "all": -52.6
+        "all": -2.4
       },
-      "points": 213,
+      "points": 210,
       "series": [
-        {
-          "date": "2024-10-14",
-          "price": 139000,
-          "n": 0,
-          "lo": 139000,
-          "hi": 139000
-        },
-        {
-          "date": "2024-10-17",
-          "price": 139000,
-          "n": 0,
-          "lo": 139000,
-          "hi": 139000
-        },
-        {
-          "date": "2024-11-03",
-          "price": 139000,
-          "n": 0,
-          "lo": 139000,
-          "hi": 139000
-        },
         {
           "date": "2024-11-04",
           "price": 67500,
