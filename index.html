@@ -26,14 +26,15 @@
   h2 .rule{flex:1;height:1px;background:var(--line)}
   .card{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:18px 18px 14px}
   .hero{display:grid;grid-template-columns:1fr 1.4fr;gap:20px;align-items:center}
+  .hero>*{min-width:0}
   @media (max-width:760px){.hero{grid-template-columns:1fr}}
   .hero .big{font-size:38px;font-weight:800;letter-spacing:-1px;line-height:1}
   .hero .lbl{color:var(--muted);font-size:13px;margin-top:2px}
   .hero .row{display:flex;gap:22px;margin-top:16px;flex-wrap:wrap}
   .hero .row .v{font-size:16px;font-weight:600}
   .hero .row .l{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.04em}
-  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:16px}
-  .ac{position:relative;display:flex;flex-direction:column}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px}
+  .ac{position:relative;display:flex;flex-direction:column;min-width:0}
   .ac .hd{display:flex;justify-content:space-between;align-items:flex-start;gap:8px}
   .ac h3{margin:0;font-size:16px;font-weight:650}
   .ac .src{font-size:11px;color:var(--muted);margin-top:1px}
@@ -44,8 +45,19 @@
     display:inline-flex;gap:5px;align-items:center}
   .chip b{font-weight:650}
   .up{color:var(--up)} .down{color:var(--down)}
-  .cv{position:relative;width:100%;height:120px;margin-top:auto}
-  .cvbig{position:relative;width:100%;height:340px}
+  .cv{position:relative;width:100%;min-width:0;height:120px;margin-top:auto}
+  .cvbig{position:relative;width:100%;min-width:0;height:340px}
+  canvas{display:block;max-width:100%}
+  @media (max-width:560px){
+    .wrap{padding:26px 14px 70px}
+    h1{font-size:23px}
+    .hero{padding:16px 14px 12px}
+    .hero .big{font-size:32px}
+    .cvbig{height:260px}
+    .grid{grid-template-columns:1fr;gap:13px}
+    .kpis{gap:18px}
+    .kpi .v{font-size:19px}
+  }
   .meta{display:flex;gap:8px;flex-wrap:wrap;font-size:11px;color:var(--muted);margin-top:10px;align-items:center}
   .dot{width:8px;height:8px;border-radius:50%;display:inline-block}
   .seg{display:inline-flex;border:1px solid var(--line);border-radius:9px;overflow:hidden}
