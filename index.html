@@ -5,13 +5,19 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Asset Tracker · hlash99</title>
 <style>
-  :root{--bg:#0f1115;--surface:#171a21;--surface2:#1e222b;--line:#272c36;--ink:#e9ecf1;--muted:#9aa3af;--accent:#6ea8fe;--up:#3ad29f;--down:#f4736b;}
+  :root{--bg:#0f1115;--surface:#171a21;--surface2:#1e222b;--line:#272c36;--ink:#e9ecf1;--muted:#9aa3af;--accent:#6ea8fe;--up:#3ad29f;--down:#f4736b;
+    --glow1:rgba(28,60,94,.55);--glow2:rgba(20,40,63,.45);}
   @media (prefers-color-scheme: light){
-    :root{--bg:#f6f7f9;--surface:#ffffff;--surface2:#f0f2f5;--line:#e3e6ea;--ink:#1a1d21;--muted:#5f6772;--accent:#185FA5;--up:#13855f;--down:#c5413a;}
+    :root{--bg:#f6f7f9;--surface:#ffffff;--surface2:#f0f2f5;--line:#e3e6ea;--ink:#1a1d21;--muted:#5f6772;--accent:#185FA5;--up:#13855f;--down:#c5413a;
+      --glow1:rgba(110,168,254,.10);--glow2:rgba(24,95,165,.07);}
   }
   *{box-sizing:border-box}
   body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-    background:var(--bg);color:var(--ink);-webkit-font-smoothing:antialiased;line-height:1.5}
+    background:
+      radial-gradient(1100px 520px at 78% -12%, var(--glow1) 0%, transparent 60%),
+      radial-gradient(800px 500px at -10% 26%, var(--glow2) 0%, transparent 55%),
+      var(--bg);
+    background-attachment:fixed;color:var(--ink);-webkit-font-smoothing:antialiased;line-height:1.5;min-height:100vh}
   a{color:var(--accent);text-decoration:none}
   .wrap{max-width:1100px;margin:0 auto;padding:40px 20px 90px}
   .top{display:flex;justify-content:space-between;align-items:flex-start;gap:16px;flex-wrap:wrap}
