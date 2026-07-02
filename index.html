@@ -5,11 +5,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Asset Tracker · hlash99</title>
 <style>
-  :root{--bg:#0f1115;--surface:#171a21;--surface2:#1e222b;--line:#272c36;--ink:#e9ecf1;--muted:#9aa3af;--accent:#6ea8fe;--up:#3ad29f;--down:#f4736b;
-    --glow1:rgba(28,60,94,.55);--glow2:rgba(20,40,63,.45);}
+  /* dark-navy family palette — same hues as the dashboard / iran / dentist trackers */
+  :root{--bg:#0a141f;--surface:#121f30;--surface2:#16273c;--line:rgba(255,255,255,.08);--ink:#eaf2fc;--muted:#8fa6bd;--accent:#3ec9c4;--up:#3ad29f;--down:#f4736b;
+    --glow1:rgba(28,60,94,.85);--glow2:rgba(20,40,63,.75);--shadow:rgba(0,0,0,.35);}
   @media (prefers-color-scheme: light){
-    :root{--bg:#f6f7f9;--surface:#ffffff;--surface2:#f0f2f5;--line:#e3e6ea;--ink:#1a1d21;--muted:#5f6772;--accent:#185FA5;--up:#13855f;--down:#c5413a;
-      --glow1:rgba(110,168,254,.10);--glow2:rgba(24,95,165,.07);}
+    :root{--bg:#eef1f6;--surface:#ffffff;--surface2:#f0f3f8;--line:#dfe5ee;--ink:#16202c;--muted:#5c6b7e;--accent:#0e7c78;--up:#13855f;--down:#c5413a;
+      --glow1:rgba(110,168,254,.16);--glow2:rgba(62,201,196,.10);--shadow:rgba(23,43,66,.10);}
   }
   *{box-sizing:border-box}
   body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
@@ -25,26 +26,30 @@
   h1{font-size:28px;margin:0 0 4px;font-weight:700;letter-spacing:-.5px}
   .sub{color:var(--muted);margin:0;font-size:14.5px}
   .kpis{display:flex;gap:26px;flex-wrap:wrap;margin-top:6px}
-  .kpi .v{font-size:22px;font-weight:700;line-height:1.1}
+  .kpi .v{font-size:22px;font-weight:700;line-height:1.1;font-variant-numeric:tabular-nums}
   .kpi .l{font-size:11.5px;color:var(--muted);text-transform:uppercase;letter-spacing:.05em}
   h2{font-size:13px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin:42px 0 14px;font-weight:600;
      display:flex;align-items:center;gap:10px}
   h2 .rule{flex:1;height:1px;background:var(--line)}
-  .card{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:18px 18px 14px}
+  .card{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:18px 18px 14px;
+    position:relative;overflow:hidden;box-shadow:0 1px 2px var(--shadow);
+    transition:transform .14s ease,border-color .14s ease,box-shadow .14s ease}
+  .card:hover{transform:translateY(-2px);border-color:var(--ac,var(--line));box-shadow:0 10px 28px var(--shadow)}
+  .accent{position:absolute;top:0;left:0;right:0;height:3px;opacity:.9}
   .hero{display:grid;grid-template-columns:1fr 1.4fr;gap:20px;align-items:center}
   .hero>*{min-width:0}
   @media (max-width:760px){.hero{grid-template-columns:1fr}}
-  .hero .big{font-size:38px;font-weight:800;letter-spacing:-1px;line-height:1}
+  .hero .big{font-size:38px;font-weight:800;letter-spacing:-1px;line-height:1;font-variant-numeric:tabular-nums}
   .hero .lbl{color:var(--muted);font-size:13px;margin-top:2px}
   .hero .row{display:flex;gap:22px;margin-top:16px;flex-wrap:wrap}
   .hero .row .v{font-size:16px;font-weight:600}
   .hero .row .l{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.04em}
-  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px}
   .ac{position:relative;display:flex;flex-direction:column;min-width:0}
   .ac .hd{display:flex;justify-content:space-between;align-items:flex-start;gap:8px}
   .ac h3{margin:0;font-size:16px;font-weight:650}
   .ac .src{font-size:11px;color:var(--muted);margin-top:1px}
-  .ac .price{font-size:21px;font-weight:750;text-align:right;line-height:1.05;white-space:nowrap}
+  .ac .price{font-size:21px;font-weight:750;text-align:right;line-height:1.05;white-space:nowrap;font-variant-numeric:tabular-nums}
   .ac .note{font-size:12.5px;color:var(--muted);margin:8px 0 6px}
   .chips{display:flex;gap:6px;flex-wrap:wrap;margin:2px 0 10px}
   .chip{font-size:11.5px;border:1px solid var(--line);background:var(--surface2);border-radius:20px;padding:2px 9px;
@@ -147,7 +152,8 @@ function render(d){
   let html='';
   // ── personal hero ──
   if(d.personal){html+=`<h2>My Porsche 997.2 Turbo S<span class="rule"></span></h2>
-    <div class="card hero">
+    <div class="card hero" style="--ac:${d.personal.color}">
+      <span class="accent" style="background:${d.personal.color}"></span>
       <div>
         <div class="big">${fmtUSD(d.personal.latest_fmv)}</div>
         <div class="lbl">estimated value · mirrors the 997.2 market median</div>
@@ -173,7 +179,8 @@ function render(d){
     for(const a of list){
       const ch=a.change;
       const chip=(l,v)=>`<span class="chip">${l} <b class="${chgClass(v)}">${chgTxt(v)}</b></span>`;
-      html+=`<div class="card ac">
+      html+=`<div class="card ac" style="--ac:${a.color}">
+        <span class="accent" style="background:${a.color}"></span>
         <div class="hd">
           <div><h3>${esc(a.short)}</h3><div class="src">${esc(a.source)}</div></div>
           <div class="price">${fmtUSD(a.latest)}</div>
