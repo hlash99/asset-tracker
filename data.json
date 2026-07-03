@@ -2,9 +2,9 @@
   "updated": "2026-07-03T15:25:37Z",
   "generated_by": "publish_trackers.py",
   "summary": {
-    "portfolio_value": 2589512,
-    "n_assets": 7,
-    "n_cars": 5,
+    "portfolio_value": 2880642,
+    "n_assets": 8,
+    "n_cars": 6,
     "n_watches": 2
   },
   "assets": [
@@ -4832,6 +4832,45 @@
           "hi": 159900
         }
       ]
+    },
+    {
+      "key": "porsche_992_gt3_touring",
+      "name": "Porsche 992.1 GT3 Touring",
+      "short": "992.1 GT3 Touring",
+      "category": "car",
+      "color": "#8B5CF6",
+      "source": "Cars.com",
+      "note": "Wingless 992-gen GT3 with the Touring package (2022\u20132023).",
+      "currency": "USD",
+      "updated": "2026-07-03",
+      "start": "2026-07-03",
+      "latest": 291130,
+      "first": 291130,
+      "n_listings": 5,
+      "range_lo": 288910,
+      "range_hi": 311855,
+      "change": {
+        "d7": null,
+        "d30": null,
+        "d90": null,
+        "all": 0.0
+      },
+      "points": 1,
+      "series": [
+        {
+          "date": "2026-07-03",
+          "price": 291130,
+          "n": 5,
+          "lo": 288910,
+          "hi": 311855,
+          "src": "seed"
+        }
+      ],
+      "ci": {
+        "url": "https://www.cars.com/shopping/results/?stock_type=used&makes[]=porsche&models[]=porsche-911&year_min=2022&year_max=2023&keyword=gt3+touring&maximum_distance=all&zip=94027",
+        "lo": 200,
+        "hi": 450
+      }
     }
   ],
   "personal": {
