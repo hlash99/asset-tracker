@@ -1,8 +1,8 @@
 {
-  "updated": "2026-07-03T15:25:37Z",
+  "updated": "2026-07-03T20:03:52Z",
   "generated_by": "publish_trackers.py",
   "summary": {
-    "portfolio_value": 2880642,
+    "portfolio_value": 2878467,
     "n_assets": 8,
     "n_cars": 6,
     "n_watches": 2
@@ -4844,11 +4844,11 @@
       "currency": "USD",
       "updated": "2026-07-03",
       "start": "2026-07-03",
-      "latest": 291130,
+      "latest": 288955,
       "first": 291130,
-      "n_listings": 5,
-      "range_lo": 288910,
-      "range_hi": 311855,
+      "n_listings": 56,
+      "range_lo": 277799,
+      "range_hi": 298220,
       "change": {
         "d7": null,
         "d30": null,
@@ -4859,11 +4859,11 @@
       "series": [
         {
           "date": "2026-07-03",
-          "price": 291130,
-          "n": 5,
-          "lo": 288910,
-          "hi": 311855,
-          "src": "seed"
+          "price": 288955,
+          "n": 56,
+          "lo": 277799,
+          "hi": 298220,
+          "src": "ci"
         }
       ],
       "ci": {
