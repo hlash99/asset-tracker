@@ -65,6 +65,8 @@
   .ac h3{margin:0;font-size:16px;font-weight:650}
   .ac .src{font-size:11px;color:var(--muted);margin-top:1px}
   .ac .price{font-size:21px;font-weight:750;text-align:right;line-height:1.05;white-space:nowrap;font-variant-numeric:tabular-nums}
+  .ac .soldp{font-size:11px;color:var(--muted);text-align:right;white-space:nowrap;margin-top:3px;font-variant-numeric:tabular-nums}
+  .ac .soldp b{color:var(--ink);font-weight:650}
   .ac .note{font-size:12.5px;color:var(--muted);margin:8px 0 6px}
   .chips{display:flex;gap:6px;flex-wrap:wrap;margin:2px 0 10px}
   .chip{font-size:11.5px;border:1px solid var(--line);background:var(--surface2);border-radius:20px;padding:2px 9px;
@@ -207,8 +209,9 @@ function render(d){
       inner+=`<div class="card ac" style="--ac:${a.color}" data-key="${a.key}">
         <span class="accent" style="background:${a.color}"></span>
         <div class="hd" draggable="true" title="Drag to reorder within ${cat==='watch'?'Watches':'Cars'}">
-          <div><h3>${esc(a.short)}</h3><div class="src">${esc(a.source)}</div></div>
-          <div class="price">${fmtUSD(a.latest)}</div>
+          <div><h3>${esc(a.short)}</h3><div class="src">${esc(a.source)}${a.sold?' + BaT sold':''}</div></div>
+          <div><div class="price">${fmtUSD(a.latest)}</div>
+          ${a.sold?`<div class="soldp" title="Median of ${a.sold.n} Bring a Trailer sale${a.sold.n>1?'s':''} in the last ${a.sold.days} days (reserve-not-met excluded)">sold <b>${fmtUSD(a.sold.median)}</b> · ${a.sold.n} in ${a.sold.days}d</div>`:''}</div>
         </div>
         <div class="note">${esc(a.note)}</div>
         <div class="chips">${chip('7d',ch.d7)}${chip('30d',ch.d30)}${chip('90d',ch.d90)}${chip('all',ch.all)}</div>
@@ -264,12 +267,17 @@ function render(d){
     norm.setDatasetVisibility(i,!vis);el.classList.toggle('on',!vis);norm.update();
   });
 
-  // per-asset mini charts
+  // per-asset mini charts (asking series + dashed BaT sold-median reference line)
   for(const a of d.assets){
-    lineChart($('#cv-'+a.key),[
-      {label:'asking',data:a.series.map(p=>({x:toMs(p.date),y:p.price})),borderColor:a.color,
+    const ds=[{label:'asking',data:a.series.map(p=>({x:toMs(p.date),y:p.price})),borderColor:a.color,
         borderWidth:2,pointRadius:0,tension:.2,fill:true,
-        backgroundColor:hexA(a.color,.10)}],{fmt:fmtK});
+        backgroundColor:hexA(a.color,.10)}];
+    if(a.sold&&a.series.length>1){
+      const x0=toMs(a.series[0].date),x1=toMs(a.series[a.series.length-1].date);
+      ds.push({label:'BaT sold median',data:[{x:x0,y:a.sold.median},{x:x1,y:a.sold.median}],
+        borderColor:css('--muted'),borderDash:[5,4],borderWidth:1.4,pointRadius:0,fill:false});
+    }
+    lineChart($('#cv-'+a.key),ds,{fmt:fmtK});
   }
 }
 

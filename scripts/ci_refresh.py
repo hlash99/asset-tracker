@@ -37,6 +37,57 @@ def pct(cur, base):
     return round((cur / base - 1) * 100, 1) if (cur and base) else None
 
 
+BAT_JSON_RE = re.compile(r"auctionsCompletedInitialData\s*=\s*(\{.*?\});", re.S)
+YEAR_RE = re.compile(r"\b(19|20)\d{2}\b")
+
+
+def bat_recent_sold(page, bat):
+    """Median of recent Bring a Trailer SOLD results for a `bat` block.
+
+    Reserve-not-met ('Bid to') results are excluded. Titles are filtered by
+    include/exclude keyword lists and an optional model-year range, prices by
+    the lo/hi window ($k, same convention as `ci`). The window widens until it
+    has enough sales: 90d needs 3, 180d needs 2, 365d takes 1.
+    """
+    page.goto(bat["url"], wait_until="domcontentloaded", timeout=60000)
+    page.wait_for_timeout(1500)
+    m = BAT_JSON_RE.search(page.content())
+    if not m:
+        return None
+    items = json.loads(m.group(1)).get("items", [])
+    inc = [w.lower() for w in bat.get("include", [])]
+    exc = [w.lower() for w in bat.get("exclude", [])]
+    now = datetime.now(timezone.utc).timestamp()
+    sold = []
+    for it in items:
+        title = it.get("title") or ""
+        tl = title.lower()
+        st = it.get("sold_text") or ""
+        if "sold for" not in st.lower():
+            continue                                  # reserve not met / withdrawn
+        if inc and not all(w in tl for w in inc):
+            continue
+        if any(w in tl for w in exc):
+            continue
+        ym = YEAR_RE.search(title)
+        if ym and not (bat.get("year_min", 0) <= int(ym.group(0)) <= bat.get("year_max", 9999)):
+            continue
+        pm = re.search(r"\$([0-9,]+)", st)
+        ts = it.get("timestamp_end") or 0
+        if not pm or not ts:
+            continue
+        v = int(pm.group(1).replace(",", ""))
+        if not (bat["lo"] <= v / 1000.0 <= bat["hi"]):
+            continue
+        sold.append((ts, v))
+    for days, need in ((90, 3), (180, 2), (365, 1)):
+        w = [v for ts, v in sold if now - ts <= days * 86400]
+        if len(w) >= need:
+            return {"median": round(statistics.median(w)), "n": len(w),
+                    "days": days, "updated": TODAY, "src": "bat"}
+    return None
+
+
 def main():
     with open(DATA) as f:
         d = json.load(f)
@@ -55,6 +106,27 @@ def main():
             viewport={"width": 1400, "height": 1000})
         page = ctx.new_page()
         for a in d["assets"]:
+            # ── BaT sold-results median (assets with a `bat` block) ──
+            bat = a.get("bat")
+            if bat:
+                try:
+                    s = bat_recent_sold(page, bat)
+                    if s:
+                        if s != a.get("sold"):
+                            changed = True
+                        a["sold"] = s
+                        ser = a.setdefault("sold_series", [])
+                        pt = {"date": TODAY, "price": s["median"], "n": s["n"], "days": s["days"]}
+                        if ser and ser[-1]["date"] == TODAY:
+                            ser[-1] = pt
+                        else:
+                            ser.append(pt)
+                        log.append(f"{a['short']}: BaT sold median ${s['median']:,} (n={s['n']} in {s['days']}d)")
+                    else:
+                        log.append(f"{a['short']}: no matching BaT solds — kept last-known")
+                except Exception as e:
+                    log.append(f"{a['short']}: BaT failed ({e.__class__.__name__}) — kept last-known")
+
             ci = a.get("ci")
             if not ci:
                 continue

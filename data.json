@@ -3526,7 +3526,35 @@
         "url": "https://www.cars.com/shopping/results/?stock_type=used&makes[]=ferrari&models[]=ferrari-458_italia&maximum_distance=all&zip=94027",
         "lo": 150,
         "hi": 650
-      }
+      },
+      "bat": {
+        "url": "https://bringatrailer.com/ferrari/458/",
+        "include": [
+          "458 italia"
+        ],
+        "exclude": [
+          "spider",
+          "speciale",
+          "challenge"
+        ],
+        "lo": 120,
+        "hi": 650
+      },
+      "sold": {
+        "median": 233000,
+        "n": 5,
+        "days": 90,
+        "updated": "2026-07-04",
+        "src": "bat"
+      },
+      "sold_series": [
+        {
+          "date": "2026-07-04",
+          "price": 233000,
+          "n": 5,
+          "days": 90
+        }
+      ]
     },
     {
       "key": "ferrari_812_superfast",
@@ -3796,7 +3824,31 @@
         "url": "https://www.cars.com/shopping/results/?stock_type=used&makes[]=ferrari&models[]=ferrari-812_superfast&maximum_distance=all&zip=94027",
         "lo": 250,
         "hi": 900
-      }
+      },
+      "bat": {
+        "url": "https://bringatrailer.com/ferrari/812-superfast/",
+        "include": [
+          "812 superfast"
+        ],
+        "exclude": [],
+        "lo": 200,
+        "hi": 900
+      },
+      "sold": {
+        "median": 426000,
+        "n": 3,
+        "days": 90,
+        "updated": "2026-07-04",
+        "src": "bat"
+      },
+      "sold_series": [
+        {
+          "date": "2026-07-04",
+          "price": 426000,
+          "n": 3,
+          "days": 90
+        }
+      ]
     },
     {
       "key": "ferrari_812_gts",
@@ -4039,6 +4091,30 @@
           "lo": 799999,
           "hi": 899996
         }
+      ],
+      "bat": {
+        "url": "https://bringatrailer.com/ferrari/812-superfast/",
+        "include": [
+          "812 gts"
+        ],
+        "exclude": [],
+        "lo": 250,
+        "hi": 1200
+      },
+      "sold": {
+        "median": 727186,
+        "n": 4,
+        "days": 90,
+        "updated": "2026-07-04",
+        "src": "bat"
+      },
+      "sold_series": [
+        {
+          "date": "2026-07-04",
+          "price": 727186,
+          "n": 4,
+          "days": 90
+        }
       ]
     },
     {
@@ -4183,6 +4259,32 @@
           "n": 26,
           "lo": 597888,
           "hi": 900975
+        }
+      ],
+      "bat": {
+        "url": "https://bringatrailer.com/ferrari/12cilindri/",
+        "include": [
+          "12cilindri"
+        ],
+        "exclude": [
+          "spider"
+        ],
+        "lo": 300,
+        "hi": 1200
+      },
+      "sold": {
+        "median": 536000,
+        "n": 1,
+        "days": 365,
+        "updated": "2026-07-04",
+        "src": "bat"
+      },
+      "sold_series": [
+        {
+          "date": "2026-07-04",
+          "price": 536000,
+          "n": 1,
+          "days": 365
         }
       ]
     },
@@ -4928,7 +5030,33 @@
         "url": "https://www.cars.com/shopping/results/?stock_type=used&makes[]=porsche&models[]=porsche-911&year_min=2022&year_max=2023&keyword=gt3+touring&maximum_distance=all&zip=94027",
         "lo": 200,
         "hi": 450
-      }
+      },
+      "bat": {
+        "url": "https://bringatrailer.com/porsche/992-gt3/",
+        "include": [
+          "gt3 touring"
+        ],
+        "exclude": [],
+        "year_min": 2022,
+        "year_max": 2023,
+        "lo": 200,
+        "hi": 500
+      },
+      "sold": {
+        "median": 294500,
+        "n": 6,
+        "days": 90,
+        "updated": "2026-07-04",
+        "src": "bat"
+      },
+      "sold_series": [
+        {
+          "date": "2026-07-04",
+          "price": 294500,
+          "n": 6,
+          "days": 90
+        }
+      ]
     },
     {
       "key": "aston_v12_vantage_s_manual",
@@ -4968,7 +5096,34 @@
         "lo": 175,
         "hi": 600,
         "min_n": 1
-      }
+      },
+      "bat": {
+        "url": "https://bringatrailer.com/aston-martin/v12-vantage/",
+        "include": [
+          "v12 vantage s",
+          "7-speed"
+        ],
+        "exclude": [
+          "roadster"
+        ],
+        "lo": 100,
+        "hi": 600
+      },
+      "sold": {
+        "median": 236000,
+        "n": 3,
+        "days": 180,
+        "updated": "2026-07-04",
+        "src": "bat"
+      },
+      "sold_series": [
+        {
+          "date": "2026-07-04",
+          "price": 236000,
+          "n": 3,
+          "days": 180
+        }
+      ]
     }
   ],
   "personal": {
