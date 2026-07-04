@@ -79,12 +79,15 @@ def bat_recent_sold(page, bat):
         v = int(pm.group(1).replace(",", ""))
         if not (bat["lo"] <= v / 1000.0 <= bat["hi"]):
             continue
-        sold.append((ts, v))
+        sold.append((ts, v, it))
     for days, need in ((90, 3), (180, 2), (365, 1)):
-        w = [v for ts, v in sold if now - ts <= days * 86400]
+        w = [(ts, v, it) for ts, v, it in sold if now - ts <= days * 86400]
         if len(w) >= need:
-            return {"median": round(statistics.median(w)), "n": len(w),
-                    "days": days, "updated": TODAY, "src": "bat"}
+            ts, v, it = max(w)                      # newest sale in the window → the linkable comp
+            return {"median": round(statistics.median([x[1] for x in w])), "n": len(w),
+                    "days": days, "updated": TODAY, "src": "bat",
+                    "latest": {"url": it.get("url"), "title": it.get("title"), "price": v,
+                               "date": datetime.fromtimestamp(ts, timezone.utc).strftime("%Y-%m-%d")}}
     return None
 
 
