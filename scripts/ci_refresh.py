@@ -66,7 +66,9 @@ def main():
                     pass
                 page.wait_for_timeout(2500)
                 vals = prices_in_window(page.content(), ci["lo"], ci["hi"])
-                if len(vals) < 3:
+                # min_n: rare variants (e.g. the ~100 US manual V12 Vantage S coupes)
+                # legitimately have 1-2 national listings, so 3 would freeze them forever
+                if len(vals) < ci.get("min_n", 3):
                     log.append(f"{a['short']}: only {len(vals)} prices — kept last-good ${a['latest']}k")
                     continue
                 price = round(statistics.median(vals) * 1000)

@@ -2,9 +2,9 @@
   "updated": "2026-07-04T05:45:38Z",
   "generated_by": "publish_trackers.py",
   "summary": {
-    "portfolio_value": 2763788,
-    "n_assets": 8,
-    "n_cars": 6,
+    "portfolio_value": 3103783,
+    "n_assets": 9,
+    "n_cars": 7,
     "n_watches": 2
   },
   "assets": [
@@ -4920,6 +4920,46 @@
         "url": "https://www.cars.com/shopping/results/?stock_type=used&makes[]=porsche&models[]=porsche-911&year_min=2022&year_max=2023&keyword=gt3+touring&maximum_distance=all&zip=94027",
         "lo": 200,
         "hi": 450
+      }
+    },
+    {
+      "key": "aston_v12_vantage_s_manual",
+      "name": "Aston Martin V12 Vantage S 7-Speed Manual Coupe",
+      "short": "V12 Vantage S 7MT",
+      "category": "car",
+      "color": "#0B6E4F",
+      "source": "Cars.com",
+      "note": "5.9L NA V12 with the dogleg 7-speed manual \u2014 coupe only, MY2017 (a handful of '18s). ~100 US manual coupes.",
+      "currency": "USD",
+      "updated": "2026-07-04",
+      "start": "2026-07-04",
+      "latest": 339995,
+      "first": 339995,
+      "n_listings": 1,
+      "range_lo": 339995,
+      "range_hi": 339995,
+      "change": {
+        "d7": null,
+        "d30": null,
+        "d90": null,
+        "all": 0.0
+      },
+      "points": 1,
+      "series": [
+        {
+          "date": "2026-07-04",
+          "price": 339995,
+          "n": 1,
+          "lo": 339995,
+          "hi": 339995,
+          "src": "seed"
+        }
+      ],
+      "ci": {
+        "url": "https://www.cars.com/shopping/results/?stock_type=used&makes[]=aston_martin&models[]=aston_martin-v12_vantage_s&transmission_slugs[]=manual&body_style_slugs[]=coupe&year_min=2017&year_max=2018&maximum_distance=all&zip=94027",
+        "lo": 175,
+        "hi": 600,
+        "min_n": 1
       }
     }
   ],
