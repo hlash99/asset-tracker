@@ -91,6 +91,23 @@ def bat_recent_sold(page, bat):
     return None
 
 
+# Headline value: sold-weighted blend. Transactions beat asking prices (dealer asks
+# on these cars run +10-46% over hammer), so the sold median dominates — weighted by
+# how fresh the sold window is. Assets with no sold data fall back to the ask.
+SOLD_WEIGHT = {90: 0.75, 180: 0.65, 365: 0.50}
+
+
+def blended_value(a):
+    s = a.get("sold")
+    if s and s.get("median"):
+        w = SOLD_WEIGHT.get(s.get("days"), 0.5)
+        a["value"] = round(w * s["median"] + (1 - w) * a["latest"])
+        a["value_note"] = f"{int(w*100)}% sold ({s['days']}d) + {int((1-w)*100)}% asking"
+    else:
+        a["value"] = a["latest"]
+        a["value_note"] = "asking median (no recent sold data)"
+
+
 def main():
     with open(DATA) as f:
         d = json.load(f)
@@ -170,8 +187,10 @@ def main():
                 log.append(f"{a['short']}: failed ({e.__class__.__name__}) — kept last-good")
         browser.close()
 
+    for a in d["assets"]:
+        blended_value(a)
     if changed:
-        d["summary"]["portfolio_value"] = sum(a["latest"] for a in d["assets"])
+        d["summary"]["portfolio_value"] = sum(a.get("value", a["latest"]) for a in d["assets"])
     d["updated"] = datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
     with open(DATA, "w") as f:
         json.dump(d, f, indent=2)

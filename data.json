@@ -2,7 +2,7 @@
   "updated": "2026-07-04T16:12:22Z",
   "generated_by": "publish_trackers.py",
   "summary": {
-    "portfolio_value": 3464744,
+    "portfolio_value": 3059825,
     "n_assets": 10,
     "n_cars": 8,
     "n_watches": 2
@@ -1495,7 +1495,9 @@
           "lo": 62995,
           "hi": 84000
         }
-      ]
+      ],
+      "value": 62995,
+      "value_note": "asking median (no recent sold data)"
     },
     {
       "key": "patek_5326g",
@@ -3012,7 +3014,9 @@
           "lo": 66075,
           "hi": 94454
         }
-      ]
+      ],
+      "value": 66075,
+      "value_note": "asking median (no recent sold data)"
     },
     {
       "key": "ferrari_458_italia",
@@ -3560,7 +3564,9 @@
           "n": 5,
           "days": 90
         }
-      ]
+      ],
+      "value": 259737,
+      "value_note": "75% sold (90d) + 25% asking"
     },
     {
       "key": "ferrari_812_superfast",
@@ -3860,7 +3866,9 @@
           "n": 3,
           "days": 90
         }
-      ]
+      ],
+      "value": 469486,
+      "value_note": "75% sold (90d) + 25% asking"
     },
     {
       "key": "ferrari_812_gts",
@@ -4133,7 +4141,9 @@
           "n": 4,
           "days": 90
         }
-      ]
+      ],
+      "value": 745389,
+      "value_note": "75% sold (90d) + 25% asking"
     },
     {
       "key": "ferrari_12cilindri",
@@ -4310,7 +4320,9 @@
           "n": 1,
           "days": 365
         }
-      ]
+      ],
+      "value": 592950,
+      "value_note": "50% sold (365d) + 50% asking"
     },
     {
       "key": "porsche_997_turbo_s",
@@ -5015,7 +5027,9 @@
           "lo": 143888,
           "hi": 159900
         }
-      ]
+      ],
+      "value": 155925,
+      "value_note": "asking median (no recent sold data)"
     },
     {
       "key": "porsche_992_gt3_touring",
@@ -5086,7 +5100,9 @@
           "n": 6,
           "days": 90
         }
-      ]
+      ],
+      "value": 293114,
+      "value_note": "75% sold (90d) + 25% asking"
     },
     {
       "key": "aston_v12_vantage_s_manual",
@@ -5159,7 +5175,9 @@
           "n": 3,
           "days": 180
         }
-      ]
+      ],
+      "value": 272398,
+      "value_note": "65% sold (180d) + 35% asking"
     },
     {
       "key": "aston_v12_vantage_6mt",
@@ -5233,7 +5251,9 @@
         "lo": 60,
         "hi": 300,
         "min_n": 1
-      }
+      },
+      "value": 141756,
+      "value_note": "50% sold (365d) + 50% asking"
     }
   ],
   "personal": {
