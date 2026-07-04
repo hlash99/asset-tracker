@@ -2,7 +2,7 @@
   "updated": "2026-07-04T04:53:48Z",
   "generated_by": "publish_trackers.py",
   "summary": {
-    "portfolio_value": 2912770,
+    "portfolio_value": 2963742,
     "n_assets": 8,
     "n_cars": 6,
     "n_watches": 2
@@ -17,11 +17,11 @@
       "source": "Chrono24",
       "note": "Steel/white-gold GMT with a meteorite dial \u2014 bluespeak 'BLRO' bezel.",
       "currency": "USD",
-      "updated": "2026-06-26",
+      "updated": "2026-07-03",
       "start": "2024-11-04",
       "latest": 62995,
       "first": 47993,
-      "n_listings": 21,
+      "n_listings": 18,
       "range_lo": 62995,
       "range_hi": 84000,
       "change": {
@@ -30,7 +30,7 @@
         "d90": 15.6,
         "all": 31.3
       },
-      "points": 207,
+      "points": 209,
       "series": [
         {
           "date": "2024-11-04",
@@ -1480,6 +1480,20 @@
           "n": 21,
           "lo": 62995,
           "hi": 84000
+        },
+        {
+          "date": "2026-07-01",
+          "price": 62995,
+          "n": 18,
+          "lo": 62995,
+          "hi": 84000
+        },
+        {
+          "date": "2026-07-03",
+          "price": 62995,
+          "n": 18,
+          "lo": 62995,
+          "hi": 84000
         }
       ]
     },
@@ -1492,20 +1506,20 @@
       "source": "Chrono24",
       "note": "White-gold annual-calendar travel-time, fluted-style dial.",
       "currency": "USD",
-      "updated": "2026-06-26",
+      "updated": "2026-07-03",
       "start": "2024-11-04",
-      "latest": 65868,
+      "latest": 66075,
       "first": 67500,
-      "n_listings": 20,
-      "range_lo": 65868,
-      "range_hi": 75959,
+      "n_listings": 33,
+      "range_lo": 66075,
+      "range_hi": 94454,
       "change": {
-        "d7": -0.9,
-        "d30": -3.1,
-        "d90": -2.2,
-        "all": -2.4
+        "d7": 0.3,
+        "d30": -2.8,
+        "d90": -1.9,
+        "all": -2.1
       },
-      "points": 211,
+      "points": 213,
       "series": [
         {
           "date": "2024-11-04",
@@ -2983,6 +2997,20 @@
           "n": 20,
           "lo": 65868,
           "hi": 75959
+        },
+        {
+          "date": "2026-07-01",
+          "price": 65441,
+          "n": 33,
+          "lo": 65441,
+          "hi": 99917
+        },
+        {
+          "date": "2026-07-03",
+          "price": 66075,
+          "n": 33,
+          "lo": 66075,
+          "hi": 94454
         }
       ]
     },
@@ -2995,20 +3023,20 @@
       "source": "Cars.com + Classic.com + Hemmings",
       "note": "Last naturally-aspirated V8 Ferrari (2010\u20132015).",
       "currency": "USD",
-      "updated": "2026-06-26",
+      "updated": "2026-07-03",
       "start": "2025-12-29",
-      "latest": 339995,
+      "latest": 339948,
       "first": 239990,
-      "n_listings": 15,
-      "range_lo": 299995,
-      "range_hi": 369970,
+      "n_listings": 16,
+      "range_lo": 299998,
+      "range_hi": 399900,
       "change": {
-        "d7": 1.5,
-        "d30": 17.2,
-        "d90": 45.0,
+        "d7": -0.0,
+        "d30": -5.6,
+        "d90": 41.9,
         "all": 41.7
       },
-      "points": 67,
+      "points": 69,
       "series": [
         {
           "date": "2025-12-29",
@@ -3478,6 +3506,20 @@
           "n": 15,
           "lo": 299995,
           "hi": 369970
+        },
+        {
+          "date": "2026-07-01",
+          "price": 349529,
+          "n": 16,
+          "lo": 299998,
+          "hi": 399900
+        },
+        {
+          "date": "2026-07-03",
+          "price": 339948,
+          "n": 16,
+          "lo": 299998,
+          "hi": 399900
         }
       ],
       "ci": {
@@ -3799,20 +3841,20 @@
       "source": "Cars.com",
       "note": "Open-top NA V12 (2019\u20132023).",
       "currency": "USD",
-      "updated": "2026-06-26",
+      "updated": "2026-07-03",
       "start": "2026-04-20",
       "latest": 799999,
       "first": 489998,
       "n_listings": 15,
       "range_lo": 799999,
-      "range_hi": 899999,
+      "range_hi": 899996,
       "change": {
-        "d7": 60.6,
+        "d7": 0.0,
         "d30": 60.3,
         "d90": null,
         "all": 63.3
       },
-      "points": 29,
+      "points": 31,
       "series": [
         {
           "date": "2026-04-20",
@@ -4016,6 +4058,20 @@
           "n": 15,
           "lo": 799999,
           "hi": 899999
+        },
+        {
+          "date": "2026-07-01",
+          "price": 799999,
+          "n": 15,
+          "lo": 799999,
+          "hi": 899996
+        },
+        {
+          "date": "2026-07-03",
+          "price": 799999,
+          "n": 15,
+          "lo": 799999,
+          "hi": 899996
         }
       ]
     },
@@ -4028,20 +4084,20 @@
       "source": "Cars.com",
       "note": "Current NA V12 GT (2024\u2013 ).",
       "currency": "USD",
-      "updated": "2026-06-26",
+      "updated": "2026-07-03",
       "start": "2026-05-29",
-      "latest": 599088,
+      "latest": 649900,
       "first": 638575,
-      "n_listings": 25,
-      "range_lo": 599088,
-      "range_hi": 878925,
+      "n_listings": 26,
+      "range_lo": 597888,
+      "range_hi": 900975,
       "change": {
-        "d7": -4.9,
-        "d30": null,
+        "d7": 8.5,
+        "d30": 1.8,
         "d90": null,
-        "all": -6.2
+        "all": 1.8
       },
-      "points": 15,
+      "points": 17,
       "series": [
         {
           "date": "2026-05-29",
@@ -4147,6 +4203,20 @@
           "n": 25,
           "lo": 599088,
           "hi": 878925
+        },
+        {
+          "date": "2026-07-01",
+          "price": 649900,
+          "n": 23,
+          "lo": 599088,
+          "hi": 878925
+        },
+        {
+          "date": "2026-07-03",
+          "price": 649900,
+          "n": 26,
+          "lo": 597888,
+          "hi": 900975
         }
       ]
     },
@@ -4159,7 +4229,7 @@
       "source": "BaT + AutoTrader + AutoTempest",
       "note": "Nationwide asking median for the 2010\u20132012 997.2 Turbo S.",
       "currency": "USD",
-      "updated": "2026-06-26",
+      "updated": "2026-07-03",
       "start": "2025-09-28",
       "latest": 155925,
       "first": 134995,
@@ -4167,12 +4237,12 @@
       "range_lo": 143888,
       "range_hi": 159900,
       "change": {
-        "d7": -1.3,
-        "d30": -6.9,
+        "d7": 0.0,
+        "d30": -1.3,
         "d90": 39.4,
         "all": 15.5
       },
-      "points": 95,
+      "points": 97,
       "series": [
         {
           "date": "2025-09-28",
@@ -4838,6 +4908,20 @@
           "n": 5,
           "lo": 143888,
           "hi": 159900
+        },
+        {
+          "date": "2026-07-01",
+          "price": 155925,
+          "n": 5,
+          "lo": 143888,
+          "hi": 159900
+        },
+        {
+          "date": "2026-07-03",
+          "price": 155925,
+          "n": 5,
+          "lo": 143888,
+          "hi": 159900
         }
       ]
     },
@@ -4888,15 +4972,15 @@
     "currency": "USD",
     "note": "Mirrors the live 997.2 Turbo S market median (BaT + AutoTrader + AutoTempest).",
     "basis": "market asking median",
-    "updated": "2026-06-26",
+    "updated": "2026-07-03",
     "start": "2025-09-28",
     "latest_fmv": 155925,
     "first_fmv": 134995,
     "mileage": 40000,
     "listings_n": 5,
     "change": {
-      "d7": -1.3,
-      "d30": -6.9,
+      "d7": 0.0,
+      "d30": -1.3,
       "d90": 39.4,
       "all": 15.5
     },
@@ -5561,6 +5645,20 @@
       },
       {
         "date": "2026-06-26",
+        "fmv": 155925,
+        "p25": 143888,
+        "p75": 159900,
+        "n": 5
+      },
+      {
+        "date": "2026-07-01",
+        "fmv": 155925,
+        "p25": 143888,
+        "p75": 159900,
+        "n": 5
+      },
+      {
+        "date": "2026-07-03",
         "fmv": 155925,
         "p25": 143888,
         "p75": 159900,
