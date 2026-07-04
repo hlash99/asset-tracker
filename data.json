@@ -2,9 +2,9 @@
   "updated": "2026-07-04T14:47:02Z",
   "generated_by": "publish_trackers.py",
   "summary": {
-    "portfolio_value": 3303737,
-    "n_assets": 9,
-    "n_cars": 7,
+    "portfolio_value": 3464744,
+    "n_assets": 10,
+    "n_cars": 8,
     "n_watches": 2
   },
   "assets": [
@@ -5124,6 +5124,74 @@
           "days": 180
         }
       ]
+    },
+    {
+      "key": "aston_v12_vantage_6mt",
+      "name": "Aston Martin V12 Vantage 6-Speed Coupe",
+      "short": "V12 Vantage 6MT",
+      "category": "car",
+      "color": "#177245",
+      "source": "Cars.com",
+      "note": "First-gen 5.9L V12 in the compact Vantage, 6-speed manual only (US MY2011\u20132012). Rarely on dealer lots \u2014 value leans on BaT sales.",
+      "currency": "USD",
+      "updated": "2026-07-04",
+      "start": "2026-07-04",
+      "latest": 161007,
+      "first": 161007,
+      "n_listings": 0,
+      "range_lo": 84000,
+      "range_hi": 161007,
+      "change": {
+        "d7": null,
+        "d30": null,
+        "d90": null,
+        "all": 0.0
+      },
+      "points": 1,
+      "series": [
+        {
+          "date": "2026-07-04",
+          "price": 161007,
+          "n": 0,
+          "src": "seed-bat-sold"
+        }
+      ],
+      "sold": {
+        "median": 122504,
+        "n": 2,
+        "days": 365,
+        "updated": "2026-07-04",
+        "src": "bat"
+      },
+      "sold_series": [
+        {
+          "date": "2026-07-04",
+          "price": 122504,
+          "n": 2,
+          "days": 365
+        }
+      ],
+      "bat": {
+        "url": "https://bringatrailer.com/aston-martin/v12-vantage/",
+        "include": [
+          "v12 vantage",
+          "6-speed"
+        ],
+        "exclude": [
+          "vantage s",
+          "roadster"
+        ],
+        "year_min": 2009,
+        "year_max": 2013,
+        "lo": 60,
+        "hi": 300
+      },
+      "ci": {
+        "url": "https://www.cars.com/shopping/results/?stock_type=used&makes[]=aston_martin&models[]=aston_martin-v12_vantage&transmission_slugs[]=manual&body_style_slugs[]=coupe&year_min=2010&year_max=2013&maximum_distance=all&zip=94027",
+        "lo": 60,
+        "hi": 300,
+        "min_n": 1
+      }
     }
   ],
   "personal": {
