@@ -1,8 +1,8 @@
 {
-  "updated": "2026-07-06T16:31:42Z",
+  "updated": "2026-07-06T23:37:16Z",
   "generated_by": "publish_trackers.py",
   "summary": {
-    "portfolio_value": 3057161,
+    "portfolio_value": 2999160,
     "n_assets": 10,
     "n_cars": 8,
     "n_watches": 2
@@ -17,20 +17,20 @@
       "source": "Chrono24",
       "note": "Steel/white-gold GMT with a meteorite dial \u2014 bluespeak 'BLRO' bezel.",
       "currency": "USD",
-      "updated": "2026-07-03",
+      "updated": "2026-07-06",
       "start": "2024-11-04",
       "latest": 62995,
       "first": 47993,
       "n_listings": 18,
       "range_lo": 62995,
-      "range_hi": 84000,
+      "range_hi": 85000,
       "change": {
         "d7": 0.0,
         "d30": 0.8,
         "d90": 15.6,
         "all": 31.3
       },
-      "points": 209,
+      "points": 210,
       "series": [
         {
           "date": "2024-11-04",
@@ -1494,6 +1494,13 @@
           "n": 18,
           "lo": 62995,
           "hi": 84000
+        },
+        {
+          "date": "2026-07-06",
+          "price": 62995,
+          "n": 18,
+          "lo": 62995,
+          "hi": 85000
         }
       ],
       "value": 62995,
@@ -3027,7 +3034,7 @@
       "source": "Cars.com + Classic.com + Hemmings",
       "note": "Last naturally-aspirated V8 Ferrari (2010\u20132015).",
       "currency": "USD",
-      "updated": "2026-07-03",
+      "updated": "2026-07-06",
       "start": "2025-12-29",
       "latest": 339948,
       "first": 239990,
@@ -3036,11 +3043,11 @@
       "range_hi": 399900,
       "change": {
         "d7": -0.0,
-        "d30": -5.6,
-        "d90": 41.9,
+        "d30": -5.3,
+        "d90": 45.0,
         "all": 41.7
       },
-      "points": 69,
+      "points": 70,
       "series": [
         {
           "date": "2025-12-29",
@@ -3524,6 +3531,13 @@
           "n": 16,
           "lo": 299998,
           "hi": 399900
+        },
+        {
+          "date": "2026-07-06",
+          "price": 339948,
+          "n": 16,
+          "lo": 299998,
+          "hi": 399900
         }
       ],
       "ci": {
@@ -3589,20 +3603,20 @@
       "source": "Cars.com",
       "note": "6.5L NA V12 berlinetta (2017\u20132023).",
       "currency": "USD",
-      "updated": "2026-07-05",
+      "updated": "2026-07-06",
       "start": "2026-04-20",
-      "latest": 599945,
+      "latest": 399991,
       "first": 339995,
-      "n_listings": 28,
-      "range_lo": 475900,
-      "range_hi": 634888,
+      "n_listings": 14,
+      "range_lo": 325859,
+      "range_hi": 649995,
       "change": {
-        "d7": 53.8,
-        "d30": 67.1,
+        "d7": 2.6,
+        "d30": 11.4,
         "d90": null,
-        "all": 76.5
+        "all": 17.6
       },
-      "points": 35,
+      "points": 34,
       "series": [
         {
           "date": "2026-04-20",
@@ -3836,20 +3850,11 @@
           "hi": 649995
         },
         {
-          "date": "2026-07-04",
-          "price": 599945,
-          "n": 28,
-          "lo": 475900,
-          "hi": 634888,
-          "src": "ci"
-        },
-        {
-          "date": "2026-07-05",
-          "price": 599945,
-          "n": 28,
-          "lo": 475900,
-          "hi": 634888,
-          "src": "ci"
+          "date": "2026-07-06",
+          "price": 399991,
+          "n": 14,
+          "lo": 325859,
+          "hi": 649995
         }
       ],
       "ci": {
@@ -3899,7 +3904,7 @@
           "days": 90
         }
       ],
-      "value": 469486,
+      "value": 419498,
       "value_note": "75% sold (90d) + 25% asking"
     },
     {
@@ -4198,20 +4203,20 @@
       "source": "Cars.com",
       "note": "Current NA V12 GT (2024\u2013 ).",
       "currency": "USD",
-      "updated": "2026-07-03",
+      "updated": "2026-07-06",
       "start": "2026-05-29",
-      "latest": 649900,
+      "latest": 629900,
       "first": 638575,
-      "n_listings": 26,
-      "range_lo": 597888,
-      "range_hi": 900975,
+      "n_listings": 27,
+      "range_lo": 629900,
+      "range_hi": 999888,
       "change": {
-        "d7": 8.5,
-        "d30": 1.8,
+        "d7": 5.1,
+        "d30": -4.4,
         "d90": null,
-        "all": 1.8
+        "all": -1.4
       },
-      "points": 17,
+      "points": 18,
       "series": [
         {
           "date": "2026-05-29",
@@ -4331,6 +4336,13 @@
           "n": 26,
           "lo": 597888,
           "hi": 900975
+        },
+        {
+          "date": "2026-07-06",
+          "price": 629900,
+          "n": 27,
+          "lo": 629900,
+          "hi": 999888
         }
       ],
       "bat": {
@@ -4377,7 +4389,7 @@
           "days": 365
         }
       ],
-      "value": 592950,
+      "value": 582950,
       "value_note": "50% sold (365d) + 50% asking"
     },
     {
@@ -4389,20 +4401,20 @@
       "source": "BaT + AutoTrader + AutoTempest",
       "note": "Nationwide asking median for the 2010\u20132012 997.2 Turbo S.",
       "currency": "USD",
-      "updated": "2026-07-03",
+      "updated": "2026-07-06",
       "start": "2025-09-28",
-      "latest": 155925,
+      "latest": 157912,
       "first": 134995,
-      "n_listings": 5,
+      "n_listings": 4,
       "range_lo": 143888,
       "range_hi": 159900,
       "change": {
-        "d7": 0.0,
-        "d30": -1.3,
-        "d90": 39.4,
-        "all": 15.5
+        "d7": 1.3,
+        "d30": 1.3,
+        "d90": 41.1,
+        "all": 17.0
       },
-      "points": 97,
+      "points": 98,
       "series": [
         {
           "date": "2025-09-28",
@@ -5082,9 +5094,16 @@
           "n": 5,
           "lo": 143888,
           "hi": 159900
+        },
+        {
+          "date": "2026-07-06",
+          "price": 157912,
+          "n": 4,
+          "lo": 143888,
+          "hi": 159900
         }
       ],
-      "value": 155925,
+      "value": 157912,
       "value_note": "asking median (no recent sold data)"
     },
     {
@@ -5371,17 +5390,17 @@
     "currency": "USD",
     "note": "Mirrors the live 997.2 Turbo S market median (BaT + AutoTrader + AutoTempest).",
     "basis": "market asking median",
-    "updated": "2026-07-03",
+    "updated": "2026-07-06",
     "start": "2025-09-28",
-    "latest_fmv": 155925,
+    "latest_fmv": 157912,
     "first_fmv": 134995,
     "mileage": 40000,
-    "listings_n": 5,
+    "listings_n": 4,
     "change": {
-      "d7": 0.0,
-      "d30": -1.3,
-      "d90": 39.4,
-      "all": 15.5
+      "d7": 1.3,
+      "d30": 1.3,
+      "d90": 41.1,
+      "all": 17.0
     },
     "series": [
       {
@@ -6062,6 +6081,13 @@
         "p25": 143888,
         "p75": 159900,
         "n": 5
+      },
+      {
+        "date": "2026-07-06",
+        "fmv": 157912,
+        "p25": 143888,
+        "p75": 159900,
+        "n": 4
       }
     ]
   }
