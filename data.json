@@ -1,8 +1,8 @@
 {
-  "updated": "2026-07-06T23:44:58Z",
+  "updated": "2026-07-07T00:06:57Z",
   "generated_by": "publish_trackers.py",
   "summary": {
-    "portfolio_value": 2990511,
+    "portfolio_value": 3011206,
     "n_assets": 10,
     "n_cars": 8,
     "n_watches": 2
@@ -3923,12 +3923,12 @@
       "source": "Cars.com",
       "note": "Open-top NA V12 (2019\u20132023).",
       "currency": "USD",
-      "updated": "2026-07-03",
+      "updated": "2026-07-06",
       "start": "2026-04-20",
-      "latest": 799999,
+      "latest": 800000,
       "first": 489998,
       "n_listings": 15,
-      "range_lo": 799999,
+      "range_lo": 800000,
       "range_hi": 899996,
       "change": {
         "d7": 0.0,
@@ -3936,7 +3936,7 @@
         "d90": null,
         "all": 63.3
       },
-      "points": 31,
+      "points": 32,
       "series": [
         {
           "date": "2026-04-20",
@@ -4154,6 +4154,13 @@
           "n": 15,
           "lo": 799999,
           "hi": 899996
+        },
+        {
+          "date": "2026-07-06",
+          "price": 800000,
+          "n": 15,
+          "lo": 800000,
+          "hi": 899996
         }
       ],
       "bat": {
@@ -4198,7 +4205,7 @@
           "days": 90
         }
       ],
-      "value": 745389,
+      "value": 745390,
       "value_note": "75% sold (90d) + 25% asking"
     },
     {
@@ -5122,20 +5129,20 @@
       "source": "AutoTrader + AutoTempest",
       "note": "Nationwide asking median for the 992.1 GT3 Touring.",
       "currency": "USD",
-      "updated": "2026-07-04",
+      "updated": "2026-07-06",
       "start": "2026-01-04",
-      "latest": 256150,
+      "latest": 338923,
       "first": 298400,
-      "n_listings": 2,
-      "range_lo": 253000,
-      "range_hi": 253000,
+      "n_listings": 3,
+      "range_lo": 219000,
+      "range_hi": 338923,
       "change": {
-        "d7": -5.7,
-        "d30": -7.5,
-        "d90": -7.0,
-        "all": -14.2
+        "d7": 26.6,
+        "d30": 27.7,
+        "d90": 16.7,
+        "all": 13.6
       },
-      "points": 108,
+      "points": 109,
       "series": [
         {
           "date": "2026-01-04",
@@ -5892,6 +5899,13 @@
           "n": 2,
           "lo": 253000,
           "hi": 253000
+        },
+        {
+          "date": "2026-07-06",
+          "price": 338923,
+          "n": 3,
+          "lo": 219000,
+          "hi": 338923
         }
       ],
       "ci": {
@@ -5943,7 +5957,7 @@
           "days": 90
         }
       ],
-      "value": 284912,
+      "value": 305606,
       "value_note": "75% sold (90d) + 25% asking"
     },
     {
