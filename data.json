@@ -1,8 +1,8 @@
 {
-  "updated": "2026-07-08T04:35:49Z",
+  "updated": "2026-07-08T15:35:05Z",
   "generated_by": "publish_trackers.py",
   "summary": {
-    "portfolio_value": 3070877,
+    "portfolio_value": 3070891,
     "n_assets": 10,
     "n_cars": 8,
     "n_watches": 2
@@ -3636,20 +3636,20 @@
       "source": "Cars.com",
       "note": "6.5L NA V12 berlinetta (2017\u20132023).",
       "currency": "USD",
-      "updated": "2026-07-07",
+      "updated": "2026-07-08",
       "start": "2026-04-20",
-      "latest": 599890,
+      "latest": 599942,
       "first": 339995,
-      "n_listings": 30,
+      "n_listings": 32,
       "range_lo": 475900,
       "range_hi": 600084,
       "change": {
-        "d7": 53.8,
+        "d7": 50.0,
         "d30": 62.6,
         "d90": null,
-        "all": 76.4
+        "all": 76.5
       },
-      "points": 35,
+      "points": 36,
       "series": [
         {
           "date": "2026-04-20",
@@ -3896,6 +3896,14 @@
           "lo": 475900,
           "hi": 600084,
           "src": "ci"
+        },
+        {
+          "date": "2026-07-08",
+          "price": 599942,
+          "n": 32,
+          "lo": 475900,
+          "hi": 600084,
+          "src": "ci"
         }
       ],
       "ci": {
@@ -3957,7 +3965,7 @@
           "days": 90
         }
       ],
-      "value": 469472,
+      "value": 469486,
       "value_note": "75% sold (90d) + 25% asking"
     },
     {
