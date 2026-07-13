@@ -1,8 +1,8 @@
 {
-  "updated": "2026-07-13T04:49:57Z",
+  "updated": "2026-07-13T15:54:04Z",
   "generated_by": "publish_trackers.py",
   "summary": {
-    "portfolio_value": 3004246,
+    "portfolio_value": 2998769,
     "n_assets": 10,
     "n_cars": 8,
     "n_watches": 2
@@ -3666,20 +3666,20 @@
       "source": "Cars.com",
       "note": "6.5L NA V12 berlinetta (2017\u20132023).",
       "currency": "USD",
-      "updated": "2026-07-12",
+      "updated": "2026-07-13",
       "start": "2026-04-20",
-      "latest": 595900,
+      "latest": 587992,
       "first": 339995,
-      "n_listings": 26,
-      "range_lo": 479991,
+      "n_listings": 28,
+      "range_lo": 505405,
       "range_hi": 631888,
       "change": {
-        "d7": 49.0,
-        "d30": 61.5,
+        "d7": 47.0,
+        "d30": 59.3,
         "d90": null,
-        "all": 75.3
+        "all": 72.9
       },
-      "points": 40,
+      "points": 41,
       "series": [
         {
           "date": "2026-04-20",
@@ -3966,6 +3966,14 @@
           "lo": 479991,
           "hi": 631888,
           "src": "ci"
+        },
+        {
+          "date": "2026-07-13",
+          "price": 587992,
+          "n": 28,
+          "lo": 505405,
+          "hi": 631888,
+          "src": "ci"
         }
       ],
       "ci": {
@@ -4057,7 +4065,7 @@
           "days": 90
         }
       ],
-      "value": 468475,
+      "value": 466498,
       "value_note": "75% sold (90d) + 25% asking"
     },
     {
@@ -6265,20 +6273,20 @@
       "source": "Cars.com",
       "note": "5.9L NA V12 with the dogleg 7-speed manual \u2014 coupe only, MY2017 (a handful of '18s). ~100 US manual coupes.",
       "currency": "USD",
-      "updated": "2026-07-10",
+      "updated": "2026-07-13",
       "start": "2026-07-04",
-      "latest": 299995,
+      "latest": 289995,
       "first": 339995,
       "n_listings": 3,
       "range_lo": 175000,
-      "range_hi": 299995,
+      "range_hi": 289995,
       "change": {
-        "d7": null,
+        "d7": -14.7,
         "d30": null,
         "d90": null,
-        "all": -11.8
+        "all": -14.7
       },
-      "points": 3,
+      "points": 4,
       "series": [
         {
           "date": "2026-07-04",
@@ -6302,6 +6310,14 @@
           "n": 3,
           "lo": 175000,
           "hi": 299995,
+          "src": "ci"
+        },
+        {
+          "date": "2026-07-13",
+          "price": 289995,
+          "n": 3,
+          "lo": 175000,
+          "hi": 289995,
           "src": "ci"
         }
       ],
@@ -6398,7 +6414,7 @@
           "days": 180
         }
       ],
-      "value": 258398,
+      "value": 254898,
       "value_note": "65% sold (180d) + 35% asking"
     },
     {
