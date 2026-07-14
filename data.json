@@ -1,8 +1,8 @@
 {
-  "updated": "2026-07-14T04:20:05Z",
+  "updated": "2026-07-14T15:04:37Z",
   "generated_by": "publish_trackers.py",
   "summary": {
-    "portfolio_value": 2996792,
+    "portfolio_value": 2996829,
     "n_assets": 10,
     "n_cars": 8,
     "n_watches": 2
@@ -5399,20 +5399,20 @@
       "source": "AutoTrader + AutoTempest",
       "note": "Nationwide asking median for the 992.1 GT3 Touring.",
       "currency": "USD",
-      "updated": "2026-07-13",
+      "updated": "2026-07-14",
       "start": "2026-01-04",
-      "latest": 285402,
+      "latest": 285551,
       "first": 298400,
-      "n_listings": 58,
-      "range_lo": 278285,
-      "range_hi": 301535,
+      "n_listings": 64,
+      "range_lo": 277830,
+      "range_hi": 311855,
       "change": {
-        "d7": -15.8,
-        "d30": 3.3,
-        "d90": -0.4,
-        "all": -4.4
+        "d7": -15.7,
+        "d30": 3.4,
+        "d90": -0.3,
+        "all": -4.3
       },
-      "points": 112,
+      "points": 113,
       "series": [
         {
           "date": "2026-01-04",
@@ -6200,6 +6200,14 @@
           "lo": 278285,
           "hi": 301535,
           "src": "ci"
+        },
+        {
+          "date": "2026-07-14",
+          "price": 285551,
+          "n": 64,
+          "lo": 277830,
+          "hi": 311855,
+          "src": "ci"
         }
       ],
       "ci": {
@@ -6299,7 +6307,7 @@
           "days": 90
         }
       ],
-      "value": 292226,
+      "value": 292263,
       "value_note": "75% sold (90d) + 25% asking"
     },
     {
