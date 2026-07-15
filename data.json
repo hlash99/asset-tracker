@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-15T04:19:36Z",
+  "updated": "2026-07-15T15:03:26Z",
   "generated_by": "publish_trackers.py",
   "summary": {
     "portfolio_value": 2989189,
@@ -6530,7 +6530,7 @@
       "source": "Cars.com",
       "note": "First-gen 5.9L V12 in the compact Vantage, 6-speed manual only (US MY2011\u20132012). Rarely on dealer lots \u2014 value leans on BaT sales.",
       "currency": "USD",
-      "updated": "2026-07-14",
+      "updated": "2026-07-15",
       "start": "2026-07-04",
       "latest": 95000,
       "first": 161007,
@@ -6543,7 +6543,7 @@
         "d90": null,
         "all": -41.0
       },
-      "points": 3,
+      "points": 4,
       "series": [
         {
           "date": "2026-07-04",
@@ -6561,6 +6561,14 @@
         },
         {
           "date": "2026-07-14",
+          "price": 95000,
+          "n": 8,
+          "lo": 70000,
+          "hi": 125000,
+          "src": "ci"
+        },
+        {
+          "date": "2026-07-15",
           "price": 95000,
           "n": 8,
           "lo": 70000,
