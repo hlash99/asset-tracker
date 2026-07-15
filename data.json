@@ -1,8 +1,8 @@
 {
-  "updated": "2026-07-14T15:04:37Z",
+  "updated": "2026-07-15T04:19:36Z",
   "generated_by": "publish_trackers.py",
   "summary": {
-    "portfolio_value": 2996829,
+    "portfolio_value": 2989189,
     "n_assets": 10,
     "n_cars": 8,
     "n_watches": 2
@@ -3583,7 +3583,7 @@
         "median": 225000,
         "n": 3,
         "days": 90,
-        "updated": "2026-07-14",
+        "updated": "2026-07-15",
         "src": "bat",
         "latest": {
           "url": "https://bringatrailer.com/listing/2011-ferrari-458-italia-52/",
@@ -3655,6 +3655,12 @@
         },
         {
           "date": "2026-07-14",
+          "price": 225000,
+          "n": 3,
+          "days": 90
+        },
+        {
+          "date": "2026-07-15",
           "price": 225000,
           "n": 3,
           "days": 90
@@ -4008,7 +4014,7 @@
         "median": 426000,
         "n": 3,
         "days": 90,
-        "updated": "2026-07-14",
+        "updated": "2026-07-15",
         "src": "bat",
         "latest": {
           "url": "https://bringatrailer.com/listing/2019-ferrari-812-superfast-30/",
@@ -4080,6 +4086,12 @@
         },
         {
           "date": "2026-07-14",
+          "price": 426000,
+          "n": 3,
+          "days": 90
+        },
+        {
+          "date": "2026-07-15",
           "price": 426000,
           "n": 3,
           "days": 90
@@ -4347,16 +4359,16 @@
         "hi": 1200
       },
       "sold": {
-        "median": 737373,
-        "n": 5,
+        "median": 727186,
+        "n": 6,
         "days": 90,
-        "updated": "2026-07-14",
+        "updated": "2026-07-15",
         "src": "bat",
         "latest": {
-          "url": "https://bringatrailer.com/listing/2021-ferrari-812-gts-26/",
-          "title": "1,300-Mile 2021 Ferrari 812 GTS",
-          "price": 790000,
-          "date": "2026-07-07"
+          "url": "https://bringatrailer.com/listing/2021-ferrari-812-gts-24/",
+          "title": "2021 Ferrari 812 GTS",
+          "price": 381000,
+          "date": "2026-07-14"
         }
       },
       "sold_series": [
@@ -4425,9 +4437,15 @@
           "price": 737373,
           "n": 5,
           "days": 90
+        },
+        {
+          "date": "2026-07-15",
+          "price": 727186,
+          "n": 6,
+          "days": 90
         }
       ],
-      "value": 753030,
+      "value": 745390,
       "value_note": "75% sold (90d) + 25% asking"
     },
     {
@@ -4596,7 +4614,7 @@
         "median": 536000,
         "n": 1,
         "days": 365,
-        "updated": "2026-07-14",
+        "updated": "2026-07-15",
         "src": "bat",
         "latest": {
           "url": "https://bringatrailer.com/listing/2025-ferrari-12-cilindri/",
@@ -4668,6 +4686,12 @@
         },
         {
           "date": "2026-07-14",
+          "price": 536000,
+          "n": 1,
+          "days": 365
+        },
+        {
+          "date": "2026-07-15",
           "price": 536000,
           "n": 1,
           "days": 365
@@ -5399,12 +5423,12 @@
       "source": "AutoTrader + AutoTempest",
       "note": "Nationwide asking median for the 992.1 GT3 Touring.",
       "currency": "USD",
-      "updated": "2026-07-14",
+      "updated": "2026-07-15",
       "start": "2026-01-04",
       "latest": 285551,
       "first": 298400,
       "n_listings": 64,
-      "range_lo": 277830,
+      "range_lo": 277799,
       "range_hi": 311855,
       "change": {
         "d7": -15.7,
@@ -5412,7 +5436,7 @@
         "d90": -0.3,
         "all": -4.3
       },
-      "points": 113,
+      "points": 114,
       "series": [
         {
           "date": "2026-01-04",
@@ -6208,6 +6232,14 @@
           "lo": 277830,
           "hi": 311855,
           "src": "ci"
+        },
+        {
+          "date": "2026-07-15",
+          "price": 285551,
+          "n": 64,
+          "lo": 277799,
+          "hi": 311855,
+          "src": "ci"
         }
       ],
       "ci": {
@@ -6230,7 +6262,7 @@
         "median": 294500,
         "n": 6,
         "days": 90,
-        "updated": "2026-07-14",
+        "updated": "2026-07-15",
         "src": "bat",
         "latest": {
           "url": "https://bringatrailer.com/listing/2023-porsche-911-gt3-touring-54/",
@@ -6302,6 +6334,12 @@
         },
         {
           "date": "2026-07-14",
+          "price": 294500,
+          "n": 6,
+          "days": 90
+        },
+        {
+          "date": "2026-07-15",
           "price": 294500,
           "n": 6,
           "days": 90
@@ -6397,7 +6435,7 @@
         "median": 236000,
         "n": 3,
         "days": 180,
-        "updated": "2026-07-14",
+        "updated": "2026-07-15",
         "src": "bat",
         "latest": {
           "url": "https://bringatrailer.com/listing/2017-aston-martin-v12-vantage-s-39/",
@@ -6472,6 +6510,12 @@
           "price": 236000,
           "n": 3,
           "days": 180
+        },
+        {
+          "date": "2026-07-15",
+          "price": 236000,
+          "n": 3,
+          "days": 180
         }
       ],
       "value": 254898,
@@ -6528,7 +6572,7 @@
         "median": 122504,
         "n": 2,
         "days": 365,
-        "updated": "2026-07-14",
+        "updated": "2026-07-15",
         "src": "bat",
         "latest": {
           "url": "https://bringatrailer.com/listing/2011-aston-martin-v12-vantage-16/",
@@ -6600,6 +6644,12 @@
         },
         {
           "date": "2026-07-14",
+          "price": 122504,
+          "n": 2,
+          "days": 365
+        },
+        {
+          "date": "2026-07-15",
           "price": 122504,
           "n": 2,
           "days": 365
