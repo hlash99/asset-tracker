@@ -1,8 +1,8 @@
 {
-  "updated": "2026-07-16T04:29:34Z",
+  "updated": "2026-07-16T15:14:58Z",
   "generated_by": "publish_trackers.py",
   "summary": {
-    "portfolio_value": 2992742,
+    "portfolio_value": 2992942,
     "n_assets": 10,
     "n_cars": 8,
     "n_watches": 2
@@ -3686,16 +3686,16 @@
       "currency": "USD",
       "updated": "2026-07-16",
       "start": "2026-04-20",
-      "latest": 594294,
+      "latest": 595097,
       "first": 339995,
-      "n_listings": 30,
-      "range_lo": 505405,
-      "range_hi": 600084,
+      "n_listings": 28,
+      "range_lo": 517146,
+      "range_hi": 628888,
       "change": {
-        "d7": -1.0,
-        "d30": 61.1,
+        "d7": -0.8,
+        "d30": 61.3,
         "d90": null,
-        "all": 74.8
+        "all": 75.0
       },
       "points": 43,
       "series": [
@@ -4003,10 +4003,10 @@
         },
         {
           "date": "2026-07-16",
-          "price": 594294,
-          "n": 30,
-          "lo": 505405,
-          "hi": 600084,
+          "price": 595097,
+          "n": 28,
+          "lo": 517146,
+          "hi": 628888,
           "src": "ci"
         }
       ],
@@ -4117,7 +4117,7 @@
           "days": 90
         }
       ],
-      "value": 468074,
+      "value": 468274,
       "value_note": "75% sold (90d) + 25% asking"
     },
     {
