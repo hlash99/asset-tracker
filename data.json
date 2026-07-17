@@ -1,8 +1,8 @@
 {
-  "updated": "2026-07-16T15:14:58Z",
+  "updated": "2026-07-17T04:28:42Z",
   "generated_by": "publish_trackers.py",
   "summary": {
-    "portfolio_value": 2992942,
+    "portfolio_value": 3001121,
     "n_assets": 10,
     "n_cars": 8,
     "n_watches": 2
@@ -3583,7 +3583,7 @@
         "median": 225000,
         "n": 3,
         "days": 90,
-        "updated": "2026-07-16",
+        "updated": "2026-07-17",
         "src": "bat",
         "latest": {
           "url": "https://bringatrailer.com/listing/2011-ferrari-458-italia-52/",
@@ -3670,6 +3670,12 @@
           "price": 225000,
           "n": 3,
           "days": 90
+        },
+        {
+          "date": "2026-07-17",
+          "price": 225000,
+          "n": 3,
+          "days": 90
         }
       ],
       "value": 253737,
@@ -3684,20 +3690,20 @@
       "source": "Cars.com",
       "note": "6.5L NA V12 berlinetta (2017\u20132023).",
       "currency": "USD",
-      "updated": "2026-07-16",
+      "updated": "2026-07-17",
       "start": "2026-04-20",
-      "latest": 595097,
+      "latest": 594294,
       "first": 339995,
-      "n_listings": 28,
+      "n_listings": 34,
       "range_lo": 517146,
-      "range_hi": 628888,
+      "range_hi": 600084,
       "change": {
-        "d7": -0.8,
-        "d30": 61.3,
+        "d7": -1.0,
+        "d30": 61.1,
         "d90": null,
-        "all": 75.0
+        "all": 74.8
       },
-      "points": 43,
+      "points": 44,
       "series": [
         {
           "date": "2026-04-20",
@@ -4008,6 +4014,14 @@
           "lo": 517146,
           "hi": 628888,
           "src": "ci"
+        },
+        {
+          "date": "2026-07-17",
+          "price": 594294,
+          "n": 34,
+          "lo": 517146,
+          "hi": 600084,
+          "src": "ci"
         }
       ],
       "ci": {
@@ -4025,10 +4039,10 @@
         "hi": 900
       },
       "sold": {
-        "median": 426000,
-        "n": 3,
-        "days": 90,
-        "updated": "2026-07-16",
+        "median": 413000,
+        "n": 5,
+        "days": 180,
+        "updated": "2026-07-17",
         "src": "bat",
         "latest": {
           "url": "https://bringatrailer.com/listing/2019-ferrari-812-superfast-30/",
@@ -4115,10 +4129,16 @@
           "price": 426000,
           "n": 3,
           "days": 90
+        },
+        {
+          "date": "2026-07-17",
+          "price": 413000,
+          "n": 5,
+          "days": 180
         }
       ],
-      "value": 468274,
-      "value_note": "75% sold (90d) + 25% asking"
+      "value": 476453,
+      "value_note": "65% sold (180d) + 35% asking"
     },
     {
       "key": "ferrari_812_gts",
@@ -4382,7 +4402,7 @@
         "median": 727186,
         "n": 6,
         "days": 90,
-        "updated": "2026-07-16",
+        "updated": "2026-07-17",
         "src": "bat",
         "latest": {
           "url": "https://bringatrailer.com/listing/2021-ferrari-812-gts-24/",
@@ -4466,6 +4486,12 @@
         },
         {
           "date": "2026-07-16",
+          "price": 727186,
+          "n": 6,
+          "days": 90
+        },
+        {
+          "date": "2026-07-17",
           "price": 727186,
           "n": 6,
           "days": 90
@@ -4640,7 +4666,7 @@
         "median": 536000,
         "n": 1,
         "days": 365,
-        "updated": "2026-07-16",
+        "updated": "2026-07-17",
         "src": "bat",
         "latest": {
           "url": "https://bringatrailer.com/listing/2025-ferrari-12-cilindri/",
@@ -4724,6 +4750,12 @@
         },
         {
           "date": "2026-07-16",
+          "price": 536000,
+          "n": 1,
+          "days": 365
+        },
+        {
+          "date": "2026-07-17",
           "price": 536000,
           "n": 1,
           "days": 365
@@ -6294,7 +6326,7 @@
         "median": 294500,
         "n": 6,
         "days": 90,
-        "updated": "2026-07-16",
+        "updated": "2026-07-17",
         "src": "bat",
         "latest": {
           "url": "https://bringatrailer.com/listing/2023-porsche-911-gt3-touring-54/",
@@ -6378,6 +6410,12 @@
         },
         {
           "date": "2026-07-16",
+          "price": 294500,
+          "n": 6,
+          "days": 90
+        },
+        {
+          "date": "2026-07-17",
           "price": 294500,
           "n": 6,
           "days": 90
@@ -6473,7 +6511,7 @@
         "median": 236000,
         "n": 3,
         "days": 180,
-        "updated": "2026-07-16",
+        "updated": "2026-07-17",
         "src": "bat",
         "latest": {
           "url": "https://bringatrailer.com/listing/2017-aston-martin-v12-vantage-s-39/",
@@ -6560,6 +6598,12 @@
           "price": 236000,
           "n": 3,
           "days": 180
+        },
+        {
+          "date": "2026-07-17",
+          "price": 236000,
+          "n": 3,
+          "days": 180
         }
       ],
       "value": 254898,
@@ -6624,7 +6668,7 @@
         "median": 122504,
         "n": 2,
         "days": 365,
-        "updated": "2026-07-16",
+        "updated": "2026-07-17",
         "src": "bat",
         "latest": {
           "url": "https://bringatrailer.com/listing/2011-aston-martin-v12-vantage-16/",
@@ -6708,6 +6752,12 @@
         },
         {
           "date": "2026-07-16",
+          "price": 122504,
+          "n": 2,
+          "days": 365
+        },
+        {
+          "date": "2026-07-17",
           "price": 122504,
           "n": 2,
           "days": 365
