@@ -1,8 +1,9 @@
 name: refresh
 
-# Twice-daily best-effort refresh of the Cars.com asking medians for the
-# CI-enabled cars. Watches, the 12Cilindri group and the personal 997.2 FMV
-# update only when the local trackers run `publish_trackers.py --push`.
+# Twice-daily best-effort refresh of every asset with a `ci` block: Cars.com
+# asking medians for the cars, Chrono24 lowest asks for the watches. The
+# 12Cilindri group and the personal 997.2 FMV update only when the local
+# trackers run `publish_trackers.py --push`.
 on:
   schedule:
     - cron: '17 13 * * *'   # 13:17 UTC  (~06:17 PT)
@@ -37,7 +38,7 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           if ! git diff --quiet -- data.json; then
             git add data.json
-            git commit -m "ci: auto-refresh car medians $(date -u +%Y-%m-%dT%H:%MZ)"
+            git commit -m "ci: auto-refresh asset prices $(date -u +%Y-%m-%dT%H:%MZ)"
             git push
           else
             echo "no change"

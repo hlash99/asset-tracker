@@ -1511,7 +1511,14 @@
         }
       ],
       "value": 62995,
-      "value_note": "asking median (no recent sold data)"
+      "value_note": "asking median (no recent sold data)",
+      "ci": {
+        "type": "chrono24",
+        "url": "https://www.chrono24.com/search/index.htm?countryIds=US&currencyId=USD&dosearch=true&pageSize=60&query=126719blro+meteorite&sortorder=1",
+        "lo": 40,
+        "hi": 200,
+        "min_n": 5
+      }
     },
     {
       "key": "patek_5326g",
@@ -3044,7 +3051,14 @@
         }
       ],
       "value": 65771,
-      "value_note": "asking median (no recent sold data)"
+      "value_note": "asking median (no recent sold data)",
+      "ci": {
+        "type": "chrono24",
+        "url": "https://www.chrono24.com/search/index.htm?currencyId=USD&dosearch=true&pageSize=60&query=Patek+Philippe+5326G&sortorder=1",
+        "lo": 40,
+        "hi": 200,
+        "min_n": 5
+      }
     },
     {
       "key": "ferrari_458_italia",

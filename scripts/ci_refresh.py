@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
-"""Daily GitHub Actions refresh — best-effort Cars.com asking medians for the
-cars that carry a `ci` block in data.json (currently the Ferraris that scrape
-reliably). Watches, the 12Cilindri group and the personalized 997.2 FMV are NOT
-touched here — those only move when the local trackers run and publish.
+"""Daily GitHub Actions refresh — best-effort asking prices for every asset
+that carries a `ci` block in data.json: Cars.com medians for the cars, and
+(since 2026-07-20) Chrono24 lowest-credible asks for the watches
+(`ci.type == "chrono24"`). The 12Cilindri group and the personalized 997.2
+FMV are NOT touched here — those only move when the local trackers publish.
 
 Resilient by design: if a source blocks the runner or returns too few prices,
 that asset keeps its last-good point. Run by .github/workflows/refresh.yml.
@@ -14,6 +15,9 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(ROOT, "data.json")
 PRICE_RE = re.compile(r"\$([0-9]{2,3},[0-9]{3})")
 TODAY = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
+     "(KHTML, like Gecko) Chrome/126.0 Safari/537.36")
+VIEWPORT = {"width": 1400, "height": 1000}
 
 
 def prices_in_window(html, lo, hi):
@@ -91,6 +95,57 @@ def bat_recent_sold(page, bat):
     return None
 
 
+# One price per listing card, keyed by the listing id in the href (each card
+# carries 2+ anchors to the same listing, so a page-wide regex double-counts).
+CHRONO24_JS = """
+() => {
+  const out = {};
+  for (const a of document.querySelectorAll("a[href*='--id']")) {
+    const idm = a.href.match(/--id(\\d+)/);
+    if (!idm) continue;
+    const pm = a.innerText.match(/\\$\\s?([0-9][0-9,]{4,})/);
+    if (pm && !(idm[1] in out)) out[idm[1]] = parseInt(pm[1].replace(/,/g, ''));
+  }
+  return out;
+}
+"""
+
+
+def chrono24_prices(browser, ci):
+    """Per-listing asks (raw dollars, ascending) from a Chrono24 search page.
+
+    Fresh context per call: the second navigation in a shared context reliably
+    trips Cloudflare's challenge, while a fresh one sails through. If challenged
+    anyway, the challenge JS gets up to 20s to clear itself.
+    """
+    ctx = browser.new_context(user_agent=UA, viewport=VIEWPORT, locale="en-US")
+    page = ctx.new_page()
+    try:
+        page.goto(ci["url"], wait_until="domcontentloaded", timeout=60000)
+        for _ in range(10):
+            if "just a moment" not in (page.title() or "").lower():
+                break
+            page.wait_for_timeout(2000)
+        page.wait_for_timeout(3500)
+        listing = page.evaluate(CHRONO24_JS)
+    finally:
+        ctx.close()
+    return sorted(v for v in listing.values() if ci["lo"] <= v / 1000.0 <= ci["hi"])
+
+
+def watch_headline(vals):
+    """Headline = lowest credible ask — the local Selenium tracker's rule:
+    MAD-filter outliers, then take the lowest unless it sits >8% below the
+    second-lowest (a likely mispriced/gray listing), in which case take that."""
+    med = statistics.median(vals)
+    mad = statistics.median([abs(v - med) for v in vals])
+    kept = sorted(v for v in vals
+                  if mad == 0 or abs(0.6745 * (v - med) / mad) <= 3.5) or [round(med)]
+    if len(kept) >= 2 and (kept[1] - kept[0]) / kept[0] > 0.08:
+        return kept[1]
+    return kept[0]
+
+
 # Headline value: sold-weighted blend. Transactions beat asking prices (dealer asks
 # on these cars run +10-46% over hammer), so the sold median dominates — weighted by
 # how fresh the sold window is. Assets with no sold data fall back to the ask.
@@ -120,10 +175,7 @@ def main():
     log, changed = [], False
     with sync_playwright() as p:
         browser = p.chromium.launch(args=["--no-sandbox"])
-        ctx = browser.new_context(
-            user_agent=("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
-                        "(KHTML, like Gecko) Chrome/126.0 Safari/537.36"),
-            viewport={"width": 1400, "height": 1000})
+        ctx = browser.new_context(user_agent=UA, viewport=VIEWPORT)
         page = ctx.new_page()
         for a in d["assets"]:
             # ── BaT sold-results median (assets with a `bat` block) ──
@@ -151,21 +203,31 @@ def main():
             if not ci:
                 continue
             try:
-                page.goto(ci["url"], wait_until="domcontentloaded", timeout=60000)
-                try:
-                    page.wait_for_selector("[data-test='vehicleCard'], .vehicle-card, [class*='listing']", timeout=15000)
-                except Exception:
-                    pass
-                page.wait_for_timeout(2500)
-                vals = prices_in_window(page.content(), ci["lo"], ci["hi"])
-                # min_n: rare variants (e.g. the ~100 US manual V12 Vantage S coupes)
-                # legitimately have 1-2 national listings, so 3 would freeze them forever
-                if len(vals) < ci.get("min_n", 3):
-                    log.append(f"{a['short']}: only {len(vals)} prices — kept last-good ${a['latest']}k")
-                    continue
-                price = round(statistics.median(vals) * 1000)
-                lo = round(sorted(vals)[max(0, int(0.25 * (len(vals) - 1)))] * 1000)
-                hi = round(sorted(vals)[min(len(vals) - 1, int(0.75 * (len(vals) - 1)))] * 1000)
+                if ci.get("type") == "chrono24":
+                    vals_usd = chrono24_prices(browser, ci)
+                    if len(vals_usd) < ci.get("min_n", 3):
+                        log.append(f"{a['short']}: only {len(vals_usd)} listings — kept last-good ${a['latest']:,}")
+                        continue
+                    # perrun semantics (same as the local CSVs): headline =
+                    # lowest credible ask, band = raw min/max of the sample
+                    price, lo, hi = watch_headline(vals_usd), vals_usd[0], vals_usd[-1]
+                    vals = vals_usd
+                else:
+                    page.goto(ci["url"], wait_until="domcontentloaded", timeout=60000)
+                    try:
+                        page.wait_for_selector("[data-test='vehicleCard'], .vehicle-card, [class*='listing']", timeout=15000)
+                    except Exception:
+                        pass
+                    page.wait_for_timeout(2500)
+                    vals = prices_in_window(page.content(), ci["lo"], ci["hi"])
+                    # min_n: rare variants (e.g. the ~100 US manual V12 Vantage S coupes)
+                    # legitimately have 1-2 national listings, so 3 would freeze them forever
+                    if len(vals) < ci.get("min_n", 3):
+                        log.append(f"{a['short']}: only {len(vals)} prices — kept last-good ${a['latest']}k")
+                        continue
+                    price = round(statistics.median(vals) * 1000)
+                    lo = round(sorted(vals)[max(0, int(0.25 * (len(vals) - 1)))] * 1000)
+                    hi = round(sorted(vals)[min(len(vals) - 1, int(0.75 * (len(vals) - 1)))] * 1000)
                 pt = {"date": TODAY, "price": price, "n": len(vals), "lo": lo, "hi": hi, "src": "ci"}
                 s = a["series"]
                 if s and s[-1]["date"] == TODAY:
@@ -182,7 +244,8 @@ def main():
                     "all": pct(price, s[0]["price"]),
                 }
                 changed = True
-                log.append(f"{a['short']}: n={len(vals)} median ${price:,}")
+                stat = "lowest ask" if ci.get("type") == "chrono24" else "median"
+                log.append(f"{a['short']}: n={len(vals)} {stat} ${price:,}")
             except Exception as e:
                 log.append(f"{a['short']}: failed ({e.__class__.__name__}) — kept last-good")
         browser.close()
