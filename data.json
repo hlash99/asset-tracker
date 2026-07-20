@@ -1,8 +1,8 @@
 {
-  "updated": "2026-07-20T20:50:20Z",
+  "updated": "2026-07-20T20:54:12Z",
   "generated_by": "publish_trackers.py",
   "summary": {
-    "portfolio_value": 3017415,
+    "portfolio_value": 3019144,
     "n_assets": 10,
     "n_cars": 8,
     "n_watches": 2
@@ -17,20 +17,20 @@
       "source": "Chrono24",
       "note": "Steel/white-gold GMT with a meteorite dial \u2014 bluespeak 'BLRO' bezel.",
       "currency": "USD",
-      "updated": "2026-07-07",
+      "updated": "2026-07-20",
       "start": "2024-11-04",
       "latest": 62995,
       "first": 47993,
-      "n_listings": 17,
+      "n_listings": 26,
       "range_lo": 62995,
       "range_hi": 85000,
       "change": {
         "d7": 0.0,
-        "d30": 0.8,
-        "d90": 15.6,
+        "d30": 0.0,
+        "d90": 0.8,
         "all": 31.3
       },
-      "points": 211,
+      "points": 212,
       "series": [
         {
           "date": "2024-11-04",
@@ -1508,6 +1508,14 @@
           "n": 17,
           "lo": 62995,
           "hi": 85000
+        },
+        {
+          "date": "2026-07-20",
+          "price": 62995,
+          "n": 26,
+          "lo": 62995,
+          "hi": 85000,
+          "src": "ci"
         }
       ],
       "value": 62995,
@@ -1529,20 +1537,20 @@
       "source": "Chrono24",
       "note": "White-gold annual-calendar travel-time, fluted-style dial.",
       "currency": "USD",
-      "updated": "2026-07-07",
+      "updated": "2026-07-20",
       "start": "2024-11-04",
-      "latest": 65771,
+      "latest": 67500,
       "first": 67500,
       "n_listings": 60,
-      "range_lo": 65771,
-      "range_hi": 94672,
+      "range_lo": 67500,
+      "range_hi": 90180,
       "change": {
-        "d7": -0.1,
-        "d30": -3.3,
-        "d90": -2.3,
-        "all": -2.6
+        "d7": 2.6,
+        "d30": 1.5,
+        "d90": -0.7,
+        "all": 0.0
       },
-      "points": 215,
+      "points": 216,
       "series": [
         {
           "date": "2024-11-04",
@@ -3048,9 +3056,17 @@
           "n": 60,
           "lo": 65771,
           "hi": 94672
+        },
+        {
+          "date": "2026-07-20",
+          "price": 67500,
+          "n": 60,
+          "lo": 67500,
+          "hi": 90180,
+          "src": "ci"
         }
       ],
-      "value": 65771,
+      "value": 67500,
       "value_note": "asking median (no recent sold data)",
       "ci": {
         "type": "chrono24",
