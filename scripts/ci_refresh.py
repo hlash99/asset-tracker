@@ -114,23 +114,31 @@ CHRONO24_JS = """
 def chrono24_prices(browser, ci):
     """Per-listing asks (raw dollars, ascending) from a Chrono24 search page.
 
-    Fresh context per call: the second navigation in a shared context reliably
-    trips Cloudflare's challenge, while a fresh one sails through. If challenged
-    anyway, the challenge JS gets up to 20s to clear itself.
+    Fresh context per attempt: the second navigation in a shared context
+    reliably trips Cloudflare's challenge, while a fresh one usually sails
+    through. If challenged anyway, the challenge JS gets up to 30s to clear
+    itself, and the whole fetch is retried a couple of times.
     """
-    ctx = browser.new_context(user_agent=UA, viewport=VIEWPORT, locale="en-US")
-    page = ctx.new_page()
-    try:
-        page.goto(ci["url"], wait_until="domcontentloaded", timeout=60000)
-        for _ in range(10):
-            if "just a moment" not in (page.title() or "").lower():
-                break
-            page.wait_for_timeout(2000)
-        page.wait_for_timeout(3500)
-        listing = page.evaluate(CHRONO24_JS)
-    finally:
-        ctx.close()
-    return sorted(v for v in listing.values() if ci["lo"] <= v / 1000.0 <= ci["hi"])
+    for attempt in range(3):
+        ctx = browser.new_context(user_agent=UA, viewport=VIEWPORT, locale="en-US",
+                                  timezone_id="America/Los_Angeles")
+        page = ctx.new_page()
+        try:
+            page.goto(ci["url"], wait_until="domcontentloaded", timeout=60000)
+            for _ in range(15):
+                if "just a moment" not in (page.title() or "").lower():
+                    break
+                page.wait_for_timeout(2000)
+            page.wait_for_timeout(3500)
+            title = page.title()
+            listing = page.evaluate(CHRONO24_JS)
+        finally:
+            ctx.close()
+        vals = sorted(v for v in listing.values() if ci["lo"] <= v / 1000.0 <= ci["hi"])
+        if vals:
+            return vals
+        print(f"  chrono24 attempt {attempt + 1}: 0 listings (title={title!r})")
+    return []
 
 
 def watch_headline(vals):
@@ -174,7 +182,13 @@ def main():
 
     log, changed = [], False
     with sync_playwright() as p:
-        browser = p.chromium.launch(args=["--no-sandbox"])
+        # channel="chromium" = full Chromium in new-headless mode — a real
+        # browser fingerprint that passes Cloudflare where the default
+        # headless shell gets challenged. Fall back if it isn't installed.
+        try:
+            browser = p.chromium.launch(args=["--no-sandbox"], channel="chromium")
+        except Exception:
+            browser = p.chromium.launch(args=["--no-sandbox"])
         ctx = browser.new_context(user_agent=UA, viewport=VIEWPORT)
         page = ctx.new_page()
         for a in d["assets"]:
