@@ -1,8 +1,8 @@
 {
-  "updated": "2026-07-20T21:23:09Z",
+  "updated": "2026-07-21T04:35:40Z",
   "generated_by": "publish_trackers.py",
   "summary": {
-    "portfolio_value": 2981551,
+    "portfolio_value": 2981051,
     "n_assets": 10,
     "n_cars": 8,
     "n_watches": 2
@@ -17,20 +17,20 @@
       "source": "Chrono24",
       "note": "Steel/white-gold GMT with a meteorite dial \u2014 bluespeak 'BLRO' bezel.",
       "currency": "USD",
-      "updated": "2026-07-20",
+      "updated": "2026-07-21",
       "start": "2024-11-04",
       "latest": 62995,
       "first": 47993,
-      "n_listings": 16,
+      "n_listings": 26,
       "range_lo": 62995,
-      "range_hi": 80560,
+      "range_hi": 85000,
       "change": {
         "d7": 0.0,
         "d30": 0.0,
         "d90": 0.8,
         "all": 31.3
       },
-      "points": 212,
+      "points": 213,
       "series": [
         {
           "date": "2024-11-04",
@@ -1515,6 +1515,14 @@
           "n": 16,
           "lo": 62995,
           "hi": 80560
+        },
+        {
+          "date": "2026-07-21",
+          "price": 62995,
+          "n": 26,
+          "lo": 62995,
+          "hi": 85000,
+          "src": "ci"
         }
       ],
       "ci": {
@@ -1536,20 +1544,20 @@
       "source": "Chrono24",
       "note": "White-gold annual-calendar travel-time, fluted-style dial.",
       "currency": "USD",
-      "updated": "2026-07-20",
+      "updated": "2026-07-21",
       "start": "2024-11-04",
-      "latest": 67500,
+      "latest": 67000,
       "first": 67500,
-      "n_listings": 33,
-      "range_lo": 67500,
-      "range_hi": 89287,
+      "n_listings": 60,
+      "range_lo": 67000,
+      "range_hi": 90180,
       "change": {
-        "d7": 2.6,
+        "d7": 1.9,
         "d30": 1.5,
-        "d90": -0.7,
-        "all": 0.0
+        "d90": -1.5,
+        "all": -0.7
       },
-      "points": 216,
+      "points": 217,
       "series": [
         {
           "date": "2024-11-04",
@@ -3062,6 +3070,14 @@
           "n": 33,
           "lo": 67500,
           "hi": 89287
+        },
+        {
+          "date": "2026-07-21",
+          "price": 67000,
+          "n": 60,
+          "lo": 67000,
+          "hi": 90180,
+          "src": "ci"
         }
       ],
       "ci": {
@@ -3071,7 +3087,7 @@
         "hi": 200,
         "min_n": 5
       },
-      "value": 67500,
+      "value": 67000,
       "value_note": "asking median (no recent sold data)"
     },
     {
@@ -3618,7 +3634,7 @@
         "median": 229000,
         "n": 6,
         "days": 180,
-        "updated": "2026-07-20",
+        "updated": "2026-07-21",
         "src": "bat",
         "latest": {
           "url": "https://bringatrailer.com/listing/2011-ferrari-458-italia-52/",
@@ -3726,6 +3742,12 @@
         },
         {
           "date": "2026-07-20",
+          "price": 229000,
+          "n": 6,
+          "days": 180
+        },
+        {
+          "date": "2026-07-21",
           "price": 229000,
           "n": 6,
           "days": 180
@@ -4102,7 +4124,7 @@
         "median": 413000,
         "n": 5,
         "days": 180,
-        "updated": "2026-07-20",
+        "updated": "2026-07-21",
         "src": "bat",
         "latest": {
           "url": "https://bringatrailer.com/listing/2019-ferrari-812-superfast-30/",
@@ -4210,6 +4232,12 @@
         },
         {
           "date": "2026-07-20",
+          "price": 413000,
+          "n": 5,
+          "days": 180
+        },
+        {
+          "date": "2026-07-21",
           "price": 413000,
           "n": 5,
           "days": 180
@@ -4487,7 +4515,7 @@
         "median": 727186,
         "n": 6,
         "days": 90,
-        "updated": "2026-07-20",
+        "updated": "2026-07-21",
         "src": "bat",
         "latest": {
           "url": "https://bringatrailer.com/listing/2021-ferrari-812-gts-24/",
@@ -4595,6 +4623,12 @@
         },
         {
           "date": "2026-07-20",
+          "price": 727186,
+          "n": 6,
+          "days": 90
+        },
+        {
+          "date": "2026-07-21",
           "price": 727186,
           "n": 6,
           "days": 90
@@ -4769,7 +4803,7 @@
         "median": 536000,
         "n": 1,
         "days": 365,
-        "updated": "2026-07-20",
+        "updated": "2026-07-21",
         "src": "bat",
         "latest": {
           "url": "https://bringatrailer.com/listing/2025-ferrari-12-cilindri/",
@@ -4877,6 +4911,12 @@
         },
         {
           "date": "2026-07-20",
+          "price": 536000,
+          "n": 1,
+          "days": 365
+        },
+        {
+          "date": "2026-07-21",
           "price": 536000,
           "n": 1,
           "days": 365
@@ -6469,7 +6509,7 @@
         "median": 297000,
         "n": 7,
         "days": 90,
-        "updated": "2026-07-20",
+        "updated": "2026-07-21",
         "src": "bat",
         "latest": {
           "url": "https://bringatrailer.com/listing/2022-porsche-911-gt3-150/",
@@ -6580,6 +6620,12 @@
           "price": 297000,
           "n": 7,
           "days": 90
+        },
+        {
+          "date": "2026-07-21",
+          "price": 297000,
+          "n": 7,
+          "days": 90
         }
       ],
       "value": 295975,
@@ -6672,7 +6718,7 @@
         "median": 236000,
         "n": 3,
         "days": 180,
-        "updated": "2026-07-20",
+        "updated": "2026-07-21",
         "src": "bat",
         "latest": {
           "url": "https://bringatrailer.com/listing/2017-aston-martin-v12-vantage-s-39/",
@@ -6783,6 +6829,12 @@
           "price": 236000,
           "n": 3,
           "days": 180
+        },
+        {
+          "date": "2026-07-21",
+          "price": 236000,
+          "n": 3,
+          "days": 180
         }
       ],
       "value": 254898,
@@ -6863,7 +6915,7 @@
         "median": 122504,
         "n": 2,
         "days": 365,
-        "updated": "2026-07-20",
+        "updated": "2026-07-21",
         "src": "bat",
         "latest": {
           "url": "https://bringatrailer.com/listing/2011-aston-martin-v12-vantage-16/",
@@ -6971,6 +7023,12 @@
         },
         {
           "date": "2026-07-20",
+          "price": 122504,
+          "n": 2,
+          "days": 365
+        },
+        {
+          "date": "2026-07-21",
           "price": 122504,
           "n": 2,
           "days": 365
