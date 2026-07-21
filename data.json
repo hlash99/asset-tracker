@@ -7165,7 +7165,15 @@
         }
       ],
       "value": 295000,
-      "value_note": "50% sold (365d) + 50% asking"
+      "value_note": "50% sold (365d) + 50% asking",
+      "comps": [
+        {
+          "date": "2026-07-20",
+          "price": 295000,
+          "title": "7k-Mile 2019 Porsche 911 GT3 Touring 6-Speed",
+          "url": "https://bringatrailer.com/listing/2019-porsche-911-gt3-touring-48/"
+        }
+      ]
     },
     {
       "key": "audi_r8_v10_gen1",
@@ -7216,7 +7224,23 @@
         "year_min": 2009,
         "year_max": 2015,
         "lo": 50,
-        "hi": 250
+        "hi": 250,
+        "tags": [
+          {
+            "label": "Gated 6MT",
+            "match": [
+              "6-speed"
+            ]
+          },
+          {
+            "label": "R-tronic",
+            "year_max": 2013
+          },
+          {
+            "label": "S-tronic",
+            "year_min": 2014
+          }
+        ]
       },
       "sold": {
         "median": 138500,
@@ -7240,7 +7264,79 @@
         }
       ],
       "value": 126546,
-      "value_note": "75% sold (90d) + 25% asking"
+      "value_note": "75% sold (90d) + 25% asking",
+      "comps": [
+        {
+          "date": "2026-07-21",
+          "price": 89000,
+          "title": "2014 Audi R8 V10 Coupe",
+          "url": "https://bringatrailer.com/listing/2014-audi-r8-86/",
+          "tag": "S-tronic"
+        },
+        {
+          "date": "2026-07-15",
+          "price": 175000,
+          "title": "2015 Audi R8 V10 Spyder 6-Speed",
+          "url": "https://bringatrailer.com/listing/2015-audi-r8-spyder-19/",
+          "tag": "Gated 6MT"
+        },
+        {
+          "date": "2026-07-14",
+          "price": 142000,
+          "title": "31k-Mile 2012 Audi R8 V10 Coupe 6-Speed",
+          "url": "https://bringatrailer.com/listing/2012-audi-r8-120/",
+          "tag": "Gated 6MT"
+        },
+        {
+          "date": "2026-07-10",
+          "price": 69000,
+          "title": "39k-Mile 2012 Audi R8 V10 Spyder",
+          "url": "https://bringatrailer.com/listing/2012-audi-r8-spyder-29/",
+          "tag": "R-tronic"
+        },
+        {
+          "date": "2026-07-07",
+          "price": 141000,
+          "title": "28k-Mile 2012 Audi R8 V10 Coupe 6-Speed",
+          "url": "https://bringatrailer.com/listing/2012-audi-r8-118/",
+          "tag": "Gated 6MT"
+        },
+        {
+          "date": "2026-07-02",
+          "price": 189000,
+          "title": "17k-Mile 2014 Audi R8 V10 Coupe 6-Speed",
+          "url": "https://bringatrailer.com/listing/2014-audi-r8-85/",
+          "tag": "Gated 6MT"
+        },
+        {
+          "date": "2026-06-25",
+          "price": 140000,
+          "title": "18k-Mile 2011 Audi R8 V10 Spyder 6-Speed",
+          "url": "https://bringatrailer.com/listing/2011-audi-r8-spyder-61/",
+          "tag": "Gated 6MT"
+        },
+        {
+          "date": "2026-06-16",
+          "price": 92500,
+          "title": "11k-Mile 2012 Audi R8 V10 Coupe",
+          "url": "https://bringatrailer.com/listing/2012-audi-r8-5-2-v10-6-speed-6-2/",
+          "tag": "R-tronic"
+        },
+        {
+          "date": "2026-06-11",
+          "price": 137000,
+          "title": "26k-Mile 2012 Audi R8 V10 Spyder 6-Speed",
+          "url": "https://bringatrailer.com/listing/2012-audi-r8-spyder-27/",
+          "tag": "Gated 6MT"
+        },
+        {
+          "date": "2026-06-04",
+          "price": 122000,
+          "title": "2011 Audi R8 V10 Spyder 6-Speed",
+          "url": "https://bringatrailer.com/listing/2011-audi-r8-spyder-60/",
+          "tag": "Gated 6MT"
+        }
+      ]
     }
   ],
   "personal": {

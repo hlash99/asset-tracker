@@ -45,19 +45,41 @@ BAT_JSON_RE = re.compile(r"auctionsCompletedInitialData\s*=\s*(\{.*?\});", re.S)
 YEAR_RE = re.compile(r"\b(19|20)\d{2}\b")
 
 
+def comp_tag(title, rules):
+    """First matching rule from a `bat.tags` list wins. A rule matches when all
+    its `match` substrings appear in the title AND the title's model year falls
+    inside its year_min/year_max (e.g. the R8: '6-speed' → Gated 6MT, otherwise
+    ≤2013 → R-tronic, ≥2014 → S-tronic)."""
+    tl = title.lower()
+    ym = YEAR_RE.search(title)
+    yr = int(ym.group(0)) if ym else None
+    for r in rules:
+        if r.get("match") and not all(w.lower() in tl for w in r["match"]):
+            continue
+        if (r.get("year_min") or r.get("year_max")) and yr is None:
+            continue
+        if yr is not None and not (r.get("year_min", 0) <= yr <= r.get("year_max", 9999)):
+            continue
+        return r["label"]
+    return None
+
+
 def bat_recent_sold(page, bat):
-    """Median of recent Bring a Trailer SOLD results for a `bat` block.
+    """Median of recent Bring a Trailer SOLD results for a `bat` block, plus the
+    individual comps behind it (for the dashboard's expanded card view).
 
     Reserve-not-met ('Bid to') results are excluded. Titles are filtered by
     include/exclude keyword lists and an optional model-year range, prices by
     the lo/hi window ($k, same convention as `ci`). The window widens until it
-    has enough sales: 90d needs 3, 180d needs 2, 365d takes 1.
+    has enough sales: 90d needs 3, 180d needs 2, 365d takes 1. Returns
+    (sold_dict, comps) — comps is every matching sale in the last 365d (newest
+    first, capped at 40), each tagged via `bat.tags` when rules are configured.
     """
     page.goto(bat["url"], wait_until="domcontentloaded", timeout=60000)
     page.wait_for_timeout(1500)
     m = BAT_JSON_RE.search(page.content())
     if not m:
-        return None
+        return None, []
     items = json.loads(m.group(1)).get("items", [])
     inc = [w.lower() for w in bat.get("include", [])]
     exc = [w.lower() for w in bat.get("exclude", [])]
@@ -84,6 +106,16 @@ def bat_recent_sold(page, bat):
         if not (bat["lo"] <= v / 1000.0 <= bat["hi"]):
             continue
         sold.append((ts, v, it))
+    comps = []
+    for ts, v, it in sorted(sold, reverse=True)[:40]:
+        if now - ts > 365 * 86400:
+            break
+        c = {"date": datetime.fromtimestamp(ts, timezone.utc).strftime("%Y-%m-%d"),
+             "price": v, "title": it.get("title"), "url": it.get("url")}
+        t = comp_tag(it.get("title") or "", bat.get("tags", []))
+        if t:
+            c["tag"] = t
+        comps.append(c)
     for days, need in ((90, 3), (180, 2), (365, 1)):
         w = [(ts, v, it) for ts, v, it in sold if now - ts <= days * 86400]
         if len(w) >= need:
@@ -91,8 +123,8 @@ def bat_recent_sold(page, bat):
             return {"median": round(statistics.median([x[1] for x in w])), "n": len(w),
                     "days": days, "updated": TODAY, "src": "bat",
                     "latest": {"url": it.get("url"), "title": it.get("title"), "price": v,
-                               "date": datetime.fromtimestamp(ts, timezone.utc).strftime("%Y-%m-%d")}}
-    return None
+                               "date": datetime.fromtimestamp(ts, timezone.utc).strftime("%Y-%m-%d")}}, comps
+    return None, comps
 
 
 # One price per listing card, keyed by the listing id in the href (each card
@@ -196,7 +228,10 @@ def main():
             bat = a.get("bat")
             if bat:
                 try:
-                    s = bat_recent_sold(page, bat)
+                    s, comps = bat_recent_sold(page, bat)
+                    if comps and comps != a.get("comps"):
+                        a["comps"] = comps
+                        changed = True
                     if s:
                         if s != a.get("sold"):
                             changed = True
