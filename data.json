@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-21T04:35:40Z",
+  "updated": "2026-07-21T15:19:31Z",
   "generated_by": "publish_trackers.py",
   "summary": {
     "portfolio_value": 2981051,
@@ -21,7 +21,7 @@
       "start": "2024-11-04",
       "latest": 62995,
       "first": 47993,
-      "n_listings": 26,
+      "n_listings": 28,
       "range_lo": 62995,
       "range_hi": 85000,
       "change": {
@@ -1519,7 +1519,7 @@
         {
           "date": "2026-07-21",
           "price": 62995,
-          "n": 26,
+          "n": 28,
           "lo": 62995,
           "hi": 85000,
           "src": "ci"
@@ -1550,7 +1550,7 @@
       "first": 67500,
       "n_listings": 60,
       "range_lo": 67000,
-      "range_hi": 90180,
+      "range_hi": 90117,
       "change": {
         "d7": 1.9,
         "d30": 1.5,
@@ -3076,7 +3076,7 @@
           "price": 67000,
           "n": 60,
           "lo": 67000,
-          "hi": 90180,
+          "hi": 90117,
           "src": "ci"
         }
       ],
