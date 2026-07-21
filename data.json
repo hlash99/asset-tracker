@@ -2,9 +2,9 @@
   "updated": "2026-07-21T15:19:31Z",
   "generated_by": "publish_trackers.py",
   "summary": {
-    "portfolio_value": 2981051,
-    "n_assets": 10,
-    "n_cars": 8,
+    "portfolio_value": 3528042,
+    "n_assets": 13,
+    "n_cars": 11,
     "n_watches": 2
   },
   "assets": [
@@ -7057,6 +7057,190 @@
       },
       "value": 108752,
       "value_note": "50% sold (365d) + 50% asking"
+    },
+    {
+      "key": "porsche_991_1_gts",
+      "name": "Porsche 991.1 Carrera GTS",
+      "short": "991.1 GTS",
+      "category": "car",
+      "color": "#c77dff",
+      "source": "Cars.com",
+      "note": "Nationwide asking median for the 2015\u20132016 991.1 Carrera GTS (coupe/cab/Targa, C2 + C4).",
+      "currency": "USD",
+      "updated": "2026-07-21",
+      "start": "2026-07-21",
+      "latest": 125445,
+      "first": 125445,
+      "n_listings": 54,
+      "range_lo": 106500,
+      "range_hi": 132777,
+      "change": {
+        "d7": null,
+        "d30": null,
+        "d90": null,
+        "all": 0.0
+      },
+      "points": 1,
+      "series": [
+        {
+          "date": "2026-07-21",
+          "price": 125445,
+          "n": 54,
+          "lo": 106500,
+          "hi": 132777,
+          "src": "seed"
+        }
+      ],
+      "ci": {
+        "url": "https://www.cars.com/shopping/results/?stock_type=used&makes[]=porsche&models[]=porsche-911&year_min=2015&year_max=2016&keyword=carrera+gts&maximum_distance=all&zip=94027",
+        "lo": 90,
+        "hi": 160
+      },
+      "value": 125445,
+      "value_note": "asking median (no recent sold data)"
+    },
+    {
+      "key": "porsche_991_2_gt3_touring",
+      "name": "Porsche 991.2 GT3 Touring",
+      "short": "991.2 GT3 Touring",
+      "category": "car",
+      "color": "#ffd166",
+      "source": "BaT",
+      "note": "2018\u20132019 991.2 GT3 with the Touring Package (6MT). BaT sold comps only \u2014 Cars.com nationwide inventory is ~zero and its new-GT3 ad cards sit inside any usable price window.",
+      "currency": "USD",
+      "updated": "2026-07-21",
+      "start": "2026-07-21",
+      "latest": 295000,
+      "first": 295000,
+      "n_listings": 1,
+      "range_lo": 295000,
+      "range_hi": 295000,
+      "change": {
+        "d7": null,
+        "d30": null,
+        "d90": null,
+        "all": 0.0
+      },
+      "points": 1,
+      "series": [
+        {
+          "date": "2026-07-21",
+          "price": 295000,
+          "n": 1,
+          "lo": 295000,
+          "hi": 295000,
+          "src": "seed"
+        }
+      ],
+      "bat": {
+        "url": "https://bringatrailer.com/porsche/991-gt3/",
+        "include": [
+          "gt3 touring"
+        ],
+        "exclude": [],
+        "year_min": 2018,
+        "year_max": 2019,
+        "lo": 150,
+        "hi": 500
+      },
+      "sold": {
+        "median": 295000,
+        "n": 1,
+        "days": 365,
+        "updated": "2026-07-21",
+        "src": "bat",
+        "latest": {
+          "url": "https://bringatrailer.com/listing/2019-porsche-911-gt3-touring-48/",
+          "title": "7k-Mile 2019 Porsche 911 GT3 Touring 6-Speed",
+          "price": 295000,
+          "date": "2026-07-20"
+        }
+      },
+      "sold_series": [
+        {
+          "date": "2026-07-21",
+          "price": 295000,
+          "n": 1,
+          "days": 365
+        }
+      ],
+      "value": 295000,
+      "value_note": "50% sold (365d) + 50% asking"
+    },
+    {
+      "key": "audi_r8_v10_gen1",
+      "name": "Audi R8 V10 Gen 1 (Type 42)",
+      "short": "R8 V10 Gen 1",
+      "category": "car",
+      "color": "#4cc9f0",
+      "source": "Cars.com",
+      "note": "2010\u20132015 R8 5.2 V10, all transmissions (gated 6MT, R-tronic, S-tronic), coupe + Spyder. BaT solds skew to manual/low-mile cars, so the sold median runs above the ask median.",
+      "currency": "USD",
+      "updated": "2026-07-21",
+      "start": "2026-07-21",
+      "latest": 90683,
+      "first": 90683,
+      "n_listings": 51,
+      "range_lo": 81734,
+      "range_hi": 99991,
+      "change": {
+        "d7": null,
+        "d30": null,
+        "d90": null,
+        "all": 0.0
+      },
+      "points": 1,
+      "series": [
+        {
+          "date": "2026-07-21",
+          "price": 90683,
+          "n": 51,
+          "lo": 81734,
+          "hi": 99991,
+          "src": "seed"
+        }
+      ],
+      "ci": {
+        "url": "https://www.cars.com/shopping/results/?stock_type=used&makes[]=audi&models[]=audi-r8&year_min=2010&year_max=2015&keyword=v10&maximum_distance=all&zip=94027",
+        "lo": 60,
+        "hi": 160
+      },
+      "bat": {
+        "url": "https://bringatrailer.com/audi/r8/",
+        "include": [
+          "v10"
+        ],
+        "exclude": [
+          "r8 gt"
+        ],
+        "year_min": 2009,
+        "year_max": 2015,
+        "lo": 50,
+        "hi": 250
+      },
+      "sold": {
+        "median": 138500,
+        "n": 10,
+        "days": 90,
+        "updated": "2026-07-21",
+        "src": "bat",
+        "latest": {
+          "url": "https://bringatrailer.com/listing/2014-audi-r8-86/",
+          "title": "2014 Audi R8 V10 Coupe",
+          "price": 89000,
+          "date": "2026-07-21"
+        }
+      },
+      "sold_series": [
+        {
+          "date": "2026-07-21",
+          "price": 138500,
+          "n": 10,
+          "days": 90
+        }
+      ],
+      "value": 126546,
+      "value_note": "75% sold (90d) + 25% asking"
     }
   ],
   "personal": {
