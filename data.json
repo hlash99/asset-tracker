@@ -1,8 +1,8 @@
 {
-  "updated": "2026-07-21T15:19:31Z",
+  "updated": "2026-07-22T04:38:30Z",
   "generated_by": "publish_trackers.py",
   "summary": {
-    "portfolio_value": 3528042,
+    "portfolio_value": 3562443,
     "n_assets": 13,
     "n_cars": 11,
     "n_watches": 2
@@ -3631,16 +3631,16 @@
         "hi": 650
       },
       "sold": {
-        "median": 229000,
-        "n": 6,
-        "days": 180,
-        "updated": "2026-07-21",
+        "median": 293000,
+        "n": 3,
+        "days": 90,
+        "updated": "2026-07-22",
         "src": "bat",
         "latest": {
-          "url": "https://bringatrailer.com/listing/2011-ferrari-458-italia-52/",
-          "title": "23k-Mile 2011 Ferrari 458 Italia",
-          "price": 293000,
-          "date": "2026-06-24"
+          "url": "https://bringatrailer.com/listing/2014-ferrari-458-italia-14/",
+          "title": "4,300-Mile 2014 Ferrari 458 Italia",
+          "price": 450000,
+          "date": "2026-07-21"
         }
       },
       "sold_series": [
@@ -3751,10 +3751,16 @@
           "price": 229000,
           "n": 6,
           "days": 180
+        },
+        {
+          "date": "2026-07-22",
+          "price": 293000,
+          "n": 3,
+          "days": 90
         }
       ],
-      "value": 271348,
-      "value_note": "65% sold (180d) + 35% asking",
+      "value": 307249,
+      "value_note": "75% sold (90d) + 25% asking",
       "comps": [
         {
           "date": "2026-07-21",
@@ -4168,7 +4174,7 @@
         "median": 413000,
         "n": 5,
         "days": 180,
-        "updated": "2026-07-21",
+        "updated": "2026-07-22",
         "src": "bat",
         "latest": {
           "url": "https://bringatrailer.com/listing/2019-ferrari-812-superfast-30/",
@@ -4282,6 +4288,12 @@
         },
         {
           "date": "2026-07-21",
+          "price": 413000,
+          "n": 5,
+          "days": 180
+        },
+        {
+          "date": "2026-07-22",
           "price": 413000,
           "n": 5,
           "days": 180
@@ -4597,7 +4609,7 @@
         "median": 727186,
         "n": 6,
         "days": 90,
-        "updated": "2026-07-21",
+        "updated": "2026-07-22",
         "src": "bat",
         "latest": {
           "url": "https://bringatrailer.com/listing/2021-ferrari-812-gts-24/",
@@ -4711,6 +4723,12 @@
         },
         {
           "date": "2026-07-21",
+          "price": 727186,
+          "n": 6,
+          "days": 90
+        },
+        {
+          "date": "2026-07-22",
           "price": 727186,
           "n": 6,
           "days": 90
@@ -4935,7 +4953,7 @@
         "median": 536000,
         "n": 1,
         "days": 365,
-        "updated": "2026-07-21",
+        "updated": "2026-07-22",
         "src": "bat",
         "latest": {
           "url": "https://bringatrailer.com/listing/2025-ferrari-12-cilindri/",
@@ -5049,6 +5067,12 @@
         },
         {
           "date": "2026-07-21",
+          "price": 536000,
+          "n": 1,
+          "days": 365
+        },
+        {
+          "date": "2026-07-22",
           "price": 536000,
           "n": 1,
           "days": 365
@@ -6646,10 +6670,10 @@
         "hi": 500
       },
       "sold": {
-        "median": 297000,
-        "n": 7,
+        "median": 295000,
+        "n": 6,
         "days": 90,
-        "updated": "2026-07-21",
+        "updated": "2026-07-22",
         "src": "bat",
         "latest": {
           "url": "https://bringatrailer.com/listing/2022-porsche-911-gt3-150/",
@@ -6766,9 +6790,15 @@
           "price": 297000,
           "n": 7,
           "days": 90
+        },
+        {
+          "date": "2026-07-22",
+          "price": 295000,
+          "n": 6,
+          "days": 90
         }
       ],
-      "value": 295975,
+      "value": 294475,
       "value_note": "75% sold (90d) + 25% asking",
       "comps": [
         {
@@ -6896,7 +6926,7 @@
         "median": 236000,
         "n": 3,
         "days": 180,
-        "updated": "2026-07-21",
+        "updated": "2026-07-22",
         "src": "bat",
         "latest": {
           "url": "https://bringatrailer.com/listing/2017-aston-martin-v12-vantage-s-39/",
@@ -7010,6 +7040,12 @@
         },
         {
           "date": "2026-07-21",
+          "price": 236000,
+          "n": 3,
+          "days": 180
+        },
+        {
+          "date": "2026-07-22",
           "price": 236000,
           "n": 3,
           "days": 180
@@ -7131,7 +7167,7 @@
         "median": 122504,
         "n": 2,
         "days": 365,
-        "updated": "2026-07-21",
+        "updated": "2026-07-22",
         "src": "bat",
         "latest": {
           "url": "https://bringatrailer.com/listing/2011-aston-martin-v12-vantage-16/",
@@ -7245,6 +7281,12 @@
         },
         {
           "date": "2026-07-21",
+          "price": 122504,
+          "n": 2,
+          "days": 365
+        },
+        {
+          "date": "2026-07-22",
           "price": 122504,
           "n": 2,
           "days": 365
@@ -7377,7 +7419,7 @@
         "median": 295000,
         "n": 1,
         "days": 365,
-        "updated": "2026-07-21",
+        "updated": "2026-07-22",
         "src": "bat",
         "latest": {
           "url": "https://bringatrailer.com/listing/2019-porsche-911-gt3-touring-48/",
@@ -7389,6 +7431,12 @@
       "sold_series": [
         {
           "date": "2026-07-21",
+          "price": 295000,
+          "n": 1,
+          "days": 365
+        },
+        {
+          "date": "2026-07-22",
           "price": 295000,
           "n": 1,
           "days": 365
@@ -7476,7 +7524,7 @@
         "median": 138500,
         "n": 10,
         "days": 90,
-        "updated": "2026-07-21",
+        "updated": "2026-07-22",
         "src": "bat",
         "latest": {
           "url": "https://bringatrailer.com/listing/2014-audi-r8-86/",
@@ -7488,6 +7536,12 @@
       "sold_series": [
         {
           "date": "2026-07-21",
+          "price": 138500,
+          "n": 10,
+          "days": 90
+        },
+        {
+          "date": "2026-07-22",
           "price": 138500,
           "n": 10,
           "days": 90
