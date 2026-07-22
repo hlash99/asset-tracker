@@ -3754,7 +3754,51 @@
         }
       ],
       "value": 271348,
-      "value_note": "65% sold (180d) + 35% asking"
+      "value_note": "65% sold (180d) + 35% asking",
+      "comps": [
+        {
+          "date": "2026-07-21",
+          "price": 450000,
+          "title": "4,300-Mile 2014 Ferrari 458 Italia",
+          "url": "https://bringatrailer.com/listing/2014-ferrari-458-italia-14/"
+        },
+        {
+          "date": "2026-06-24",
+          "price": 293000,
+          "title": "23k-Mile 2011 Ferrari 458 Italia",
+          "url": "https://bringatrailer.com/listing/2011-ferrari-458-italia-52/"
+        },
+        {
+          "date": "2026-05-13",
+          "price": 225000,
+          "title": "2012 Ferrari 458 Italia",
+          "url": "https://bringatrailer.com/listing/2012-ferrari-458-italia-24/"
+        },
+        {
+          "date": "2026-04-20",
+          "price": 202000,
+          "title": "2014 Ferrari 458 Italia",
+          "url": "https://bringatrailer.com/listing/2014-ferrari-458-italia-12/"
+        },
+        {
+          "date": "2026-04-13",
+          "price": 234000,
+          "title": "2012 Ferrari 458 Italia",
+          "url": "https://bringatrailer.com/listing/2012-ferrari-458-italia-25/"
+        },
+        {
+          "date": "2026-04-06",
+          "price": 233000,
+          "title": "6k-Mile 2011 Ferrari 458 Italia",
+          "url": "https://bringatrailer.com/listing/2011-ferrari-458-italia-51/"
+        },
+        {
+          "date": "2026-02-13",
+          "price": 224580,
+          "title": "2012 Ferrari 458 Italia",
+          "url": "https://bringatrailer.com/listing/2012-ferrari-458-italia-23/"
+        }
+      ]
     },
     {
       "key": "ferrari_812_superfast",
@@ -4244,7 +4288,45 @@
         }
       ],
       "value": 436447,
-      "value_note": "65% sold (180d) + 35% asking"
+      "value_note": "65% sold (180d) + 35% asking",
+      "comps": [
+        {
+          "date": "2026-06-04",
+          "price": 443000,
+          "title": "2019 Ferrari 812 Superfast",
+          "url": "https://bringatrailer.com/listing/2019-ferrari-812-superfast-30/"
+        },
+        {
+          "date": "2026-05-12",
+          "price": 413000,
+          "title": "3,500-Mile 2019 Ferrari 812 Superfast",
+          "url": "https://bringatrailer.com/listing/2019-ferrari-812-superfast-29/"
+        },
+        {
+          "date": "2026-04-17",
+          "price": 426000,
+          "title": "3,900-Mile 2020 Ferrari 812 Superfast",
+          "url": "https://bringatrailer.com/listing/2020-ferrari-812-superfast-29/"
+        },
+        {
+          "date": "2026-03-18",
+          "price": 343500,
+          "title": "6k-Mile 2018 Ferrari 812 Superfast",
+          "url": "https://bringatrailer.com/listing/2018-ferrari-812-superfast-23/"
+        },
+        {
+          "date": "2026-03-05",
+          "price": 266000,
+          "title": "2019 Ferrari 812 Superfast",
+          "url": "https://bringatrailer.com/listing/2019-ferrari-812-superfast-26/"
+        },
+        {
+          "date": "2025-11-26",
+          "price": 400999,
+          "title": "3,400-Mile 2020 Ferrari 812 Superfast",
+          "url": "https://bringatrailer.com/listing/2020-ferrari-812-superfast-12/"
+        }
+      ]
     },
     {
       "key": "ferrari_812_gts",
@@ -4635,7 +4717,57 @@
         }
       ],
       "value": 745140,
-      "value_note": "75% sold (90d) + 25% asking"
+      "value_note": "75% sold (90d) + 25% asking",
+      "comps": [
+        {
+          "date": "2026-07-14",
+          "price": 381000,
+          "title": "2021 Ferrari 812 GTS",
+          "url": "https://bringatrailer.com/listing/2021-ferrari-812-gts-24/"
+        },
+        {
+          "date": "2026-07-07",
+          "price": 790000,
+          "title": "1,300-Mile 2021 Ferrari 812 GTS",
+          "url": "https://bringatrailer.com/listing/2021-ferrari-812-gts-26/"
+        },
+        {
+          "date": "2026-06-16",
+          "price": 717000,
+          "title": "5k-Mile 2021 Ferrari 812 GTS",
+          "url": "https://bringatrailer.com/listing/2021-ferrari-812-gts-4-2/"
+        },
+        {
+          "date": "2026-06-05",
+          "price": 737373,
+          "title": "103-Mile 2023 Ferrari 812 GTS",
+          "url": "https://bringatrailer.com/listing/2023-ferrari-812-gts-13/"
+        },
+        {
+          "date": "2026-05-15",
+          "price": 844000,
+          "title": "1,500-Mile 2021 Ferrari 812 GTS",
+          "url": "https://bringatrailer.com/listing/2021-ferrari-812-gts-23/"
+        },
+        {
+          "date": "2026-04-28",
+          "price": 714000,
+          "title": "2022 Ferrari 812 GTS",
+          "url": "https://bringatrailer.com/listing/2022-ferrari-812-gts-32/"
+        },
+        {
+          "date": "2026-03-26",
+          "price": 760000,
+          "title": "1,400-Mile 2023 Ferrari 812 GTS",
+          "url": "https://bringatrailer.com/listing/2023-ferrari-812-gts-12/"
+        },
+        {
+          "date": "2026-03-14",
+          "price": 543000,
+          "title": "2k-Mile 2021 Ferrari 812 GTS",
+          "url": "https://bringatrailer.com/listing/2021-ferrari-812-gts-22/"
+        }
+      ]
     },
     {
       "key": "ferrari_12cilindri",
@@ -4923,7 +5055,15 @@
         }
       ],
       "value": 582950,
-      "value_note": "50% sold (365d) + 50% asking"
+      "value_note": "50% sold (365d) + 50% asking",
+      "comps": [
+        {
+          "date": "2025-12-19",
+          "price": 536000,
+          "title": "2025 Ferrari 12Cilindri",
+          "url": "https://bringatrailer.com/listing/2025-ferrari-12-cilindri/"
+        }
+      ]
     },
     {
       "key": "porsche_997_turbo_s",
@@ -6629,7 +6769,45 @@
         }
       ],
       "value": 295975,
-      "value_note": "75% sold (90d) + 25% asking"
+      "value_note": "75% sold (90d) + 25% asking",
+      "comps": [
+        {
+          "date": "2026-07-19",
+          "price": 348000,
+          "title": "Modified 2022 Porsche 911 GT3 Touring 6-Speed",
+          "url": "https://bringatrailer.com/listing/2022-porsche-911-gt3-150/"
+        },
+        {
+          "date": "2026-07-10",
+          "price": 255000,
+          "title": "2k-Mile 2023 Porsche 911 GT3 Touring",
+          "url": "https://bringatrailer.com/listing/2023-porsche-911-gt3-touring-54/"
+        },
+        {
+          "date": "2026-06-24",
+          "price": 292000,
+          "title": "China Grey 2022 Porsche 911 GT3 Touring",
+          "url": "https://bringatrailer.com/listing/2022-porsche-911-gt3-touring-140-2/"
+        },
+        {
+          "date": "2026-06-18",
+          "price": 341000,
+          "title": "290-Mile San Marino Blue Metallic 2022 Porsche 911 GT3 Touring 6-Speed",
+          "url": "https://bringatrailer.com/listing/2022-porsche-911-gt3-touring-155/"
+        },
+        {
+          "date": "2026-06-15",
+          "price": 298000,
+          "title": "British Racing Green 2022 Porsche 911 GT3 Touring 6-Speed",
+          "url": "https://bringatrailer.com/listing/2022-porsche-911-gt3-touring-154/"
+        },
+        {
+          "date": "2026-05-30",
+          "price": 276000,
+          "title": "Carbon Steel Gray Metallic 2023 Porsche 911 GT3 Touring 6-Speed",
+          "url": "https://bringatrailer.com/listing/2023-porsche-911-gt3-touring-51/"
+        }
+      ]
     },
     {
       "key": "aston_v12_vantage_s_manual",
@@ -6838,7 +7016,45 @@
         }
       ],
       "value": 254898,
-      "value_note": "65% sold (180d) + 35% asking"
+      "value_note": "65% sold (180d) + 35% asking",
+      "comps": [
+        {
+          "date": "2026-06-11",
+          "price": 226000,
+          "title": "3,400-Mile 2017 Aston Martin V12 Vantage S Coupe 7-Speed",
+          "url": "https://bringatrailer.com/listing/2017-aston-martin-v12-vantage-s-39/"
+        },
+        {
+          "date": "2026-04-25",
+          "price": 315007,
+          "title": "6k-Mile 2017 Aston Martin V12 Vantage S 7-Speed",
+          "url": "https://bringatrailer.com/listing/2017-aston-martin-v12-vantage-s-37/"
+        },
+        {
+          "date": "2026-03-27",
+          "price": 236000,
+          "title": "7k-Mile 2017 Aston Martin V12 Vantage S 7-Speed",
+          "url": "https://bringatrailer.com/listing/2017-aston-martin-v12-vantage-s-36/"
+        },
+        {
+          "date": "2025-12-19",
+          "price": 276000,
+          "title": "283-Mile 2017 Aston Martin V12 Vantage S 7-Speed",
+          "url": "https://bringatrailer.com/listing/2017-aston-martin-v12-vantage-s-34/"
+        },
+        {
+          "date": "2025-11-17",
+          "price": 235000,
+          "title": "3,900-Mile 2017 Aston Martin V12 Vantage S 7-Speed",
+          "url": "https://bringatrailer.com/listing/2017-aston-martin-v12-vantage-s-33/"
+        },
+        {
+          "date": "2025-08-11",
+          "price": 207007,
+          "title": "7k-Mile 2017 Aston Martin V12 Vantage S 7-Speed",
+          "url": "https://bringatrailer.com/listing/2017-aston-martin-v12-vantage-s-30/"
+        }
+      ]
     },
     {
       "key": "aston_v12_vantage_6mt",
@@ -7056,7 +7272,21 @@
         "min_n": 1
       },
       "value": 108752,
-      "value_note": "50% sold (365d) + 50% asking"
+      "value_note": "50% sold (365d) + 50% asking",
+      "comps": [
+        {
+          "date": "2026-06-12",
+          "price": 161007,
+          "title": "21k-Mile 2011 Aston Martin V12 Vantage 6-Speed",
+          "url": "https://bringatrailer.com/listing/2011-aston-martin-v12-vantage-16/"
+        },
+        {
+          "date": "2025-07-30",
+          "price": 84000,
+          "title": "5k-Mile 2011 Aston Martin V12 Vantage 6-Speed",
+          "url": "https://bringatrailer.com/listing/2011-aston-martin-v12-vantage-20/"
+        }
+      ]
     },
     {
       "key": "porsche_991_1_gts",
