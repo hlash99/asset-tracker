@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-25T14:44:48Z",
+  "updated": "2026-07-26T04:46:47Z",
   "generated_by": "publish_trackers.py",
   "summary": {
     "portfolio_value": 3565311,
@@ -3655,7 +3655,7 @@
         "median": 293000,
         "n": 3,
         "days": 90,
-        "updated": "2026-07-25",
+        "updated": "2026-07-26",
         "src": "bat",
         "latest": {
           "url": "https://bringatrailer.com/listing/2014-ferrari-458-italia-14/",
@@ -3793,6 +3793,12 @@
         },
         {
           "date": "2026-07-25",
+          "price": 293000,
+          "n": 3,
+          "days": 90
+        },
+        {
+          "date": "2026-07-26",
           "price": 293000,
           "n": 3,
           "days": 90
@@ -4214,7 +4220,7 @@
         "median": 413000,
         "n": 5,
         "days": 180,
-        "updated": "2026-07-25",
+        "updated": "2026-07-26",
         "src": "bat",
         "latest": {
           "url": "https://bringatrailer.com/listing/2019-ferrari-812-superfast-30/",
@@ -4352,6 +4358,12 @@
         },
         {
           "date": "2026-07-25",
+          "price": 413000,
+          "n": 5,
+          "days": 180
+        },
+        {
+          "date": "2026-07-26",
           "price": 413000,
           "n": 5,
           "days": 180
@@ -4661,7 +4673,7 @@
         "median": 737373,
         "n": 7,
         "days": 90,
-        "updated": "2026-07-25",
+        "updated": "2026-07-26",
         "src": "bat",
         "latest": {
           "url": "https://bringatrailer.com/listing/2022-ferrari-812-gts-35/",
@@ -4799,6 +4811,12 @@
         },
         {
           "date": "2026-07-25",
+          "price": 737373,
+          "n": 7,
+          "days": 90
+        },
+        {
+          "date": "2026-07-26",
           "price": 737373,
           "n": 7,
           "days": 90
@@ -5036,7 +5054,7 @@
         "median": 536000,
         "n": 1,
         "days": 365,
-        "updated": "2026-07-25",
+        "updated": "2026-07-26",
         "src": "bat",
         "latest": {
           "url": "https://bringatrailer.com/listing/2025-ferrari-12-cilindri/",
@@ -5174,6 +5192,12 @@
         },
         {
           "date": "2026-07-25",
+          "price": 536000,
+          "n": 1,
+          "days": 365
+        },
+        {
+          "date": "2026-07-26",
           "price": 536000,
           "n": 1,
           "days": 365
@@ -6788,7 +6812,7 @@
         "median": 295000,
         "n": 6,
         "days": 90,
-        "updated": "2026-07-25",
+        "updated": "2026-07-26",
         "src": "bat",
         "latest": {
           "url": "https://bringatrailer.com/listing/2022-porsche-911-gt3-150/",
@@ -6929,6 +6953,12 @@
           "price": 295000,
           "n": 6,
           "days": 90
+        },
+        {
+          "date": "2026-07-26",
+          "price": 295000,
+          "n": 6,
+          "days": 90
         }
       ],
       "value": 298734,
@@ -7059,7 +7089,7 @@
         "median": 236000,
         "n": 3,
         "days": 180,
-        "updated": "2026-07-25",
+        "updated": "2026-07-26",
         "src": "bat",
         "latest": {
           "url": "https://bringatrailer.com/listing/2017-aston-martin-v12-vantage-s-39/",
@@ -7200,6 +7230,12 @@
           "price": 236000,
           "n": 3,
           "days": 180
+        },
+        {
+          "date": "2026-07-26",
+          "price": 236000,
+          "n": 3,
+          "days": 180
         }
       ],
       "value": 254898,
@@ -7318,7 +7354,7 @@
         "median": 122504,
         "n": 2,
         "days": 365,
-        "updated": "2026-07-25",
+        "updated": "2026-07-26",
         "src": "bat",
         "latest": {
           "url": "https://bringatrailer.com/listing/2011-aston-martin-v12-vantage-16/",
@@ -7459,6 +7495,12 @@
           "price": 122504,
           "n": 2,
           "days": 365
+        },
+        {
+          "date": "2026-07-26",
+          "price": 122504,
+          "n": 2,
+          "days": 365
         }
       ],
       "bat": {
@@ -7588,7 +7630,7 @@
         "median": 295000,
         "n": 1,
         "days": 365,
-        "updated": "2026-07-25",
+        "updated": "2026-07-26",
         "src": "bat",
         "latest": {
           "url": "https://bringatrailer.com/listing/2019-porsche-911-gt3-touring-48/",
@@ -7624,6 +7666,12 @@
         },
         {
           "date": "2026-07-25",
+          "price": 295000,
+          "n": 1,
+          "days": 365
+        },
+        {
+          "date": "2026-07-26",
           "price": 295000,
           "n": 1,
           "days": 365
@@ -7711,7 +7759,7 @@
         "median": 138500,
         "n": 10,
         "days": 90,
-        "updated": "2026-07-25",
+        "updated": "2026-07-26",
         "src": "bat",
         "latest": {
           "url": "https://bringatrailer.com/listing/2014-audi-r8-86/",
@@ -7747,6 +7795,12 @@
         },
         {
           "date": "2026-07-25",
+          "price": 138500,
+          "n": 10,
+          "days": 90
+        },
+        {
+          "date": "2026-07-26",
           "price": 138500,
           "n": 10,
           "days": 90
