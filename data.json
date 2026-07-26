@@ -1,8 +1,8 @@
 {
-  "updated": "2026-07-26T04:46:47Z",
+  "updated": "2026-07-26T14:46:55Z",
   "generated_by": "publish_trackers.py",
   "summary": {
-    "portfolio_value": 3565311,
+    "portfolio_value": 3565755,
     "n_assets": 13,
     "n_cars": 11,
     "n_watches": 2
@@ -7550,20 +7550,20 @@
       "source": "Cars.com",
       "note": "Nationwide asking median for the 2015\u20132016 991.1 Carrera GTS (coupe/cab/Targa, C2 + C4).",
       "currency": "USD",
-      "updated": "2026-07-21",
+      "updated": "2026-07-26",
       "start": "2026-07-21",
-      "latest": 125445,
+      "latest": 125889,
       "first": 125445,
-      "n_listings": 54,
-      "range_lo": 106500,
-      "range_hi": 132777,
+      "n_listings": 48,
+      "range_lo": 106560,
+      "range_hi": 134987,
       "change": {
         "d7": null,
         "d30": null,
         "d90": null,
-        "all": 0.0
+        "all": 0.4
       },
-      "points": 1,
+      "points": 2,
       "series": [
         {
           "date": "2026-07-21",
@@ -7572,6 +7572,14 @@
           "lo": 106500,
           "hi": 132777,
           "src": "seed"
+        },
+        {
+          "date": "2026-07-26",
+          "price": 125889,
+          "n": 48,
+          "lo": 106560,
+          "hi": 134987,
+          "src": "ci"
         }
       ],
       "ci": {
@@ -7579,7 +7587,7 @@
         "lo": 90,
         "hi": 160
       },
-      "value": 125445,
+      "value": 125889,
       "value_note": "asking median (no recent sold data)"
     },
     {
