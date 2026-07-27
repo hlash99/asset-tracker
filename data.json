@@ -3871,7 +3871,7 @@
       "category": "car",
       "color": "#D7263D",
       "source": "CarGurus",
-      "note": "6.5L NA V12 berlinetta (2017\u20132023).",
+      "note": "6.5L NA V12 berlinetta (2017\u20132023). Ask window is 300-560k to exclude the 812 GTS and Competizione, which share the CarGurus 812 model page at 643k-1.05M.",
       "currency": "USD",
       "updated": "2026-07-27",
       "start": "2026-04-20",
@@ -4232,8 +4232,8 @@
       "ci": {
         "type": "cargurus",
         "url": "https://www.cargurus.com/Cars/l-Used-Ferrari-812-d2654",
-        "lo": 250,
-        "hi": 900,
+        "lo": 300,
+        "hi": 560,
         "min_n": 3
       },
       "bat": {
