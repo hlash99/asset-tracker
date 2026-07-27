@@ -1,8 +1,8 @@
 {
-  "updated": "2026-07-27T15:53:34Z",
+  "updated": "2026-07-27T17:08:21Z",
   "generated_by": "publish_trackers.py",
   "summary": {
-    "portfolio_value": 3697755,
+    "portfolio_value": 3723751,
     "n_assets": 15,
     "n_cars": 13,
     "n_watches": 2
@@ -7965,20 +7965,20 @@
       "source": "CarGurus",
       "note": "2018-2020 971.1 Panamera 4S Sport Turismo wagon, 2.9TT V6. Asking side is the CarGurus Bay Area median filtered to the $40-85k band; value leans on BaT solds ($54,222 and $61,002 in the last 180d).",
       "currency": "USD",
-      "updated": "2026-07-26",
+      "updated": "2026-07-27",
       "start": "2026-07-26",
-      "latest": 60000,
+      "latest": 73252,
       "first": 60000,
-      "n_listings": 5,
-      "range_lo": 54222,
-      "range_hi": 69995,
+      "n_listings": 243,
+      "range_lo": 53469,
+      "range_hi": 77899,
       "change": {
         "d7": null,
         "d30": null,
         "d90": null,
-        "all": 0.0
+        "all": 22.1
       },
-      "points": 1,
+      "points": 2,
       "series": [
         {
           "date": "2026-07-26",
@@ -7987,6 +7987,14 @@
           "lo": 54222,
           "hi": 69995,
           "src": "seed"
+        },
+        {
+          "date": "2026-07-27",
+          "price": 73252,
+          "n": 243,
+          "lo": 53469,
+          "hi": 77899,
+          "src": "ci"
         }
       ],
       "ci": {
@@ -8011,7 +8019,7 @@
         "lo": 30,
         "hi": 120
       },
-      "value": 60000,
+      "value": 73252,
       "value_note": "asking median (no recent sold data)",
       "make": "Porsche"
     },
@@ -8024,20 +8032,20 @@
       "source": "CarGurus",
       "note": "2019-2020 971.1 Panamera GTS Sport Turismo wagon, 4.0TT V8 with Sport Exhaust standard. Thin market - one BaT sale (no-reserve 2019 at $56,000, 5/2026) and a 2021 bid to $85,600 without selling.",
       "currency": "USD",
-      "updated": "2026-07-26",
+      "updated": "2026-07-27",
       "start": "2026-07-26",
-      "latest": 72000,
+      "latest": 84744,
       "first": 72000,
-      "n_listings": 3,
-      "range_lo": 56000,
-      "range_hi": 85600,
+      "n_listings": 318,
+      "range_lo": 73952,
+      "range_hi": 93690,
       "change": {
         "d7": null,
         "d30": null,
         "d90": null,
-        "all": 0.0
+        "all": 17.7
       },
-      "points": 1,
+      "points": 2,
       "series": [
         {
           "date": "2026-07-26",
@@ -8046,6 +8054,14 @@
           "lo": 56000,
           "hi": 85600,
           "src": "seed"
+        },
+        {
+          "date": "2026-07-27",
+          "price": 84744,
+          "n": 318,
+          "lo": 73952,
+          "hi": 93690,
+          "src": "ci"
         }
       ],
       "ci": {
@@ -8069,7 +8085,7 @@
         "lo": 30,
         "hi": 150
       },
-      "value": 72000,
+      "value": 84744,
       "value_note": "asking median (no recent sold data)",
       "make": "Porsche"
     }
