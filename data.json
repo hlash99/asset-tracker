@@ -7999,9 +7999,9 @@
       ],
       "ci": {
         "type": "cargurus",
-        "url": "https://www.cargurus.com/Cars/l-Used-Porsche-Panamera-San-Francisco-d1037_L2793",
-        "lo": 40,
-        "hi": 85,
+        "url": "https://www.cargurus.com/Cars/t-Used-Porsche-Panamera-4S-AWD-t40751",
+        "lo": 45,
+        "hi": 70,
         "min_n": 4
       },
       "bat": {
@@ -8066,9 +8066,9 @@
       ],
       "ci": {
         "type": "cargurus",
-        "url": "https://www.cargurus.com/Cars/l-Used-Porsche-Panamera-San-Francisco-d1037_L2793",
+        "url": "https://www.cargurus.com/Cars/t-Used-Porsche-Panamera-GTS-AWD-t84747",
         "lo": 55,
-        "hi": 110,
+        "hi": 85,
         "min_n": 3
       },
       "bat": {
