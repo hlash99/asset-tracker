@@ -3112,7 +3112,7 @@
       "short": "458 Italia",
       "category": "car",
       "color": "#E24B4A",
-      "source": "Cars.com + Classic.com + Hemmings",
+      "source": "CarGurus",
       "note": "Last naturally-aspirated V8 Ferrari (2010\u20132015).",
       "currency": "USD",
       "updated": "2026-07-24",
@@ -3636,9 +3636,11 @@
         }
       ],
       "ci": {
-        "url": "https://www.cars.com/shopping/results/?stock_type=used&makes[]=ferrari&models[]=ferrari-458_italia&maximum_distance=all&zip=94027",
+        "type": "cargurus",
+        "url": "https://www.cargurus.com/Cars/l-Used-Ferrari-458-d2064",
         "lo": 150,
-        "hi": 650
+        "hi": 650,
+        "min_n": 3
       },
       "bat": {
         "url": "https://bringatrailer.com/ferrari/458/",
@@ -3860,7 +3862,7 @@
       "short": "812 Superfast",
       "category": "car",
       "color": "#D7263D",
-      "source": "Cars.com",
+      "source": "CarGurus",
       "note": "6.5L NA V12 berlinetta (2017\u20132023).",
       "currency": "USD",
       "updated": "2026-07-24",
@@ -4212,9 +4214,11 @@
         }
       ],
       "ci": {
-        "url": "https://www.cars.com/shopping/results/?stock_type=used&makes[]=ferrari&models[]=ferrari-812_superfast&maximum_distance=all&zip=94027",
+        "type": "cargurus",
+        "url": "https://www.cargurus.com/Cars/l-Used-Ferrari-812-d2654",
         "lo": 250,
-        "hi": 900
+        "hi": 900,
+        "min_n": 3
       },
       "bat": {
         "url": "https://bringatrailer.com/ferrari/812-superfast/",
@@ -5979,7 +5983,7 @@
       "short": "992.1 GT3 Touring",
       "category": "car",
       "color": "#ff7f0e",
-      "source": "AutoTrader + AutoTempest",
+      "source": "CarGurus",
       "note": "Nationwide asking median for the 992.1 GT3 Touring.",
       "currency": "USD",
       "updated": "2026-07-24",
@@ -6824,9 +6828,11 @@
         }
       ],
       "ci": {
-        "url": "https://www.cars.com/shopping/results/?stock_type=used&makes[]=porsche&models[]=porsche-911&year_min=2022&year_max=2023&keyword=gt3+touring&maximum_distance=all&zip=94027",
+        "type": "cargurus",
+        "url": "https://www.cargurus.com/Cars/t-Used-Porsche-911-GT3-Coupe-RWD-t40726",
         "lo": 200,
-        "hi": 450
+        "hi": 450,
+        "min_n": 3
       },
       "bat": {
         "url": "https://bringatrailer.com/porsche/992-gt3/",
@@ -7046,7 +7052,7 @@
       "short": "V12 Vantage S 7MT",
       "category": "car",
       "color": "#0B6E4F",
-      "source": "Cars.com",
+      "source": "CarGurus",
       "note": "5.9L NA V12 with the dogleg 7-speed manual \u2014 coupe only, MY2017 (a handful of '18s). ~100 US manual coupes.",
       "currency": "USD",
       "updated": "2026-07-14",
@@ -7106,7 +7112,8 @@
         }
       ],
       "ci": {
-        "url": "https://www.cars.com/shopping/results/?stock_type=used&makes[]=aston_martin&models[]=aston_martin-v12_vantage_s&transmission_slugs[]=manual&body_style_slugs[]=coupe&year_min=2017&year_max=2018&maximum_distance=all&zip=94027",
+        "type": "cargurus",
+        "url": "https://www.cargurus.com/Cars/l-Used-Aston-Martin-V12-Vantage-d2061",
         "lo": 175,
         "hi": 600,
         "min_n": 1
@@ -7330,7 +7337,7 @@
       "short": "V12 Vantage 6MT",
       "category": "car",
       "color": "#177245",
-      "source": "Cars.com",
+      "source": "CarGurus",
       "note": "First-gen 5.9L V12 in the compact Vantage, 6-speed manual only (US MY2011\u20132012). Rarely on dealer lots \u2014 value leans on BaT sales.",
       "currency": "USD",
       "updated": "2026-07-20",
@@ -7570,7 +7577,8 @@
         "hi": 300
       },
       "ci": {
-        "url": "https://www.cars.com/shopping/results/?stock_type=used&makes[]=aston_martin&models[]=aston_martin-v12_vantage&transmission_slugs[]=manual&body_style_slugs[]=coupe&year_min=2010&year_max=2013&maximum_distance=all&zip=94027",
+        "type": "cargurus",
+        "url": "https://www.cargurus.com/Cars/l-Used-Aston-Martin-V12-Vantage-d2061",
         "lo": 60,
         "hi": 300,
         "min_n": 1
@@ -7599,7 +7607,7 @@
       "short": "991.1 GTS",
       "category": "car",
       "color": "#c77dff",
-      "source": "Cars.com",
+      "source": "CarGurus",
       "note": "Nationwide asking median for the 2015\u20132016 991.1 Carrera GTS (coupe/cab/Targa, C2 + C4).",
       "currency": "USD",
       "updated": "2026-07-26",
@@ -7635,9 +7643,11 @@
         }
       ],
       "ci": {
-        "url": "https://www.cars.com/shopping/results/?stock_type=used&makes[]=porsche&models[]=porsche-911&year_min=2015&year_max=2016&keyword=carrera+gts&maximum_distance=all&zip=94027",
+        "type": "cargurus",
+        "url": "https://www.cargurus.com/Cars/l-Used-Porsche-911-d404",
         "lo": 90,
-        "hi": 160
+        "hi": 160,
+        "min_n": 3
       },
       "value": 125889,
       "value_note": "asking median (no recent sold data)",
@@ -7762,7 +7772,7 @@
       "short": "R8 V10 Gen 1",
       "category": "car",
       "color": "#4cc9f0",
-      "source": "Cars.com",
+      "source": "CarGurus",
       "note": "2010\u20132015 R8 5.2 V10, all transmissions (gated 6MT, R-tronic, S-tronic), coupe + Spyder. BaT solds skew to manual/low-mile cars, so the sold median runs above the ask median.",
       "currency": "USD",
       "updated": "2026-07-21",
@@ -7790,9 +7800,11 @@
         }
       ],
       "ci": {
-        "url": "https://www.cars.com/shopping/results/?stock_type=used&makes[]=audi&models[]=audi-r8&year_min=2010&year_max=2015&keyword=v10&maximum_distance=all&zip=94027",
+        "type": "cargurus",
+        "url": "https://www.cargurus.com/Cars/l-Used-Audi-R8-d1019",
         "lo": 60,
-        "hi": 160
+        "hi": 160,
+        "min_n": 3
       },
       "bat": {
         "url": "https://bringatrailer.com/audi/r8/",

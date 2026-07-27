@@ -8,7 +8,7 @@ FMV are NOT touched here — those only move when the local trackers publish.
 Resilient by design: if a source blocks the runner or returns too few prices,
 that asset keeps its last-good point. Run by .github/workflows/refresh.yml.
 """
-import json, os, re, statistics, sys, urllib.request
+import json, os, re, statistics, subprocess, sys, urllib.request
 from datetime import datetime, timezone, timedelta
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -367,6 +367,22 @@ def main():
         json.dump(d, f, indent=2)
     print("\n".join(log) or "no CI-enabled assets")
     print("changed:", changed)
+
+    # Running this locally is the workaround for the two Cloudflare-blocked watch
+    # sources: chrono24 answers a residential IP fine, it only refuses the CI
+    # runner. The script itself never pushed (the workflow's commit step did), so
+    # a local run only rewrote data.json on disk. --push closes that gap.
+    if "--push" in sys.argv:
+        if subprocess.run(["git", "diff", "--quiet", "--", DATA], cwd=ROOT).returncode:
+            msg = "data: local refresh " + datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%MZ")
+            for cmd in (["git", "add", DATA], ["git", "commit", "-m", msg], ["git", "push"]):
+                r = subprocess.run(cmd, cwd=ROOT)
+                if r.returncode:
+                    print(f"push aborted at: {' '.join(cmd)}"); break
+            else:
+                print("pushed — GitHub Pages will redeploy in ~1 min")
+        else:
+            print("--push: data.json unchanged, nothing to publish")
 
     # Staleness report. Every source failure above is caught and swallowed so one
     # dead scraper can't lose the whole run — which also means the job goes green
