@@ -8,12 +8,16 @@ FMV are NOT touched here — those only move when the local trackers publish.
 Resilient by design: if a source blocks the runner or returns too few prices,
 that asset keeps its last-good point. Run by .github/workflows/refresh.yml.
 """
-import json, os, re, statistics, sys
+import json, os, re, statistics, sys, urllib.request
 from datetime import datetime, timezone, timedelta
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(ROOT, "data.json")
 PRICE_RE = re.compile(r"\$([0-9]{2,3},[0-9]{3})")
+# CarGurus embeds each listing as JSON with an integer `price`. Parsing that
+# instead of page-wide "$NN,NNN" text avoids picking up filter-dropdown values,
+# and yields ~8x more real listings per page.
+CARGURUS_PRICE_RE = re.compile(r'"price"\s*:\s*([0-9]{4,7})(?:\.0)?\b')
 TODAY = datetime.now(timezone.utc).strftime("%Y-%m-%d")
 UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
      "(KHTML, like Gecko) Chrome/126.0 Safari/537.36")
@@ -173,6 +177,21 @@ def chrono24_prices(browser, ci):
     return []
 
 
+def cargurus_prices(ci):
+    """Sorted in-window listing prices (raw dollars) from a CarGurus SEO page."""
+    req = urllib.request.Request(ci["url"], headers={
+        "User-Agent": UA, "Accept": "text/html,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.9", "Accept-Encoding": "identity"})
+    try:
+        with urllib.request.urlopen(req, timeout=45) as r:
+            html = r.read().decode("utf-8", "ignore")
+    except Exception as e:
+        print(f"  cargurus fetch failed: {e.__class__.__name__}")
+        return []
+    lo, hi = ci["lo"] * 1000, ci["hi"] * 1000
+    return sorted(v for v in (int(m) for m in CARGURUS_PRICE_RE.findall(html)) if lo <= v <= hi)
+
+
 def watch_headline(vals):
     """Headline = lowest credible ask — the local Selenium tracker's rule:
     MAD-filter outliers, then take the lowest unless it sits >8% below the
@@ -192,15 +211,35 @@ def watch_headline(vals):
 SOLD_WEIGHT = {90: 0.75, 180: 0.65, 365: 0.50}
 
 
+ASK_STALE_DAYS = 14
+
+
 def blended_value(a):
     s = a.get("sold")
+    # An asking price that stopped updating is not evidence any more. Once it is
+    # more than ASK_STALE_DAYS old, drop it out of the blend rather than quietly
+    # anchoring the headline to a number from weeks ago.
+    ask_age = None
+    if a.get("updated"):
+        try:
+            ask_age = (datetime.strptime(TODAY, "%Y-%m-%d")
+                       - datetime.strptime(a["updated"], "%Y-%m-%d")).days
+        except ValueError:
+            ask_age = None
+    stale = ask_age is not None and ask_age > ASK_STALE_DAYS
+
     if s and s.get("median"):
-        w = SOLD_WEIGHT.get(s.get("days"), 0.5)
-        a["value"] = round(w * s["median"] + (1 - w) * a["latest"])
-        a["value_note"] = f"{int(w*100)}% sold ({s['days']}d) + {int((1-w)*100)}% asking"
+        if stale:
+            a["value"] = s["median"]
+            a["value_note"] = f"BaT sold median only — asking price {ask_age}d stale"
+        else:
+            w = SOLD_WEIGHT.get(s.get("days"), 0.5)
+            a["value"] = round(w * s["median"] + (1 - w) * a["latest"])
+            a["value_note"] = f"{int(w*100)}% sold ({s['days']}d) + {int((1-w)*100)}% asking"
     else:
         a["value"] = a["latest"]
-        a["value_note"] = "asking median (no recent sold data)"
+        a["value_note"] = ("asking median (no recent sold data)" if not stale
+                           else f"asking median — {ask_age}d stale, no sold data")
 
 
 def main():
@@ -260,6 +299,20 @@ def main():
                     # perrun semantics (same as the local CSVs): headline =
                     # lowest credible ask, band = raw min/max of the sample
                     price, lo, hi = watch_headline(vals_usd), vals_usd[0], vals_usd[-1]
+                    vals = vals_usd
+                elif ci.get("type") == "cargurus":
+                    # CarGurus answers a datacenter IP with plain HTTP (cars.com and
+                    # chrono24 both return a Cloudflare interstitial), so no browser
+                    # is needed. URL shape: /Cars/l-Used-<Make>-<Model>-<City>-d<model>_L<loc>
+                    # — the _L code pins geography, otherwise the runner's IP
+                    # geolocates it to Wyoming and returns the wrong inventory.
+                    vals_usd = cargurus_prices(ci)
+                    if len(vals_usd) < ci.get("min_n", 3):
+                        log.append(f"{a['short']}: cargurus returned {len(vals_usd)} in-window prices — kept last-good ${a['latest']:,}")
+                        continue
+                    price = round(statistics.median(vals_usd))
+                    lo = vals_usd[max(0, int(0.25 * (len(vals_usd) - 1)))]
+                    hi = vals_usd[min(len(vals_usd) - 1, int(0.75 * (len(vals_usd) - 1)))]
                     vals = vals_usd
                 else:
                     page.goto(ci["url"], wait_until="domcontentloaded", timeout=60000)

@@ -7962,8 +7962,8 @@
       "short": "Panamera 4S ST",
       "category": "car",
       "color": "#f4a259",
-      "source": "Cars.com",
-      "note": "2018-2020 971.1 Panamera 4S Sport Turismo wagon, 2.9TT V6. Ask side is a seed until the Cars.com scrape is fixed; value is driven by BaT solds ($54,222 and $61,002 in the last 180d).",
+      "source": "CarGurus",
+      "note": "2018-2020 971.1 Panamera 4S Sport Turismo wagon, 2.9TT V6. Asking side is the CarGurus Bay Area median filtered to the $40-85k band; value leans on BaT solds ($54,222 and $61,002 in the last 180d).",
       "currency": "USD",
       "updated": "2026-07-26",
       "start": "2026-07-26",
@@ -7990,10 +7990,11 @@
         }
       ],
       "ci": {
-        "url": "https://www.cars.com/shopping/results/?stock_type=used&makes[]=porsche&models[]=porsche-panamera&year_min=2018&year_max=2020&keyword=4s+sport+turismo&maximum_distance=all&zip=94027",
-        "lo": 35,
-        "hi": 110,
-        "min_n": 1
+        "type": "cargurus",
+        "url": "https://www.cargurus.com/Cars/l-Used-Porsche-Panamera-San-Francisco-d1037_L2793",
+        "lo": 40,
+        "hi": 85,
+        "min_n": 4
       },
       "bat": {
         "url": "https://bringatrailer.com/porsche/panamera/",
@@ -8020,7 +8021,7 @@
       "short": "Panamera GTS ST",
       "category": "car",
       "color": "#5e60ce",
-      "source": "Cars.com",
+      "source": "CarGurus",
       "note": "2019-2020 971.1 Panamera GTS Sport Turismo wagon, 4.0TT V8 with Sport Exhaust standard. Thin market - one BaT sale (no-reserve 2019 at $56,000, 5/2026) and a 2021 bid to $85,600 without selling.",
       "currency": "USD",
       "updated": "2026-07-26",
@@ -8048,10 +8049,11 @@
         }
       ],
       "ci": {
-        "url": "https://www.cars.com/shopping/results/?stock_type=used&makes[]=porsche&models[]=porsche-panamera&year_min=2019&year_max=2020&keyword=gts+sport+turismo&maximum_distance=all&zip=94027",
-        "lo": 40,
-        "hi": 140,
-        "min_n": 1
+        "type": "cargurus",
+        "url": "https://www.cargurus.com/Cars/l-Used-Porsche-Panamera-San-Francisco-d1037_L2793",
+        "lo": 55,
+        "hi": 110,
+        "min_n": 3
       },
       "bat": {
         "url": "https://bringatrailer.com/porsche/panamera/",
