@@ -2,9 +2,9 @@
   "updated": "2026-07-27T04:56:41Z",
   "generated_by": "publish_trackers.py",
   "summary": {
-    "portfolio_value": 3565755,
-    "n_assets": 13,
-    "n_cars": 11,
+    "portfolio_value": 3697755,
+    "n_assets": 15,
+    "n_cars": 13,
     "n_watches": 2
   },
   "assets": [
@@ -7942,6 +7942,119 @@
           "tag": "Gated 6MT"
         }
       ]
+    },
+    {
+      "key": "porsche_panamera_4s_st",
+      "name": "Porsche Panamera 4S Sport Turismo (971.1)",
+      "short": "Panamera 4S ST",
+      "category": "car",
+      "color": "#f4a259",
+      "source": "Cars.com",
+      "note": "2018-2020 971.1 Panamera 4S Sport Turismo wagon, 2.9TT V6. Ask side is a seed until the Cars.com scrape is fixed; value is driven by BaT solds ($54,222 and $61,002 in the last 180d).",
+      "currency": "USD",
+      "updated": "2026-07-26",
+      "start": "2026-07-26",
+      "latest": 60000,
+      "first": 60000,
+      "n_listings": 5,
+      "range_lo": 54222,
+      "range_hi": 69995,
+      "change": {
+        "d7": null,
+        "d30": null,
+        "d90": null,
+        "all": 0.0
+      },
+      "points": 1,
+      "series": [
+        {
+          "date": "2026-07-26",
+          "price": 60000,
+          "n": 5,
+          "lo": 54222,
+          "hi": 69995,
+          "src": "seed"
+        }
+      ],
+      "ci": {
+        "url": "https://www.cars.com/shopping/results/?stock_type=used&makes[]=porsche&models[]=porsche-panamera&year_min=2018&year_max=2020&keyword=4s+sport+turismo&maximum_distance=all&zip=94027",
+        "lo": 35,
+        "hi": 110,
+        "min_n": 1
+      },
+      "bat": {
+        "url": "https://bringatrailer.com/porsche/panamera/",
+        "include": [
+          "4s",
+          "sport turismo"
+        ],
+        "exclude": [
+          "e-hybrid",
+          "turbo"
+        ],
+        "year_min": 2018,
+        "year_max": 2020,
+        "lo": 30,
+        "hi": 120
+      },
+      "value": 60000,
+      "value_note": "asking median (no recent sold data)"
+    },
+    {
+      "key": "porsche_panamera_gts_st",
+      "name": "Porsche Panamera GTS Sport Turismo (971.1)",
+      "short": "Panamera GTS ST",
+      "category": "car",
+      "color": "#5e60ce",
+      "source": "Cars.com",
+      "note": "2019-2020 971.1 Panamera GTS Sport Turismo wagon, 4.0TT V8 with Sport Exhaust standard. Thin market - one BaT sale (no-reserve 2019 at $56,000, 5/2026) and a 2021 bid to $85,600 without selling.",
+      "currency": "USD",
+      "updated": "2026-07-26",
+      "start": "2026-07-26",
+      "latest": 72000,
+      "first": 72000,
+      "n_listings": 3,
+      "range_lo": 56000,
+      "range_hi": 85600,
+      "change": {
+        "d7": null,
+        "d30": null,
+        "d90": null,
+        "all": 0.0
+      },
+      "points": 1,
+      "series": [
+        {
+          "date": "2026-07-26",
+          "price": 72000,
+          "n": 3,
+          "lo": 56000,
+          "hi": 85600,
+          "src": "seed"
+        }
+      ],
+      "ci": {
+        "url": "https://www.cars.com/shopping/results/?stock_type=used&makes[]=porsche&models[]=porsche-panamera&year_min=2019&year_max=2020&keyword=gts+sport+turismo&maximum_distance=all&zip=94027",
+        "lo": 40,
+        "hi": 140,
+        "min_n": 1
+      },
+      "bat": {
+        "url": "https://bringatrailer.com/porsche/panamera/",
+        "include": [
+          "gts",
+          "sport turismo"
+        ],
+        "exclude": [
+          "e-hybrid"
+        ],
+        "year_min": 2019,
+        "year_max": 2020,
+        "lo": 30,
+        "hi": 150
+      },
+      "value": 72000,
+      "value_note": "asking median (no recent sold data)"
     }
   ],
   "personal": {
