@@ -1,0 +1,18 @@
+name: probe-sources
+
+# Manual only. Answers "which listing sources will actually talk to a GitHub
+# runner", so the asking-price scrape can be pointed somewhere that isn't
+# behind a Cloudflare interstitial. Writes nothing.
+on:
+  workflow_dispatch: {}
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Probe candidate sources (plain HTTP)
+        run: python scripts/probe_sources.py
