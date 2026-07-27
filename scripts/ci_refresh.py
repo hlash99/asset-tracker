@@ -268,11 +268,17 @@ def main():
                     except Exception:
                         pass
                     page.wait_for_timeout(2500)
-                    vals = prices_in_window(page.content(), ci["lo"], ci["hi"])
+                    html = page.content()
+                    vals = prices_in_window(html, ci["lo"], ci["hi"])
                     # min_n: rare variants (e.g. the ~100 US manual V12 Vantage S coupes)
                     # legitimately have 1-2 national listings, so 3 would freeze them forever
                     if len(vals) < ci.get("min_n", 3):
-                        log.append(f"{a['short']}: only {len(vals)} prices — kept last-good ${a['latest']}k")
+                        # Log enough to tell a bot-block from an empty result set: a
+                        # challenge/deny page is short and has a giveaway title, while a
+                        # genuinely empty search is full-size with 0 in-window prices.
+                        log.append(f"{a['short']}: only {len(vals)} prices — kept last-good "
+                                   f"${a['latest']:,} [title={page.title()!r} html={len(html)}b "
+                                   f"any$={len(PRICE_RE.findall(html))}]")
                         continue
                     price = round(statistics.median(vals) * 1000)
                     lo = round(sorted(vals)[max(0, int(0.25 * (len(vals) - 1)))] * 1000)
@@ -308,6 +314,21 @@ def main():
         json.dump(d, f, indent=2)
     print("\n".join(log) or "no CI-enabled assets")
     print("changed:", changed)
+
+    # Staleness report. Every source failure above is caught and swallowed so one
+    # dead scraper can't lose the whole run — which also means the job goes green
+    # while assets quietly freeze. Print an explicit roll-up so that is visible.
+    stale = []
+    for a in d["assets"]:
+        if not a.get("ci"):
+            continue                      # local-tracker assets: staleness is by design
+        age = (datetime.strptime(TODAY, "%Y-%m-%d")
+               - datetime.strptime(a.get("updated", TODAY), "%Y-%m-%d")).days
+        if age >= 3:
+            stale.append(f"  {a['short']}: ask side {age}d old (last {a['updated']})")
+    if stale:
+        print(f"\n::warning::{len(stale)} CI-enabled asset(s) have a stale asking price")
+        print("\n".join(stale))
     return 0
 
 
