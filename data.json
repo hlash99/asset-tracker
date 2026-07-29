@@ -1547,7 +1547,8 @@
         "min_n": 5
       },
       "value": 62995,
-      "value_note": "asking median (no recent sold data)"
+      "value_note": "asking median (no recent sold data)",
+      "make": "Watches"
     },
     {
       "key": "patek_5326g",
@@ -3116,7 +3117,8 @@
         "min_n": 5
       },
       "value": 67000,
-      "value_note": "asking median (no recent sold data)"
+      "value_note": "asking median (no recent sold data)",
+      "make": "Watches"
     },
     {
       "key": "ferrari_458_italia",
@@ -3876,7 +3878,8 @@
           "title": "6k-Mile 2011 Ferrari 458 Italia",
           "url": "https://bringatrailer.com/listing/2011-ferrari-458-italia-51/"
         }
-      ]
+      ],
+      "make": "Ferrari"
     },
     {
       "key": "ferrari_812_superfast",
@@ -4454,7 +4457,8 @@
           "title": "2019 Ferrari 812 Superfast",
           "url": "https://bringatrailer.com/listing/2019-ferrari-812-superfast-26/"
         }
-      ]
+      ],
+      "make": "Ferrari"
     },
     {
       "key": "ferrari_812_gts",
@@ -4950,7 +4954,8 @@
           "title": "2k-Mile 2021 Ferrari 812 GTS",
           "url": "https://bringatrailer.com/listing/2021-ferrari-812-gts-22/"
         }
-      ]
+      ],
+      "make": "Ferrari"
     },
     {
       "key": "ferrari_12cilindri",
@@ -5295,7 +5300,8 @@
           "title": "2025 Ferrari 12Cilindri",
           "url": "https://bringatrailer.com/listing/2025-ferrari-12-cilindri/"
         }
-      ]
+      ],
+      "make": "Ferrari"
     },
     {
       "key": "porsche_997_turbo_s",
@@ -6030,7 +6036,8 @@
         }
       ],
       "value": 156100,
-      "value_note": "asking median (no recent sold data)"
+      "value_note": "asking median (no recent sold data)",
+      "make": "Porsche"
     },
     {
       "key": "porsche_992_gt3_touring",
@@ -7119,7 +7126,8 @@
           "title": "Carbon Steel Gray Metallic 2023 Porsche 911 GT3 Touring 6-Speed",
           "url": "https://bringatrailer.com/listing/2023-porsche-911-gt3-touring-51/"
         }
-      ]
+      ],
+      "make": "Porsche"
     },
     {
       "key": "aston_v12_vantage_s_manual",

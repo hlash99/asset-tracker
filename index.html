@@ -125,7 +125,11 @@
   .mk .cnt{font-size:11.5px;color:var(--muted);margin-top:2px}
   .mk .price{font-size:22px;font-weight:750;text-align:right;line-height:1.05;white-space:nowrap;font-variant-numeric:tabular-nums}
   .mk .members{font-size:12px;color:var(--muted);margin:9px 0 4px;line-height:1.7}
-  .mk .swatch{width:9px;height:9px;border-radius:50%;display:inline-block;margin-right:5px;vertical-align:-1px}
+  .mk .mrow{display:flex;align-items:center;gap:6px}
+  .mk .mnm{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .mk .mpx{margin-left:auto;padding-left:8px;color:var(--ink);font-weight:650;
+           white-space:nowrap;font-variant-numeric:tabular-nums}
+  .mk .swatch{width:9px;height:9px;border-radius:50%;display:inline-block;flex:0 0 auto;vertical-align:-1px}
   .mk .drill{margin-left:auto;opacity:.7}
   .mkhero .big{font-size:34px}
 </style>
@@ -351,7 +355,10 @@ function paintMakes(d,makes,sec,chip){
         <div><div class="price" title="Sum of the member models' headline values">${fmtUSD(m.value)}</div></div>
       </div>
       <div class="members">${m.list.map(a=>
-        `<span class="swatch" style="background:${a.color}"></span>${esc(a.short)}`).join('<br>')}</div>
+        `<div class="mrow"><span class="swatch" style="background:${a.color}"></span>
+           <span class="mnm">${esc(a.short)}</span>
+           <span class="mpx" title="${esc(a.value_note||'headline value')}">${fmtK(a.value??a.latest)}</span>
+         </div>`).join('')}</div>
       <div class="chips">${chip('7d',m.change.d7)}${chip('30d',m.change.d30)}${chip('90d',m.change.d90)}${chip('all',m.change.all)}</div>
       <div class="cv"><canvas id="cv-mk-${m.slug}"></canvas></div>
       <div class="meta"><span class="dot" style="background:${m.color}"></span>
@@ -359,7 +366,7 @@ function paintMakes(d,makes,sec,chip){
         <span class="drill" title="Open ${esc(m.name)}">▸ open</span></div>
     </div>`;
   }
-  html+=sec('makes','Portfolio by manufacturer — click a marque to drill in',inner+'</div>');
+  html+=sec('makes','Portfolio by group — click a block to drill in',inner+'</div>');
   return html;
 }
 
@@ -371,7 +378,7 @@ function paintMake(d,m,chip){
     list.sort((a,b)=>(pos.has(a.key)?pos.get(a.key):1e6)-(pos.has(b.key)?pos.get(b.key):1e6));}
 
   let html=`<div class="nav">
-      <button class="back">← All manufacturers</button>
+      <button class="back">← All groups</button>
       <div class="path"><b>${esc(m.name)}</b><span class="sep">›</span>${m.n} model${m.n>1?'s':''} · ${fmtUSD(m.value)} tracked</div>
     </div>
     <div class="card hero mkhero" style="--ac:${m.color}">
