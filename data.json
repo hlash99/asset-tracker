@@ -1,8 +1,8 @@
 {
-  "updated": "2026-08-03T04:51:26Z",
+  "updated": "2026-08-03T16:02:12Z",
   "generated_by": "publish_trackers.py",
   "summary": {
-    "portfolio_value": 3702831,
+    "portfolio_value": 3710417,
     "n_assets": 15,
     "n_cars": 13,
     "n_watches": 2
@@ -7816,8 +7816,8 @@
       "start": "2026-07-04",
       "latest": 155000,
       "first": 161007,
-      "n_listings": 11,
-      "range_lo": 83800,
+      "n_listings": 9,
+      "range_lo": 106999,
       "range_hi": 160000,
       "change": {
         "d7": 55.0,
@@ -7932,8 +7932,8 @@
         {
           "date": "2026-08-03",
           "price": 155000,
-          "n": 11,
-          "lo": 83800,
+          "n": 9,
+          "lo": 106999,
           "hi": 160000,
           "src": "ci"
         }
@@ -8184,16 +8184,16 @@
       "currency": "USD",
       "updated": "2026-08-03",
       "start": "2026-07-21",
-      "latest": 98819,
+      "latest": 106405,
       "first": 125445,
-      "n_listings": 7,
+      "n_listings": 8,
       "range_lo": 95980,
-      "range_hi": 126995,
+      "range_hi": 113991,
       "change": {
-        "d7": -25.0,
+        "d7": -19.3,
         "d30": null,
         "d90": null,
-        "all": -21.2
+        "all": -15.2
       },
       "points": 10,
       "series": [
@@ -8271,10 +8271,10 @@
         },
         {
           "date": "2026-08-03",
-          "price": 98819,
-          "n": 7,
+          "price": 106405,
+          "n": 8,
           "lo": 95980,
-          "hi": 126995,
+          "hi": 113991,
           "src": "ci"
         }
       ],
@@ -8285,7 +8285,7 @@
         "hi": 160,
         "min_n": 3
       },
-      "value": 98819,
+      "value": 106405,
       "value_note": "asking median (no recent sold data)",
       "make": "Porsche"
     },
@@ -8457,9 +8457,9 @@
       "start": "2026-07-21",
       "latest": 74495,
       "first": 90683,
-      "n_listings": 56,
-      "range_lo": 69999,
-      "range_hi": 88214,
+      "n_listings": 54,
+      "range_lo": 70389,
+      "range_hi": 117301,
       "change": {
         "d7": -23.2,
         "d30": null,
@@ -8535,9 +8535,9 @@
         {
           "date": "2026-08-03",
           "price": 74495,
-          "n": 56,
-          "lo": 69999,
-          "hi": 88214,
+          "n": 54,
+          "lo": 70389,
+          "hi": 117301,
           "src": "ci"
         }
       ],
