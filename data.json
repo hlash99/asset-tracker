@@ -1,8 +1,8 @@
 {
-  "updated": "2026-08-11T14:32:46Z",
+  "updated": "2026-08-12T03:32:10Z",
   "generated_by": "publish_trackers.py",
   "summary": {
-    "portfolio_value": 3834025,
+    "portfolio_value": 3771576,
     "n_assets": 15,
     "n_cars": 13,
     "n_watches": 2
@@ -3767,10 +3767,10 @@
         "hi": 650
       },
       "sold": {
-        "median": 289460,
-        "n": 6,
+        "median": 293000,
+        "n": 5,
         "days": 90,
-        "updated": "2026-08-11",
+        "updated": "2026-08-12",
         "src": "bat",
         "latest": {
           "url": "https://bringatrailer.com/listing/2010-ferrari-458-italia-41/",
@@ -4013,9 +4013,15 @@
           "price": 289460,
           "n": 6,
           "days": 90
+        },
+        {
+          "date": "2026-08-12",
+          "price": 293000,
+          "n": 5,
+          "days": 90
         }
       ],
-      "value": 310720,
+      "value": 313374,
       "value_note": "75% sold (90d) + 25% asking",
       "comps": [
         {
@@ -4442,10 +4448,10 @@
         "hi": 900
       },
       "sold": {
-        "median": 419500,
-        "n": 4,
+        "median": 426000,
+        "n": 3,
         "days": 180,
-        "updated": "2026-08-11",
+        "updated": "2026-08-12",
         "src": "bat",
         "latest": {
           "url": "https://bringatrailer.com/listing/2019-ferrari-812-superfast-30/",
@@ -4688,10 +4694,16 @@
           "price": 419500,
           "n": 4,
           "days": 180
+        },
+        {
+          "date": "2026-08-12",
+          "price": 426000,
+          "n": 3,
+          "days": 180
         }
       ],
-      "value": 419500,
-      "value_note": "BaT sold median only \u2014 asking price 15d stale",
+      "value": 426000,
+      "value_note": "BaT sold median only \u2014 asking price 16d stale",
       "comps": [
         {
           "date": "2026-06-04",
@@ -4710,12 +4722,6 @@
           "price": 426000,
           "title": "3,900-Mile 2020 Ferrari 812 Superfast",
           "url": "https://bringatrailer.com/listing/2020-ferrari-812-superfast-29/"
-        },
-        {
-          "date": "2026-03-18",
-          "price": 343500,
-          "title": "6k-Mile 2018 Ferrari 812 Superfast",
-          "url": "https://bringatrailer.com/listing/2018-ferrari-812-superfast-23/"
         }
       ]
     },
@@ -5003,7 +5009,7 @@
         "median": 790000,
         "n": 7,
         "days": 90,
-        "updated": "2026-08-11",
+        "updated": "2026-08-12",
         "src": "bat",
         "latest": {
           "url": "https://bringatrailer.com/listing/2021-ferrari-812-gts-27/",
@@ -5243,6 +5249,12 @@
         },
         {
           "date": "2026-08-11",
+          "price": 790000,
+          "n": 7,
+          "days": 90
+        },
+        {
+          "date": "2026-08-12",
           "price": 790000,
           "n": 7,
           "days": 90
@@ -5488,7 +5500,7 @@
         "median": 536000,
         "n": 1,
         "days": 365,
-        "updated": "2026-08-11",
+        "updated": "2026-08-12",
         "src": "bat",
         "latest": {
           "url": "https://bringatrailer.com/listing/2025-ferrari-12-cilindri/",
@@ -5728,6 +5740,12 @@
         },
         {
           "date": "2026-08-11",
+          "price": 536000,
+          "n": 1,
+          "days": 365
+        },
+        {
+          "date": "2026-08-12",
           "price": 536000,
           "n": 1,
           "days": 365
@@ -6504,20 +6522,20 @@
       "source": "AutoTrader + AutoTempest",
       "note": "Nationwide asking median for the 992.1 GT3 Touring.",
       "currency": "USD",
-      "updated": "2026-08-11",
+      "updated": "2026-08-12",
       "start": "2026-01-04",
-      "latest": 295731,
+      "latest": 268840,
       "first": 298400,
-      "n_listings": 40,
-      "range_lo": 250395,
-      "range_hi": 331128,
+      "n_listings": 36,
+      "range_lo": 256359,
+      "range_hi": 325677,
       "change": {
-        "d7": 5.6,
-        "d30": 1.0,
-        "d90": 10.5,
-        "all": -0.9
+        "d7": 0.6,
+        "d30": -5.8,
+        "d90": 0.5,
+        "all": -9.9
       },
-      "points": 133,
+      "points": 134,
       "series": [
         {
           "date": "2026-01-04",
@@ -7468,6 +7486,14 @@
           "lo": 250395,
           "hi": 331128,
           "src": "ci"
+        },
+        {
+          "date": "2026-08-12",
+          "price": 268840,
+          "n": 36,
+          "lo": 256359,
+          "hi": 325677,
+          "src": "ci"
         }
       ],
       "ci": {
@@ -7492,7 +7518,7 @@
         "median": 292000,
         "n": 7,
         "days": 90,
-        "updated": "2026-08-11",
+        "updated": "2026-08-12",
         "src": "bat",
         "latest": {
           "url": "https://bringatrailer.com/listing/2022-porsche-911-gt3-touring-162/",
@@ -7735,9 +7761,15 @@
           "price": 292000,
           "n": 7,
           "days": 90
+        },
+        {
+          "date": "2026-08-12",
+          "price": 292000,
+          "n": 7,
+          "days": 90
         }
       ],
-      "value": 292933,
+      "value": 286210,
       "value_note": "75% sold (90d) + 25% asking",
       "comps": [
         {
@@ -7793,20 +7825,20 @@
       "source": "CarGurus",
       "note": "5.9L NA V12 with the dogleg 7-speed manual \u2014 coupe only, MY2017 (a handful of '18s). ~100 US manual coupes.",
       "currency": "USD",
-      "updated": "2026-08-11",
+      "updated": "2026-08-12",
       "start": "2026-07-04",
-      "latest": 365000,
+      "latest": 199898,
       "first": 339995,
       "n_listings": 1,
-      "range_lo": 365000,
-      "range_hi": 365000,
+      "range_lo": 199898,
+      "range_hi": 199898,
       "change": {
-        "d7": 70.6,
-        "d30": 21.7,
+        "d7": -9.2,
+        "d30": -31.1,
         "d90": null,
-        "all": 7.4
+        "all": -41.2
       },
-      "points": 17,
+      "points": 18,
       "series": [
         {
           "date": "2026-07-04",
@@ -7943,6 +7975,14 @@
           "lo": 365000,
           "hi": 365000,
           "src": "ci"
+        },
+        {
+          "date": "2026-08-12",
+          "price": 199898,
+          "n": 1,
+          "lo": 199898,
+          "hi": 199898,
+          "src": "ci"
         }
       ],
       "ci": {
@@ -7968,7 +8008,7 @@
         "median": 244000,
         "n": 4,
         "days": 180,
-        "updated": "2026-08-11",
+        "updated": "2026-08-12",
         "src": "bat",
         "latest": {
           "url": "https://bringatrailer.com/listing/2017-aston-martin-v12-vantage-s-40/",
@@ -8211,9 +8251,15 @@
           "price": 244000,
           "n": 4,
           "days": 180
+        },
+        {
+          "date": "2026-08-12",
+          "price": 244000,
+          "n": 4,
+          "days": 180
         }
       ],
-      "value": 286350,
+      "value": 228564,
       "value_note": "65% sold (180d) + 35% asking",
       "comps": [
         {
@@ -8251,12 +8297,6 @@
           "price": 235000,
           "title": "3,900-Mile 2017 Aston Martin V12 Vantage S 7-Speed",
           "url": "https://bringatrailer.com/listing/2017-aston-martin-v12-vantage-s-33/"
-        },
-        {
-          "date": "2025-08-11",
-          "price": 207007,
-          "title": "7k-Mile 2017 Aston Martin V12 Vantage S 7-Speed",
-          "url": "https://bringatrailer.com/listing/2017-aston-martin-v12-vantage-s-30/"
         }
       ],
       "make": "Aston Martin"
@@ -8270,20 +8310,20 @@
       "source": "CarGurus",
       "note": "First-gen 5.9L V12 in the compact Vantage, 6-speed manual only (US MY2011\u20132012). Rarely on dealer lots \u2014 value leans on BaT sales.",
       "currency": "USD",
-      "updated": "2026-08-11",
+      "updated": "2026-08-12",
       "start": "2026-07-04",
-      "latest": 157000,
+      "latest": 137795,
       "first": 161007,
-      "n_listings": 8,
-      "range_lo": 139995,
-      "range_hi": 160000,
+      "n_listings": 11,
+      "range_lo": 108997,
+      "range_hi": 141072,
       "change": {
-        "d7": -2.6,
-        "d30": -2.5,
+        "d7": -14.3,
+        "d30": 45.0,
         "d90": null,
-        "all": -2.5
+        "all": -14.4
       },
-      "points": 22,
+      "points": 23,
       "series": [
         {
           "date": "2026-07-04",
@@ -8458,13 +8498,21 @@
           "lo": 139995,
           "hi": 160000,
           "src": "ci"
+        },
+        {
+          "date": "2026-08-12",
+          "price": 137795,
+          "n": 11,
+          "lo": 108997,
+          "hi": 141072,
+          "src": "ci"
         }
       ],
       "sold": {
         "median": 161007,
         "n": 1,
         "days": 365,
-        "updated": "2026-08-11",
+        "updated": "2026-08-12",
         "src": "bat",
         "latest": {
           "url": "https://bringatrailer.com/listing/2011-aston-martin-v12-vantage-16/",
@@ -8707,6 +8755,12 @@
           "price": 161007,
           "n": 1,
           "days": 365
+        },
+        {
+          "date": "2026-08-12",
+          "price": 161007,
+          "n": 1,
+          "days": 365
         }
       ],
       "bat": {
@@ -8731,7 +8785,7 @@
         "hi": 300,
         "min_n": 1
       },
-      "value": 159004,
+      "value": 149401,
       "value_note": "50% sold (365d) + 50% asking",
       "comps": [
         {
@@ -8752,20 +8806,20 @@
       "source": "CarGurus",
       "note": "Nationwide asking median for the 2015\u20132016 991.1 Carrera GTS (coupe/cab/Targa, C2 + C4).",
       "currency": "USD",
-      "updated": "2026-08-11",
+      "updated": "2026-08-12",
       "start": "2026-07-21",
-      "latest": 121800,
+      "latest": 118690,
       "first": 125445,
-      "n_listings": 14,
-      "range_lo": 99985,
-      "range_hi": 124500,
+      "n_listings": 22,
+      "range_lo": 108000,
+      "range_hi": 127286,
       "change": {
-        "d7": -15.4,
+        "d7": 2.9,
         "d30": null,
         "d90": null,
-        "all": -2.9
+        "all": -5.4
       },
-      "points": 18,
+      "points": 19,
       "series": [
         {
           "date": "2026-07-21",
@@ -8910,6 +8964,14 @@
           "lo": 99985,
           "hi": 124500,
           "src": "ci"
+        },
+        {
+          "date": "2026-08-12",
+          "price": 118690,
+          "n": 22,
+          "lo": 108000,
+          "hi": 127286,
+          "src": "ci"
         }
       ],
       "ci": {
@@ -8919,7 +8981,7 @@
         "hi": 160,
         "min_n": 3
       },
-      "value": 121800,
+      "value": 118690,
       "value_note": "asking median (no recent sold data)",
       "make": "Porsche"
     },
@@ -8971,7 +9033,7 @@
         "median": 338500,
         "n": 2,
         "days": 180,
-        "updated": "2026-08-11",
+        "updated": "2026-08-12",
         "src": "bat",
         "latest": {
           "url": "https://bringatrailer.com/listing/2019-porsche-911-gt3-touring-47/",
@@ -9112,10 +9174,16 @@
           "price": 338500,
           "n": 2,
           "days": 180
+        },
+        {
+          "date": "2026-08-12",
+          "price": 338500,
+          "n": 2,
+          "days": 180
         }
       ],
       "value": 338500,
-      "value_note": "BaT sold median only \u2014 asking price 21d stale",
+      "value_note": "BaT sold median only \u2014 asking price 22d stale",
       "comps": [
         {
           "date": "2026-08-03",
@@ -9141,20 +9209,20 @@
       "source": "CarGurus",
       "note": "2010\u20132015 R8 5.2 V10, all transmissions (gated 6MT, R-tronic, S-tronic), coupe + Spyder. BaT solds skew to manual/low-mile cars, so the sold median runs above the ask median.",
       "currency": "USD",
-      "updated": "2026-08-11",
+      "updated": "2026-08-12",
       "start": "2026-07-21",
-      "latest": 89486,
+      "latest": 98219,
       "first": 90683,
-      "n_listings": 48,
-      "range_lo": 75796,
-      "range_hi": 138900,
+      "n_listings": 34,
+      "range_lo": 75119,
+      "range_hi": 122664,
       "change": {
-        "d7": -28.4,
+        "d7": 14.4,
         "d30": null,
         "d90": null,
-        "all": -1.3
+        "all": 8.3
       },
-      "points": 17,
+      "points": 18,
       "series": [
         {
           "date": "2026-07-21",
@@ -9291,6 +9359,14 @@
           "lo": 75796,
           "hi": 138900,
           "src": "ci"
+        },
+        {
+          "date": "2026-08-12",
+          "price": 98219,
+          "n": 34,
+          "lo": 75119,
+          "hi": 122664,
+          "src": "ci"
         }
       ],
       "ci": {
@@ -9333,7 +9409,7 @@
         "median": 130500,
         "n": 10,
         "days": 90,
-        "updated": "2026-08-11",
+        "updated": "2026-08-12",
         "src": "bat",
         "latest": {
           "url": "https://bringatrailer.com/listing/2011-audi-r8-spyder-62-2-2/",
@@ -9474,9 +9550,15 @@
           "price": 130500,
           "n": 10,
           "days": 90
+        },
+        {
+          "date": "2026-08-12",
+          "price": 130500,
+          "n": 10,
+          "days": 90
         }
       ],
-      "value": 120246,
+      "value": 122430,
       "value_note": "75% sold (90d) + 25% asking",
       "comps": [
         {
@@ -9561,20 +9643,20 @@
       "source": "CarGurus",
       "note": "2018-2020 971.1 Panamera 4S Sport Turismo wagon, 2.9TT V6. Asking side is the CarGurus Bay Area median filtered to the $40-85k band; value leans on BaT solds ($54,222 and $61,002 in the last 180d).",
       "currency": "USD",
-      "updated": "2026-08-11",
+      "updated": "2026-08-12",
       "start": "2026-07-26",
-      "latest": 49540,
+      "latest": 48258,
       "first": 60000,
-      "n_listings": 13,
-      "range_lo": 47695,
-      "range_hi": 49765,
+      "n_listings": 12,
+      "range_lo": 47317,
+      "range_hi": 50946,
       "change": {
-        "d7": -2.0,
+        "d7": -5.2,
         "d30": null,
         "d90": null,
-        "all": -17.4
+        "all": -19.6
       },
-      "points": 17,
+      "points": 18,
       "series": [
         {
           "date": "2026-07-26",
@@ -9711,6 +9793,14 @@
           "lo": 47695,
           "hi": 49765,
           "src": "ci"
+        },
+        {
+          "date": "2026-08-12",
+          "price": 48258,
+          "n": 12,
+          "lo": 47317,
+          "hi": 50946,
+          "src": "ci"
         }
       ],
       "ci": {
@@ -9735,7 +9825,7 @@
         "lo": 30,
         "hi": 120
       },
-      "value": 49540,
+      "value": 48258,
       "value_note": "asking median (no recent sold data)",
       "make": "Porsche"
     },
@@ -9748,20 +9838,20 @@
       "source": "CarGurus",
       "note": "2019-2020 971.1 Panamera GTS Sport Turismo wagon, 4.0TT V8 with Sport Exhaust standard. Thin market - one BaT sale (no-reserve 2019 at $56,000, 5/2026) and a 2021 bid to $85,600 without selling.",
       "currency": "USD",
-      "updated": "2026-08-11",
+      "updated": "2026-08-12",
       "start": "2026-07-26",
-      "latest": 69900,
+      "latest": 74617,
       "first": 72000,
-      "n_listings": 31,
-      "range_lo": 66995,
-      "range_hi": 73704,
+      "n_listings": 16,
+      "range_lo": 67869,
+      "range_hi": 77033,
       "change": {
-        "d7": -1.8,
+        "d7": 5.1,
         "d30": null,
         "d90": null,
-        "all": -2.9
+        "all": 3.6
       },
-      "points": 17,
+      "points": 18,
       "series": [
         {
           "date": "2026-07-26",
@@ -9898,6 +9988,14 @@
           "lo": 66995,
           "hi": 73704,
           "src": "ci"
+        },
+        {
+          "date": "2026-08-12",
+          "price": 74617,
+          "n": 16,
+          "lo": 67869,
+          "hi": 77033,
+          "src": "ci"
         }
       ],
       "ci": {
@@ -9921,7 +10019,7 @@
         "lo": 30,
         "hi": 150
       },
-      "value": 69900,
+      "value": 74617,
       "value_note": "asking median (no recent sold data)",
       "make": "Porsche"
     }
