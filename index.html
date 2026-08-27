@@ -140,7 +140,7 @@
     <div>
       <div class="crumb"><a href="https://hlash99.github.io/">← hlash99 dashboard</a></div>
       <h1>Collector Asset Tracker</h1>
-      <p class="sub">Live median market values from my price-tracker scripts — watches, Ferraris &amp; my Porsche.</p>
+      <p class="sub">Live median market values from my price-tracker scripts &mdash; watches, modern exotics, and the collector cars from the <a href="https://hlash99.github.io/car-value-tracker/">car value tracker</a>, whose Bring a Trailer sold history feeds this page directly.</p>
     </div>
     <div class="kpis" id="kpis"></div>
   </div>
@@ -262,10 +262,19 @@ function makeList(d){
   for(const a of d.assets){const k=a.make||'Other';if(!m.has(k))m.set(k,[]);m.get(k).push(a);}
   return [...m.entries()].map(([name,list])=>{
     const cs=combinedSeries(list), cur=cs.length?cs[cs.length-1].price:0;
+    // Assets mirrored from car-value-tracker carry ONE POINT PER YEAR. On the
+    // combined date grid each holds last year's value until today and then
+    // steps, so a 7-day lookback would report a full year of movement as a
+    // week of it (Acura read "7d +50.1%"). Short windows are therefore
+    // computed from the daily-cadence assets only, and a group that has none
+    // shows an em dash rather than a fabricated number. `all` uses everything.
+    const daily=list.filter(a=>a.cadence!=="annual");
+    const ds=combinedSeries(daily), dcur=ds.length?ds[ds.length-1].price:0;
+    const win=n=>ds.length?pctOf(dcur,valueNDaysAgo(ds,n)):null;
     return {name,list,color:list[0].color,slug:slug(name),series:cs,n:list.length,
       value:list.reduce((s,a)=>s+(a.value??a.latest),0),
-      change:{d7:pctOf(cur,valueNDaysAgo(cs,7)),d30:pctOf(cur,valueNDaysAgo(cs,30)),
-              d90:pctOf(cur,valueNDaysAgo(cs,90)),all:cs.length?pctOf(cur,cs[0].price):null}};
+      change:{d7:win(7),d30:win(30),d90:win(90),
+              all:cs.length?pctOf(cur,cs[0].price):null}};
   }).sort((x,y)=>y.value-x.value);
 }
 
@@ -412,7 +421,7 @@ function paintMake(d,m,chip){
       <div class="chips">${chip('7d',ch.d7)}${chip('30d',ch.d30)}${chip('90d',ch.d90)}${chip('all',ch.all)}</div>
       <div class="cv"><canvas id="cv-${a.key}"></canvas></div>
       <div class="meta"><span class="dot" style="background:${a.color}"></span>
-        <span>${a.n_listings} listings · band ${fmtK(a.range_lo)}–${fmtK(a.range_hi)}</span>
+        <span>${a.n_listings?`${a.n_listings} ${a.n_label||'listings'} · `:''}band ${fmtK(a.range_lo)}–${fmtK(a.range_hi)}</span>
         <span>·</span><span>updated ${a.updated}</span>
         <span class="xhint" title="Expand chart${a.comps?' + individual BaT comps':''}">⤢ expand</span></div>
     </div>`;
@@ -457,7 +466,7 @@ function drawNormalized(d){
 }
 
 function buildMini(a){
-  const ds=[{label:'asking',data:a.series.map(p=>({x:toMs(p.date),y:p.price})),borderColor:a.color,
+  const ds=[{label:a.series_label||'asking',data:a.series.map(p=>({x:toMs(p.date),y:p.price})),borderColor:a.color,
       borderWidth:2,pointRadius:a.series.length<3?3:0,pointBackgroundColor:a.color,tension:.2,fill:true,
       backgroundColor:hexA(a.color,.10)}];
   if(a.sold&&a.series.length>1){
@@ -506,11 +515,11 @@ function buildDetail(el,a){
 
   const ds=[];
   if(a.series.length>1){
-    ds.push({label:'ask band',data:a.series.map(p=>({x:toMs(p.date),y:p.hi})),borderWidth:0,pointRadius:0,
+    ds.push({label:(a.series_label||'ask').replace(/ (median|sold median)$/,'')+' band',data:a.series.map(p=>({x:toMs(p.date),y:p.hi})),borderWidth:0,pointRadius:0,
       backgroundColor:hexA(a.color,.12),fill:'+1',order:5});
     ds.push({label:'_lo',data:a.series.map(p=>({x:toMs(p.date),y:p.lo})),borderWidth:0,pointRadius:0,fill:false,order:5,_skipLegend:true});
   }
-  ds.push({label:'asking median',data:a.series.map(p=>({x:toMs(p.date),y:p.price})),borderColor:a.color,
+  ds.push({label:a.series_label||'asking median',data:a.series.map(p=>({x:toMs(p.date),y:p.price})),borderColor:a.color,
     borderWidth:2.4,pointRadius:a.series.length<3?3.5:0,pointBackgroundColor:a.color,tension:.2,fill:false,order:1});
   const xs=[...a.series.map(p=>toMs(p.date)),...(a.comps||[]).map(c=>toMs(c.date))];
   if(a.sold&&xs.length>1){
