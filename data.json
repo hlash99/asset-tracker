@@ -1,8 +1,8 @@
 {
-  "updated": "2026-08-28T12:49:47Z",
+  "updated": "2026-08-28T19:03:22Z",
   "generated_by": "publish_trackers.py",
   "summary": {
-    "portfolio_value": 6780990,
+    "portfolio_value": 6766077,
     "n_assets": 25,
     "n_cars": 23,
     "n_watches": 2
@@ -18,20 +18,20 @@
       "source": "Chrono24",
       "note": "Steel/white-gold GMT with a meteorite dial \u2014 bluespeak 'BLRO' bezel.",
       "currency": "USD",
-      "updated": "2026-08-27",
+      "updated": "2026-08-28",
       "start": "2024-11-04",
-      "latest": 61000,
+      "latest": 63500,
       "first": 47993,
-      "n_listings": 26,
-      "range_lo": 61000,
-      "range_hi": 86520,
+      "n_listings": 17,
+      "range_lo": 40995,
+      "range_hi": 89970,
       "change": {
-        "d7": -0.3,
-        "d30": -3.2,
-        "d90": -2.4,
-        "all": 27.1
+        "d7": 0.0,
+        "d30": 0.8,
+        "d90": 1.6,
+        "all": 32.3
       },
-      "points": 222,
+      "points": 223,
       "series": [
         {
           "date": "2024-11-04",
@@ -1588,6 +1588,13 @@
           "n": 26,
           "lo": 61000,
           "hi": 86520
+        },
+        {
+          "date": "2026-08-28",
+          "price": 63500,
+          "n": 17,
+          "lo": 40995,
+          "hi": 89970
         }
       ],
       "ci": {
@@ -1597,7 +1604,7 @@
         "hi": 200,
         "min_n": 5
       },
-      "value": 61000,
+      "value": 63500,
       "value_note": "asking median (no recent sold data)"
     },
     {
@@ -1610,20 +1617,20 @@
       "source": "Chrono24",
       "note": "White-gold annual-calendar travel-time, fluted-style dial.",
       "currency": "USD",
-      "updated": "2026-08-25",
+      "updated": "2026-08-28",
       "start": "2024-11-04",
       "latest": 65800,
       "first": 67500,
       "n_listings": 33,
       "range_lo": 65800,
-      "range_hi": 88402,
+      "range_hi": 85305,
       "change": {
-        "d7": -0.3,
+        "d7": 0.0,
         "d30": -1.8,
         "d90": -3.2,
         "all": -2.5
       },
-      "points": 228,
+      "points": 229,
       "series": [
         {
           "date": "2024-11-04",
@@ -3222,6 +3229,13 @@
           "n": 33,
           "lo": 65800,
           "hi": 88402
+        },
+        {
+          "date": "2026-08-28",
+          "price": 65800,
+          "n": 33,
+          "lo": 65800,
+          "hi": 85305
         }
       ],
       "ci": {
@@ -3244,20 +3258,20 @@
       "source": "Cars.com + Classic.com + Hemmings",
       "note": "Last naturally-aspirated V8 Ferrari (2010\u20132015).",
       "currency": "USD",
-      "updated": "2026-08-27",
+      "updated": "2026-08-28",
       "start": "2025-12-29",
-      "latest": 378507,
+      "latest": 373010,
       "first": 239990,
       "n_listings": 24,
       "range_lo": 329900,
-      "range_hi": 399900,
+      "range_hi": 399888,
       "change": {
-        "d7": -0.7,
-        "d30": 1.7,
-        "d90": 22.1,
-        "all": 57.7
+        "d7": 0.8,
+        "d30": 0.3,
+        "d90": 4.4,
+        "all": 55.4
       },
-      "points": 90,
+      "points": 91,
       "series": [
         {
           "date": "2025-12-29",
@@ -3896,6 +3910,13 @@
           "n": 24,
           "lo": 329900,
           "hi": 399900
+        },
+        {
+          "date": "2026-08-28",
+          "price": 373010,
+          "n": 24,
+          "lo": 329900,
+          "hi": 399888
         }
       ],
       "ci": {
@@ -4267,52 +4288,8 @@
           "days": 90
         }
       ],
-      "value": 314377,
-      "value_note": "75% sold (90d) + 25% asking",
-      "comps": [
-        {
-          "date": "2026-08-19",
-          "price": 501000,
-          "title": "1,800-Mile 2015 Ferrari 458 Italia",
-          "url": "https://bringatrailer.com/listing/2015-ferrari-458-italia-18/"
-        },
-        {
-          "date": "2026-08-12",
-          "price": 290000,
-          "title": "2011 Ferrari 458 Italia",
-          "url": "https://bringatrailer.com/listing/2011-ferrari-458-italia-55/"
-        },
-        {
-          "date": "2026-08-05",
-          "price": 235786,
-          "title": "2010 Ferrari 458 Italia",
-          "url": "https://bringatrailer.com/listing/2010-ferrari-458-italia-41/"
-        },
-        {
-          "date": "2026-08-05",
-          "price": 470000,
-          "title": "1,200-Mile 2015 Ferrari 458 Italia",
-          "url": "https://bringatrailer.com/listing/2015-ferrari-458-italia-17/"
-        },
-        {
-          "date": "2026-07-28",
-          "price": 285919,
-          "title": "2010 Ferrari 458 Italia",
-          "url": "https://bringatrailer.com/listing/2010-ferrari-458-italia-40/"
-        },
-        {
-          "date": "2026-07-21",
-          "price": 450000,
-          "title": "4,300-Mile 2014 Ferrari 458 Italia",
-          "url": "https://bringatrailer.com/listing/2014-ferrari-458-italia-14/"
-        },
-        {
-          "date": "2026-06-24",
-          "price": 293000,
-          "title": "23k-Mile 2011 Ferrari 458 Italia",
-          "url": "https://bringatrailer.com/listing/2011-ferrari-458-italia-52/"
-        }
-      ]
+      "value": 313002,
+      "value_note": "75% sold (90d) + 25% asking"
     },
     {
       "key": "ferrari_812_superfast",
@@ -4324,20 +4301,20 @@
       "source": "Cars.com",
       "note": "6.5L NA V12 berlinetta (2017\u20132023).",
       "currency": "USD",
-      "updated": "2026-08-27",
+      "updated": "2026-08-28",
       "start": "2026-04-20",
-      "latest": 584985,
+      "latest": 400373,
       "first": 339995,
-      "n_listings": 46,
-      "range_lo": 529888,
-      "range_hi": 620084,
+      "n_listings": 37,
+      "range_lo": 349995,
+      "range_hi": 699900,
       "change": {
-        "d7": -1.7,
-        "d30": 39.3,
-        "d90": 58.1,
-        "all": 72.1
+        "d7": -11.0,
+        "d30": -4.7,
+        "d90": 8.2,
+        "all": 17.8
       },
-      "points": 56,
+      "points": 57,
       "series": [
         {
           "date": "2026-04-20",
@@ -4739,11 +4716,17 @@
         },
         {
           "date": "2026-08-27",
-          "price": 584985,
-          "n": 46,
-          "lo": 529888,
-          "hi": 620084,
-          "src": "ci"
+          "price": 400373,
+          "n": 36,
+          "lo": 349995,
+          "hi": 699900
+        },
+        {
+          "date": "2026-08-28",
+          "price": 400373,
+          "n": 37,
+          "lo": 349995,
+          "hi": 699900
         }
       ],
       "ci": {
@@ -5111,34 +5094,8 @@
           "days": 90
         }
       ],
-      "value": 555746,
-      "value_note": "75% sold (90d) + 25% asking",
-      "comps": [
-        {
-          "date": "2026-08-19",
-          "price": 566000,
-          "title": "2019 Ferrari 812 Superfast",
-          "url": "https://bringatrailer.com/listing/2019-ferrari-812-superfast-31/"
-        },
-        {
-          "date": "2026-08-12",
-          "price": 546000,
-          "title": "4,300-Mile 2019 Ferrari 812 Superfast",
-          "url": "https://bringatrailer.com/listing/2019-ferrari-812-superfast-32/"
-        },
-        {
-          "date": "2026-06-04",
-          "price": 443000,
-          "title": "2019 Ferrari 812 Superfast",
-          "url": "https://bringatrailer.com/listing/2019-ferrari-812-superfast-30/"
-        },
-        {
-          "date": "2026-05-12",
-          "price": 413000,
-          "title": "3,500-Mile 2019 Ferrari 812 Superfast",
-          "url": "https://bringatrailer.com/listing/2019-ferrari-812-superfast-29/"
-        }
-      ]
+      "value": 509593,
+      "value_note": "75% sold (90d) + 25% asking"
     },
     {
       "key": "ferrari_812_gts",
@@ -5150,20 +5107,20 @@
       "source": "Cars.com",
       "note": "Open-top NA V12 (2019\u20132023).",
       "currency": "USD",
-      "updated": "2026-08-27",
+      "updated": "2026-08-28",
       "start": "2026-04-20",
-      "latest": 750373,
+      "latest": 799995,
       "first": 489998,
-      "n_listings": 25,
-      "range_lo": 750373,
+      "n_listings": 17,
+      "range_lo": 799995,
       "range_hi": 899995,
       "change": {
-        "d7": -3.8,
-        "d30": -6.1,
-        "d90": 50.4,
-        "all": 53.1
+        "d7": 6.6,
+        "d30": 0.1,
+        "d90": 60.3,
+        "all": 63.3
       },
-      "points": 42,
+      "points": 43,
       "series": [
         {
           "date": "2026-04-20",
@@ -5457,6 +5414,13 @@
           "price": 750373,
           "n": 25,
           "lo": 750373,
+          "hi": 899995
+        },
+        {
+          "date": "2026-08-28",
+          "price": 799995,
+          "n": 17,
+          "lo": 799995,
           "hi": 899995
         }
       ],
@@ -5820,64 +5784,8 @@
           "days": 90
         }
       ],
-      "value": 760358,
-      "value_note": "75% sold (90d) + 25% asking",
-      "comps": [
-        {
-          "date": "2026-08-25",
-          "price": 710000,
-          "title": "2021 Ferrari 812 GTS",
-          "url": "https://bringatrailer.com/listing/2021-ferrari-812-gts-30/"
-        },
-        {
-          "date": "2026-08-13",
-          "price": 925000,
-          "title": "1,500-Mile 2022 Ferrari 812 GTS Tailor Made \u201cIspirazioni\u201d",
-          "url": "https://bringatrailer.com/listing/2022-ferrari-812-gts-38/"
-        },
-        {
-          "date": "2026-08-05",
-          "price": 904000,
-          "title": "1,500-Mile 2021 Ferrari 812 GTS",
-          "url": "https://bringatrailer.com/listing/2021-ferrari-812-gts-27/"
-        },
-        {
-          "date": "2026-07-24",
-          "price": 853000,
-          "title": "2022 Ferrari 812 GTS",
-          "url": "https://bringatrailer.com/listing/2022-ferrari-812-gts-35/"
-        },
-        {
-          "date": "2026-07-14",
-          "price": 381000,
-          "title": "2021 Ferrari 812 GTS",
-          "url": "https://bringatrailer.com/listing/2021-ferrari-812-gts-24/"
-        },
-        {
-          "date": "2026-07-07",
-          "price": 790000,
-          "title": "1,300-Mile 2021 Ferrari 812 GTS",
-          "url": "https://bringatrailer.com/listing/2021-ferrari-812-gts-26/"
-        },
-        {
-          "date": "2026-06-16",
-          "price": 717000,
-          "title": "5k-Mile 2021 Ferrari 812 GTS",
-          "url": "https://bringatrailer.com/listing/2021-ferrari-812-gts-4-2/"
-        },
-        {
-          "date": "2026-06-05",
-          "price": 737373,
-          "title": "103-Mile 2023 Ferrari 812 GTS",
-          "url": "https://bringatrailer.com/listing/2023-ferrari-812-gts-13/"
-        },
-        {
-          "date": "2026-05-15",
-          "price": 844000,
-          "title": "1,500-Mile 2021 Ferrari 812 GTS",
-          "url": "https://bringatrailer.com/listing/2021-ferrari-812-gts-23/"
-        }
-      ]
+      "value": 772763,
+      "value_note": "75% sold (90d) + 25% asking"
     },
     {
       "key": "ferrari_12cilindri",
@@ -5889,11 +5797,11 @@
       "source": "Cars.com",
       "note": "Current NA V12 GT (2024\u2013 ).",
       "currency": "USD",
-      "updated": "2026-08-27",
+      "updated": "2026-08-28",
       "start": "2026-05-29",
       "latest": 624495,
       "first": 638575,
-      "n_listings": 18,
+      "n_listings": 19,
       "range_lo": 624495,
       "range_hi": 900975,
       "change": {
@@ -5902,7 +5810,7 @@
         "d90": -2.2,
         "all": -2.2
       },
-      "points": 26,
+      "points": 27,
       "series": [
         {
           "date": "2026-05-29",
@@ -6083,6 +5991,13 @@
           "date": "2026-08-27",
           "price": 624495,
           "n": 18,
+          "lo": 624495,
+          "hi": 900975
+        },
+        {
+          "date": "2026-08-28",
+          "price": 624495,
+          "n": 19,
           "lo": 624495,
           "hi": 900975
         }
@@ -6450,15 +6365,7 @@
         }
       ],
       "value": 580248,
-      "value_note": "50% sold (365d) + 50% asking",
-      "comps": [
-        {
-          "date": "2025-12-19",
-          "price": 536000,
-          "title": "2025 Ferrari 12Cilindri",
-          "url": "https://bringatrailer.com/listing/2025-ferrari-12-cilindri/"
-        }
-      ]
+      "value_note": "50% sold (365d) + 50% asking"
     },
     {
       "key": "porsche_997_turbo_s",
@@ -6470,20 +6377,20 @@
       "source": "BaT + AutoTrader + AutoTempest",
       "note": "Nationwide asking median for the 2010\u20132012 997.2 Turbo S.",
       "currency": "USD",
-      "updated": "2026-08-27",
+      "updated": "2026-08-28",
       "start": "2025-09-28",
-      "latest": 152040,
+      "latest": 153980,
       "first": 134995,
-      "n_listings": 8,
-      "range_lo": 111389,
-      "range_hi": 156389,
+      "n_listings": 9,
+      "range_lo": 134900,
+      "range_hi": 160489,
       "change": {
-        "d7": -2.6,
-        "d30": -2.6,
-        "d90": -5.0,
-        "all": 12.6
+        "d7": -0.0,
+        "d30": -1.4,
+        "d90": -1.2,
+        "all": 14.1
       },
-      "points": 110,
+      "points": 111,
       "series": [
         {
           "date": "2025-09-28",
@@ -7254,9 +7161,16 @@
           "n": 8,
           "lo": 111389,
           "hi": 156389
+        },
+        {
+          "date": "2026-08-28",
+          "price": 153980,
+          "n": 9,
+          "lo": 134900,
+          "hi": 160489
         }
       ],
-      "value": 152040,
+      "value": 153980,
       "value_note": "asking median (no recent sold data)"
     },
     {
@@ -7271,16 +7185,16 @@
       "currency": "USD",
       "updated": "2026-08-28",
       "start": "2026-01-04",
-      "latest": 276900,
+      "latest": 339980,
       "first": 298400,
-      "n_listings": 41,
-      "range_lo": 262887,
-      "range_hi": 310327,
+      "n_listings": 9,
+      "range_lo": 314800,
+      "range_hi": 349980,
       "change": {
-        "d7": -12.0,
-        "d30": 4.3,
-        "d90": 3.1,
-        "all": -7.2
+        "d7": 8.0,
+        "d30": 28.0,
+        "d90": 26.6,
+        "all": 13.9
       },
       "points": 150,
       "series": [
@@ -8350,19 +8264,17 @@
         },
         {
           "date": "2026-08-27",
-          "price": 309990,
-          "n": 43,
-          "lo": 248800,
-          "hi": 327373,
-          "src": "ci"
+          "price": 314882,
+          "n": 8,
+          "lo": 298966,
+          "hi": 339980
         },
         {
           "date": "2026-08-28",
-          "price": 276900,
-          "n": 41,
-          "lo": 262887,
-          "hi": 310327,
-          "src": "ci"
+          "price": 339980,
+          "n": 9,
+          "lo": 314800,
+          "hi": 349980
         }
       ],
       "ci": {
@@ -8734,40 +8646,8 @@
           "days": 90
         }
       ],
-      "value": 264975,
-      "value_note": "75% sold (90d) + 25% asking",
-      "comps": [
-        {
-          "date": "2026-08-06",
-          "price": 261000,
-          "title": "2,600-Mile Nardo Gray 2022 Porsche 911 GT3 Touring",
-          "url": "https://bringatrailer.com/listing/2022-porsche-911-gt3-touring-162/"
-        },
-        {
-          "date": "2026-08-03",
-          "price": 230000,
-          "title": "2023 Porsche 911 GT3 Touring",
-          "url": "https://bringatrailer.com/listing/2023-porsche-911-gt3-touring-52/"
-        },
-        {
-          "date": "2026-07-19",
-          "price": 348000,
-          "title": "Modified 2022 Porsche 911 GT3 Touring 6-Speed",
-          "url": "https://bringatrailer.com/listing/2022-porsche-911-gt3-150/"
-        },
-        {
-          "date": "2026-07-10",
-          "price": 255000,
-          "title": "2k-Mile 2023 Porsche 911 GT3 Touring",
-          "url": "https://bringatrailer.com/listing/2023-porsche-911-gt3-touring-54/"
-        },
-        {
-          "date": "2026-06-24",
-          "price": 292000,
-          "title": "China Grey 2022 Porsche 911 GT3 Touring",
-          "url": "https://bringatrailer.com/listing/2022-porsche-911-gt3-touring-140-2/"
-        }
-      ]
+      "value": 280745,
+      "value_note": "75% sold (90d) + 25% asking"
     },
     {
       "key": "aston_v12_vantage_s_manual",
@@ -10736,7 +10616,7 @@
         }
       ],
       "value": 295000,
-      "value_note": "BaT sold median only \u2014 asking price 38d stale",
+      "value_note": "75% sold (90d) + 25% asking",
       "comps": [
         {
           "date": "2026-08-16",
@@ -13037,17 +12917,17 @@
     "currency": "USD",
     "note": "Mirrors the live 997.2 Turbo S market median (BaT + AutoTrader + AutoTempest).",
     "basis": "market asking median",
-    "updated": "2026-08-27",
+    "updated": "2026-08-28",
     "start": "2025-09-28",
-    "latest_fmv": 152040,
+    "latest_fmv": 153980,
     "first_fmv": 134995,
     "mileage": 40000,
-    "listings_n": 8,
+    "listings_n": 9,
     "change": {
-      "d7": -2.6,
-      "d30": -2.6,
-      "d90": -5.0,
-      "all": 12.6
+      "d7": -0.0,
+      "d30": -1.4,
+      "d90": -1.2,
+      "all": 14.1
     },
     "series": [
       {
@@ -13819,8 +13699,14 @@
         "p25": 111389,
         "p75": 156389,
         "n": 8
+      },
+      {
+        "date": "2026-08-28",
+        "fmv": 153980,
+        "p25": 134900,
+        "p75": 160489,
+        "n": 9
       }
     ]
-  },
-  "cvt_sync": "Ferrari F12 Berlinetta: 7pts, $490,000 | Acura NSX (NA2 manual): 10pts, $153,000 | Ferrari 360 (gated manual): 9pts, $182,100 | Audi R8 gen1 V10 (gated): 8pts, $141,000 | Corvette split-window (1963): 10pts, $173,000 | Volvo P1800 (1800 family): 12pts, $25,200 | Alfa Romeo GTV 1750/2000: 12pts, $45,500 | Porsche Singer 911: 3pts, $1,275,000 | Ferrari 328 GTS/GTB: 11pts, $124,400 | Ferrari Dino 246 GT/GTS: 8pts, $406,500"
+  }
 }
