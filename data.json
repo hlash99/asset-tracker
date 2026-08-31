@@ -1,8 +1,8 @@
 {
-  "updated": "2026-08-31T07:04:25Z",
+  "updated": "2026-08-31T19:32:38Z",
   "generated_by": "publish_trackers.py",
   "summary": {
-    "portfolio_value": 6858343,
+    "portfolio_value": 6887052,
     "n_assets": 25,
     "n_cars": 23,
     "n_watches": 2
@@ -7423,16 +7423,16 @@
       "currency": "USD",
       "updated": "2026-08-31",
       "start": "2026-01-04",
-      "latest": 282000,
+      "latest": 279998,
       "first": 298400,
-      "n_listings": 41,
-      "range_lo": 248800,
-      "range_hi": 323375,
+      "n_listings": 34,
+      "range_lo": 247900,
+      "range_hi": 322803,
       "change": {
-        "d7": 4.0,
-        "d30": 0.8,
-        "d90": 1.5,
-        "all": -5.5
+        "d7": 3.3,
+        "d30": 0.0,
+        "d90": 0.8,
+        "all": -6.2
       },
       "points": 153,
       "series": [
@@ -8533,10 +8533,10 @@
         },
         {
           "date": "2026-08-31",
-          "price": 282000,
-          "n": 41,
-          "lo": 248800,
-          "hi": 323375,
+          "price": 279998,
+          "n": 34,
+          "lo": 247900,
+          "hi": 322803,
           "src": "ci"
         }
       ],
@@ -8927,7 +8927,7 @@
           "days": 90
         }
       ],
-      "value": 266250,
+      "value": 265750,
       "value_note": "75% sold (90d) + 25% asking",
       "comps": [
         {
@@ -8973,16 +8973,16 @@
       "currency": "USD",
       "updated": "2026-08-31",
       "start": "2026-07-04",
-      "latest": 208177,
+      "latest": 242448,
       "first": 339995,
-      "n_listings": 3,
-      "range_lo": 195000,
-      "range_hi": 208177,
+      "n_listings": 8,
+      "range_lo": 192800,
+      "range_hi": 269800,
       "change": {
-        "d7": -3.1,
-        "d30": 15.8,
+        "d7": 12.9,
+        "d30": 34.8,
         "d90": null,
-        "all": -38.8
+        "all": -28.7
       },
       "points": 27,
       "series": [
@@ -9196,10 +9196,10 @@
         },
         {
           "date": "2026-08-31",
-          "price": 208177,
-          "n": 3,
-          "lo": 195000,
-          "hi": 208177,
+          "price": 242448,
+          "n": 8,
+          "lo": 192800,
+          "hi": 269800,
           "src": "ci"
         }
       ],
@@ -9591,7 +9591,7 @@
           "days": 90
         }
       ],
-      "value": 241044,
+      "value": 249612,
       "value_note": "75% sold (90d) + 25% asking",
       "comps": [
         {
@@ -9650,16 +9650,16 @@
       "currency": "USD",
       "updated": "2026-08-31",
       "start": "2026-07-04",
-      "latest": 118813,
+      "latest": 151998,
       "first": 161007,
-      "n_listings": 16,
-      "range_lo": 83107,
-      "range_hi": 144995,
+      "n_listings": 25,
+      "range_lo": 130900,
+      "range_hi": 192800,
       "change": {
-        "d7": -19.8,
-        "d30": 1.7,
+        "d7": 2.6,
+        "d30": 30.1,
         "d90": null,
-        "all": -26.2
+        "all": -5.6
       },
       "points": 42,
       "series": [
@@ -9991,10 +9991,10 @@
         },
         {
           "date": "2026-08-31",
-          "price": 118813,
-          "n": 16,
-          "lo": 83107,
-          "hi": 144995,
+          "price": 151998,
+          "n": 25,
+          "lo": 130900,
+          "hi": 192800,
           "src": "ci"
         }
       ],
@@ -10389,7 +10389,7 @@
         "hi": 300,
         "min_n": 1
       },
-      "value": 139910,
+      "value": 156502,
       "value_note": "50% sold (365d) + 50% asking",
       "comps": [
         {
@@ -10412,16 +10412,16 @@
       "currency": "USD",
       "updated": "2026-08-31",
       "start": "2026-07-21",
-      "latest": 127613,
+      "latest": 133798,
       "first": 125445,
-      "n_listings": 21,
-      "range_lo": 109991,
-      "range_hi": 129521,
+      "n_listings": 31,
+      "range_lo": 104998,
+      "range_hi": 145775,
       "change": {
-        "d7": 14.9,
-        "d30": 13.0,
+        "d7": 20.5,
+        "d30": 18.5,
         "d90": null,
-        "all": 1.7
+        "all": 6.7
       },
       "points": 38,
       "series": [
@@ -10723,10 +10723,10 @@
         },
         {
           "date": "2026-08-31",
-          "price": 127613,
-          "n": 21,
-          "lo": 109991,
-          "hi": 129521,
+          "price": 133798,
+          "n": 31,
+          "lo": 104998,
+          "hi": 145775,
           "src": "ci"
         }
       ],
@@ -10737,7 +10737,7 @@
         "hi": 160,
         "min_n": 3
       },
-      "value": 127613,
+      "value": 133798,
       "value_note": "asking median (no recent sold data)",
       "make": "Porsche"
     },
@@ -10786,16 +10786,16 @@
         "hi": 500
       },
       "sold": {
-        "median": 295000,
-        "n": 3,
+        "median": 307500,
+        "n": 4,
         "days": 90,
         "updated": "2026-08-31",
         "src": "bat",
         "latest": {
-          "url": "https://bringatrailer.com/listing/2019-porsche-911-gt3-touring-49/",
-          "title": "12k-Mile 2019 Porsche 911 GT3 Touring 6-Speed",
-          "price": 270000,
-          "date": "2026-08-16"
+          "url": "https://bringatrailer.com/listing/2019-porsche-911-gt3-touring-51/",
+          "title": "3,700-Mile 2019 Porsche 911 GT3 Touring 6-Speed",
+          "price": 320000,
+          "date": "2026-08-30"
         }
       },
       "sold_series": [
@@ -11047,14 +11047,20 @@
         },
         {
           "date": "2026-08-31",
-          "price": 295000,
-          "n": 3,
+          "price": 307500,
+          "n": 4,
           "days": 90
         }
       ],
-      "value": 295000,
+      "value": 307500,
       "value_note": "BaT sold median only \u2014 asking price 41d stale",
       "comps": [
+        {
+          "date": "2026-08-30",
+          "price": 320000,
+          "title": "3,700-Mile 2019 Porsche 911 GT3 Touring 6-Speed",
+          "url": "https://bringatrailer.com/listing/2019-porsche-911-gt3-touring-51/"
+        },
         {
           "date": "2026-08-16",
           "price": 270000,
@@ -11087,16 +11093,16 @@
       "currency": "USD",
       "updated": "2026-08-31",
       "start": "2026-07-21",
-      "latest": 97872,
+      "latest": 99900,
       "first": 90683,
-      "n_listings": 42,
-      "range_lo": 80000,
+      "n_listings": 57,
+      "range_lo": 79999,
       "range_hi": 140120,
       "change": {
-        "d7": -19.3,
-        "d30": 10.8,
+        "d7": -17.6,
+        "d30": 13.1,
         "d90": null,
-        "all": 7.9
+        "all": 10.2
       },
       "points": 37,
       "series": [
@@ -11390,9 +11396,9 @@
         },
         {
           "date": "2026-08-31",
-          "price": 97872,
-          "n": 42,
-          "lo": 80000,
+          "price": 99900,
+          "n": 57,
+          "lo": 79999,
           "hi": 140120,
           "src": "ci"
         }
@@ -11434,8 +11440,8 @@
         ]
       },
       "sold": {
-        "median": 116000,
-        "n": 11,
+        "median": 102500,
+        "n": 10,
         "days": 90,
         "updated": "2026-08-31",
         "src": "bat",
@@ -11695,12 +11701,12 @@
         },
         {
           "date": "2026-08-31",
-          "price": 116000,
-          "n": 11,
+          "price": 102500,
+          "n": 10,
           "days": 90
         }
       ],
-      "value": 111468,
+      "value": 101850,
       "value_note": "75% sold (90d) + 25% asking",
       "comps": [
         {
@@ -11772,13 +11778,6 @@
           "title": "39k-Mile 2012 Audi R8 V10 Spyder",
           "url": "https://bringatrailer.com/listing/2012-audi-r8-spyder-29/",
           "tag": "R-tronic"
-        },
-        {
-          "date": "2026-07-07",
-          "price": 141000,
-          "title": "28k-Mile 2012 Audi R8 V10 Coupe 6-Speed",
-          "url": "https://bringatrailer.com/listing/2012-audi-r8-118/",
-          "tag": "Gated 6MT"
         }
       ],
       "make": "Audi"
@@ -11794,16 +11793,16 @@
       "currency": "USD",
       "updated": "2026-08-31",
       "start": "2026-07-26",
-      "latest": 56798,
+      "latest": 50996,
       "first": 60000,
-      "n_listings": 20,
-      "range_lo": 47274,
-      "range_hi": 60789,
+      "n_listings": 25,
+      "range_lo": 46919,
+      "range_hi": 57176,
       "change": {
-        "d7": 18.5,
-        "d30": 13.9,
+        "d7": 6.4,
+        "d30": 2.2,
         "d90": null,
-        "all": -5.3
+        "all": -15.0
       },
       "points": 37,
       "series": [
@@ -12097,10 +12096,10 @@
         },
         {
           "date": "2026-08-31",
-          "price": 56798,
-          "n": 20,
-          "lo": 47274,
-          "hi": 60789,
+          "price": 50996,
+          "n": 25,
+          "lo": 46919,
+          "hi": 57176,
           "src": "ci"
         }
       ],
@@ -12126,7 +12125,7 @@
         "lo": 30,
         "hi": 120
       },
-      "value": 56798,
+      "value": 50996,
       "value_note": "asking median (no recent sold data)",
       "make": "Porsche"
     },
@@ -12141,16 +12140,16 @@
       "currency": "USD",
       "updated": "2026-08-31",
       "start": "2026-07-26",
-      "latest": 71201,
+      "latest": 71985,
       "first": 72000,
-      "n_listings": 23,
-      "range_lo": 64995,
-      "range_hi": 74900,
+      "n_listings": 41,
+      "range_lo": 67940,
+      "range_hi": 75998,
       "change": {
-        "d7": 1.0,
-        "d30": -6.9,
+        "d7": 2.1,
+        "d30": -5.9,
         "d90": null,
-        "all": -1.1
+        "all": -0.0
       },
       "points": 37,
       "series": [
@@ -12444,10 +12443,10 @@
         },
         {
           "date": "2026-08-31",
-          "price": 71201,
-          "n": 23,
-          "lo": 64995,
-          "hi": 74900,
+          "price": 71985,
+          "n": 41,
+          "lo": 67940,
+          "hi": 75998,
           "src": "ci"
         }
       ],
@@ -12472,7 +12471,7 @@
         "lo": 30,
         "hi": 150
       },
-      "value": 71201,
+      "value": 71985,
       "value_note": "asking median (no recent sold data)",
       "make": "Porsche"
     },
