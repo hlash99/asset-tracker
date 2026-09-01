@@ -1,8 +1,8 @@
 {
-  "updated": "2026-09-01T06:16:58Z",
+  "updated": "2026-09-01T17:21:03Z",
   "generated_by": "publish_trackers.py",
   "summary": {
-    "portfolio_value": 6905076,
+    "portfolio_value": 6870706,
     "n_assets": 25,
     "n_cars": 23,
     "n_watches": 2
@@ -7447,16 +7447,16 @@
       "currency": "USD",
       "updated": "2026-09-01",
       "start": "2026-01-04",
-      "latest": 263994,
+      "latest": 253165,
       "first": 298400,
       "n_listings": 39,
-      "range_lo": 252241,
-      "range_hi": 280222,
+      "range_lo": 239995,
+      "range_hi": 300522,
       "change": {
-        "d7": -16.1,
-        "d30": -4.7,
-        "d90": -7.0,
-        "all": -11.5
+        "d7": -19.6,
+        "d30": -8.6,
+        "d90": -10.8,
+        "all": -15.2
       },
       "points": 154,
       "series": [
@@ -8565,10 +8565,10 @@
         },
         {
           "date": "2026-09-01",
-          "price": 263994,
+          "price": 253165,
           "n": 39,
-          "lo": 252241,
-          "hi": 280222,
+          "lo": 239995,
+          "hi": 300522,
           "src": "ci"
         }
       ],
@@ -8965,7 +8965,7 @@
           "days": 90
         }
       ],
-      "value": 261748,
+      "value": 259041,
       "value_note": "75% sold (90d) + 25% asking",
       "comps": [
         {
@@ -9011,16 +9011,16 @@
       "currency": "USD",
       "updated": "2026-09-01",
       "start": "2026-07-04",
-      "latest": 310995,
+      "latest": 269177,
       "first": 339995,
-      "n_listings": 1,
-      "range_lo": 310995,
-      "range_hi": 310995,
+      "n_listings": 3,
+      "range_lo": 179800,
+      "range_hi": 269177,
       "change": {
-        "d7": 44.8,
-        "d30": 45.3,
+        "d7": 25.3,
+        "d30": 25.8,
         "d90": null,
-        "all": -8.5
+        "all": -20.8
       },
       "points": 28,
       "series": [
@@ -9242,10 +9242,10 @@
         },
         {
           "date": "2026-09-01",
-          "price": 310995,
-          "n": 1,
-          "lo": 310995,
-          "hi": 310995,
+          "price": 269177,
+          "n": 3,
+          "lo": 179800,
+          "hi": 269177,
           "src": "ci"
         }
       ],
@@ -9643,7 +9643,7 @@
           "days": 90
         }
       ],
-      "value": 266749,
+      "value": 256294,
       "value_note": "75% sold (90d) + 25% asking",
       "comps": [
         {
@@ -9702,16 +9702,16 @@
       "currency": "USD",
       "updated": "2026-09-01",
       "start": "2026-07-04",
-      "latest": 131556,
+      "latest": 104442,
       "first": 161007,
-      "n_listings": 10,
-      "range_lo": 89950,
-      "range_hi": 151190,
+      "n_listings": 18,
+      "range_lo": 82997,
+      "range_hi": 132023,
       "change": {
-        "d7": 81.7,
-        "d30": 19.3,
+        "d7": 44.3,
+        "d30": -5.3,
         "d90": null,
-        "all": -18.3
+        "all": -35.1
       },
       "points": 43,
       "series": [
@@ -10051,10 +10051,10 @@
         },
         {
           "date": "2026-09-01",
-          "price": 131556,
-          "n": 10,
-          "lo": 89950,
-          "hi": 151190,
+          "price": 104442,
+          "n": 18,
+          "lo": 82997,
+          "hi": 132023,
           "src": "ci"
         }
       ],
@@ -10455,7 +10455,7 @@
         "hi": 300,
         "min_n": 1
       },
-      "value": 146282,
+      "value": 132724,
       "value_note": "50% sold (365d) + 50% asking",
       "comps": [
         {
@@ -10478,16 +10478,16 @@
       "currency": "USD",
       "updated": "2026-09-01",
       "start": "2026-07-21",
-      "latest": 136889,
+      "latest": 119990,
       "first": 125445,
-      "n_listings": 23,
-      "range_lo": 120815,
-      "range_hi": 144884,
+      "n_listings": 26,
+      "range_lo": 109991,
+      "range_hi": 141497,
       "change": {
-        "d7": 14.6,
-        "d30": 14.0,
+        "d7": 0.4,
+        "d30": -0.1,
         "d90": null,
-        "all": 9.1
+        "all": -4.3
       },
       "points": 39,
       "series": [
@@ -10797,10 +10797,10 @@
         },
         {
           "date": "2026-09-01",
-          "price": 136889,
-          "n": 23,
-          "lo": 120815,
-          "hi": 144884,
+          "price": 119990,
+          "n": 26,
+          "lo": 109991,
+          "hi": 141497,
           "src": "ci"
         }
       ],
@@ -10811,7 +10811,7 @@
         "hi": 160,
         "min_n": 3
       },
-      "value": 136889,
+      "value": 119990,
       "value_note": "asking median (no recent sold data)",
       "make": "Porsche"
     },
@@ -11173,16 +11173,16 @@
       "currency": "USD",
       "updated": "2026-09-01",
       "start": "2026-07-21",
-      "latest": 107599,
+      "latest": 110497,
       "first": 90683,
-      "n_listings": 32,
-      "range_lo": 80478,
+      "n_listings": 40,
+      "range_lo": 80000,
       "range_hi": 140120,
       "change": {
-        "d7": 7.8,
-        "d30": 8.6,
+        "d7": 10.7,
+        "d30": 11.5,
         "d90": null,
-        "all": 18.7
+        "all": 21.8
       },
       "points": 38,
       "series": [
@@ -11484,9 +11484,9 @@
         },
         {
           "date": "2026-09-01",
-          "price": 107599,
-          "n": 32,
-          "lo": 80478,
+          "price": 110497,
+          "n": 40,
+          "lo": 80000,
           "hi": 140120,
           "src": "ci"
         }
@@ -11800,7 +11800,7 @@
           "days": 90
         }
       ],
-      "value": 103775,
+      "value": 104499,
       "value_note": "75% sold (90d) + 25% asking",
       "comps": [
         {
@@ -11887,16 +11887,16 @@
       "currency": "USD",
       "updated": "2026-09-01",
       "start": "2026-07-26",
-      "latest": 48500,
+      "latest": 56798,
       "first": 60000,
-      "n_listings": 17,
-      "range_lo": 47173,
-      "range_hi": 52173,
+      "n_listings": 24,
+      "range_lo": 47582,
+      "range_hi": 60995,
       "change": {
-        "d7": -2.5,
-        "d30": -5.3,
+        "d7": 14.2,
+        "d30": 10.9,
         "d90": null,
-        "all": -19.2
+        "all": -5.3
       },
       "points": 38,
       "series": [
@@ -12198,10 +12198,10 @@
         },
         {
           "date": "2026-09-01",
-          "price": 48500,
-          "n": 17,
-          "lo": 47173,
-          "hi": 52173,
+          "price": 56798,
+          "n": 24,
+          "lo": 47582,
+          "hi": 60995,
           "src": "ci"
         }
       ],
@@ -12227,7 +12227,7 @@
         "lo": 30,
         "hi": 120
       },
-      "value": 48500,
+      "value": 56798,
       "value_note": "asking median (no recent sold data)",
       "make": "Porsche"
     },
@@ -12242,16 +12242,16 @@
       "currency": "USD",
       "updated": "2026-09-01",
       "start": "2026-07-26",
-      "latest": 70974,
+      "latest": 71201,
       "first": 72000,
-      "n_listings": 17,
-      "range_lo": 65979,
-      "range_hi": 81173,
+      "n_listings": 25,
+      "range_lo": 64995,
+      "range_hi": 74588,
       "change": {
-        "d7": 0.7,
-        "d30": -8.7,
+        "d7": 1.1,
+        "d30": -8.4,
         "d90": null,
-        "all": -1.4
+        "all": -1.1
       },
       "points": 38,
       "series": [
@@ -12553,10 +12553,10 @@
         },
         {
           "date": "2026-09-01",
-          "price": 70974,
-          "n": 17,
-          "lo": 65979,
-          "hi": 81173,
+          "price": 71201,
+          "n": 25,
+          "lo": 64995,
+          "hi": 74588,
           "src": "ci"
         }
       ],
@@ -12581,7 +12581,7 @@
         "lo": 30,
         "hi": 150
       },
-      "value": 70974,
+      "value": 71201,
       "value_note": "asking median (no recent sold data)",
       "make": "Porsche"
     },
