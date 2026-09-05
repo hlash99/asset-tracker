@@ -39,9 +39,11 @@ SKIP = {
     "Ferrari 812 GTS",                # -> ferrari_812_gts
 }
 
+# Every mirrored car must match one of these or it lands in the "Other" block,
+# which this dashboard deliberately no longer has — add the marque when adding a car.
 MAKES = [("Acura", "Acura"), ("Ferrari", "Ferrari"), ("Audi", "Audi"),
          ("Porsche", "Porsche"), ("Volvo", "Volvo"), ("Alfa Romeo", "Alfa Romeo"),
-         ("Corvette", "Chevrolet")]
+         ("Corvette", "Chevrolet"), ("Lotus", "Lotus")]
 
 # Short card labels; anything unlisted falls back to the full name.
 SHORT = {
@@ -55,6 +57,7 @@ SHORT = {
     "Ferrari 328 GTS/GTB": "328 GTS/GTB",
     "Ferrari Dino 246 GT/GTS": "Dino 246",
     "Ferrari F12 Berlinetta": "F12 Berlinetta",
+    "Lotus Evora GT (2020-21)": "Evora GT",
 }
 
 NOTE_EXTRA = {
