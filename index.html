@@ -331,6 +331,15 @@ function paint(){
   }
 }
 
+// The mirrored collector cars carry BaT SOLD medians, not asking prices — five
+// groups (Acura, Chevrolet, Volvo, Alfa Romeo, Lotus) are entirely sold-based,
+// and Ferrari/Porsche/Audi mix the two. A hardcoded "asking" caption mislabels
+// all of them, so the caption follows the members' own series_label.
+function srcLabel(m){
+  const set=new Set(m.list.map(a=>a.series_label||'asking median'));
+  if(set.size>1)return 'combined sold + asking history';
+  return set.has('BaT sold median')?'combined BaT sold history':'combined asking history';
+}
 function paintMakes(d,makes,sec,chip){
   let html='';
   // ── personal hero ──
@@ -371,7 +380,7 @@ function paintMakes(d,makes,sec,chip){
       <div class="chips">${chip('7d',m.change.d7)}${chip('30d',m.change.d30)}${chip('90d',m.change.d90)}${chip('all',m.change.all)}</div>
       <div class="cv"><canvas id="cv-mk-${m.slug}"></canvas></div>
       <div class="meta"><span class="dot" style="background:${m.color}"></span>
-        <span>combined asking history</span>
+        <span>${srcLabel(m)}</span>
         <span class="drill" title="Open ${esc(m.name)}">▸ open</span></div>
     </div>`;
   }
