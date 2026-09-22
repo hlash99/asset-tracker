@@ -59,6 +59,7 @@ SHORT = {
     "Ferrari F12 Berlinetta": "F12 Berlinetta",
     "Lotus Evora GT (2020-21)": "Evora GT",
     "Lotus Emira V6 (2024-25)": "Emira V6",
+    "Ferrari 550 Maranello": "550 Maranello",
 }
 
 NOTE_EXTRA = {

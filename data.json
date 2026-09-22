@@ -2,9 +2,9 @@
   "updated": "2026-09-22T06:17:53Z",
   "generated_by": "publish_trackers.py",
   "summary": {
-    "portfolio_value": 6920891,
-    "n_assets": 27,
-    "n_cars": 25,
+    "portfolio_value": 7138891,
+    "n_assets": 28,
+    "n_cars": 26,
     "n_watches": 2
   },
   "assets": [
@@ -16460,6 +16460,102 @@
       "value_note": "asking median (no recent sold data)",
       "cadence": "annual",
       "mirrored_from": "car-value-tracker"
+    },
+    {
+      "key": "ferrari_550_maranello",
+      "name": "Ferrari 550 Maranello",
+      "short": "550 Maranello",
+      "category": "car",
+      "make": "Ferrari",
+      "color": "#7A8490",
+      "source": "Bring a Trailer sold comps (via car-value-tracker)",
+      "note": "1996-2001 front-engined V12 coupe, gated six-speed - every one a manual.",
+      "currency": "USD",
+      "updated": "2026-09-22",
+      "start": "2018-12-31",
+      "latest": 218000,
+      "first": 130000,
+      "n_listings": 129,
+      "range_lo": 94200,
+      "range_hi": 305000,
+      "change": {
+        "d7": null,
+        "d30": null,
+        "d90": null,
+        "all": 67.7
+      },
+      "points": 9,
+      "series": [
+        {
+          "date": "2018-12-31",
+          "price": 130000,
+          "n": 7,
+          "lo": 120500,
+          "hi": 131100
+        },
+        {
+          "date": "2019-12-31",
+          "price": 107000,
+          "n": 5,
+          "lo": 94200,
+          "hi": 110500
+        },
+        {
+          "date": "2020-12-31",
+          "price": 115000,
+          "n": 11,
+          "lo": 103000,
+          "hi": 154000
+        },
+        {
+          "date": "2021-12-31",
+          "price": 165500,
+          "n": 6,
+          "lo": 145000,
+          "hi": 177600
+        },
+        {
+          "date": "2022-12-31",
+          "price": 167500,
+          "n": 16,
+          "lo": 150000,
+          "hi": 190600
+        },
+        {
+          "date": "2023-12-31",
+          "price": 194300,
+          "n": 18,
+          "lo": 140000,
+          "hi": 240000
+        },
+        {
+          "date": "2024-12-31",
+          "price": 205000,
+          "n": 22,
+          "lo": 155000,
+          "hi": 260000
+        },
+        {
+          "date": "2025-12-31",
+          "price": 168800,
+          "n": 22,
+          "lo": 157000,
+          "hi": 195000
+        },
+        {
+          "date": "2026-09-22",
+          "price": 218000,
+          "n": 21,
+          "lo": 177000,
+          "hi": 305000
+        }
+      ],
+      "series_label": "BaT sold median",
+      "n_label": "sold comps",
+      "value": 218000,
+      "value_note": "Median of this year's BaT sold prints",
+      "cadence": "annual",
+      "mirrored_from": "car-value-tracker"
     }
   ],
   "personal": {
@@ -17289,5 +17385,5 @@
       }
     ]
   },
-  "cvt_sync": "Ferrari F12 Berlinetta: 7pts, $448,000 | Acura NSX (NA2 manual): 10pts, $153,000 | Ferrari 360 (gated manual): 9pts, $182,100 | Audi R8 gen1 V10 (gated): 8pts, $141,000 | Corvette split-window (1963): 10pts, $175,000 | Volvo P1800 (1800 family): 12pts, $25,800 | Alfa Romeo GTV 1750/2000: 12pts, $45,500 | Porsche Singer 911: 3pts, $1,275,000 | Ferrari 328 GTS/GTB: 11pts, $122,400 | Ferrari Dino 246 GT/GTS: 8pts, $406,500 | Lotus Evora GT (2020-21): 5pts, $88,000 | Lotus Emira V6 (2024-25): 3pts, $84,200"
+  "cvt_sync": "Ferrari F12 Berlinetta: 7pts, $448,000 | Acura NSX (NA2 manual): 10pts, $153,000 | Ferrari 360 (gated manual): 9pts, $182,100 | Audi R8 gen1 V10 (gated): 8pts, $141,000 | Corvette split-window (1963): 10pts, $175,000 | Volvo P1800 (1800 family): 12pts, $25,800 | Alfa Romeo GTV 1750/2000: 12pts, $45,500 | Porsche Singer 911: 3pts, $1,275,000 | Ferrari 328 GTS/GTB: 11pts, $122,400 | Ferrari Dino 246 GT/GTS: 8pts, $406,500 | Lotus Evora GT (2020-21): 5pts, $88,000 | Lotus Emira V6 (2024-25): 3pts, $84,200 | Ferrari 550 Maranello: 9pts, $218,000"
 }
