@@ -70,6 +70,10 @@
   .ac .soldlink{color:var(--accent);text-decoration:none}
   .ac .soldlink:hover{text-decoration:underline}
   .ac .note{font-size:12.5px;color:var(--muted);margin:8px 0 6px}
+  /* Production count, scoped to the card's spec; hover for basis, click for source. */
+  .ac .prod{font-size:11.5px;margin:-2px 0 6px}
+  .ac .prod a{color:var(--ink);opacity:.75;text-decoration:none;border-bottom:1px dotted var(--muted)}
+  .ac .prod a:hover{opacity:1}
   .chips{display:flex;gap:6px;flex-wrap:wrap;margin:2px 0 10px}
   .chip{font-size:11.5px;border:1px solid var(--line);background:var(--surface2);border-radius:20px;padding:2px 9px;
     display:inline-flex;gap:5px;align-items:center}
@@ -427,6 +431,7 @@ function paintMake(d,m,chip){
           a.sold.latest&&a.sold.latest.url?` · <a class="soldlink" href="${esc(a.sold.latest.url)}" target="_blank" rel="noopener" title="Latest comp: ${esc(a.sold.latest.title)} — sold ${fmtUSD(a.sold.latest.price)} on ${a.sold.latest.date}">latest ↗</a>`:''}</div>`:''}</div>
       </div>
       <div class="note">${esc(a.note)}</div>
+      ${a.production?`<div class="prod"><a href="${esc(a.production.url)}" target="_blank" rel="noopener" title="${esc(a.production.detail+' Source: '+a.production.src+'.')}">${esc(a.production.label)}</a></div>`:''}
       <div class="chips">${chip('7d',ch.d7)}${chip('30d',ch.d30)}${chip('90d',ch.d90)}${chip('all',ch.all)}</div>
       <div class="cv"><canvas id="cv-${a.key}"></canvas></div>
       <div class="meta"><span class="dot" style="background:${a.color}"></span>

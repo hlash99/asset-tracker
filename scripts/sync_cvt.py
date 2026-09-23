@@ -153,6 +153,12 @@ def upsert(d, name, car, years):
         "cadence": "annual",
         "mirrored_from": "car-value-tracker",
     })
+    # How many were made, scoped to car-value-tracker's spec for the car. Mirrored
+    # verbatim - popped when upstream drops it, so a retracted figure cannot linger.
+    if car.get("production"):
+        a["production"] = car["production"]
+    else:
+        a.pop("production", None)
     if key not in by_key:
         d["assets"].append(a)
     return key, len(series), latest

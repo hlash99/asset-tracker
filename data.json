@@ -11296,7 +11296,13 @@
           "url": "https://bringatrailer.com/listing/2017-aston-martin-v12-vantage-s-33/"
         }
       ],
-      "make": "Aston Martin"
+      "make": "Aston Martin",
+      "production": {
+        "label": "100 for the US",
+        "detail": "Aston Martin built 100 numbered US cars with the 7-speed dogleg manual, each with a sill plaque. The AMHT registrar puts worldwide 7-speed V12 Vantage S production at 146.",
+        "src": "Aston Martin via ABC7; AMHT registrar",
+        "url": "https://abc7.com/post/aston-martin-releases-limited-edition-2017-v12-vantage-s/1525499/"
+      }
     },
     {
       "key": "aston_v12_vantage_6mt",
@@ -12372,7 +12378,13 @@
           "url": "https://bringatrailer.com/listing/2011-aston-martin-v12-vantage-16/"
         }
       ],
-      "make": "Aston Martin"
+      "make": "Aston Martin",
+      "production": {
+        "label": "1,199 built \u00b7 207 US",
+        "detail": "First-generation V12 Vantage coupes, 2009-2013, all six-speed manual; 207 went to the US. Roadster, S and AMR excluded.",
+        "src": "AMHT registrar, Aston Martin Quarterly (Spring 2020)",
+        "url": "https://aston1936.com/2021/02/02/aston-martin-v12-vantage-production-numbers-a-geeks-guide/"
+      }
     },
     {
       "key": "porsche_991_1_gts",
@@ -15578,7 +15590,13 @@
       "value": 153000,
       "value_note": "asking median (no recent sold data)",
       "mirrored_from": "car-value-tracker",
-      "cadence": "annual"
+      "cadence": "annual",
+      "production": {
+        "label": "~1,400 sold new (N. Am.)",
+        "detail": "North American new-car sales 1997-2001: 1,359 US + 38 Canada. All transmissions, so automatic NSX-Ts are included. Honda never published a manual-only or NA2 build count.",
+        "src": "Wikipedia - Honda NSX",
+        "url": "https://en.wikipedia.org/wiki/Honda_NSX_(first_generation)"
+      }
     },
     {
       "key": "ferrari_360_gated_manual",
@@ -15674,7 +15692,13 @@
       "value": 182100,
       "value_note": "asking median (no recent sold data)",
       "mirrored_from": "car-value-tracker",
-      "cadence": "annual"
+      "cadence": "annual",
+      "production": {
+        "label": "1,139 US manuals",
+        "detail": "US-market gated six-speeds: 469 Modena + 670 Spider, out of 4,199 US cars and 16,365 worldwide (Challenge Stradale excluded). No worldwide manual count is published.",
+        "src": "Sports Car Market, Mar 2013 (via Wikipedia)",
+        "url": "https://en.wikipedia.org/wiki/Ferrari_360"
+      }
     },
     {
       "key": "audi_r8_gen1_v10_gated",
@@ -15866,7 +15890,13 @@
       "value": 175000,
       "value_note": "asking median (no recent sold data)",
       "mirrored_from": "car-value-tracker",
-      "cadence": "annual"
+      "cadence": "annual",
+      "production": {
+        "label": "10,594 built",
+        "detail": "1963 split-window coupes, body numbers 00001-10594. The 10,919 convertibles that made up the rest of the 21,513 total are excluded, as in the price data.",
+        "src": "Corvette Action Center",
+        "url": "https://www.corvetteactioncenter.com/c2-corvette-news/ebay-the-very-last-1963-corvette-split-window-coupe-built-is-for-sale/"
+      }
     },
     {
       "key": "volvo_p1800_1800_family",
@@ -15983,7 +16013,13 @@
       "value": 25800,
       "value_note": "asking median (no recent sold data)",
       "mirrored_from": "car-value-tracker",
-      "cadence": "annual"
+      "cadence": "annual",
+      "production": {
+        "label": "~47,500 built",
+        "detail": "39,407 coupes (P1800 / 1800S / 1800E) + 8,077 1800ES, 1961-1973. The quoted total of 47,492 is 8 more than those parts sum to.",
+        "src": "Wikipedia - Volvo P1800",
+        "url": "https://en.wikipedia.org/wiki/Volvo_P1800"
+      }
     },
     {
       "key": "alfa_romeo_gtv_1750_2000",
@@ -16100,7 +16136,13 @@
       "value": 45500,
       "value_note": "asking median (no recent sold data)",
       "mirrored_from": "car-value-tracker",
-      "cadence": "annual"
+      "cadence": "annual",
+      "production": {
+        "label": "81,728 built",
+        "detail": "44,269 1750 GTV (1967-72) + 37,459 2000 GTV (1971-76), all markets.",
+        "src": "Wikipedia, citing carsfromitaly.net",
+        "url": "https://en.wikipedia.org/wiki/Alfa_Romeo_105/115_Series_Coup%C3%A9s"
+      }
     },
     {
       "key": "porsche_singer_911",
@@ -16154,7 +16196,13 @@
       "value": 1275000,
       "value_note": "asking median (no recent sold data)",
       "mirrored_from": "car-value-tracker",
-      "cadence": "annual"
+      "cadence": "annual",
+      "production": {
+        "label": "300+ built, ongoing",
+        "detail": "Singer completed its 300th reimagined 911 in February 2024 and is still building. No later total has been published.",
+        "src": "Singer Vehicle Design",
+        "url": "https://singervehicledesign.com/press/singer-celebrates-300th-restoration-in-california/"
+      }
     },
     {
       "key": "ferrari_328_gts_gtb",
@@ -16264,7 +16312,13 @@
       "value": 122400,
       "value_note": "asking median (no recent sold data)",
       "mirrored_from": "car-value-tracker",
-      "cadence": "annual"
+      "cadence": "annual",
+      "production": {
+        "label": "7,412 built",
+        "detail": "6,068 GTS + 1,344 GTB, 1985-1989.",
+        "src": "Wikipedia - Ferrari 328",
+        "url": "https://en.wikipedia.org/wiki/Ferrari_328"
+      }
     },
     {
       "key": "ferrari_dino_246_gt_gts",
@@ -16353,7 +16407,13 @@
       "value": 406500,
       "value_note": "asking median (no recent sold data)",
       "mirrored_from": "car-value-tracker",
-      "cadence": "annual"
+      "cadence": "annual",
+      "production": {
+        "label": "3,569 built",
+        "detail": "2,295 GT (357 L + 507 M + 1,431 E series) + 1,274 GTS, 1969-1974. The 3,761 sometimes quoted does not reconcile with the per-series counts.",
+        "src": "Wikipedia, citing QV500",
+        "url": "https://en.wikipedia.org/wiki/Dino_206_GT_and_246_GT"
+      }
     },
     {
       "key": "lotus_evora_gt_2020_21",
@@ -16421,7 +16481,13 @@
       "value": 88000,
       "value_note": "asking median (no recent sold data)",
       "cadence": "annual",
-      "mirrored_from": "car-value-tracker"
+      "mirrored_from": "car-value-tracker",
+      "production": {
+        "label": "722 to the US",
+        "detail": "374 MY2020 + 348 MY2021 US cars, 535 of them manual. Owner-reported from Lotus Certificates of Provenance, not an official Lotus release.",
+        "src": "LotusTalk owner thread",
+        "url": "https://www.lotustalk.com/threads/my-certificate-of-provenance-arrives-and-2021-evora-total-build-counts.486380/"
+      }
     },
     {
       "key": "lotus_emira_v6_2024_25",
@@ -16571,7 +16637,13 @@
       "value": 218000,
       "value_note": "asking median (no recent sold data)",
       "cadence": "annual",
-      "mirrored_from": "car-value-tracker"
+      "mirrored_from": "car-value-tracker",
+      "production": {
+        "label": "3,083 built",
+        "detail": "550 Maranello coupes, 1996-2001. The 448 Barchettas are counted separately and excluded here, as in the price data.",
+        "src": "Wikipedia - Ferrari 550",
+        "url": "https://en.wikipedia.org/wiki/Ferrari_550"
+      }
     }
   ],
   "personal": {
