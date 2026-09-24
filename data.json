@@ -4860,10 +4860,14 @@
         }
       ],
       "production": {
-        "label": "~11,856 built",
-        "detail": "458 Italia coupes, 2009-2015; Spider and Speciale are separate. An earlier count by the same register, quoted by Forza, was 9,944. Ferrari does not publish model totals; this is a count of chassis numbers.",
-        "src": "f-register.com production list (Matthias Urban)",
-        "url": "https://f-register.com/About-the-Cars/Production-Numbers"
+        "last_my": 2015,
+        "world": {
+          "label": "~11,856 built",
+          "detail": "458 Italia coupes, 2009-2015; Spider and Speciale are separate. An earlier count by the same register, quoted by Forza, was 9,944. Ferrari does not publish model totals; this is a count of chassis numbers. Ferrari North America has never published US numbers by model, and NHTSA recall filings give only multi-model totals.",
+          "src": "f-register.com production list (Matthias Urban)",
+          "url": "https://f-register.com/About-the-Cars/Production-Numbers"
+        },
+        "na": null
       }
     },
     {
@@ -6032,10 +6036,14 @@
         }
       ],
       "production": {
-        "label": "~5,124 built",
-        "detail": "812 Superfast, 2017-2023; the Competizione (999 official) and Competizione A (599 official) are separate. Ferrari does not publish model totals; this is a count of chassis numbers.",
-        "src": "f-register.com production list (Matthias Urban)",
-        "url": "https://f-register.com/About-the-Cars/Production-Numbers"
+        "last_my": 2023,
+        "world": {
+          "label": "~5,124 built",
+          "detail": "812 Superfast, 2017-2023; the Competizione (999 official) and Competizione A (599 official) are separate. Ferrari does not publish model totals; this is a count of chassis numbers. Ferrari North America has never published US numbers by model, and NHTSA recall filings give only multi-model totals.",
+          "src": "f-register.com production list (Matthias Urban)",
+          "url": "https://f-register.com/About-the-Cars/Production-Numbers"
+        },
+        "na": null
       }
     },
     {
@@ -6991,10 +6999,14 @@
         }
       ],
       "production": {
-        "label": "~5,348 built",
-        "detail": "812 GTS, 2019-2022. Ferrari does not publish model totals; this is a count of chassis numbers.",
-        "src": "f-register.com production list (Matthias Urban)",
-        "url": "https://f-register.com/About-the-Cars/Production-Numbers"
+        "last_my": 2023,
+        "world": {
+          "label": "~5,348 built",
+          "detail": "812 GTS, 2019-2022. Ferrari does not publish model totals; this is a count of chassis numbers. Ferrari North America has never published US numbers by model, and NHTSA recall filings give only multi-model totals.",
+          "src": "f-register.com production list (Matthias Urban)",
+          "url": "https://f-register.com/About-the-Cars/Production-Numbers"
+        },
+        "na": null
       }
     },
     {
@@ -8609,10 +8621,14 @@
       "value": 140045,
       "value_note": "asking median (no recent sold data)",
       "production": {
-        "label": "5,150 built",
-        "detail": "3,095 coupes + 2,055 cabriolets, MY2011-2013, worldwide. There was no 997.1 Turbo S. The '2,000' sometimes quoted was a launch-era figure that the factory-archive count does not support.",
-        "src": "Marc Bongers, Porsche Serienfahrzeuge (ex-Porsche archive); Streather",
-        "url": "https://rennlist.com/forums/997-turbo-forum/848248-so-when-do-the-997-turbo-s-begin-to-appreciate-2.html"
+        "last_my": 2013,
+        "world": {
+          "label": "3,095 coupes",
+          "detail": "997.2 Turbo S coupes, MY2011-2013, worldwide. No North American coupe split survives: PCNA data put the North American total at 2,333 Turbo S of both bodies, and 222 of the MY2013 coupes. There was no 997.1 Turbo S; the '2,000' sometimes quoted was a launch-era figure the factory-archive count does not support.",
+          "src": "Marc Bongers, Porsche Serienfahrzeuge (ex-Porsche archive); Streather",
+          "url": "https://rennlist.com/forums/997-turbo-forum/848248-so-when-do-the-997-turbo-s-begin-to-appreciate-2.html"
+        },
+        "na": null
       }
     },
     {
@@ -10497,10 +10513,14 @@
         }
       ],
       "production": {
-        "label": "~1,731 to the US",
-        "detail": "992.1 GT3 Touring, MY22-24 US (913 / 461 / 357 by year), of 5,328 US 992.1 GT3s and 15,667 worldwide. Unofficial figures whose origin the poster did not disclose (Rennlist / 911supercars, Oct 2024); no worldwide Touring split is known.",
-        "src": "911supercars.com, unofficial",
-        "url": "https://911supercars.com/en/unofficial-porsche-gt3-9921-production-numbers/"
+        "last_my": 2024,
+        "world": null,
+        "na": {
+          "label": "~1,731 to the US",
+          "detail": "992.1 GT3 Touring, MY22-24 US (913 / 461 / 357 by year), of 5,328 US 992.1 GT3s and 15,667 worldwide. Unofficial figures whose origin the poster did not disclose (Rennlist / 911supercars, Oct 2024); no worldwide Touring split is known.",
+          "src": "911supercars.com, unofficial",
+          "url": "https://911supercars.com/en/unofficial-porsche-gt3-9921-production-numbers/"
+        }
       }
     },
     {
@@ -11466,10 +11486,19 @@
       ],
       "make": "Aston Martin",
       "production": {
-        "label": "100 for the US",
-        "detail": "Aston Martin built 100 numbered US cars with the 7-speed dogleg manual, each with a sill plaque. The AMHT registrar puts worldwide 7-speed V12 Vantage S production at 146.",
-        "src": "Aston Martin via ABC7; AMHT registrar",
-        "url": "https://abc7.com/post/aston-martin-releases-limited-edition-2017-v12-vantage-s/1525499/"
+        "last_my": 2017,
+        "world": {
+          "label": "146 built",
+          "detail": "V12 Vantage S with the 7-speed dogleg manual, worldwide, per the Aston Martin Heritage Trust registrar.",
+          "src": "AMHT registrar",
+          "url": "https://abc7.com/post/aston-martin-releases-limited-edition-2017-v12-vantage-s/1525499/"
+        },
+        "na": {
+          "label": "100 for the US",
+          "detail": "Aston Martin built 100 numbered US cars with the 7-speed dogleg manual, each with a sill plaque. The AMHT registrar puts worldwide 7-speed V12 Vantage S production at 146.",
+          "src": "Aston Martin via ABC7; AMHT registrar",
+          "url": "https://abc7.com/post/aston-martin-releases-limited-edition-2017-v12-vantage-s/1525499/"
+        }
       }
     },
     {
@@ -12576,10 +12605,19 @@
       ],
       "make": "Aston Martin",
       "production": {
-        "label": "1,199 built \u00b7 207 US",
-        "detail": "First-generation V12 Vantage coupes, 2009-2013, all six-speed manual; 207 went to the US. Roadster, S and AMR excluded.",
-        "src": "AMHT registrar, Aston Martin Quarterly (Spring 2020)",
-        "url": "https://aston1936.com/2021/02/02/aston-martin-v12-vantage-production-numbers-a-geeks-guide/"
+        "last_my": 2013,
+        "world": {
+          "label": "1,199 built",
+          "detail": "First-generation V12 Vantage coupes worldwide, 2009-2013, all six-speed manual; Roadster, S and AMR excluded.",
+          "src": "AMHT registrar, Aston Martin Quarterly (Spring 2020)",
+          "url": "https://aston1936.com/2021/02/02/aston-martin-v12-vantage-production-numbers-a-geeks-guide/"
+        },
+        "na": {
+          "label": "207 to the US",
+          "detail": "US-market first-generation V12 Vantage coupes, all six-speed manual.",
+          "src": "AMHT registrar, Aston Martin Quarterly (Spring 2020)",
+          "url": "https://aston1936.com/2021/02/02/aston-martin-v12-vantage-production-numbers-a-geeks-guide/"
+        }
       }
     },
     {
@@ -13599,10 +13637,14 @@
       ],
       "make": "Porsche",
       "production": {
-        "label": "713 to the US",
-        "detail": "991.2 GT3 Touring, MY2018-19, all six-speed manual; 33 more went to Canada (746 North America) out of 3,176 North American 991.2 GT3s. Member-compiled production chart, data as of Nov 2019 - Porsche publishes no Touring split.",
-        "src": "Rennlist member production chart",
-        "url": "https://rennlist.com/forums/991-gt3-gt3rs-gt2rs-and-911r/1504136-991-2-gt3-touring-production-numbers.html"
+        "last_my": 2019,
+        "world": null,
+        "na": {
+          "label": "746 N. Am.",
+          "detail": "991.2 GT3 Touring, MY2018-19, all six-speed manual: 713 US + 33 Canada, out of 3,176 North American 991.2 GT3s. Member-compiled production chart, data as of Nov 2019 - Porsche publishes no Touring split.",
+          "src": "Rennlist member production chart",
+          "url": "https://rennlist.com/forums/991-gt3-gt3rs-gt2rs-and-911r/1504136-991-2-gt3-touring-production-numbers.html"
+        }
       }
     },
     {
@@ -14627,10 +14669,14 @@
       ],
       "make": "Audi",
       "production": {
-        "label": "~3,080 to the US",
-        "detail": "Every US first-gen R8 V10, MY2009-2015, all gearboxes and bodies: 1,070 six-speed (743 coupes incl. V10 plus, 327 Spyders) + 2,008 R-tronic/S-tronic (incl. 165 GT, 163 V10 plus, 57 Competition, 16 Carbon) = 3,078. Compiled from Audi of America data by R. N. Labas.",
-        "src": "R. N. Labas R8 V10 register (Audi of America data)",
-        "url": "https://www.r8talk.com/threads/production-numbers-for-us-manual-transmission-v8s-v10s.129153/"
+        "last_my": 2015,
+        "world": null,
+        "na": {
+          "label": "~3,080 to the US",
+          "detail": "Every US first-gen R8 V10, MY2009-2015, all gearboxes and bodies: 1,070 six-speed (743 coupes incl. V10 plus, 327 Spyders) + 2,008 R-tronic/S-tronic (incl. 165 GT, 163 V10 plus, 57 Competition, 16 Carbon) = 3,078. Compiled from Audi of America data by R. N. Labas.",
+          "src": "R. N. Labas R8 V10 register (Audi of America data)",
+          "url": "https://www.r8talk.com/threads/production-numbers-for-us-manual-transmission-v8s-v10s.129153/"
+        }
       }
     },
     {
@@ -15792,10 +15838,14 @@
       "mirrored_from": "car-value-tracker",
       "cadence": "annual",
       "production": {
-        "label": "~4,802 built",
-        "detail": "F12berlinetta, 2012-2017; the 799 F12tdf are separate. Ferrari does not publish model totals; this is a count of chassis numbers.",
-        "src": "f-register.com production list (Matthias Urban)",
-        "url": "https://f-register.com/About-the-Cars/Production-Numbers"
+        "last_my": 2017,
+        "world": {
+          "label": "~4,802 built",
+          "detail": "F12berlinetta, 2012-2017; the 799 F12tdf are separate. Ferrari does not publish model totals; this is a count of chassis numbers. Ferrari North America has never published US numbers by model, and NHTSA recall filings give only multi-model totals.",
+          "src": "f-register.com production list (Matthias Urban)",
+          "url": "https://f-register.com/About-the-Cars/Production-Numbers"
+        },
+        "na": null
       }
     },
     {
@@ -15901,10 +15951,14 @@
       "mirrored_from": "car-value-tracker",
       "cadence": "annual",
       "production": {
-        "label": "~1,400 sold new (N. Am.)",
-        "detail": "North American new-car sales 1997-2001: 1,359 US + 38 Canada. All transmissions, so automatic NSX-Ts are included. Honda never published a manual-only or NA2 build count.",
-        "src": "Wikipedia - Honda NSX",
-        "url": "https://en.wikipedia.org/wiki/Honda_NSX_(first_generation)"
+        "last_my": 2001,
+        "world": null,
+        "na": {
+          "label": "1,173 US manuals",
+          "detail": "US-market NA2 six-speeds, 1997-2001 (309 / 230 / 215 incl. 51 Zanardi / 263 / 156 by year); 81 automatics on top, 1,254 in all. No worldwide NA2 or manual split is published - Honda's only worldwide figure is 18,734 NSXs of every kind, 1990-2005.",
+          "src": "Ben Lin's US production data (NSX Prime chart)",
+          "url": "https://www.nsxprime.com/threads/revised-nsx-production-charts-na1-91-96-na2-97-01-facelift-02-05.218479/"
+        }
       }
     },
     {
@@ -16003,10 +16057,14 @@
       "mirrored_from": "car-value-tracker",
       "cadence": "annual",
       "production": {
-        "label": "1,139 US manuals",
-        "detail": "US-market gated six-speeds: 469 Modena + 670 Spider, out of 4,199 US cars and 16,365 worldwide (Challenge Stradale excluded). No worldwide manual count is published. The f-register chassis list counts 2,115 manual Spiders worldwide (of 7,565) but has no manual split for coupes.",
-        "src": "Sports Car Market, Mar 2013 (via Wikipedia)",
-        "url": "https://en.wikipedia.org/wiki/Ferrari_360"
+        "last_my": 2005,
+        "world": null,
+        "na": {
+          "label": "1,139 US manuals",
+          "detail": "US-market gated six-speeds: 469 Modena + 670 Spider, out of 4,199 US cars and 16,365 worldwide (Challenge Stradale excluded). No worldwide manual count is published. The f-register chassis list counts 2,115 manual Spiders worldwide (of 7,565) but has no manual split for coupes.",
+          "src": "Sports Car Market, Mar 2013 (via Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Ferrari_360"
+        }
       }
     },
     {
@@ -16098,10 +16156,14 @@
       "mirrored_from": "car-value-tracker",
       "cadence": "annual",
       "production": {
-        "label": "~743 to the US",
-        "detail": "US gated six-speed V10 coupes: 717 V10 (12 MY09, 208 MY10, 199 MY11, 212 MY12, 51 MY14, 35 MY15) + 26 V10 plus. Compiled from Audi of America data by R. N. Labas, who notes about 10 cars may sit in the wrong year. No worldwide manual count exists; Audi built just over 26,000 first-gen R8s of every kind.",
-        "src": "R. N. Labas R8 V10 register (Audi of America data)",
-        "url": "https://www.r8talk.com/threads/production-numbers-for-us-manual-transmission-v8s-v10s.129153/"
+        "last_my": 2015,
+        "world": null,
+        "na": {
+          "label": "~743 to the US",
+          "detail": "US gated six-speed V10 coupes: 717 V10 (12 MY09, 208 MY10, 199 MY11, 212 MY12, 51 MY14, 35 MY15) + 26 V10 plus. Compiled from Audi of America data by R. N. Labas, who notes about 10 cars may sit in the wrong year. No worldwide manual count exists; Audi built just over 26,000 first-gen R8s of every kind.",
+          "src": "R. N. Labas R8 V10 register (Audi of America data)",
+          "url": "https://www.r8talk.com/threads/production-numbers-for-us-manual-transmission-v8s-v10s.129153/"
+        }
       }
     },
     {
@@ -16207,10 +16269,14 @@
       "mirrored_from": "car-value-tracker",
       "cadence": "annual",
       "production": {
-        "label": "10,594 built",
-        "detail": "1963 split-window coupes, body numbers 00001-10594. The 10,919 convertibles that made up the rest of the 21,513 total are excluded, as in the price data.",
-        "src": "Corvette Action Center",
-        "url": "https://www.corvetteactioncenter.com/c2-corvette-news/ebay-the-very-last-1963-corvette-split-window-coupe-built-is-for-sale/"
+        "last_my": 1963,
+        "world": {
+          "label": "10,594 built",
+          "detail": "1963 split-window coupes, body numbers 00001-10594. The 10,919 convertibles that made up the rest of the 21,513 total are excluded, as in the price data.",
+          "src": "Corvette Action Center",
+          "url": "https://www.corvetteactioncenter.com/c2-corvette-news/ebay-the-very-last-1963-corvette-split-window-coupe-built-is-for-sale/"
+        },
+        "na": null
       }
     },
     {
@@ -16330,10 +16396,14 @@
       "mirrored_from": "car-value-tracker",
       "cadence": "annual",
       "production": {
-        "label": "~47,500 built",
-        "detail": "39,407 coupes (P1800 / 1800S / 1800E) + 8,077 1800ES, 1961-1973. The quoted total of 47,492 is 8 more than those parts sum to.",
-        "src": "Wikipedia - Volvo P1800",
-        "url": "https://en.wikipedia.org/wiki/Volvo_P1800"
+        "last_my": 1973,
+        "world": {
+          "label": "~47,500 built",
+          "detail": "39,407 coupes (P1800 / 1800S / 1800E) + 8,077 1800ES, 1961-1973. The quoted total of 47,492 is 8 more than those parts sum to.",
+          "src": "Wikipedia - Volvo P1800",
+          "url": "https://en.wikipedia.org/wiki/Volvo_P1800"
+        },
+        "na": null
       }
     },
     {
@@ -16453,10 +16523,14 @@
       "mirrored_from": "car-value-tracker",
       "cadence": "annual",
       "production": {
-        "label": "81,728 built",
-        "detail": "44,269 1750 GTV (1967-72) + 37,459 2000 GTV (1971-76), all markets.",
-        "src": "Wikipedia, citing carsfromitaly.net",
-        "url": "https://en.wikipedia.org/wiki/Alfa_Romeo_105/115_Series_Coup%C3%A9s"
+        "last_my": 1976,
+        "world": {
+          "label": "81,728 built",
+          "detail": "44,269 1750 GTV (1967-72) + 37,459 2000 GTV (1971-76), all markets.",
+          "src": "Wikipedia, citing carsfromitaly.net",
+          "url": "https://en.wikipedia.org/wiki/Alfa_Romeo_105/115_Series_Coup%C3%A9s"
+        },
+        "na": null
       }
     },
     {
@@ -16513,10 +16587,14 @@
       "mirrored_from": "car-value-tracker",
       "cadence": "annual",
       "production": {
-        "label": "300+ built, ongoing",
-        "detail": "Singer completed its 300th reimagined 911 in February 2024 and is still building. No later total has been published.",
-        "src": "Singer Vehicle Design",
-        "url": "https://singervehicledesign.com/press/singer-celebrates-300th-restoration-in-california/"
+        "last_my": 1994,
+        "world": {
+          "label": "300+ built, ongoing",
+          "detail": "Singer completed its 300th reimagined 911 in February 2024 and is still building. No later total has been published. Every Singer is built on a 1989-94 964 and titled by that year, so all are past the 25-year line.",
+          "src": "Singer Vehicle Design",
+          "url": "https://singervehicledesign.com/press/singer-celebrates-300th-restoration-in-california/"
+        },
+        "na": null
       }
     },
     {
@@ -16629,10 +16707,14 @@
       "mirrored_from": "car-value-tracker",
       "cadence": "annual",
       "production": {
-        "label": "7,412 built",
-        "detail": "6,068 GTS + 1,344 GTB, 1985-1989. One chassis register puts the GTS lower (3,067-4,979); 6,068 is the figure 308-328.com and most references use.",
-        "src": "Wikipedia - Ferrari 328",
-        "url": "https://en.wikipedia.org/wiki/Ferrari_328"
+        "last_my": 1989,
+        "world": {
+          "label": "7,412 built",
+          "detail": "6,068 GTS + 1,344 GTB, 1985-1989. One chassis register puts the GTS lower (3,067-4,979); 6,068 is the figure 308-328.com and most references use.",
+          "src": "Wikipedia - Ferrari 328",
+          "url": "https://en.wikipedia.org/wiki/Ferrari_328"
+        },
+        "na": null
       }
     },
     {
@@ -16724,10 +16806,14 @@
       "mirrored_from": "car-value-tracker",
       "cadence": "annual",
       "production": {
-        "label": "3,761 built",
-        "detail": "2,487 GT (357 L + 506 M + 1,624 E series) + 1,274 GTS, 1969-1974. The f-register chassis list and Bonhams catalogue notes agree on 1,624 E-series GTs; the 3,569 on Wikipedia counts only 1,431.",
-        "src": "f-register.com; Bonhams",
-        "url": "https://f-register.com/About-the-Cars/Production-Numbers"
+        "last_my": 1974,
+        "world": {
+          "label": "3,761 built",
+          "detail": "2,487 GT (357 L + 506 M + 1,624 E series) + 1,274 GTS, 1969-1974. The f-register chassis list and Bonhams catalogue notes agree on 1,624 E-series GTs; the 3,569 on Wikipedia counts only 1,431.",
+          "src": "f-register.com; Bonhams",
+          "url": "https://f-register.com/About-the-Cars/Production-Numbers"
+        },
+        "na": null
       }
     },
     {
@@ -16798,10 +16884,14 @@
       "cadence": "annual",
       "mirrored_from": "car-value-tracker",
       "production": {
-        "label": "722 to the US",
-        "detail": "374 MY2020 + 348 MY2021 US cars, 535 of them manual. Owner-reported from Lotus Certificates of Provenance, not an official Lotus release.",
-        "src": "LotusTalk owner thread",
-        "url": "https://www.lotustalk.com/threads/my-certificate-of-provenance-arrives-and-2021-evora-total-build-counts.486380/"
+        "last_my": 2021,
+        "world": null,
+        "na": {
+          "label": "722 to the US",
+          "detail": "374 MY2020 + 348 MY2021 US cars, 535 of them manual. Owner-reported from Lotus Certificates of Provenance, not an official Lotus release. The Evora GT name was North America only, so this is effectively its whole production.",
+          "src": "LotusTalk owner thread",
+          "url": "https://www.lotustalk.com/threads/my-certificate-of-provenance-arrives-and-2021-evora-total-build-counts.486380/"
+        }
       }
     },
     {
@@ -16954,10 +17044,14 @@
       "cadence": "annual",
       "mirrored_from": "car-value-tracker",
       "production": {
-        "label": "3,083 built",
-        "detail": "550 Maranello coupes, 1996-2001. The 448 Barchettas are counted separately and excluded here, as in the price data. A chassis register counts 3,735 including 33 WSR editions; RM Sotheby's catalogues use roughly 3,000-3,083.",
-        "src": "Wikipedia - Ferrari 550",
-        "url": "https://en.wikipedia.org/wiki/Ferrari_550"
+        "last_my": 2001,
+        "world": {
+          "label": "3,083 built",
+          "detail": "550 Maranello coupes, 1996-2001. The 448 Barchettas are counted separately and excluded here, as in the price data. A chassis register counts 3,735 including 33 WSR editions; RM Sotheby's catalogues use roughly 3,000-3,083.",
+          "src": "Wikipedia - Ferrari 550",
+          "url": "https://en.wikipedia.org/wiki/Ferrari_550"
+        },
+        "na": null
       }
     }
   ],

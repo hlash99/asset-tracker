@@ -196,6 +196,28 @@ function lineChart(ctx,datasets,{band=false,fmt=fmtK,height}={}){
 fetch('data.json?_='+Date.now()).then(r=>r.json()).then(render)
   .catch(e=>{$('#content').innerHTML='<p class="err">Could not load data.json — '+esc(e.message)+'</p>';});
 
+/* Production line on a car card, scoped to the card's spec. Worldwide once
+   every model year is 25+ years old (importable to the US under the 25-year
+   rule), North American before that; flips by itself in last_my + 25. Falls
+   back to the other figure, and says so, when the preferred one does not
+   exist. Same rule as car-value-tracker, which the mirrored cars come from. */
+const IMPORT_AGE=25;
+function pickProd(p){
+  if(!p) return null;
+  if(p.label) return {v:p, basis:''};
+  const until=p.last_my+IMPORT_AGE, ok=new Date().getFullYear()>=until;
+  if(ok&&p.world)  return {v:p.world, basis:'Worldwide figure: every model year is 25+ years old, so any example can be imported to the US.'};
+  if(ok&&p.na)     return {v:p.na,    basis:'Import-eligible, but no worldwide figure is published, so the North American one is shown.'};
+  if(!ok&&p.na)    return {v:p.na,    basis:`North American figure: under 25 years old, so only cars built for this market can be registered in the US. Switches to worldwide in ${until}.`};
+  if(!ok&&p.world) return {v:p.world, basis:'Under 25 years old, but no North American figure is published, so the worldwide one is shown - the US-registrable pool is smaller.', world:true};
+  return null;
+}
+function prodLine(p){
+  const r=pickProd(p); if(!r) return '';
+  const lab=r.v.label+(r.world&&!/worldwide/i.test(r.v.label)?' worldwide':'');
+  return `<div class="prod"><a href="${esc(r.v.url)}" target="_blank" rel="noopener" title="${esc((r.basis?r.basis+' ':'')+r.v.detail+' Source: '+r.v.src+'.')}">${esc(lab)}</a></div>`;
+}
+
 function render(d){
   // KPIs
   const s=d.summary, updated=new Date(d.updated);
@@ -431,7 +453,7 @@ function paintMake(d,m,chip){
           a.sold.latest&&a.sold.latest.url?` · <a class="soldlink" href="${esc(a.sold.latest.url)}" target="_blank" rel="noopener" title="Latest comp: ${esc(a.sold.latest.title)} — sold ${fmtUSD(a.sold.latest.price)} on ${a.sold.latest.date}">latest ↗</a>`:''}</div>`:''}</div>
       </div>
       <div class="note">${esc(a.note)}</div>
-      ${a.production?`<div class="prod"><a href="${esc(a.production.url)}" target="_blank" rel="noopener" title="${esc(a.production.detail+' Source: '+a.production.src+'.')}">${esc(a.production.label)}</a></div>`:''}
+      ${prodLine(a.production)}
       <div class="chips">${chip('7d',ch.d7)}${chip('30d',ch.d30)}${chip('90d',ch.d90)}${chip('all',ch.all)}</div>
       <div class="cv"><canvas id="cv-${a.key}"></canvas></div>
       <div class="meta"><span class="dot" style="background:${a.color}"></span>
