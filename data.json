@@ -2,9 +2,9 @@
   "updated": "2026-09-24T17:52:54Z",
   "generated_by": "publish_trackers.py",
   "summary": {
-    "portfolio_value": 7113348,
-    "n_assets": 28,
-    "n_cars": 26,
+    "portfolio_value": 7619648,
+    "n_assets": 30,
+    "n_cars": 28,
     "n_watches": 2
   },
   "assets": [
@@ -17053,6 +17053,190 @@
         },
         "na": null
       }
+    },
+    {
+      "key": "ferrari_f355_berlinetta_gated_manual",
+      "name": "Ferrari F355 Berlinetta (gated manual)",
+      "short": "F355 Berlinetta 6MT",
+      "category": "car",
+      "make": "Ferrari",
+      "color": "#E8B100",
+      "source": "Bring a Trailer sold comps (via car-value-tracker)",
+      "note": "Gated six-speed coupe, 1995-1999 - the F1 paddle cars are a different market.",
+      "currency": "USD",
+      "updated": "2026-09-25",
+      "start": "2018-12-31",
+      "latest": 249200,
+      "first": 67500,
+      "n_listings": 56,
+      "range_lo": 64000,
+      "range_hi": 253000,
+      "change": {
+        "d7": null,
+        "d30": null,
+        "d90": null,
+        "all": 269.2
+      },
+      "points": 8,
+      "series": [
+        {
+          "date": "2018-12-31",
+          "price": 67500,
+          "n": 5,
+          "lo": 66000,
+          "hi": 73000
+        },
+        {
+          "date": "2019-12-31",
+          "price": 68000,
+          "n": 2,
+          "lo": 64000,
+          "hi": 72000
+        },
+        {
+          "date": "2021-12-31",
+          "price": 130000,
+          "n": 5,
+          "lo": 99400,
+          "hi": 135000
+        },
+        {
+          "date": "2022-12-31",
+          "price": 151000,
+          "n": 7,
+          "lo": 150000,
+          "hi": 160000
+        },
+        {
+          "date": "2023-12-31",
+          "price": 171000,
+          "n": 11,
+          "lo": 139000,
+          "hi": 205000
+        },
+        {
+          "date": "2024-12-31",
+          "price": 152500,
+          "n": 11,
+          "lo": 143000,
+          "hi": 160400
+        },
+        {
+          "date": "2025-12-31",
+          "price": 134700,
+          "n": 10,
+          "lo": 116000,
+          "hi": 162500
+        },
+        {
+          "date": "2026-09-25",
+          "price": 249200,
+          "n": 4,
+          "lo": 245400,
+          "hi": 253000
+        }
+      ],
+      "series_label": "BaT sold median",
+      "n_label": "sold comps",
+      "value": 249200,
+      "value_note": "Median of this year's BaT sold prints",
+      "cadence": "annual",
+      "mirrored_from": "car-value-tracker",
+      "production": {
+        "last_my": 1999,
+        "na": null,
+        "world": {
+          "label": "~3,822 built",
+          "detail": "Gated-manual F355 Berlinettas, 1994-1999, worldwide: 3,931 manual chassis in the register less the 109 Challenge conversions. Another 1,049 were F1. Totals reconcile within ~2% of the 4,871 Berlinettas usually quoted.",
+          "src": "f-register.com production list (Matthias Urban)",
+          "url": "https://f-register.com/About-the-Cars/Production-Numbers"
+        }
+      }
+    },
+    {
+      "key": "ferrari_f355_gts_gated_manual",
+      "name": "Ferrari F355 GTS (gated manual)",
+      "short": "F355 GTS 6MT",
+      "category": "car",
+      "make": "Ferrari",
+      "color": "#A0522D",
+      "source": "Bring a Trailer sold comps (via car-value-tracker)",
+      "note": "Targa-top GTS, gated six-speed, 1995-1999 - the lift-out roof, not the Spider.",
+      "currency": "USD",
+      "updated": "2026-09-25",
+      "start": "2021-12-31",
+      "latest": 223700,
+      "first": 150800,
+      "n_listings": 41,
+      "range_lo": 127000,
+      "range_hi": 285000,
+      "change": {
+        "d7": null,
+        "d30": null,
+        "d90": null,
+        "all": 48.3
+      },
+      "points": 6,
+      "series": [
+        {
+          "date": "2021-12-31",
+          "price": 150800,
+          "n": 6,
+          "lo": 127000,
+          "hi": 161000
+        },
+        {
+          "date": "2022-12-31",
+          "price": 210000,
+          "n": 5,
+          "lo": 210000,
+          "hi": 285000
+        },
+        {
+          "date": "2023-12-31",
+          "price": 187700,
+          "n": 6,
+          "lo": 160000,
+          "hi": 225000
+        },
+        {
+          "date": "2024-12-31",
+          "price": 180500,
+          "n": 12,
+          "lo": 165000,
+          "hi": 206000
+        },
+        {
+          "date": "2025-12-31",
+          "price": 165000,
+          "n": 4,
+          "lo": 164500,
+          "hi": 165500
+        },
+        {
+          "date": "2026-09-25",
+          "price": 223700,
+          "n": 6,
+          "lo": 191000,
+          "hi": 266000
+        }
+      ],
+      "series_label": "BaT sold median",
+      "n_label": "sold comps",
+      "value": 223700,
+      "value_note": "Median of this year's BaT sold prints",
+      "cadence": "annual",
+      "mirrored_from": "car-value-tracker",
+      "production": {
+        "last_my": 1999,
+        "na": null,
+        "world": {
+          "label": "~2,003 built",
+          "detail": "Gated-manual F355 GTS targas, 1994-1998, worldwide; another 526 were F1. Totals reconcile within ~2% of the 2,577 GTS usually quoted.",
+          "src": "f-register.com production list (Matthias Urban)",
+          "url": "https://f-register.com/About-the-Cars/Production-Numbers"
+        }
+      }
     }
   ],
   "personal": {
@@ -17882,5 +18066,5 @@
       }
     ]
   },
-  "cvt_sync": "Ferrari F12 Berlinetta: 7pts, $437,000 | Acura NSX (NA2 manual): 10pts, $153,000 | Ferrari 360 (gated manual): 9pts, $182,100 | Audi R8 gen1 V10 (gated): 8pts, $141,000 | Corvette split-window (1963): 10pts, $175,000 | Volvo P1800 (1800 family): 12pts, $25,200 | Alfa Romeo GTV 1750/2000: 12pts, $45,500 | Porsche Singer 911: 3pts, $1,275,000 | Ferrari 328 GTS/GTB: 11pts, $122,400 | Ferrari Dino 246 GT/GTS: 8pts, $406,500 | Lotus Evora GT (2020-21): 5pts, $88,000 | Lotus Emira V6 (2024-25): 3pts, $84,200 | Ferrari 550 Maranello: 9pts, $218,000"
+  "cvt_sync": "Ferrari F12 Berlinetta: 7pts, $450,000 | Acura NSX (NA2 manual): 10pts, $153,000 | Ferrari 360 (gated manual): 9pts, $201,000 | Audi R8 gen1 V10 (gated): 8pts, $141,000 | Corvette split-window (1963): 10pts, $175,000 | Volvo P1800 (1800 family): 12pts, $25,200 | Alfa Romeo GTV 1750/2000: 12pts, $45,500 | Porsche Singer 911: 3pts, $1,275,000 | Ferrari 328 GTS/GTB: 11pts, $123,900 | Ferrari Dino 246 GT/GTS: 8pts, $406,500 | Lotus Evora GT (2020-21): 5pts, $88,000 | Lotus Emira V6 (2024-25): 3pts, $84,200 | Ferrari 550 Maranello: 9pts, $218,000 | Ferrari F355 Berlinetta (gated manual): 8pts, $249,200 | Ferrari F355 GTS (gated manual): 6pts, $223,700"
 }
