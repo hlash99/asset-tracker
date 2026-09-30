@@ -1,8 +1,8 @@
 {
-  "updated": "2026-09-30T03:02:40Z",
+  "updated": "2026-09-30T06:46:37Z",
   "generated_by": "publish_trackers.py",
   "summary": {
-    "portfolio_value": 9976734,
+    "portfolio_value": 9994503,
     "n_assets": 29,
     "n_cars": 27,
     "n_watches": 2
@@ -4367,7 +4367,7 @@
         "median": 290000,
         "n": 7,
         "days": 90,
-        "updated": "2026-09-29",
+        "updated": "2026-09-30",
         "src": "bat",
         "latest": {
           "url": "https://bringatrailer.com/listing/2012-ferrari-458-italia-29/",
@@ -4904,6 +4904,12 @@
           "price": 290000,
           "n": 7,
           "days": 90
+        },
+        {
+          "date": "2026-09-30",
+          "price": 290000,
+          "n": 7,
+          "days": 90
         }
       ],
       "value": 300298,
@@ -4963,20 +4969,20 @@
       "source": "Cars.com",
       "note": "6.5L NA V12 berlinetta (2017\u20132023).",
       "currency": "USD",
-      "updated": "2026-09-29",
+      "updated": "2026-09-30",
       "start": "2026-04-20",
-      "latest": 578473,
+      "latest": 584986,
       "first": 339995,
       "n_listings": 24,
       "range_lo": 460398,
-      "range_hi": 601125,
+      "range_hi": 610122,
       "change": {
-        "d7": -2.8,
-        "d30": -2.4,
-        "d90": 44.6,
-        "all": 70.1
+        "d7": -1.7,
+        "d30": -1.3,
+        "d90": 46.2,
+        "all": 72.1
       },
-      "points": 84,
+      "points": 85,
       "series": [
         {
           "date": "2026-04-20",
@@ -5599,6 +5605,14 @@
           "lo": 460398,
           "hi": 601125,
           "src": "ci"
+        },
+        {
+          "date": "2026-09-30",
+          "price": 584986,
+          "n": 24,
+          "lo": 460398,
+          "hi": 610122,
+          "src": "ci"
         }
       ],
       "ci": {
@@ -5619,7 +5633,7 @@
         "median": 504500,
         "n": 4,
         "days": 90,
-        "updated": "2026-09-29",
+        "updated": "2026-09-30",
         "src": "bat",
         "latest": {
           "url": "https://bringatrailer.com/listing/2019-ferrari-812-superfast-33/",
@@ -6156,9 +6170,15 @@
           "price": 504500,
           "n": 4,
           "days": 90
+        },
+        {
+          "date": "2026-09-30",
+          "price": 504500,
+          "n": 4,
+          "days": 90
         }
       ],
-      "value": 522993,
+      "value": 524622,
       "value_note": "75% sold (90d) + 25% asking",
       "comps": [
         {
@@ -6562,7 +6582,7 @@
         "median": 820000,
         "n": 13,
         "days": 90,
-        "updated": "2026-09-29",
+        "updated": "2026-09-30",
         "src": "bat",
         "latest": {
           "url": "https://bringatrailer.com/listing/2022-ferrari-812-gts-42/",
@@ -7099,6 +7119,12 @@
           "price": 820000,
           "n": 13,
           "days": 90
+        },
+        {
+          "date": "2026-09-30",
+          "price": 820000,
+          "n": 13,
+          "days": 90
         }
       ],
       "value": 795030,
@@ -7463,7 +7489,7 @@
         "median": 536000,
         "n": 1,
         "days": 365,
-        "updated": "2026-09-29",
+        "updated": "2026-09-30",
         "src": "bat",
         "latest": {
           "url": "https://bringatrailer.com/listing/2025-ferrari-12-cilindri/",
@@ -7997,6 +8023,12 @@
         },
         {
           "date": "2026-09-29",
+          "price": 536000,
+          "n": 1,
+          "days": 365
+        },
+        {
+          "date": "2026-09-30",
           "price": 536000,
           "n": 1,
           "days": 365
@@ -8878,20 +8910,20 @@
       "source": "AutoTrader + AutoTempest",
       "note": "Nationwide asking median for the 992.1 GT3 Touring.",
       "currency": "USD",
-      "updated": "2026-09-29",
+      "updated": "2026-09-30",
       "start": "2026-01-04",
-      "latest": 274991,
+      "latest": 288908,
       "first": 298400,
-      "n_listings": 29,
-      "range_lo": 260999,
-      "range_hi": 289999,
+      "n_listings": 32,
+      "range_lo": 264159,
+      "range_hi": 311395,
       "change": {
-        "d7": 7.3,
-        "d30": 1.9,
-        "d90": 2.7,
-        "all": -7.8
+        "d7": 5.1,
+        "d30": 3.2,
+        "d90": 7.9,
+        "all": -3.2
       },
-      "points": 182,
+      "points": 183,
       "series": [
         {
           "date": "2026-01-04",
@@ -10220,6 +10252,14 @@
           "lo": 260999,
           "hi": 289999,
           "src": "ci"
+        },
+        {
+          "date": "2026-09-30",
+          "price": 288908,
+          "n": 32,
+          "lo": 264159,
+          "hi": 311395,
+          "src": "ci"
         }
       ],
       "ci": {
@@ -10244,7 +10284,7 @@
         "median": 255000,
         "n": 3,
         "days": 90,
-        "updated": "2026-09-29",
+        "updated": "2026-09-30",
         "src": "bat",
         "latest": {
           "url": "https://bringatrailer.com/listing/2022-porsche-911-gt3-touring-161/",
@@ -10781,9 +10821,15 @@
           "price": 255000,
           "n": 3,
           "days": 90
+        },
+        {
+          "date": "2026-09-30",
+          "price": 255000,
+          "n": 3,
+          "days": 90
         }
       ],
-      "value": 259998,
+      "value": 263477,
       "value_note": "75% sold (90d) + 25% asking",
       "comps": [
         {
@@ -10815,20 +10861,20 @@
       "source": "CarGurus",
       "note": "5.9L NA V12 with the dogleg 7-speed manual \u2014 coupe only, MY2017 (a handful of '18s). ~100 US manual coupes.",
       "currency": "USD",
-      "updated": "2026-09-29",
+      "updated": "2026-09-30",
       "start": "2026-07-04",
-      "latest": 195835,
+      "latest": 217425,
       "first": 339995,
-      "n_listings": 4,
-      "range_lo": 191679,
-      "range_hi": 199991,
+      "n_listings": 8,
+      "range_lo": 192525,
+      "range_hi": 249888,
       "change": {
-        "d7": -24.5,
-        "d30": -31.1,
+        "d7": -16.2,
+        "d30": -10.3,
         "d90": null,
-        "all": -42.4
+        "all": -36.1
       },
-      "points": 49,
+      "points": 50,
       "series": [
         {
           "date": "2026-07-04",
@@ -11221,6 +11267,14 @@
           "lo": 191679,
           "hi": 199991,
           "src": "ci"
+        },
+        {
+          "date": "2026-09-30",
+          "price": 217425,
+          "n": 8,
+          "lo": 192525,
+          "hi": 249888,
+          "src": "ci"
         }
       ],
       "ci": {
@@ -11246,7 +11300,7 @@
         "median": 289388,
         "n": 4,
         "days": 90,
-        "updated": "2026-09-29",
+        "updated": "2026-09-30",
         "src": "bat",
         "latest": {
           "url": "https://bringatrailer.com/listing/2017-aston-martin-v12-vantage-s-43/",
@@ -11783,9 +11837,15 @@
           "price": 289388,
           "n": 4,
           "days": 90
+        },
+        {
+          "date": "2026-09-30",
+          "price": 289388,
+          "n": 4,
+          "days": 90
         }
       ],
-      "value": 266000,
+      "value": 271397,
       "value_note": "75% sold (90d) + 25% asking",
       "comps": [
         {
@@ -11869,20 +11929,20 @@
       "source": "CarGurus",
       "note": "First-gen 5.9L V12 in the compact Vantage, 6-speed manual only (US MY2011\u20132012). Rarely on dealer lots \u2014 value leans on BaT sales.",
       "currency": "USD",
-      "updated": "2026-09-29",
+      "updated": "2026-09-30",
       "start": "2026-07-04",
-      "latest": 105991,
+      "latest": 142569,
       "first": 161007,
-      "n_listings": 23,
-      "range_lo": 94791,
-      "range_hi": 142650,
+      "n_listings": 22,
+      "range_lo": 88798,
+      "range_hi": 192525,
       "change": {
-        "d7": -28.4,
-        "d30": -19.4,
+        "d7": 0.9,
+        "d30": -6.2,
         "d90": null,
-        "all": -34.2
+        "all": -11.5
       },
-      "points": 71,
+      "points": 72,
       "series": [
         {
           "date": "2026-07-04",
@@ -12449,13 +12509,21 @@
           "lo": 94791,
           "hi": 142650,
           "src": "ci"
+        },
+        {
+          "date": "2026-09-30",
+          "price": 142569,
+          "n": 22,
+          "lo": 88798,
+          "hi": 192525,
+          "src": "ci"
         }
       ],
       "sold": {
         "median": 163504,
         "n": 2,
         "days": 180,
-        "updated": "2026-09-29",
+        "updated": "2026-09-30",
         "src": "bat",
         "latest": {
           "url": "https://bringatrailer.com/listing/2012-aston-martin-v12-vantage-10/",
@@ -12992,6 +13060,12 @@
           "price": 163504,
           "n": 2,
           "days": 180
+        },
+        {
+          "date": "2026-09-30",
+          "price": 163504,
+          "n": 2,
+          "days": 180
         }
       ],
       "bat": {
@@ -13016,7 +13090,7 @@
         "hi": 300,
         "min_n": 1
       },
-      "value": 143374,
+      "value": 156177,
       "value_note": "65% sold (180d) + 35% asking",
       "comps": [
         {
@@ -13058,20 +13132,20 @@
       "source": "CarGurus",
       "note": "Nationwide asking median for the 2015\u20132016 991.1 Carrera GTS (coupe/cab/Targa, C2 + C4).",
       "currency": "USD",
-      "updated": "2026-09-29",
+      "updated": "2026-09-30",
       "start": "2026-07-21",
-      "latest": 121690,
+      "latest": 121161,
       "first": 125445,
-      "n_listings": 26,
-      "range_lo": 109998,
-      "range_hi": 127791,
+      "n_listings": 14,
+      "range_lo": 110098,
+      "range_hi": 145992,
       "change": {
-        "d7": -7.0,
-        "d30": 20.5,
+        "d7": -6.8,
+        "d30": -9.4,
         "d90": null,
-        "all": -3.0
+        "all": -3.4
       },
-      "points": 67,
+      "points": 68,
       "series": [
         {
           "date": "2026-07-21",
@@ -13608,6 +13682,14 @@
           "lo": 109998,
           "hi": 127791,
           "src": "ci"
+        },
+        {
+          "date": "2026-09-30",
+          "price": 121161,
+          "n": 14,
+          "lo": 110098,
+          "hi": 145992,
+          "src": "ci"
         }
       ],
       "ci": {
@@ -13617,7 +13699,7 @@
         "hi": 160,
         "min_n": 3
       },
-      "value": 121690,
+      "value": 121161,
       "value_note": "asking median (no recent sold data)",
       "make": "Porsche"
     },
@@ -13669,7 +13751,7 @@
         "median": 307500,
         "n": 4,
         "days": 90,
-        "updated": "2026-09-29",
+        "updated": "2026-09-30",
         "src": "bat",
         "latest": {
           "url": "https://bringatrailer.com/listing/2019-porsche-911-gt3-touring-51/",
@@ -14104,10 +14186,16 @@
           "price": 307500,
           "n": 4,
           "days": 90
+        },
+        {
+          "date": "2026-09-30",
+          "price": 307500,
+          "n": 4,
+          "days": 90
         }
       ],
       "value": 307500,
-      "value_note": "BaT sold median only \u2014 asking price 70d stale",
+      "value_note": "BaT sold median only \u2014 asking price 71d stale",
       "comps": [
         {
           "date": "2026-08-30",
@@ -14155,20 +14243,20 @@
       "source": "CarGurus",
       "note": "2010\u20132015 R8 5.2 V10, all transmissions (gated 6MT, R-tronic, S-tronic), coupe + Spyder. BaT solds skew to manual/low-mile cars, so the sold median runs above the ask median.",
       "currency": "USD",
-      "updated": "2026-09-29",
+      "updated": "2026-09-30",
       "start": "2026-07-21",
-      "latest": 134991,
+      "latest": 114950,
       "first": 90683,
-      "n_listings": 47,
-      "range_lo": 99991,
-      "range_hi": 146806,
+      "n_listings": 31,
+      "range_lo": 89834,
+      "range_hi": 150706,
       "change": {
-        "d7": 36.4,
-        "d30": 33.7,
+        "d7": -20.2,
+        "d30": 15.1,
         "d90": null,
-        "all": 48.9
+        "all": 26.8
       },
-      "points": 66,
+      "points": 67,
       "series": [
         {
           "date": "2026-07-21",
@@ -14697,6 +14785,14 @@
           "lo": 99991,
           "hi": 146806,
           "src": "ci"
+        },
+        {
+          "date": "2026-09-30",
+          "price": 114950,
+          "n": 31,
+          "lo": 89834,
+          "hi": 150706,
+          "src": "ci"
         }
       ],
       "ci": {
@@ -14739,7 +14835,7 @@
         "median": 116000,
         "n": 7,
         "days": 90,
-        "updated": "2026-09-29",
+        "updated": "2026-09-30",
         "src": "bat",
         "latest": {
           "url": "https://bringatrailer.com/listing/2011-audi-r8-spyder-66/",
@@ -15174,9 +15270,15 @@
           "price": 116000,
           "n": 7,
           "days": 90
+        },
+        {
+          "date": "2026-09-30",
+          "price": 116000,
+          "n": 7,
+          "days": 90
         }
       ],
-      "value": 120748,
+      "value": 115738,
       "value_note": "75% sold (90d) + 25% asking",
       "comps": [
         {
@@ -15319,7 +15421,7 @@
       "series_label": "asking median",
       "n_label": "listings",
       "value": 432000,
-      "value_note": "Cars.com asking median",
+      "value_note": "asking median (no recent sold data)",
       "mirrored_from": "car-value-tracker",
       "cadence": "annual",
       "production": {
@@ -15432,7 +15534,7 @@
       "series_label": "BaT sold median",
       "n_label": "sold comps",
       "value": 153000,
-      "value_note": "Median of this year's BaT sold prints",
+      "value_note": "asking median (no recent sold data)",
       "mirrored_from": "car-value-tracker",
       "cadence": "annual",
       "production": {
@@ -15538,7 +15640,7 @@
       "series_label": "BaT sold median",
       "n_label": "sold comps",
       "value": 233000,
-      "value_note": "Median of this year's BaT sold prints",
+      "value_note": "asking median (no recent sold data)",
       "mirrored_from": "car-value-tracker",
       "cadence": "annual",
       "production": {
@@ -15637,7 +15739,7 @@
       "series_label": "BaT sold median",
       "n_label": "sold comps",
       "value": 141000,
-      "value_note": "Median of this year's BaT sold prints",
+      "value_note": "asking median (no recent sold data)",
       "mirrored_from": "car-value-tracker",
       "cadence": "annual",
       "production": {
@@ -15750,7 +15852,7 @@
       "series_label": "BaT sold median",
       "n_label": "sold comps",
       "value": 175000,
-      "value_note": "Median of this year's BaT sold prints",
+      "value_note": "asking median (no recent sold data)",
       "mirrored_from": "car-value-tracker",
       "cadence": "annual",
       "production": {
@@ -15877,7 +15979,7 @@
       "series_label": "BaT sold median",
       "n_label": "sold comps",
       "value": 45500,
-      "value_note": "Median of this year's BaT sold prints",
+      "value_note": "asking median (no recent sold data)",
       "mirrored_from": "car-value-tracker",
       "cadence": "annual",
       "production": {
@@ -15941,7 +16043,7 @@
       "series_label": "BaT sold median",
       "n_label": "sold comps",
       "value": 1275000,
-      "value_note": "Median of this year's BaT sold prints",
+      "value_note": "asking median (no recent sold data)",
       "mirrored_from": "car-value-tracker",
       "cadence": "annual",
       "production": {
@@ -16061,7 +16163,7 @@
       "series_label": "BaT sold median",
       "n_label": "sold comps",
       "value": 123900,
-      "value_note": "Median of this year's BaT sold prints",
+      "value_note": "asking median (no recent sold data)",
       "mirrored_from": "car-value-tracker",
       "cadence": "annual",
       "production": {
@@ -16160,7 +16262,7 @@
       "series_label": "BaT sold median",
       "n_label": "sold comps",
       "value": 420000,
-      "value_note": "Median of this year's BaT sold prints",
+      "value_note": "asking median (no recent sold data)",
       "mirrored_from": "car-value-tracker",
       "cadence": "annual",
       "production": {
@@ -16238,7 +16340,7 @@
       "series_label": "BaT sold median",
       "n_label": "sold comps",
       "value": 88000,
-      "value_note": "Median of this year's BaT sold prints",
+      "value_note": "asking median (no recent sold data)",
       "cadence": "annual",
       "mirrored_from": "car-value-tracker",
       "production": {
@@ -16302,7 +16404,7 @@
       "series_label": "BaT sold median",
       "n_label": "sold comps",
       "value": 84200,
-      "value_note": "Median of this year's BaT sold prints",
+      "value_note": "asking median (no recent sold data)",
       "cadence": "annual",
       "mirrored_from": "car-value-tracker"
     },
@@ -16398,7 +16500,7 @@
       "series_label": "BaT sold median",
       "n_label": "sold comps",
       "value": 218000,
-      "value_note": "Median of this year's BaT sold prints",
+      "value_note": "asking median (no recent sold data)",
       "cadence": "annual",
       "mirrored_from": "car-value-tracker",
       "production": {
@@ -16497,7 +16599,7 @@
       "series_label": "BaT sold median",
       "n_label": "sold comps",
       "value": 245400,
-      "value_note": "Median of this year's BaT sold prints",
+      "value_note": "asking median (no recent sold data)",
       "cadence": "annual",
       "mirrored_from": "car-value-tracker",
       "production": {
@@ -16582,7 +16684,7 @@
       "series_label": "BaT sold median",
       "n_label": "sold comps",
       "value": 235400,
-      "value_note": "Median of this year's BaT sold prints",
+      "value_note": "asking median (no recent sold data)",
       "cadence": "annual",
       "mirrored_from": "car-value-tracker",
       "production": {
@@ -16639,7 +16741,7 @@
       "series_label": "BaT sold median",
       "n_label": "sold comps",
       "value": 1810400,
-      "value_note": "Median of this year's BaT sold prints",
+      "value_note": "asking median (no recent sold data)",
       "cadence": "annual",
       "mirrored_from": "car-value-tracker",
       "production": {
@@ -16750,7 +16852,7 @@
       "series_label": "BaT sold median",
       "n_label": "sold comps",
       "value": 582000,
-      "value_note": "Median of this year's BaT sold prints",
+      "value_note": "asking median (no recent sold data)",
       "cadence": "annual",
       "mirrored_from": "car-value-tracker",
       "production": {
@@ -17618,5 +17720,5 @@
       }
     ]
   },
-  "cvt_sync": "pruned 1 dropped asset(s) | Ferrari F12 Berlinetta: 7pts, $432,000 | Acura NSX (NA2 manual): 10pts, $153,000 | Ferrari 360 (gated manual): 9pts, $233,000 | Audi R8 gen1 V10 (gated): 8pts, $141,000 | Corvette split-window (1963): 10pts, $175,000 | Alfa Romeo GTV 1750/2000: 12pts, $45,500 | Porsche Singer 911: 3pts, $1,275,000 | Ferrari 328 GTS/GTB: 11pts, $123,900 | Ferrari Dino 246 GT/GTS: 8pts, $420,000 | Lotus Evora GT (2020-21): 5pts, $88,000 | Lotus Emira V6 (2024-25): 3pts, $84,200 | Ferrari 550 Maranello: 9pts, $218,000 | Ferrari F355 Berlinetta (gated manual): 8pts, $245,400 | Ferrari F355 GTS (gated manual): 6pts, $235,400 | Porsche Carrera GT: 2pts, $1,810,400 | Ford GT (2005-2006): 9pts, $582,000"
+  "cvt_sync": "Ferrari F12 Berlinetta: 7pts, $432,000 | Acura NSX (NA2 manual): 10pts, $153,000 | Ferrari 360 (gated manual): 9pts, $233,000 | Audi R8 gen1 V10 (gated): 8pts, $141,000 | Corvette split-window (1963): 10pts, $175,000 | Alfa Romeo GTV 1750/2000: 12pts, $45,500 | Porsche Singer 911: 3pts, $1,275,000 | Ferrari 328 GTS/GTB: 11pts, $123,900 | Ferrari Dino 246 GT/GTS: 8pts, $420,000 | Lotus Evora GT (2020-21): 5pts, $88,000 | Lotus Emira V6 (2024-25): 3pts, $84,200 | Ferrari 550 Maranello: 9pts, $218,000 | Ferrari F355 Berlinetta (gated manual): 8pts, $245,400 | Ferrari F355 GTS (gated manual): 6pts, $235,400 | Porsche Carrera GT: 2pts, $1,810,400 | Ford GT (2005-2006): 9pts, $582,000"
 }
