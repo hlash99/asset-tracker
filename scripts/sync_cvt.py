@@ -18,7 +18,10 @@ year's BaT sold prints, with the interquartile band. That is a different shape
 to the near-daily asking series the scraped assets carry, which is why each
 mirrored asset declares `series_label` and `n_label` for the UI to read.
 
-Stdlib only. Runs before ci_refresh.py in the refresh workflow.
+Stdlib only. Runs before ci_refresh.py in the refresh workflow, which
+re-serialises data.json at indent=2 - this script writes indent=1, so
+running it on its own reformats the whole file. Re-dump at indent=2 before
+committing or the diff buries the real change under 36k whitespace lines.
 """
 import json
 import os
@@ -39,11 +42,19 @@ SKIP = {
     "Ferrari 812 GTS",                # -> ferrari_812_gts
 }
 
+# Carried upstream but not wanted on this page. Dropped on every run AND pruned
+# from data.json, so a mirror cannot quietly put one back. Deleting the asset
+# alone is not enough - the next sync would re-add it. Its MAKES and SHORT
+# entries are left in place so re-adding a name here is a one-line change.
+DROP = {
+    "Volvo P1800 (1800 family)",      # removed at the owner's request 2026-09-30
+}
+
 # Every mirrored car must match one of these or it lands in the "Other" block,
 # which this dashboard deliberately no longer has — add the marque when adding a car.
 MAKES = [("Acura", "Acura"), ("Ferrari", "Ferrari"), ("Audi", "Audi"),
          ("Porsche", "Porsche"), ("Volvo", "Volvo"), ("Alfa Romeo", "Alfa Romeo"),
-         ("Corvette", "Chevrolet"), ("Lotus", "Lotus")]
+         ("Corvette", "Chevrolet"), ("Lotus", "Lotus"), ("Ford", "Ford")]
 
 # Short card labels; anything unlisted falls back to the full name.
 SHORT = {
@@ -62,6 +73,8 @@ SHORT = {
     "Ferrari 550 Maranello": "550 Maranello",
     "Ferrari F355 Berlinetta (gated manual)": "F355 Berlinetta 6MT",
     "Ferrari F355 GTS (gated manual)": "F355 GTS 6MT",
+    "Porsche Carrera GT": "Carrera GT",
+    "Ford GT (2005-2006)": "Ford GT",
 }
 
 NOTE_EXTRA = {
@@ -175,8 +188,13 @@ def main():
     years = cvt["years"]
 
     log = []
+    dropped = {slug(n) for n in DROP}
+    before = len(d["assets"])
+    d["assets"] = [a for a in d["assets"] if a["key"] not in dropped]
+    if len(d["assets"]) != before:
+        log.append(f"pruned {before - len(d['assets'])} dropped asset(s)")
     for name, car in cvt["cars"].items():
-        if name in SKIP:
+        if name in SKIP or name in DROP:
             continue
         r = upsert(d, name, car, years)
         log.append(f"{name}: {r[1]}pts, ${r[2]:,}" if r else f"{name}: SKIPPED (thin series)")

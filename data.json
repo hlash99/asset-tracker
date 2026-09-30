@@ -1,10 +1,10 @@
 {
-  "updated": "2026-09-29T18:40:16Z",
+  "updated": "2026-09-30T03:02:40Z",
   "generated_by": "publish_trackers.py",
   "summary": {
-    "portfolio_value": 9522437,
-    "n_assets": 31,
-    "n_cars": 29,
+    "portfolio_value": 9976734,
+    "n_assets": 29,
+    "n_cars": 27,
     "n_watches": 2
   },
   "assets": [
@@ -15242,1163 +15242,6 @@
       }
     },
     {
-      "key": "porsche_panamera_4s_st",
-      "name": "Porsche Panamera 4S Sport Turismo (971.1)",
-      "short": "Panamera 4S ST",
-      "category": "car",
-      "color": "#f4a259",
-      "source": "CarGurus",
-      "note": "2018-2020 971.1 Panamera 4S Sport Turismo wagon, 2.9TT V6. Asking side is the CarGurus Bay Area median filtered to the $40-85k band; value leans on BaT solds ($54,222 and $61,002 in the last 180d).",
-      "currency": "USD",
-      "updated": "2026-09-29",
-      "start": "2026-07-26",
-      "latest": 50850,
-      "first": 60000,
-      "n_listings": 28,
-      "range_lo": 47990,
-      "range_hi": 59400,
-      "change": {
-        "d7": 4.3,
-        "d30": 6.2,
-        "d90": null,
-        "all": -15.2
-      },
-      "points": 66,
-      "series": [
-        {
-          "date": "2026-07-26",
-          "price": 60000,
-          "n": 5,
-          "lo": 54222,
-          "hi": 69995,
-          "src": "seed"
-        },
-        {
-          "date": "2026-07-27",
-          "price": 50162,
-          "n": 26,
-          "lo": 48116,
-          "hi": 51884,
-          "src": "ci"
-        },
-        {
-          "date": "2026-07-28",
-          "price": 50321,
-          "n": 25,
-          "lo": 47445,
-          "hi": 52613,
-          "src": "ci"
-        },
-        {
-          "date": "2026-07-29",
-          "price": 50808,
-          "n": 20,
-          "lo": 46969,
-          "hi": 56797,
-          "src": "ci"
-        },
-        {
-          "date": "2026-07-30",
-          "price": 50321,
-          "n": 22,
-          "lo": 47445,
-          "hi": 50921,
-          "src": "ci"
-        },
-        {
-          "date": "2026-07-31",
-          "price": 49173,
-          "n": 25,
-          "lo": 46756,
-          "hi": 51190,
-          "src": "ci"
-        },
-        {
-          "date": "2026-08-01",
-          "price": 49888,
-          "n": 32,
-          "lo": 47434,
-          "hi": 50563,
-          "src": "ci"
-        },
-        {
-          "date": "2026-08-02",
-          "price": 51196,
-          "n": 21,
-          "lo": 49201,
-          "hi": 52610,
-          "src": "ci"
-        },
-        {
-          "date": "2026-08-03",
-          "price": 49974,
-          "n": 16,
-          "lo": 48442,
-          "hi": 51969,
-          "src": "ci"
-        },
-        {
-          "date": "2026-08-04",
-          "price": 50563,
-          "n": 37,
-          "lo": 47981,
-          "hi": 54862,
-          "src": "ci"
-        },
-        {
-          "date": "2026-08-05",
-          "price": 50884,
-          "n": 19,
-          "lo": 48383,
-          "hi": 54265,
-          "src": "ci"
-        },
-        {
-          "date": "2026-08-06",
-          "price": 50884,
-          "n": 19,
-          "lo": 48383,
-          "hi": 54265,
-          "src": "ci"
-        },
-        {
-          "date": "2026-08-07",
-          "price": 52564,
-          "n": 12,
-          "lo": 47317,
-          "hi": 55797,
-          "src": "ci"
-        },
-        {
-          "date": "2026-08-08",
-          "price": 49560,
-          "n": 28,
-          "lo": 46535,
-          "hi": 54197,
-          "src": "ci"
-        },
-        {
-          "date": "2026-08-09",
-          "price": 49471,
-          "n": 21,
-          "lo": 46945,
-          "hi": 50386,
-          "src": "ci"
-        },
-        {
-          "date": "2026-08-10",
-          "price": 51176,
-          "n": 24,
-          "lo": 46649,
-          "hi": 52900,
-          "src": "ci"
-        },
-        {
-          "date": "2026-08-11",
-          "price": 49540,
-          "n": 13,
-          "lo": 47695,
-          "hi": 49765,
-          "src": "ci"
-        },
-        {
-          "date": "2026-08-12",
-          "price": 49440,
-          "n": 20,
-          "lo": 48918,
-          "hi": 53403,
-          "src": "ci"
-        },
-        {
-          "date": "2026-08-13",
-          "price": 47598,
-          "n": 11,
-          "lo": 47317,
-          "hi": 50946,
-          "src": "ci"
-        },
-        {
-          "date": "2026-08-14",
-          "price": 48131,
-          "n": 18,
-          "lo": 47038,
-          "hi": 50022,
-          "src": "ci"
-        },
-        {
-          "date": "2026-08-15",
-          "price": 49298,
-          "n": 20,
-          "lo": 46636,
-          "hi": 53141,
-          "src": "ci"
-        },
-        {
-          "date": "2026-08-16",
-          "price": 49679,
-          "n": 25,
-          "lo": 47857,
-          "hi": 53141,
-          "src": "ci"
-        },
-        {
-          "date": "2026-08-17",
-          "price": 48016,
-          "n": 24,
-          "lo": 47134,
-          "hi": 50477,
-          "src": "ci"
-        },
-        {
-          "date": "2026-08-18",
-          "price": 49287,
-          "n": 19,
-          "lo": 47678,
-          "hi": 50879,
-          "src": "ci"
-        },
-        {
-          "date": "2026-08-19",
-          "price": 50563,
-          "n": 23,
-          "lo": 47362,
-          "hi": 51789,
-          "src": "ci"
-        },
-        {
-          "date": "2026-08-20",
-          "price": 47900,
-          "n": 24,
-          "lo": 46709,
-          "hi": 50709,
-          "src": "ci"
-        },
-        {
-          "date": "2026-08-21",
-          "price": 48138,
-          "n": 24,
-          "lo": 46613,
-          "hi": 50613,
-          "src": "ci"
-        },
-        {
-          "date": "2026-08-22",
-          "price": 50563,
-          "n": 32,
-          "lo": 47362,
-          "hi": 56798,
-          "src": "ci"
-        },
-        {
-          "date": "2026-08-23",
-          "price": 50676,
-          "n": 28,
-          "lo": 47362,
-          "hi": 56798,
-          "src": "ci"
-        },
-        {
-          "date": "2026-08-24",
-          "price": 47911,
-          "n": 26,
-          "lo": 46977,
-          "hi": 50709,
-          "src": "ci"
-        },
-        {
-          "date": "2026-08-25",
-          "price": 49732,
-          "n": 26,
-          "lo": 47270,
-          "hi": 52432,
-          "src": "ci"
-        },
-        {
-          "date": "2026-08-26",
-          "price": 49084,
-          "n": 20,
-          "lo": 47596,
-          "hi": 51613,
-          "src": "ci"
-        },
-        {
-          "date": "2026-08-27",
-          "price": 56798,
-          "n": 22,
-          "lo": 47274,
-          "hi": 60789,
-          "src": "ci"
-        },
-        {
-          "date": "2026-08-28",
-          "price": 50318,
-          "n": 20,
-          "lo": 48044,
-          "hi": 59526,
-          "src": "ci"
-        },
-        {
-          "date": "2026-08-29",
-          "price": 50569,
-          "n": 23,
-          "lo": 46879,
-          "hi": 58650,
-          "src": "ci"
-        },
-        {
-          "date": "2026-08-30",
-          "price": 47870,
-          "n": 14,
-          "lo": 47173,
-          "hi": 48762,
-          "src": "ci"
-        },
-        {
-          "date": "2026-08-31",
-          "price": 50996,
-          "n": 25,
-          "lo": 46919,
-          "hi": 57176,
-          "src": "ci"
-        },
-        {
-          "date": "2026-09-01",
-          "price": 56798,
-          "n": 24,
-          "lo": 47582,
-          "hi": 60995,
-          "src": "ci"
-        },
-        {
-          "date": "2026-09-02",
-          "price": 56798,
-          "n": 26,
-          "lo": 47582,
-          "hi": 60995,
-          "src": "ci"
-        },
-        {
-          "date": "2026-09-03",
-          "price": 48753,
-          "n": 17,
-          "lo": 47072,
-          "hi": 52072,
-          "src": "ci"
-        },
-        {
-          "date": "2026-09-04",
-          "price": 50613,
-          "n": 24,
-          "lo": 47122,
-          "hi": 59990,
-          "src": "ci"
-        },
-        {
-          "date": "2026-09-05",
-          "price": 50709,
-          "n": 27,
-          "lo": 47173,
-          "hi": 56946,
-          "src": "ci"
-        },
-        {
-          "date": "2026-09-06",
-          "price": 51613,
-          "n": 23,
-          "lo": 48445,
-          "hi": 59990,
-          "src": "ci"
-        },
-        {
-          "date": "2026-09-07",
-          "price": 50613,
-          "n": 18,
-          "lo": 48445,
-          "hi": 57526,
-          "src": "ci"
-        },
-        {
-          "date": "2026-09-08",
-          "price": 51930,
-          "n": 17,
-          "lo": 47996,
-          "hi": 55500,
-          "src": "ci"
-        },
-        {
-          "date": "2026-09-09",
-          "price": 51173,
-          "n": 17,
-          "lo": 48500,
-          "hi": 53990,
-          "src": "ci"
-        },
-        {
-          "date": "2026-09-10",
-          "price": 51173,
-          "n": 16,
-          "lo": 47173,
-          "hi": 53990,
-          "src": "ci"
-        },
-        {
-          "date": "2026-09-11",
-          "price": 51134,
-          "n": 16,
-          "lo": 46995,
-          "hi": 53990,
-          "src": "ci"
-        },
-        {
-          "date": "2026-09-12",
-          "price": 51134,
-          "n": 20,
-          "lo": 48500,
-          "hi": 53990,
-          "src": "ci"
-        },
-        {
-          "date": "2026-09-13",
-          "price": 50574,
-          "n": 27,
-          "lo": 48245,
-          "hi": 57526,
-          "src": "ci"
-        },
-        {
-          "date": "2026-09-14",
-          "price": 55986,
-          "n": 38,
-          "lo": 46995,
-          "hi": 61397,
-          "src": "ci"
-        },
-        {
-          "date": "2026-09-15",
-          "price": 51291,
-          "n": 31,
-          "lo": 47173,
-          "hi": 59367,
-          "src": "ci"
-        },
-        {
-          "date": "2026-09-16",
-          "price": 49063,
-          "n": 22,
-          "lo": 46709,
-          "hi": 51709,
-          "src": "ci"
-        },
-        {
-          "date": "2026-09-17",
-          "price": 51134,
-          "n": 20,
-          "lo": 47829,
-          "hi": 52700,
-          "src": "ci"
-        },
-        {
-          "date": "2026-09-18",
-          "price": 50022,
-          "n": 18,
-          "lo": 47203,
-          "hi": 56526,
-          "src": "ci"
-        },
-        {
-          "date": "2026-09-19",
-          "price": 49366,
-          "n": 33,
-          "lo": 46515,
-          "hi": 61960,
-          "src": "ci"
-        },
-        {
-          "date": "2026-09-20",
-          "price": 50344,
-          "n": 20,
-          "lo": 46500,
-          "hi": 58995,
-          "src": "ci"
-        },
-        {
-          "date": "2026-09-21",
-          "price": 54482,
-          "n": 26,
-          "lo": 48561,
-          "hi": 65995,
-          "src": "ci"
-        },
-        {
-          "date": "2026-09-22",
-          "price": 48762,
-          "n": 23,
-          "lo": 47435,
-          "hi": 53695,
-          "src": "ci"
-        },
-        {
-          "date": "2026-09-23",
-          "price": 52170,
-          "n": 28,
-          "lo": 49485,
-          "hi": 62500,
-          "src": "ci"
-        },
-        {
-          "date": "2026-09-24",
-          "price": 51472,
-          "n": 11,
-          "lo": 49217,
-          "hi": 54999,
-          "src": "ci"
-        },
-        {
-          "date": "2026-09-25",
-          "price": 49007,
-          "n": 21,
-          "lo": 46264,
-          "hi": 51676,
-          "src": "ci"
-        },
-        {
-          "date": "2026-09-26",
-          "price": 50850,
-          "n": 29,
-          "lo": 47990,
-          "hi": 61000,
-          "src": "ci"
-        },
-        {
-          "date": "2026-09-27",
-          "price": 59282,
-          "n": 20,
-          "lo": 47158,
-          "hi": 64995,
-          "src": "ci"
-        },
-        {
-          "date": "2026-09-28",
-          "price": 59282,
-          "n": 20,
-          "lo": 47158,
-          "hi": 64995,
-          "src": "ci"
-        },
-        {
-          "date": "2026-09-29",
-          "price": 50850,
-          "n": 28,
-          "lo": 47990,
-          "hi": 59400,
-          "src": "ci"
-        }
-      ],
-      "ci": {
-        "type": "cargurus",
-        "url": "https://www.cargurus.com/Cars/t-Used-Porsche-Panamera-4S-AWD-t40751",
-        "lo": 45,
-        "hi": 70,
-        "min_n": 4
-      },
-      "bat": {
-        "url": "https://bringatrailer.com/porsche/panamera/",
-        "include": [
-          "4s",
-          "sport turismo"
-        ],
-        "exclude": [
-          "e-hybrid",
-          "turbo"
-        ],
-        "year_min": 2018,
-        "year_max": 2020,
-        "lo": 30,
-        "hi": 120
-      },
-      "value": 50850,
-      "value_note": "asking median (no recent sold data)",
-      "make": "Porsche"
-    },
-    {
-      "key": "porsche_panamera_gts_st",
-      "name": "Porsche Panamera GTS Sport Turismo (971.1)",
-      "short": "Panamera GTS ST",
-      "category": "car",
-      "color": "#5e60ce",
-      "source": "CarGurus",
-      "note": "2019-2020 971.1 Panamera GTS Sport Turismo wagon, 4.0TT V8 with Sport Exhaust standard. Thin market - one BaT sale (no-reserve 2019 at $56,000, 5/2026) and a 2021 bid to $85,600 without selling.",
-      "currency": "USD",
-      "updated": "2026-09-29",
-      "start": "2026-07-26",
-      "latest": 69253,
-      "first": 72000,
-      "n_listings": 25,
-      "range_lo": 67888,
-      "range_hi": 79879,
-      "change": {
-        "d7": -1.8,
-        "d30": 1.1,
-        "d90": null,
-        "all": -3.8
-      },
-      "points": 66,
-      "series": [
-        {
-          "date": "2026-07-26",
-          "price": 72000,
-          "n": 3,
-          "lo": 56000,
-          "hi": 85600,
-          "src": "seed"
-        },
-        {
-          "date": "2026-07-27",
-          "price": 75000,
-          "n": 22,
-          "lo": 69900,
-          "hi": 76670,
-          "src": "ci"
-        },
-        {
-          "date": "2026-07-28",
-          "price": 70933,
-          "n": 18,
-          "lo": 67009,
-          "hi": 79182,
-          "src": "ci"
-        },
-        {
-          "date": "2026-07-29",
-          "price": 77134,
-          "n": 14,
-          "lo": 67823,
-          "hi": 79215,
-          "src": "ci"
-        },
-        {
-          "date": "2026-07-30",
-          "price": 73540,
-          "n": 16,
-          "lo": 67009,
-          "hi": 77384,
-          "src": "ci"
-        },
-        {
-          "date": "2026-07-31",
-          "price": 77294,
-          "n": 12,
-          "lo": 70494,
-          "hi": 80709,
-          "src": "ci"
-        },
-        {
-          "date": "2026-08-01",
-          "price": 76496,
-          "n": 18,
-          "lo": 66995,
-          "hi": 76925,
-          "src": "ci"
-        },
-        {
-          "date": "2026-08-02",
-          "price": 77770,
-          "n": 11,
-          "lo": 69701,
-          "hi": 81432,
-          "src": "ci"
-        },
-        {
-          "date": "2026-08-03",
-          "price": 70822,
-          "n": 28,
-          "lo": 67794,
-          "hi": 75798,
-          "src": "ci"
-        },
-        {
-          "date": "2026-08-04",
-          "price": 71201,
-          "n": 22,
-          "lo": 65897,
-          "hi": 76843,
-          "src": "ci"
-        },
-        {
-          "date": "2026-08-05",
-          "price": 70974,
-          "n": 14,
-          "lo": 67794,
-          "hi": 77134,
-          "src": "ci"
-        },
-        {
-          "date": "2026-08-06",
-          "price": 69974,
-          "n": 14,
-          "lo": 67794,
-          "hi": 77134,
-          "src": "ci"
-        },
-        {
-          "date": "2026-08-07",
-          "price": 73496,
-          "n": 12,
-          "lo": 67926,
-          "hi": 81173,
-          "src": "ci"
-        },
-        {
-          "date": "2026-08-08",
-          "price": 71201,
-          "n": 18,
-          "lo": 66995,
-          "hi": 76843,
-          "src": "ci"
-        },
-        {
-          "date": "2026-08-09",
-          "price": 70933,
-          "n": 17,
-          "lo": 67009,
-          "hi": 75921,
-          "src": "ci"
-        },
-        {
-          "date": "2026-08-10",
-          "price": 73393,
-          "n": 20,
-          "lo": 66995,
-          "hi": 76843,
-          "src": "ci"
-        },
-        {
-          "date": "2026-08-11",
-          "price": 69900,
-          "n": 31,
-          "lo": 66995,
-          "hi": 73704,
-          "src": "ci"
-        },
-        {
-          "date": "2026-08-12",
-          "price": 73997,
-          "n": 12,
-          "lo": 69701,
-          "hi": 81432,
-          "src": "ci"
-        },
-        {
-          "date": "2026-08-13",
-          "price": 73704,
-          "n": 17,
-          "lo": 67869,
-          "hi": 77033,
-          "src": "ci"
-        },
-        {
-          "date": "2026-08-14",
-          "price": 73427,
-          "n": 16,
-          "lo": 67009,
-          "hi": 76639,
-          "src": "ci"
-        },
-        {
-          "date": "2026-08-15",
-          "price": 73997,
-          "n": 12,
-          "lo": 69701,
-          "hi": 81432,
-          "src": "ci"
-        },
-        {
-          "date": "2026-08-16",
-          "price": 70449,
-          "n": 14,
-          "lo": 66257,
-          "hi": 77545,
-          "src": "ci"
-        },
-        {
-          "date": "2026-08-17",
-          "price": 70494,
-          "n": 14,
-          "lo": 66513,
-          "hi": 76109,
-          "src": "ci"
-        },
-        {
-          "date": "2026-08-18",
-          "price": 75000,
-          "n": 21,
-          "lo": 69900,
-          "hi": 76435,
-          "src": "ci"
-        },
-        {
-          "date": "2026-08-19",
-          "price": 74788,
-          "n": 25,
-          "lo": 66995,
-          "hi": 76271,
-          "src": "ci"
-        },
-        {
-          "date": "2026-08-20",
-          "price": 73302,
-          "n": 12,
-          "lo": 68280,
-          "hi": 80709,
-          "src": "ci"
-        },
-        {
-          "date": "2026-08-21",
-          "price": 73427,
-          "n": 16,
-          "lo": 60975,
-          "hi": 76639,
-          "src": "ci"
-        },
-        {
-          "date": "2026-08-22",
-          "price": 74788,
-          "n": 23,
-          "lo": 66995,
-          "hi": 74900,
-          "src": "ci"
-        },
-        {
-          "date": "2026-08-23",
-          "price": 71201,
-          "n": 27,
-          "lo": 66995,
-          "hi": 74900,
-          "src": "ci"
-        },
-        {
-          "date": "2026-08-24",
-          "price": 70494,
-          "n": 13,
-          "lo": 68280,
-          "hi": 80709,
-          "src": "ci"
-        },
-        {
-          "date": "2026-08-25",
-          "price": 70449,
-          "n": 14,
-          "lo": 63487,
-          "hi": 75545,
-          "src": "ci"
-        },
-        {
-          "date": "2026-08-26",
-          "price": 70933,
-          "n": 14,
-          "lo": 60975,
-          "hi": 73921,
-          "src": "ci"
-        },
-        {
-          "date": "2026-08-27",
-          "price": 74271,
-          "n": 25,
-          "lo": 66995,
-          "hi": 74588,
-          "src": "ci"
-        },
-        {
-          "date": "2026-08-28",
-          "price": 70933,
-          "n": 10,
-          "lo": 65412,
-          "hi": 80613,
-          "src": "ci"
-        },
-        {
-          "date": "2026-08-29",
-          "price": 72995,
-          "n": 22,
-          "lo": 69900,
-          "hi": 78373,
-          "src": "ci"
-        },
-        {
-          "date": "2026-08-30",
-          "price": 68476,
-          "n": 12,
-          "lo": 65926,
-          "hi": 81173,
-          "src": "ci"
-        },
-        {
-          "date": "2026-08-31",
-          "price": 71985,
-          "n": 41,
-          "lo": 67940,
-          "hi": 75998,
-          "src": "ci"
-        },
-        {
-          "date": "2026-09-01",
-          "price": 71201,
-          "n": 25,
-          "lo": 64995,
-          "hi": 74588,
-          "src": "ci"
-        },
-        {
-          "date": "2026-09-02",
-          "price": 70550,
-          "n": 28,
-          "lo": 64995,
-          "hi": 74477,
-          "src": "ci"
-        },
-        {
-          "date": "2026-09-03",
-          "price": 65949,
-          "n": 10,
-          "lo": 65721,
-          "hi": 79888,
-          "src": "ci"
-        },
-        {
-          "date": "2026-09-04",
-          "price": 69042,
-          "n": 12,
-          "lo": 65412,
-          "hi": 80613,
-          "src": "ci"
-        },
-        {
-          "date": "2026-09-05",
-          "price": 69190,
-          "n": 12,
-          "lo": 66280,
-          "hi": 75291,
-          "src": "ci"
-        },
-        {
-          "date": "2026-09-06",
-          "price": 66357,
-          "n": 15,
-          "lo": 60900,
-          "hi": 71528,
-          "src": "ci"
-        },
-        {
-          "date": "2026-09-07",
-          "price": 66088,
-          "n": 16,
-          "lo": 60900,
-          "hi": 71528,
-          "src": "ci"
-        },
-        {
-          "date": "2026-09-08",
-          "price": 70089,
-          "n": 36,
-          "lo": 64995,
-          "hi": 74120,
-          "src": "ci"
-        },
-        {
-          "date": "2026-09-09",
-          "price": 71392,
-          "n": 16,
-          "lo": 64579,
-          "hi": 77527,
-          "src": "ci"
-        },
-        {
-          "date": "2026-09-10",
-          "price": 73288,
-          "n": 18,
-          "lo": 64579,
-          "hi": 81173,
-          "src": "ci"
-        },
-        {
-          "date": "2026-09-11",
-          "price": 75680,
-          "n": 20,
-          "lo": 63979,
-          "hi": 81602,
-          "src": "ci"
-        },
-        {
-          "date": "2026-09-12",
-          "price": 74370,
-          "n": 17,
-          "lo": 65926,
-          "hi": 81173,
-          "src": "ci"
-        },
-        {
-          "date": "2026-09-13",
-          "price": 70033,
-          "n": 16,
-          "lo": 64057,
-          "hi": 81980,
-          "src": "ci"
-        },
-        {
-          "date": "2026-09-14",
-          "price": 65253,
-          "n": 28,
-          "lo": 61960,
-          "hi": 71080,
-          "src": "ci"
-        },
-        {
-          "date": "2026-09-15",
-          "price": 69594,
-          "n": 10,
-          "lo": 66280,
-          "hi": 80709,
-          "src": "ci"
-        },
-        {
-          "date": "2026-09-16",
-          "price": 75152,
-          "n": 8,
-          "lo": 66280,
-          "hi": 80709,
-          "src": "ci"
-        },
-        {
-          "date": "2026-09-17",
-          "price": 74179,
-          "n": 15,
-          "lo": 62479,
-          "hi": 78854,
-          "src": "ci"
-        },
-        {
-          "date": "2026-09-18",
-          "price": 67722,
-          "n": 12,
-          "lo": 63057,
-          "hi": 79613,
-          "src": "ci"
-        },
-        {
-          "date": "2026-09-19",
-          "price": 66748,
-          "n": 28,
-          "lo": 61317,
-          "hi": 79500,
-          "src": "ci"
-        },
-        {
-          "date": "2026-09-20",
-          "price": 69773,
-          "n": 29,
-          "lo": 63706,
-          "hi": 70800,
-          "src": "ci"
-        },
-        {
-          "date": "2026-09-21",
-          "price": 69549,
-          "n": 17,
-          "lo": 67895,
-          "hi": 79881,
-          "src": "ci"
-        },
-        {
-          "date": "2026-09-22",
-          "price": 70530,
-          "n": 18,
-          "lo": 65926,
-          "hi": 77692,
-          "src": "ci"
-        },
-        {
-          "date": "2026-09-23",
-          "price": 69253,
-          "n": 21,
-          "lo": 69000,
-          "hi": 69995,
-          "src": "ci"
-        },
-        {
-          "date": "2026-09-24",
-          "price": 68442,
-          "n": 42,
-          "lo": 64163,
-          "hi": 76501,
-          "src": "ci"
-        },
-        {
-          "date": "2026-09-25",
-          "price": 65949,
-          "n": 13,
-          "lo": 60721,
-          "hi": 80072,
-          "src": "ci"
-        },
-        {
-          "date": "2026-09-26",
-          "price": 69000,
-          "n": 25,
-          "lo": 67122,
-          "hi": 76300,
-          "src": "ci"
-        },
-        {
-          "date": "2026-09-27",
-          "price": 69549,
-          "n": 17,
-          "lo": 67895,
-          "hi": 80432,
-          "src": "ci"
-        },
-        {
-          "date": "2026-09-28",
-          "price": 69549,
-          "n": 17,
-          "lo": 67895,
-          "hi": 80432,
-          "src": "ci"
-        },
-        {
-          "date": "2026-09-29",
-          "price": 69253,
-          "n": 25,
-          "lo": 67888,
-          "hi": 79879,
-          "src": "ci"
-        }
-      ],
-      "ci": {
-        "type": "cargurus",
-        "url": "https://www.cargurus.com/Cars/t-Used-Porsche-Panamera-GTS-AWD-t84747",
-        "lo": 55,
-        "hi": 85,
-        "min_n": 3
-      },
-      "bat": {
-        "url": "https://bringatrailer.com/porsche/panamera/",
-        "include": [
-          "gts",
-          "sport turismo"
-        ],
-        "exclude": [
-          "e-hybrid"
-        ],
-        "year_min": 2019,
-        "year_max": 2020,
-        "lo": 30,
-        "hi": 150
-      },
-      "value": 69253,
-      "value_note": "asking median (no recent sold data)",
-      "make": "Porsche"
-    },
-    {
       "key": "ferrari_f12_berlinetta",
       "name": "Ferrari F12 Berlinetta",
       "short": "F12 Berlinetta",
@@ -16408,18 +15251,18 @@
       "source": "Cars.com asking (via car-value-tracker)",
       "note": "Front-engine NA V12 grand tourer (2013-2017).",
       "currency": "USD",
-      "updated": "2026-09-29",
+      "updated": "2026-09-30",
       "start": "2020-12-31",
-      "latest": 428000,
+      "latest": 432000,
       "first": 210000,
       "n_listings": null,
       "range_lo": 210000,
-      "range_hi": 428000,
+      "range_hi": 432000,
       "change": {
         "d7": null,
         "d30": null,
         "d90": null,
-        "all": 103.8
+        "all": 105.7
       },
       "points": 7,
       "series": [
@@ -16466,17 +15309,17 @@
           "hi": 350000
         },
         {
-          "date": "2026-09-29",
-          "price": 428000,
+          "date": "2026-09-30",
+          "price": 432000,
           "n": null,
-          "lo": 428000,
-          "hi": 428000
+          "lo": 432000,
+          "hi": 432000
         }
       ],
       "series_label": "asking median",
       "n_label": "listings",
-      "value": 428000,
-      "value_note": "asking median (no recent sold data)",
+      "value": 432000,
+      "value_note": "Cars.com asking median",
       "mirrored_from": "car-value-tracker",
       "cadence": "annual",
       "production": {
@@ -16500,7 +15343,7 @@
       "source": "Bring a Trailer sold comps (via car-value-tracker)",
       "note": "Pre-facelift NA2, 1997-2001, six-speed, coupe and targa.",
       "currency": "USD",
-      "updated": "2026-09-29",
+      "updated": "2026-09-30",
       "start": "2017-12-31",
       "latest": 153000,
       "first": 62000,
@@ -16579,7 +15422,7 @@
           "hi": 170000
         },
         {
-          "date": "2026-09-29",
+          "date": "2026-09-30",
           "price": 153000,
           "n": 11,
           "lo": 128000,
@@ -16589,7 +15432,7 @@
       "series_label": "BaT sold median",
       "n_label": "sold comps",
       "value": 153000,
-      "value_note": "asking median (no recent sold data)",
+      "value_note": "Median of this year's BaT sold prints",
       "mirrored_from": "car-value-tracker",
       "cadence": "annual",
       "production": {
@@ -16613,7 +15456,7 @@
       "source": "Bring a Trailer sold comps (via car-value-tracker)",
       "note": "Gated six-speed only - the F1 cars are a different market.",
       "currency": "USD",
-      "updated": "2026-09-29",
+      "updated": "2026-09-30",
       "start": "2018-12-31",
       "latest": 233000,
       "first": 95500,
@@ -16685,7 +15528,7 @@
           "hi": 171000
         },
         {
-          "date": "2026-09-29",
+          "date": "2026-09-30",
           "price": 233000,
           "n": 22,
           "lo": 125000,
@@ -16695,7 +15538,7 @@
       "series_label": "BaT sold median",
       "n_label": "sold comps",
       "value": 233000,
-      "value_note": "asking median (no recent sold data)",
+      "value_note": "Median of this year's BaT sold prints",
       "mirrored_from": "car-value-tracker",
       "cadence": "annual",
       "production": {
@@ -16719,7 +15562,7 @@
       "source": "Bring a Trailer sold comps (via car-value-tracker)",
       "note": "Type 42 V10 coupe, gated six-speed, 2009-2015. Gated manual coupe only - the broader 'R8 V10 Gen 1' card on this page includes R-tronic/S-tronic and the Spyder, and prices lower as a result.",
       "currency": "USD",
-      "updated": "2026-09-29",
+      "updated": "2026-09-30",
       "start": "2019-12-31",
       "latest": 141000,
       "first": 90000,
@@ -16784,7 +15627,7 @@
           "hi": 159000
         },
         {
-          "date": "2026-09-29",
+          "date": "2026-09-30",
           "price": 141000,
           "n": 7,
           "lo": 136000,
@@ -16794,7 +15637,7 @@
       "series_label": "BaT sold median",
       "n_label": "sold comps",
       "value": 141000,
-      "value_note": "asking median (no recent sold data)",
+      "value_note": "Median of this year's BaT sold prints",
       "mirrored_from": "car-value-tracker",
       "cadence": "annual",
       "production": {
@@ -16818,7 +15661,7 @@
       "source": "Bring a Trailer sold comps (via car-value-tracker)",
       "note": "1963 coupe only - the one-year split rear window.",
       "currency": "USD",
-      "updated": "2026-09-29",
+      "updated": "2026-09-30",
       "start": "2016-12-31",
       "latest": 175000,
       "first": 96000,
@@ -16897,7 +15740,7 @@
           "hi": 181000
         },
         {
-          "date": "2026-09-29",
+          "date": "2026-09-30",
           "price": 175000,
           "n": 44,
           "lo": 130000,
@@ -16907,7 +15750,7 @@
       "series_label": "BaT sold median",
       "n_label": "sold comps",
       "value": 175000,
-      "value_note": "asking median (no recent sold data)",
+      "value_note": "Median of this year's BaT sold prints",
       "mirrored_from": "car-value-tracker",
       "cadence": "annual",
       "production": {
@@ -16922,133 +15765,6 @@
       }
     },
     {
-      "key": "volvo_p1800_1800_family",
-      "name": "Volvo P1800 (1800 family)",
-      "short": "P1800",
-      "category": "car",
-      "make": "Volvo",
-      "color": "#4A7C59",
-      "source": "Bring a Trailer sold comps (via car-value-tracker)",
-      "note": "1800 family incl. the ES shooting brake.",
-      "currency": "USD",
-      "updated": "2026-09-29",
-      "start": "2015-12-31",
-      "latest": 25100,
-      "first": 26000,
-      "n_listings": 336,
-      "range_lo": 13000,
-      "range_hi": 40000,
-      "change": {
-        "d7": null,
-        "d30": null,
-        "d90": null,
-        "all": -3.5
-      },
-      "points": 12,
-      "series": [
-        {
-          "date": "2015-12-31",
-          "price": 26000,
-          "n": 4,
-          "lo": 24000,
-          "hi": 28000
-        },
-        {
-          "date": "2016-12-31",
-          "price": 15500,
-          "n": 7,
-          "lo": 15000,
-          "hi": 16800
-        },
-        {
-          "date": "2017-12-31",
-          "price": 17000,
-          "n": 19,
-          "lo": 14000,
-          "hi": 22500
-        },
-        {
-          "date": "2018-12-31",
-          "price": 20700,
-          "n": 22,
-          "lo": 14200,
-          "hi": 24100
-        },
-        {
-          "date": "2019-12-31",
-          "price": 17800,
-          "n": 21,
-          "lo": 13500,
-          "hi": 20500
-        },
-        {
-          "date": "2020-12-31",
-          "price": 20000,
-          "n": 27,
-          "lo": 13000,
-          "hi": 25000
-        },
-        {
-          "date": "2021-12-31",
-          "price": 27000,
-          "n": 33,
-          "lo": 18500,
-          "hi": 40000
-        },
-        {
-          "date": "2022-12-31",
-          "price": 25200,
-          "n": 39,
-          "lo": 17000,
-          "hi": 34400
-        },
-        {
-          "date": "2023-12-31",
-          "price": 24800,
-          "n": 49,
-          "lo": 17500,
-          "hi": 31500
-        },
-        {
-          "date": "2024-12-31",
-          "price": 26800,
-          "n": 43,
-          "lo": 19200,
-          "hi": 33200
-        },
-        {
-          "date": "2025-12-31",
-          "price": 26000,
-          "n": 37,
-          "lo": 18200,
-          "hi": 35800
-        },
-        {
-          "date": "2026-09-29",
-          "price": 25100,
-          "n": 34,
-          "lo": 20000,
-          "hi": 31200
-        }
-      ],
-      "series_label": "BaT sold median",
-      "n_label": "sold comps",
-      "value": 25100,
-      "value_note": "asking median (no recent sold data)",
-      "mirrored_from": "car-value-tracker",
-      "cadence": "annual",
-      "production": {
-        "last_my": 1973,
-        "world": {
-          "label": "~47,500 built",
-          "detail": "39,407 coupes (P1800 / 1800S / 1800E) + 8,077 1800ES, 1961-1973. The quoted total of 47,492 is 8 more than those parts sum to.",
-          "src": "Wikipedia - Volvo P1800",
-          "url": "https://en.wikipedia.org/wiki/Volvo_P1800"
-        },
-        "na": null
-      }
-    },
-    {
       "key": "alfa_romeo_gtv_1750_2000",
       "name": "Alfa Romeo GTV 1750/2000",
       "short": "GTV 1750/2000",
@@ -17058,7 +15774,7 @@
       "source": "Bring a Trailer sold comps (via car-value-tracker)",
       "note": "105-series 1750 and 2000 GTV, 1967-1976 - the Bertone coupe.",
       "currency": "USD",
-      "updated": "2026-09-29",
+      "updated": "2026-09-30",
       "start": "2015-12-31",
       "latest": 45500,
       "first": 25900,
@@ -17151,7 +15867,7 @@
           "hi": 57000
         },
         {
-          "date": "2026-09-29",
+          "date": "2026-09-30",
           "price": 45500,
           "n": 20,
           "lo": 32000,
@@ -17161,7 +15877,7 @@
       "series_label": "BaT sold median",
       "n_label": "sold comps",
       "value": 45500,
-      "value_note": "asking median (no recent sold data)",
+      "value_note": "Median of this year's BaT sold prints",
       "mirrored_from": "car-value-tracker",
       "cadence": "annual",
       "production": {
@@ -17185,7 +15901,7 @@
       "source": "Bring a Trailer sold comps (via car-value-tracker)",
       "note": "Singer-reimagined 964 - a different market to everything else here.",
       "currency": "USD",
-      "updated": "2026-09-29",
+      "updated": "2026-09-30",
       "start": "2022-12-31",
       "latest": 1275000,
       "first": 1150000,
@@ -17215,7 +15931,7 @@
           "hi": 1200000
         },
         {
-          "date": "2026-09-29",
+          "date": "2026-09-30",
           "price": 1275000,
           "n": 7,
           "lo": 1205000,
@@ -17225,7 +15941,7 @@
       "series_label": "BaT sold median",
       "n_label": "sold comps",
       "value": 1275000,
-      "value_note": "asking median (no recent sold data)",
+      "value_note": "Median of this year's BaT sold prints",
       "mirrored_from": "car-value-tracker",
       "cadence": "annual",
       "production": {
@@ -17249,7 +15965,7 @@
       "source": "Bring a Trailer sold comps (via car-value-tracker)",
       "note": "328 GTB and GTS, 1986-1989 - the last of the carburettor-era shape.",
       "currency": "USD",
-      "updated": "2026-09-29",
+      "updated": "2026-09-30",
       "start": "2016-12-31",
       "latest": 123900,
       "first": 81500,
@@ -17335,7 +16051,7 @@
           "hi": 145000
         },
         {
-          "date": "2026-09-29",
+          "date": "2026-09-30",
           "price": 123900,
           "n": 39,
           "lo": 115000,
@@ -17345,7 +16061,7 @@
       "series_label": "BaT sold median",
       "n_label": "sold comps",
       "value": 123900,
-      "value_note": "asking median (no recent sold data)",
+      "value_note": "Median of this year's BaT sold prints",
       "mirrored_from": "car-value-tracker",
       "cadence": "annual",
       "production": {
@@ -17369,18 +16085,18 @@
       "source": "Bring a Trailer sold comps (via car-value-tracker)",
       "note": "246 GT and GTS, 1969-1974 - the V6 junior Ferrari, badged Dino.",
       "currency": "USD",
-      "updated": "2026-09-29",
+      "updated": "2026-09-30",
       "start": "2019-12-31",
-      "latest": 406500,
+      "latest": 420000,
       "first": 363000,
-      "n_listings": 67,
+      "n_listings": 68,
       "range_lo": 290000,
       "range_hi": 599000,
       "change": {
         "d7": null,
         "d30": null,
         "d90": null,
-        "all": 12.0
+        "all": 15.7
       },
       "points": 8,
       "series": [
@@ -17434,17 +16150,17 @@
           "hi": 525000
         },
         {
-          "date": "2026-09-29",
-          "price": 406500,
-          "n": 6,
-          "lo": 305000,
+          "date": "2026-09-30",
+          "price": 420000,
+          "n": 7,
+          "lo": 393000,
           "hi": 452500
         }
       ],
       "series_label": "BaT sold median",
       "n_label": "sold comps",
-      "value": 406500,
-      "value_note": "asking median (no recent sold data)",
+      "value": 420000,
+      "value_note": "Median of this year's BaT sold prints",
       "mirrored_from": "car-value-tracker",
       "cadence": "annual",
       "production": {
@@ -17468,7 +16184,7 @@
       "source": "Bring a Trailer sold comps (via car-value-tracker)",
       "note": "Final US Evora, 2020-2021 - supercharged V6, manual and auto.",
       "currency": "USD",
-      "updated": "2026-09-29",
+      "updated": "2026-09-30",
       "start": "2022-12-31",
       "latest": 88000,
       "first": 88500,
@@ -17512,7 +16228,7 @@
           "hi": 94000
         },
         {
-          "date": "2026-09-29",
+          "date": "2026-09-30",
           "price": 88000,
           "n": 4,
           "lo": 86500,
@@ -17522,7 +16238,7 @@
       "series_label": "BaT sold median",
       "n_label": "sold comps",
       "value": 88000,
-      "value_note": "asking median (no recent sold data)",
+      "value_note": "Median of this year's BaT sold prints",
       "cadence": "annual",
       "mirrored_from": "car-value-tracker",
       "production": {
@@ -17546,7 +16262,7 @@
       "source": "Bring a Trailer sold comps (via car-value-tracker)",
       "note": "Supercharged Toyota V6, six-speed - the last analogue Lotus.",
       "currency": "USD",
-      "updated": "2026-09-29",
+      "updated": "2026-09-30",
       "start": "2024-12-31",
       "latest": 84200,
       "first": 101000,
@@ -17576,7 +16292,7 @@
           "hi": 91600
         },
         {
-          "date": "2026-09-29",
+          "date": "2026-09-30",
           "price": 84200,
           "n": 10,
           "lo": 83000,
@@ -17586,7 +16302,7 @@
       "series_label": "BaT sold median",
       "n_label": "sold comps",
       "value": 84200,
-      "value_note": "asking median (no recent sold data)",
+      "value_note": "Median of this year's BaT sold prints",
       "cadence": "annual",
       "mirrored_from": "car-value-tracker"
     },
@@ -17600,7 +16316,7 @@
       "source": "Bring a Trailer sold comps (via car-value-tracker)",
       "note": "1996-2001 front-engined V12 coupe, gated six-speed - every one a manual.",
       "currency": "USD",
-      "updated": "2026-09-29",
+      "updated": "2026-09-30",
       "start": "2018-12-31",
       "latest": 218000,
       "first": 130000,
@@ -17672,7 +16388,7 @@
           "hi": 195000
         },
         {
-          "date": "2026-09-29",
+          "date": "2026-09-30",
           "price": 218000,
           "n": 21,
           "lo": 177000,
@@ -17682,7 +16398,7 @@
       "series_label": "BaT sold median",
       "n_label": "sold comps",
       "value": 218000,
-      "value_note": "asking median (no recent sold data)",
+      "value_note": "Median of this year's BaT sold prints",
       "cadence": "annual",
       "mirrored_from": "car-value-tracker",
       "production": {
@@ -17706,7 +16422,7 @@
       "source": "Bring a Trailer sold comps (via car-value-tracker)",
       "note": "Gated six-speed coupe, 1995-1999 - the F1 paddle cars are a different market.",
       "currency": "USD",
-      "updated": "2026-09-29",
+      "updated": "2026-09-30",
       "start": "2018-12-31",
       "latest": 245400,
       "first": 67500,
@@ -17771,7 +16487,7 @@
           "hi": 162500
         },
         {
-          "date": "2026-09-29",
+          "date": "2026-09-30",
           "price": 245400,
           "n": 3,
           "lo": 202000,
@@ -17781,7 +16497,7 @@
       "series_label": "BaT sold median",
       "n_label": "sold comps",
       "value": 245400,
-      "value_note": "asking median (no recent sold data)",
+      "value_note": "Median of this year's BaT sold prints",
       "cadence": "annual",
       "mirrored_from": "car-value-tracker",
       "production": {
@@ -17805,7 +16521,7 @@
       "source": "Bring a Trailer sold comps (via car-value-tracker)",
       "note": "Targa-top GTS, gated six-speed, 1995-1999 - the lift-out roof, not the Spider.",
       "currency": "USD",
-      "updated": "2026-09-29",
+      "updated": "2026-09-30",
       "start": "2021-12-31",
       "latest": 235400,
       "first": 150800,
@@ -17856,7 +16572,7 @@
           "hi": 165500
         },
         {
-          "date": "2026-09-29",
+          "date": "2026-09-30",
           "price": 235400,
           "n": 5,
           "lo": 212000,
@@ -17866,7 +16582,7 @@
       "series_label": "BaT sold median",
       "n_label": "sold comps",
       "value": 235400,
-      "value_note": "asking median (no recent sold data)",
+      "value_note": "Median of this year's BaT sold prints",
       "cadence": "annual",
       "mirrored_from": "car-value-tracker",
       "production": {
@@ -17883,14 +16599,14 @@
     {
       "key": "porsche_carrera_gt",
       "name": "Porsche Carrera GT",
-      "short": "Porsche Carrera GT",
+      "short": "Carrera GT",
       "category": "car",
       "make": "Porsche",
       "color": "#3B4A5A",
       "source": "Bring a Trailer sold comps (via car-value-tracker)",
       "note": "2004-2006 Le Mans-derived 5.7 V10, six-speed - 1,270 built, and only 14 BaT sales ever, so the pre-2022 years are interpolated.",
       "currency": "USD",
-      "updated": "2026-09-29",
+      "updated": "2026-09-30",
       "start": "2022-12-31",
       "latest": 1810400,
       "first": 1682000,
@@ -17913,7 +16629,7 @@
           "hi": 1865000
         },
         {
-          "date": "2026-09-29",
+          "date": "2026-09-30",
           "price": 1810400,
           "n": 3,
           "lo": 1389000,
@@ -17923,7 +16639,7 @@
       "series_label": "BaT sold median",
       "n_label": "sold comps",
       "value": 1810400,
-      "value_note": "asking median (no recent sold data)",
+      "value_note": "Median of this year's BaT sold prints",
       "cadence": "annual",
       "mirrored_from": "car-value-tracker",
       "production": {
@@ -17939,6 +16655,117 @@
           "detail": "644 United States + 31 Canada, of 1,270 built. The last model year turns 25 in 2031, so until then these are the cars that can legally be registered here.",
           "src": "Wikipedia - Porsche Carrera GT",
           "url": "https://en.wikipedia.org/wiki/Porsche_Carrera_GT"
+        }
+      }
+    },
+    {
+      "key": "ford_gt_2005_2006",
+      "name": "Ford GT (2005-2006)",
+      "short": "Ford GT",
+      "category": "car",
+      "make": "Ford",
+      "color": "#00A3E0",
+      "source": "Bring a Trailer sold comps (via car-value-tracker)",
+      "note": "Supercharged 5.4 V8, six-speed - the Le Mans homage, 4,038 built.",
+      "currency": "USD",
+      "updated": "2026-09-30",
+      "start": "2018-12-31",
+      "latest": 582000,
+      "first": 256000,
+      "n_listings": 250,
+      "range_lo": 235000,
+      "range_hi": 715000,
+      "change": {
+        "d7": null,
+        "d30": null,
+        "d90": null,
+        "all": 127.3
+      },
+      "points": 9,
+      "series": [
+        {
+          "date": "2018-12-31",
+          "price": 256000,
+          "n": 3,
+          "lo": 235000,
+          "hi": 266500
+        },
+        {
+          "date": "2019-12-31",
+          "price": 266000,
+          "n": 3,
+          "lo": 236000,
+          "hi": 355000
+        },
+        {
+          "date": "2020-12-31",
+          "price": 317000,
+          "n": 16,
+          "lo": 280000,
+          "hi": 341000
+        },
+        {
+          "date": "2021-12-31",
+          "price": 381000,
+          "n": 27,
+          "lo": 360000,
+          "hi": 400000
+        },
+        {
+          "date": "2022-12-31",
+          "price": 443000,
+          "n": 45,
+          "lo": 405000,
+          "hi": 481000
+        },
+        {
+          "date": "2023-12-31",
+          "price": 414500,
+          "n": 44,
+          "lo": 397000,
+          "hi": 455600
+        },
+        {
+          "date": "2024-12-31",
+          "price": 424000,
+          "n": 40,
+          "lo": 400000,
+          "hi": 461000
+        },
+        {
+          "date": "2025-12-31",
+          "price": 491500,
+          "n": 46,
+          "lo": 456000,
+          "hi": 605100
+        },
+        {
+          "date": "2026-09-30",
+          "price": 582000,
+          "n": 26,
+          "lo": 500000,
+          "hi": 715000
+        }
+      ],
+      "series_label": "BaT sold median",
+      "n_label": "sold comps",
+      "value": 582000,
+      "value_note": "Median of this year's BaT sold prints",
+      "cadence": "annual",
+      "mirrored_from": "car-value-tracker",
+      "production": {
+        "last_my": 2006,
+        "world": {
+          "label": "4,038 built",
+          "detail": "Every first-generation Ford GT, from the 2004 pre-production cars to the end of the line on 21 September 2006: roughly 550 in 2004, nearly 1,900 in 2005 and just over 1,600 in 2006. Ford had planned 4,500.",
+          "src": "Wikipedia - Ford GT",
+          "url": "https://en.wikipedia.org/wiki/Ford_GT"
+        },
+        "na": {
+          "label": "~3,900 for N. America",
+          "detail": "4,038 built less the roughly 129 European deliveries (101 to the mainland, 28 to the UK). Those are allocation figures rather than audited builds, hence the tilde; about 200 of the North American cars went to Canada.",
+          "src": "Wikipedia - Ford GT",
+          "url": "https://en.wikipedia.org/wiki/Ford_GT"
         }
       }
     }
@@ -18791,5 +17618,5 @@
       }
     ]
   },
-  "cvt_sync": "Ferrari F12 Berlinetta: 7pts, $428,000 | Acura NSX (NA2 manual): 10pts, $153,000 | Ferrari 360 (gated manual): 9pts, $233,000 | Audi R8 gen1 V10 (gated): 8pts, $141,000 | Corvette split-window (1963): 10pts, $175,000 | Volvo P1800 (1800 family): 12pts, $25,100 | Alfa Romeo GTV 1750/2000: 12pts, $45,500 | Porsche Singer 911: 3pts, $1,275,000 | Ferrari 328 GTS/GTB: 11pts, $123,900 | Ferrari Dino 246 GT/GTS: 8pts, $406,500 | Lotus Evora GT (2020-21): 5pts, $88,000 | Lotus Emira V6 (2024-25): 3pts, $84,200 | Ferrari 550 Maranello: 9pts, $218,000 | Ferrari F355 Berlinetta (gated manual): 8pts, $245,400 | Ferrari F355 GTS (gated manual): 6pts, $235,400 | Porsche Carrera GT: 2pts, $1,810,400"
+  "cvt_sync": "pruned 1 dropped asset(s) | Ferrari F12 Berlinetta: 7pts, $432,000 | Acura NSX (NA2 manual): 10pts, $153,000 | Ferrari 360 (gated manual): 9pts, $233,000 | Audi R8 gen1 V10 (gated): 8pts, $141,000 | Corvette split-window (1963): 10pts, $175,000 | Alfa Romeo GTV 1750/2000: 12pts, $45,500 | Porsche Singer 911: 3pts, $1,275,000 | Ferrari 328 GTS/GTB: 11pts, $123,900 | Ferrari Dino 246 GT/GTS: 8pts, $420,000 | Lotus Evora GT (2020-21): 5pts, $88,000 | Lotus Emira V6 (2024-25): 3pts, $84,200 | Ferrari 550 Maranello: 9pts, $218,000 | Ferrari F355 Berlinetta (gated manual): 8pts, $245,400 | Ferrari F355 GTS (gated manual): 6pts, $235,400 | Porsche Carrera GT: 2pts, $1,810,400 | Ford GT (2005-2006): 9pts, $582,000"
 }
