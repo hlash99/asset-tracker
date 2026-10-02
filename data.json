@@ -1,8 +1,8 @@
 {
-  "updated": "2026-10-02T07:02:46Z",
+  "updated": "2026-10-02T18:26:40Z",
   "generated_by": "publish_trackers.py",
   "summary": {
-    "portfolio_value": 10020444,
+    "portfolio_value": 9998040,
     "n_assets": 29,
     "n_cars": 27,
     "n_watches": 2
@@ -4998,16 +4998,16 @@
       "currency": "USD",
       "updated": "2026-10-02",
       "start": "2026-04-20",
-      "latest": 564558,
+      "latest": 569995,
       "first": 339995,
       "n_listings": 24,
-      "range_lo": 460398,
-      "range_hi": 590086,
+      "range_lo": 456497,
+      "range_hi": 595122,
       "change": {
-        "d7": 31.3,
-        "d30": 8.8,
-        "d90": 41.1,
-        "all": 66.0
+        "d7": 32.6,
+        "d30": 9.9,
+        "d90": 42.5,
+        "all": 67.6
       },
       "points": 87,
       "series": [
@@ -5649,10 +5649,10 @@
         },
         {
           "date": "2026-10-02",
-          "price": 564558,
+          "price": 569995,
           "n": 24,
-          "lo": 460398,
-          "hi": 590086,
+          "lo": 456497,
+          "hi": 595122,
           "src": "ci"
         }
       ],
@@ -6231,7 +6231,7 @@
           "days": 90
         }
       ],
-      "value": 519514,
+      "value": 520874,
       "value_note": "75% sold (90d) + 25% asking",
       "comps": [
         {
@@ -6639,16 +6639,16 @@
         "hi": 1200
       },
       "sold": {
-        "median": 820000,
-        "n": 11,
+        "median": 792500,
+        "n": 12,
         "days": 90,
         "updated": "2026-10-02",
         "src": "bat",
         "latest": {
-          "url": "https://bringatrailer.com/listing/2022-ferrari-812-gts-42/",
-          "title": "953-Mile 2022 Ferrari 812 GTS",
-          "price": 931000,
-          "date": "2026-09-29"
+          "url": "https://bringatrailer.com/listing/2022-ferrari-812-gts-41/",
+          "title": "2,200-Mile 2022 Ferrari 812 GTS",
+          "price": 735000,
+          "date": "2026-10-02"
         }
       },
       "sold_series": [
@@ -7194,14 +7194,20 @@
         },
         {
           "date": "2026-10-02",
-          "price": 820000,
-          "n": 11,
+          "price": 792500,
+          "n": 12,
           "days": 90
         }
       ],
-      "value": 798750,
+      "value": 778125,
       "value_note": "75% sold (90d) + 25% asking",
       "comps": [
+        {
+          "date": "2026-10-02",
+          "price": 735000,
+          "title": "2,200-Mile 2022 Ferrari 812 GTS",
+          "url": "https://bringatrailer.com/listing/2022-ferrari-812-gts-41/"
+        },
         {
           "date": "2026-09-29",
           "price": 931000,
@@ -8998,16 +9004,16 @@
       "currency": "USD",
       "updated": "2026-10-02",
       "start": "2026-01-04",
-      "latest": 270944,
+      "latest": 277922,
       "first": 298400,
-      "n_listings": 32,
-      "range_lo": 251364,
-      "range_hi": 310132,
+      "n_listings": 31,
+      "range_lo": 261537,
+      "range_hi": 329993,
       "change": {
-        "d7": -16.0,
-        "d30": -13.3,
-        "d90": 5.8,
-        "all": -9.2
+        "d7": -13.8,
+        "d30": -11.0,
+        "d90": 8.5,
+        "all": -6.9
       },
       "points": 185,
       "series": [
@@ -10355,10 +10361,10 @@
         },
         {
           "date": "2026-10-02",
-          "price": 270944,
-          "n": 32,
-          "lo": 251364,
-          "hi": 310132,
+          "price": 277922,
+          "n": 31,
+          "lo": 261537,
+          "hi": 329993,
           "src": "ci"
         }
       ],
@@ -10941,7 +10947,7 @@
           "days": 90
         }
       ],
-      "value": 258986,
+      "value": 260730,
       "value_note": "75% sold (90d) + 25% asking",
       "comps": [
         {
@@ -10975,16 +10981,16 @@
       "currency": "USD",
       "updated": "2026-10-02",
       "start": "2026-07-04",
-      "latest": 190686,
+      "latest": 214900,
       "first": 339995,
-      "n_listings": 2,
-      "range_lo": 190686,
-      "range_hi": 190686,
+      "n_listings": 7,
+      "range_lo": 192525,
+      "range_hi": 219950,
       "change": {
-        "d7": -23.7,
-        "d30": -10.4,
-        "d90": -43.9,
-        "all": -43.9
+        "d7": -14.0,
+        "d30": 1.0,
+        "d90": -36.8,
+        "all": -36.8
       },
       "points": 52,
       "series": [
@@ -11398,10 +11404,10 @@
         },
         {
           "date": "2026-10-02",
-          "price": 190686,
-          "n": 2,
-          "lo": 190686,
-          "hi": 190686,
+          "price": 214900,
+          "n": 7,
+          "lo": 192525,
+          "hi": 219950,
           "src": "ci"
         }
       ],
@@ -11985,7 +11991,7 @@
           "days": 90
         }
       ],
-      "value": 264712,
+      "value": 270766,
       "value_note": "75% sold (90d) + 25% asking",
       "comps": [
         {
@@ -12071,16 +12077,16 @@
       "currency": "USD",
       "updated": "2026-10-02",
       "start": "2026-07-04",
-      "latest": 141095,
+      "latest": 150340,
       "first": 161007,
-      "n_listings": 10,
-      "range_lo": 130408,
-      "range_hi": 149728,
+      "n_listings": 15,
+      "range_lo": 139950,
+      "range_hi": 192525,
       "change": {
-        "d7": 7.7,
-        "d30": -4.6,
-        "d90": -12.4,
-        "all": -12.4
+        "d7": 14.7,
+        "d30": 1.7,
+        "d90": -6.6,
+        "all": -6.6
       },
       "points": 74,
       "series": [
@@ -12668,10 +12674,10 @@
         },
         {
           "date": "2026-10-02",
-          "price": 141095,
-          "n": 10,
-          "lo": 130408,
-          "hi": 149728,
+          "price": 150340,
+          "n": 15,
+          "lo": 139950,
+          "hi": 192525,
           "src": "ci"
         }
       ],
@@ -13258,7 +13264,7 @@
         "hi": 300,
         "min_n": 1
       },
-      "value": 155661,
+      "value": 158897,
       "value_note": "65% sold (180d) + 35% asking",
       "comps": [
         {
@@ -13302,16 +13308,16 @@
       "currency": "USD",
       "updated": "2026-10-02",
       "start": "2026-07-21",
-      "latest": 138794,
+      "latest": 126094,
       "first": 125445,
-      "n_listings": 16,
-      "range_lo": 107279,
-      "range_hi": 147940,
+      "n_listings": 25,
+      "range_lo": 109997,
+      "range_hi": 136403,
       "change": {
-        "d7": 42.9,
-        "d30": 8.8,
+        "d7": 29.8,
+        "d30": -1.2,
         "d90": null,
-        "all": 10.6
+        "all": 0.5
       },
       "points": 70,
       "series": [
@@ -13869,10 +13875,10 @@
         },
         {
           "date": "2026-10-02",
-          "price": 138794,
-          "n": 16,
-          "lo": 107279,
-          "hi": 147940,
+          "price": 126094,
+          "n": 25,
+          "lo": 109997,
+          "hi": 136403,
           "src": "ci"
         }
       ],
@@ -13883,7 +13889,7 @@
         "hi": 160,
         "min_n": 3
       },
-      "value": 138794,
+      "value": 126094,
       "value_note": "asking median (no recent sold data)",
       "make": "Porsche"
     },
@@ -14435,16 +14441,16 @@
       "currency": "USD",
       "updated": "2026-10-02",
       "start": "2026-07-21",
-      "latest": 106350,
+      "latest": 100460,
       "first": 90683,
-      "n_listings": 28,
-      "range_lo": 94806,
-      "range_hi": 150279,
+      "n_listings": 39,
+      "range_lo": 89355,
+      "range_hi": 139973,
       "change": {
-        "d7": 20.9,
-        "d30": 8.7,
+        "d7": 14.2,
+        "d30": 2.6,
         "d90": null,
-        "all": 17.3
+        "all": 10.8
       },
       "points": 69,
       "series": [
@@ -14994,10 +15000,10 @@
         },
         {
           "date": "2026-10-02",
-          "price": 106350,
-          "n": 28,
-          "lo": 94806,
-          "hi": 150279,
+          "price": 100460,
+          "n": 39,
+          "lo": 89355,
+          "hi": 139973,
           "src": "ci"
         }
       ],
@@ -15496,7 +15502,7 @@
           "days": 90
         }
       ],
-      "value": 113588,
+      "value": 112115,
       "value_note": "75% sold (90d) + 25% asking",
       "comps": [
         {
