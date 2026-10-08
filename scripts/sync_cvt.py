@@ -37,10 +37,13 @@ TODAY = datetime.now(timezone.utc).strftime("%Y-%m-%d")
 # Already tracked here from a live source of their own -- do not mirror.
 SKIP = {
     "Porsche 997.2 Turbo S",          # -> porsche_997_turbo_s (live asking + personal block)
-    "Ferrari 458 Italia",             # -> ferrari_458_italia
-    "Ferrari 812 Superfast",          # -> ferrari_812_superfast
-    "Ferrari 812 GTS",                # -> ferrari_812_gts
 }
+# The 458, 812 Superfast and 812 GTS used to be skipped too, each with its own
+# Cars.com/CarGurus tracker here. That left two different prices for the same
+# car on the two pages (812 SF $420k here vs $527k there), so since 2026-10-07
+# they are mirrored like everything else; their own-tracker fields are dropped
+# in upsert() so ci_refresh.py cannot overwrite the mirrored figure.
+OWN_TRACKER_FIELDS = ("ci", "bat", "sold", "sold_series", "comps")
 
 # Carried upstream but not wanted on this page. Dropped on every run AND pruned
 # from data.json, so a mirror cannot quietly put one back. Deleting the asset
@@ -77,6 +80,9 @@ SHORT = {
     "Porsche Carrera GT": "Carrera GT",
     "Ford GT (2005-2006)": "Ford GT",
     "Dodge Viper GTS/GT (Gen 5)": "Viper GTS/GT (Gen 5)",
+    "Ferrari 458 Italia": "458 Italia",
+    "Ferrari 812 Superfast": "812 Superfast",
+    "Ferrari 812 GTS": "812 GTS",
 }
 
 NOTE_EXTRA = {
@@ -176,6 +182,8 @@ def upsert(d, name, car, years):
         a["production"] = car["production"]
     else:
         a.pop("production", None)
+    for f in OWN_TRACKER_FIELDS:
+        a.pop(f, None)
     if key not in by_key:
         d["assets"].append(a)
     return key, len(series), latest
