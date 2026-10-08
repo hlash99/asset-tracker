@@ -54,7 +54,8 @@ DROP = {
 # which this dashboard deliberately no longer has — add the marque when adding a car.
 MAKES = [("Acura", "Acura"), ("Ferrari", "Ferrari"), ("Audi", "Audi"),
          ("Porsche", "Porsche"), ("Volvo", "Volvo"), ("Alfa Romeo", "Alfa Romeo"),
-         ("Corvette", "Chevrolet"), ("Lotus", "Lotus"), ("Ford", "Ford")]
+         ("Corvette", "Chevrolet"), ("Lotus", "Lotus"), ("Ford", "Ford"),
+         ("Dodge", "Dodge")]
 
 # Short card labels; anything unlisted falls back to the full name.
 SHORT = {
@@ -75,6 +76,7 @@ SHORT = {
     "Ferrari F355 GTS (gated manual)": "F355 GTS 6MT",
     "Porsche Carrera GT": "Carrera GT",
     "Ford GT (2005-2006)": "Ford GT",
+    "Dodge Viper GTS/GT (Gen 5)": "Viper GTS/GT (Gen 5)",
 }
 
 NOTE_EXTRA = {
