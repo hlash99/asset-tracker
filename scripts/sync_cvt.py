@@ -201,6 +201,17 @@ def main():
         r = upsert(d, name, car, years)
         log.append(f"{name}: {r[1]}pts, ${r[2]:,}" if r else f"{name}: SKIPPED (thin series)")
 
+    # Prune mirrored cars car-value-tracker no longer publishes (the P1800 and the
+    # '63 Corvette were taken off it 2026-10-07). Only mirrored assets are touched;
+    # this page's own trackers are never removed here.
+    live = {slug(n) for n in cvt["cars"] if n not in SKIP}
+    gone = [a["name"] for a in d["assets"]
+            if a.get("mirrored_from") == "car-value-tracker" and a["key"] not in live]
+    d["assets"] = [a for a in d["assets"]
+                   if not (a.get("mirrored_from") == "car-value-tracker" and a["key"] not in live)]
+    if gone:
+        log.append("removed: " + ", ".join(gone))
+
     cars = [a for a in d["assets"] if a.get("category") == "car"]
     d.setdefault("summary", {})
     d["summary"]["n_assets"] = len(d["assets"])

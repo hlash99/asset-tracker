@@ -2,9 +2,9 @@
   "updated": "2026-10-07T23:25:40Z",
   "generated_by": "publish_trackers.py",
   "summary": {
-    "portfolio_value": 10085118,
-    "n_assets": 30,
-    "n_cars": 28,
+    "portfolio_value": 9894818,
+    "n_assets": 29,
+    "n_cars": 27,
     "n_watches": 2
   },
   "assets": [
@@ -16356,119 +16356,6 @@
       }
     },
     {
-      "key": "corvette_split_window_1963",
-      "name": "Corvette split-window (1963)",
-      "short": "'63 split-window",
-      "category": "car",
-      "make": "Chevrolet",
-      "color": "#2E6DB4",
-      "source": "Bring a Trailer sold comps (via car-value-tracker)",
-      "note": "1963 coupe only - the one-year split rear window.",
-      "currency": "USD",
-      "updated": "2026-10-07",
-      "start": "2016-12-31",
-      "latest": 175000,
-      "first": 96000,
-      "n_listings": 226,
-      "range_lo": 65000,
-      "range_hi": 227000,
-      "change": {
-        "d7": null,
-        "d30": null,
-        "d90": null,
-        "all": 82.3
-      },
-      "points": 10,
-      "series": [
-        {
-          "date": "2016-12-31",
-          "price": 96000,
-          "n": 3,
-          "lo": 85000,
-          "hi": 113000
-        },
-        {
-          "date": "2017-12-31",
-          "price": 82000,
-          "n": 3,
-          "lo": 65000,
-          "hi": 100000
-        },
-        {
-          "date": "2019-12-31",
-          "price": 92000,
-          "n": 5,
-          "lo": 87500,
-          "hi": 105000
-        },
-        {
-          "date": "2020-12-31",
-          "price": 104500,
-          "n": 6,
-          "lo": 89000,
-          "hi": 106000
-        },
-        {
-          "date": "2021-12-31",
-          "price": 126000,
-          "n": 24,
-          "lo": 91000,
-          "hi": 146500
-        },
-        {
-          "date": "2022-12-31",
-          "price": 160000,
-          "n": 30,
-          "lo": 125000,
-          "hi": 227000
-        },
-        {
-          "date": "2023-12-31",
-          "price": 190000,
-          "n": 29,
-          "lo": 152500,
-          "hi": 222000
-        },
-        {
-          "date": "2024-12-31",
-          "price": 164000,
-          "n": 35,
-          "lo": 135000,
-          "hi": 198000
-        },
-        {
-          "date": "2025-12-31",
-          "price": 149000,
-          "n": 45,
-          "lo": 118000,
-          "hi": 181000
-        },
-        {
-          "date": "2026-10-07",
-          "price": 175000,
-          "n": 44,
-          "lo": 130000,
-          "hi": 206000
-        }
-      ],
-      "series_label": "BaT sold median",
-      "n_label": "sold comps",
-      "value": 175000,
-      "value_note": "asking median (no recent sold data)",
-      "mirrored_from": "car-value-tracker",
-      "cadence": "annual",
-      "production": {
-        "last_my": 1963,
-        "world": {
-          "label": "10,594 built",
-          "detail": "1963 split-window coupes, body numbers 00001-10594. The 10,919 convertibles that made up the rest of the 21,513 total are excluded, as in the price data.",
-          "src": "Corvette Action Center",
-          "url": "https://www.corvetteactioncenter.com/c2-corvette-news/ebay-the-very-last-1963-corvette-split-window-coupe-built-is-for-sale/"
-        },
-        "na": null
-      }
-    },
-    {
       "key": "alfa_romeo_gtv_1750_2000",
       "name": "Alfa Romeo GTV 1750/2000",
       "short": "GTV 1750/2000",
@@ -18440,5 +18327,5 @@
       }
     ]
   },
-  "cvt_sync": "Ferrari F12 Berlinetta: 7pts, $424,000 | Acura NSX (NA2 manual): 10pts, $153,000 | Ferrari 360 (gated manual): 9pts, $233,000 | Audi R8 gen1 V10 (gated): 8pts, $141,000 | Corvette split-window (1963): 10pts, $175,000 | Alfa Romeo GTV 1750/2000: 12pts, $45,500 | Porsche Singer 911: 3pts, $1,275,000 | Ferrari 328 GTS/GTB: 11pts, $125,000 | Ferrari Dino 246 GT/GTS: 8pts, $420,000 | Lotus Evora GT (2020-21): 5pts, $88,000 | Lotus Emira V6 (2024-25): 3pts, $83,500 | Ferrari 550 Maranello: 9pts, $218,000 | Ferrari F355 Berlinetta (gated manual): 8pts, $245,400 | Ferrari F355 GTS (gated manual): 6pts, $250,700 | Porsche Carrera GT: 2pts, $1,810,400 | Ford GT (2005-2006): 9pts, $594,000 | Dodge Viper GTS/GT (Gen 5): 8pts, $154,000"
+  "cvt_sync": "Ferrari F12 Berlinetta: 7pts, $424,000 | Acura NSX (NA2 manual): 10pts, $153,000 | Ferrari 360 (gated manual): 9pts, $233,000 | Audi R8 gen1 V10 (gated): 8pts, $141,000 | Alfa Romeo GTV 1750/2000: 12pts, $45,500 | Porsche Singer 911: 3pts, $1,275,000 | Ferrari 328 GTS/GTB: 11pts, $125,000 | Ferrari Dino 246 GT/GTS: 8pts, $420,000 | Lotus Evora GT (2020-21): 5pts, $88,000 | Lotus Emira V6 (2024-25): 3pts, $83,500 | Ferrari 550 Maranello: 9pts, $218,000 | Ferrari F355 Berlinetta (gated manual): 8pts, $245,400 | Ferrari F355 GTS (gated manual): 6pts, $250,700 | Porsche Carrera GT: 2pts, $1,810,400 | Ford GT (2005-2006): 9pts, $594,000 | Dodge Viper GTS/GT (Gen 5): 8pts, $154,000 | removed: Corvette split-window (1963)"
 }
