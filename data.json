@@ -1,8 +1,8 @@
 {
-  "updated": "2026-10-10T14:48:38Z",
+  "updated": "2026-10-10T17:52:21Z",
   "generated_by": "publish_trackers.py",
   "summary": {
-    "portfolio_value": 11885466,
+    "portfolio_value": 11866907,
     "n_assets": 34,
     "n_cars": 32,
     "n_watches": 2
@@ -3655,7 +3655,7 @@
         }
       ],
       "value": 344000,
-      "value_note": "Cars.com asking median",
+      "value_note": "asking median (no recent sold data)",
       "series_label": "asking median",
       "n_label": "listings",
       "cadence": "annual",
@@ -3747,7 +3747,7 @@
         }
       ],
       "value": 527000,
-      "value_note": "Cars.com asking median",
+      "value_note": "asking median (no recent sold data)",
       "series_label": "asking median",
       "n_label": "listings",
       "cadence": "annual",
@@ -3839,7 +3839,7 @@
         }
       ],
       "value": 696000,
-      "value_note": "Cars.com asking median",
+      "value_note": "asking median (no recent sold data)",
       "series_label": "asking median",
       "n_label": "listings",
       "cadence": "annual",
@@ -5652,16 +5652,16 @@
       "currency": "USD",
       "updated": "2026-10-10",
       "start": "2026-01-04",
-      "latest": 269000,
+      "latest": 276751,
       "first": 298400,
-      "n_listings": 30,
-      "range_lo": 250421,
-      "range_hi": 305238,
+      "n_listings": 29,
+      "range_lo": 254000,
+      "range_hi": 316608,
       "change": {
-        "d7": 3.0,
-        "d30": -0.8,
-        "d90": -8.2,
-        "all": -9.9
+        "d7": 5.9,
+        "d30": 2.0,
+        "d90": -5.5,
+        "all": -7.3
       },
       "points": 193,
       "series": [
@@ -7071,10 +7071,10 @@
         },
         {
           "date": "2026-10-10",
-          "price": 269000,
-          "n": 30,
-          "lo": 250421,
-          "hi": 305238,
+          "price": 276751,
+          "n": 29,
+          "lo": 254000,
+          "hi": 316608,
           "src": "ci"
         }
       ],
@@ -7705,7 +7705,7 @@
           "days": 90
         }
       ],
-      "value": 258500,
+      "value": 260438,
       "value_note": "75% sold (90d) + 25% asking",
       "comps": [
         {
@@ -7739,16 +7739,16 @@
       "currency": "USD",
       "updated": "2026-10-10",
       "start": "2026-07-04",
-      "latest": 226790,
+      "latest": 206486,
       "first": 339995,
-      "n_listings": 12,
-      "range_lo": 192525,
-      "range_hi": 264223,
+      "n_listings": 6,
+      "range_lo": 190220,
+      "range_hi": 220190,
       "change": {
-        "d7": 19.1,
-        "d30": 0.5,
-        "d90": -24.4,
-        "all": -33.3
+        "d7": 8.4,
+        "d30": -8.5,
+        "d90": -31.2,
+        "all": -39.3
       },
       "points": 60,
       "series": [
@@ -8226,10 +8226,10 @@
         },
         {
           "date": "2026-10-10",
-          "price": 226790,
-          "n": 12,
-          "lo": 192525,
-          "hi": 264223,
+          "price": 206486,
+          "n": 6,
+          "lo": 190220,
+          "hi": 220190,
           "src": "ci"
         }
       ],
@@ -8861,7 +8861,7 @@
           "days": 90
         }
       ],
-      "value": 273738,
+      "value": 268662,
       "value_note": "75% sold (90d) + 25% asking",
       "comps": [
         {
@@ -8947,16 +8947,16 @@
       "currency": "USD",
       "updated": "2026-10-10",
       "start": "2026-07-04",
-      "latest": 157784,
+      "latest": 131091,
       "first": 161007,
-      "n_listings": 18,
-      "range_lo": 131297,
-      "range_hi": 192525,
+      "n_listings": 9,
+      "range_lo": 129900,
+      "range_hi": 138103,
       "change": {
-        "d7": 20.8,
-        "d30": 15.2,
-        "d90": -2.0,
-        "all": -2.0
+        "d7": 0.4,
+        "d30": -4.3,
+        "d90": -18.6,
+        "all": -18.6
       },
       "points": 82,
       "series": [
@@ -9608,10 +9608,10 @@
         },
         {
           "date": "2026-10-10",
-          "price": 157784,
-          "n": 18,
-          "lo": 131297,
-          "hi": 192525,
+          "price": 131091,
+          "n": 9,
+          "lo": 129900,
+          "hi": 138103,
           "src": "ci"
         }
       ],
@@ -10246,7 +10246,7 @@
         "hi": 300,
         "min_n": 1
       },
-      "value": 161502,
+      "value": 152159,
       "value_note": "65% sold (180d) + 35% asking",
       "comps": [
         {
@@ -10290,16 +10290,16 @@
       "currency": "USD",
       "updated": "2026-10-10",
       "start": "2026-07-21",
-      "latest": 113072,
+      "latest": 113290,
       "first": 125445,
-      "n_listings": 14,
-      "range_lo": 104172,
-      "range_hi": 129495,
+      "n_listings": 34,
+      "range_lo": 99980,
+      "range_hi": 137810,
       "change": {
-        "d7": -5.8,
-        "d30": -21.2,
+        "d7": -5.6,
+        "d30": -21.0,
         "d90": null,
-        "all": -9.9
+        "all": -9.7
       },
       "points": 78,
       "series": [
@@ -10921,10 +10921,10 @@
         },
         {
           "date": "2026-10-10",
-          "price": 113072,
-          "n": 14,
-          "lo": 104172,
-          "hi": 129495,
+          "price": 113290,
+          "n": 34,
+          "lo": 99980,
+          "hi": 137810,
           "src": "ci"
         }
       ],
@@ -10935,7 +10935,7 @@
         "hi": 160,
         "min_n": 3
       },
-      "value": 113072,
+      "value": 113290,
       "value_note": "asking median (no recent sold data)",
       "make": "Porsche"
     },
@@ -11535,16 +11535,16 @@
       "currency": "USD",
       "updated": "2026-10-10",
       "start": "2026-07-21",
-      "latest": 113950,
+      "latest": 88766,
       "first": 90683,
-      "n_listings": 31,
-      "range_lo": 82720,
-      "range_hi": 148888,
+      "n_listings": 28,
+      "range_lo": 77002,
+      "range_hi": 109990,
       "change": {
-        "d7": 19.9,
-        "d30": 28.1,
+        "d7": -6.6,
+        "d30": -0.2,
         "d90": null,
-        "all": 25.7
+        "all": -2.1
       },
       "points": 77,
       "series": [
@@ -12158,10 +12158,10 @@
         },
         {
           "date": "2026-10-10",
-          "price": 113950,
-          "n": 31,
-          "lo": 82720,
-          "hi": 148888,
+          "price": 88766,
+          "n": 28,
+          "lo": 77002,
+          "hi": 109990,
           "src": "ci"
         }
       ],
@@ -12708,7 +12708,7 @@
           "days": 90
         }
       ],
-      "value": 117362,
+      "value": 111066,
       "value_note": "75% sold (90d) + 25% asking",
       "comps": [
         {
@@ -12858,7 +12858,7 @@
       "series_label": "asking median",
       "n_label": "listings",
       "value": 419000,
-      "value_note": "Cars.com asking median",
+      "value_note": "asking median (no recent sold data)",
       "mirrored_from": "car-value-tracker",
       "cadence": "annual",
       "production": {
@@ -12971,7 +12971,7 @@
       "series_label": "BaT sold median",
       "n_label": "sold comps",
       "value": 156500,
-      "value_note": "Median of this year's BaT sold prints",
+      "value_note": "asking median (no recent sold data)",
       "mirrored_from": "car-value-tracker",
       "cadence": "annual",
       "production": {
@@ -13077,7 +13077,7 @@
       "series_label": "BaT sold median",
       "n_label": "sold comps",
       "value": 233000,
-      "value_note": "Median of this year's BaT sold prints",
+      "value_note": "asking median (no recent sold data)",
       "mirrored_from": "car-value-tracker",
       "cadence": "annual",
       "production": {
@@ -13176,7 +13176,7 @@
       "series_label": "BaT sold median",
       "n_label": "sold comps",
       "value": 141000,
-      "value_note": "Median of this year's BaT sold prints",
+      "value_note": "asking median (no recent sold data)",
       "mirrored_from": "car-value-tracker",
       "cadence": "annual",
       "production": {
@@ -13303,7 +13303,7 @@
       "series_label": "BaT sold median",
       "n_label": "sold comps",
       "value": 45500,
-      "value_note": "Median of this year's BaT sold prints",
+      "value_note": "asking median (no recent sold data)",
       "mirrored_from": "car-value-tracker",
       "cadence": "annual",
       "production": {
@@ -13367,7 +13367,7 @@
       "series_label": "BaT sold median",
       "n_label": "sold comps",
       "value": 1275000,
-      "value_note": "Median of this year's BaT sold prints",
+      "value_note": "asking median (no recent sold data)",
       "mirrored_from": "car-value-tracker",
       "cadence": "annual",
       "production": {
@@ -13487,7 +13487,7 @@
       "series_label": "BaT sold median",
       "n_label": "sold comps",
       "value": 125000,
-      "value_note": "Median of this year's BaT sold prints",
+      "value_note": "asking median (no recent sold data)",
       "mirrored_from": "car-value-tracker",
       "cadence": "annual",
       "production": {
@@ -13586,7 +13586,7 @@
       "series_label": "BaT sold median",
       "n_label": "sold comps",
       "value": 420000,
-      "value_note": "Median of this year's BaT sold prints",
+      "value_note": "asking median (no recent sold data)",
       "mirrored_from": "car-value-tracker",
       "cadence": "annual",
       "production": {
@@ -13664,7 +13664,7 @@
       "series_label": "BaT sold median",
       "n_label": "sold comps",
       "value": 88000,
-      "value_note": "Median of this year's BaT sold prints",
+      "value_note": "asking median (no recent sold data)",
       "cadence": "annual",
       "mirrored_from": "car-value-tracker",
       "production": {
@@ -13728,7 +13728,7 @@
       "series_label": "BaT sold median",
       "n_label": "sold comps",
       "value": 83500,
-      "value_note": "Median of this year's BaT sold prints",
+      "value_note": "asking median (no recent sold data)",
       "cadence": "annual",
       "mirrored_from": "car-value-tracker"
     },
@@ -13824,7 +13824,7 @@
       "series_label": "BaT sold median",
       "n_label": "sold comps",
       "value": 218000,
-      "value_note": "Median of this year's BaT sold prints",
+      "value_note": "asking median (no recent sold data)",
       "cadence": "annual",
       "mirrored_from": "car-value-tracker",
       "production": {
@@ -13923,7 +13923,7 @@
       "series_label": "BaT sold median",
       "n_label": "sold comps",
       "value": 245400,
-      "value_note": "Median of this year's BaT sold prints",
+      "value_note": "asking median (no recent sold data)",
       "cadence": "annual",
       "mirrored_from": "car-value-tracker",
       "production": {
@@ -14008,7 +14008,7 @@
       "series_label": "BaT sold median",
       "n_label": "sold comps",
       "value": 250700,
-      "value_note": "Median of this year's BaT sold prints",
+      "value_note": "asking median (no recent sold data)",
       "cadence": "annual",
       "mirrored_from": "car-value-tracker",
       "production": {
@@ -14065,7 +14065,7 @@
       "series_label": "BaT sold median",
       "n_label": "sold comps",
       "value": 1810400,
-      "value_note": "Median of this year's BaT sold prints",
+      "value_note": "asking median (no recent sold data)",
       "cadence": "annual",
       "mirrored_from": "car-value-tracker",
       "production": {
@@ -14176,7 +14176,7 @@
       "series_label": "BaT sold median",
       "n_label": "sold comps",
       "value": 594000,
-      "value_note": "Median of this year's BaT sold prints",
+      "value_note": "asking median (no recent sold data)",
       "cadence": "annual",
       "mirrored_from": "car-value-tracker",
       "production": {
@@ -14280,7 +14280,7 @@
       "series_label": "BaT sold median",
       "n_label": "sold comps",
       "value": 154000,
-      "value_note": "Median of this year's BaT sold prints",
+      "value_note": "asking median (no recent sold data)",
       "cadence": "annual",
       "mirrored_from": "car-value-tracker",
       "production": {
@@ -14349,7 +14349,7 @@
       "series_label": "BaT sold median",
       "n_label": "sold comps",
       "value": 260500,
-      "value_note": "Median of this year's BaT sold prints",
+      "value_note": "asking median (no recent sold data)",
       "cadence": "annual",
       "mirrored_from": "car-value-tracker",
       "production": {
@@ -14412,7 +14412,7 @@
       "series_label": "BaT sold median",
       "n_label": "sold comps",
       "value": 425000,
-      "value_note": "Median of this year's BaT sold prints",
+      "value_note": "asking median (no recent sold data)",
       "cadence": "annual",
       "mirrored_from": "car-value-tracker",
       "production": {
@@ -14496,7 +14496,7 @@
       "series_label": "BaT sold median",
       "n_label": "sold comps",
       "value": 497500,
-      "value_note": "Median of this year's BaT sold prints",
+      "value_note": "asking median (no recent sold data)",
       "cadence": "annual",
       "mirrored_from": "car-value-tracker",
       "production": {
@@ -14552,7 +14552,7 @@
       "series_label": "BaT sold median",
       "n_label": "sold comps",
       "value": 191000,
-      "value_note": "Median of this year's BaT sold prints",
+      "value_note": "asking median (no recent sold data)",
       "cadence": "annual",
       "mirrored_from": "car-value-tracker",
       "production": {
@@ -14615,7 +14615,7 @@
       "series_label": "BaT sold median",
       "n_label": "sold comps",
       "value": 625500,
-      "value_note": "Median of this year's BaT sold prints",
+      "value_note": "asking median (no recent sold data)",
       "cadence": "annual",
       "mirrored_from": "car-value-tracker",
       "production": {
