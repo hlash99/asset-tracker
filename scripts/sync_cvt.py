@@ -58,7 +58,7 @@ DROP = {
 MAKES = [("Acura", "Acura"), ("Ferrari", "Ferrari"), ("Audi", "Audi"),
          ("Porsche", "Porsche"), ("Volvo", "Volvo"), ("Alfa Romeo", "Alfa Romeo"),
          ("Corvette", "Chevrolet"), ("Lotus", "Lotus"), ("Ford", "Ford"),
-         ("Dodge", "Dodge")]
+         ("Dodge", "Dodge"), ("Lamborghini", "Lamborghini")]
 
 # Short card labels; anything unlisted falls back to the full name.
 SHORT = {
@@ -83,6 +83,11 @@ SHORT = {
     "Ferrari 458 Italia": "458 Italia",
     "Ferrari 812 Superfast": "812 Superfast",
     "Ferrari 812 GTS": "812 GTS",
+    "Lamborghini Murcielago Roadster 6.2 (e-gear)": "Murcielago Roadster 6.2",
+    "Lamborghini Murcielago LP640 Roadster (e-gear)": "Murcielago LP640 Roadster",
+    "Lamborghini Murcielago 6.2 Coupe (6-speed)": "Murcielago 6.2 Coupe 6MT",
+    "Lamborghini Murcielago 6.2 Coupe (e-gear)": "Murcielago 6.2 Coupe",
+    "Lamborghini Murcielago LP640 Coupe (e-gear)": "Murcielago LP640 Coupe",
 }
 
 NOTE_EXTRA = {

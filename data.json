@@ -1,10 +1,10 @@
 {
-  "updated": "2026-10-10T07:11:29Z",
+  "updated": "2026-10-10T14:48:38Z",
   "generated_by": "publish_trackers.py",
   "summary": {
-    "portfolio_value": 9885966,
-    "n_assets": 29,
-    "n_cars": 27,
+    "portfolio_value": 11885466,
+    "n_assets": 34,
+    "n_cars": 32,
     "n_watches": 2
   },
   "assets": [
@@ -3655,7 +3655,7 @@
         }
       ],
       "value": 344000,
-      "value_note": "asking median (no recent sold data)",
+      "value_note": "Cars.com asking median",
       "series_label": "asking median",
       "n_label": "listings",
       "cadence": "annual",
@@ -3747,7 +3747,7 @@
         }
       ],
       "value": 527000,
-      "value_note": "asking median (no recent sold data)",
+      "value_note": "Cars.com asking median",
       "series_label": "asking median",
       "n_label": "listings",
       "cadence": "annual",
@@ -3839,7 +3839,7 @@
         }
       ],
       "value": 696000,
-      "value_note": "asking median (no recent sold data)",
+      "value_note": "Cars.com asking median",
       "series_label": "asking median",
       "n_label": "listings",
       "cadence": "annual",
@@ -12858,7 +12858,7 @@
       "series_label": "asking median",
       "n_label": "listings",
       "value": 419000,
-      "value_note": "asking median (no recent sold data)",
+      "value_note": "Cars.com asking median",
       "mirrored_from": "car-value-tracker",
       "cadence": "annual",
       "production": {
@@ -12971,7 +12971,7 @@
       "series_label": "BaT sold median",
       "n_label": "sold comps",
       "value": 156500,
-      "value_note": "asking median (no recent sold data)",
+      "value_note": "Median of this year's BaT sold prints",
       "mirrored_from": "car-value-tracker",
       "cadence": "annual",
       "production": {
@@ -13077,7 +13077,7 @@
       "series_label": "BaT sold median",
       "n_label": "sold comps",
       "value": 233000,
-      "value_note": "asking median (no recent sold data)",
+      "value_note": "Median of this year's BaT sold prints",
       "mirrored_from": "car-value-tracker",
       "cadence": "annual",
       "production": {
@@ -13176,7 +13176,7 @@
       "series_label": "BaT sold median",
       "n_label": "sold comps",
       "value": 141000,
-      "value_note": "asking median (no recent sold data)",
+      "value_note": "Median of this year's BaT sold prints",
       "mirrored_from": "car-value-tracker",
       "cadence": "annual",
       "production": {
@@ -13303,7 +13303,7 @@
       "series_label": "BaT sold median",
       "n_label": "sold comps",
       "value": 45500,
-      "value_note": "asking median (no recent sold data)",
+      "value_note": "Median of this year's BaT sold prints",
       "mirrored_from": "car-value-tracker",
       "cadence": "annual",
       "production": {
@@ -13367,7 +13367,7 @@
       "series_label": "BaT sold median",
       "n_label": "sold comps",
       "value": 1275000,
-      "value_note": "asking median (no recent sold data)",
+      "value_note": "Median of this year's BaT sold prints",
       "mirrored_from": "car-value-tracker",
       "cadence": "annual",
       "production": {
@@ -13487,7 +13487,7 @@
       "series_label": "BaT sold median",
       "n_label": "sold comps",
       "value": 125000,
-      "value_note": "asking median (no recent sold data)",
+      "value_note": "Median of this year's BaT sold prints",
       "mirrored_from": "car-value-tracker",
       "cadence": "annual",
       "production": {
@@ -13586,7 +13586,7 @@
       "series_label": "BaT sold median",
       "n_label": "sold comps",
       "value": 420000,
-      "value_note": "asking median (no recent sold data)",
+      "value_note": "Median of this year's BaT sold prints",
       "mirrored_from": "car-value-tracker",
       "cadence": "annual",
       "production": {
@@ -13664,7 +13664,7 @@
       "series_label": "BaT sold median",
       "n_label": "sold comps",
       "value": 88000,
-      "value_note": "asking median (no recent sold data)",
+      "value_note": "Median of this year's BaT sold prints",
       "cadence": "annual",
       "mirrored_from": "car-value-tracker",
       "production": {
@@ -13728,7 +13728,7 @@
       "series_label": "BaT sold median",
       "n_label": "sold comps",
       "value": 83500,
-      "value_note": "asking median (no recent sold data)",
+      "value_note": "Median of this year's BaT sold prints",
       "cadence": "annual",
       "mirrored_from": "car-value-tracker"
     },
@@ -13824,7 +13824,7 @@
       "series_label": "BaT sold median",
       "n_label": "sold comps",
       "value": 218000,
-      "value_note": "asking median (no recent sold data)",
+      "value_note": "Median of this year's BaT sold prints",
       "cadence": "annual",
       "mirrored_from": "car-value-tracker",
       "production": {
@@ -13923,7 +13923,7 @@
       "series_label": "BaT sold median",
       "n_label": "sold comps",
       "value": 245400,
-      "value_note": "asking median (no recent sold data)",
+      "value_note": "Median of this year's BaT sold prints",
       "cadence": "annual",
       "mirrored_from": "car-value-tracker",
       "production": {
@@ -14008,7 +14008,7 @@
       "series_label": "BaT sold median",
       "n_label": "sold comps",
       "value": 250700,
-      "value_note": "asking median (no recent sold data)",
+      "value_note": "Median of this year's BaT sold prints",
       "cadence": "annual",
       "mirrored_from": "car-value-tracker",
       "production": {
@@ -14065,7 +14065,7 @@
       "series_label": "BaT sold median",
       "n_label": "sold comps",
       "value": 1810400,
-      "value_note": "asking median (no recent sold data)",
+      "value_note": "Median of this year's BaT sold prints",
       "cadence": "annual",
       "mirrored_from": "car-value-tracker",
       "production": {
@@ -14176,7 +14176,7 @@
       "series_label": "BaT sold median",
       "n_label": "sold comps",
       "value": 594000,
-      "value_note": "asking median (no recent sold data)",
+      "value_note": "Median of this year's BaT sold prints",
       "cadence": "annual",
       "mirrored_from": "car-value-tracker",
       "production": {
@@ -14280,7 +14280,7 @@
       "series_label": "BaT sold median",
       "n_label": "sold comps",
       "value": 154000,
-      "value_note": "asking median (no recent sold data)",
+      "value_note": "Median of this year's BaT sold prints",
       "cadence": "annual",
       "mirrored_from": "car-value-tracker",
       "production": {
@@ -14296,6 +14296,335 @@
           "detail": "Gen 5 GTS coupes worldwide, 2013-2017: 782 / 627 / 66 / 18 / 36 by year, 124 of them exported outside North America. GT not counted separately.",
           "src": "International Viper Registry (Viper Club of America), VIN-verified",
           "url": "https://www.theviperregistry.com/build.php"
+        }
+      }
+    },
+    {
+      "key": "lamborghini_murcielago_roadster_6_2_e_gear",
+      "name": "Lamborghini Murcielago Roadster 6.2 (e-gear)",
+      "short": "Murcielago Roadster 6.2",
+      "category": "car",
+      "make": "Lamborghini",
+      "color": "#E8A317",
+      "source": "Bring a Trailer sold comps (via car-value-tracker)",
+      "note": "2004-06 6.2 V12 roadster with the e-gear single-clutch automated manual - 435 roadsters built across all gearboxes.",
+      "currency": "USD",
+      "updated": "2026-10-10",
+      "start": "2021-12-31",
+      "latest": 260500,
+      "first": 149200,
+      "n_listings": 11,
+      "range_lo": 123500,
+      "range_hi": 261000,
+      "change": {
+        "d7": null,
+        "d30": null,
+        "d90": null,
+        "all": 74.6
+      },
+      "points": 3,
+      "series": [
+        {
+          "date": "2021-12-31",
+          "price": 149200,
+          "n": 2,
+          "lo": 123500,
+          "hi": 175000
+        },
+        {
+          "date": "2024-12-31",
+          "price": 227000,
+          "n": 6,
+          "lo": 219500,
+          "hi": 239000
+        },
+        {
+          "date": "2026-10-10",
+          "price": 260500,
+          "n": 2,
+          "lo": 260000,
+          "hi": 261000
+        }
+      ],
+      "series_label": "BaT sold median",
+      "n_label": "sold comps",
+      "value": 260500,
+      "value_note": "Median of this year's BaT sold prints",
+      "cadence": "annual",
+      "mirrored_from": "car-value-tracker",
+      "production": {
+        "last_my": 2006,
+        "world": {
+          "label": "435 roadsters built",
+          "detail": "All 2004-06 Murcielago Roadsters, every gearbox: 80 / 234 / 121 by year. No e-gear or US split is published; e-gear was the large majority. Some 2006 builds may be early LP640s.",
+          "src": "Wikipedia production table; duPont Registry (Volkswagen annual figures)",
+          "url": "https://en.wikipedia.org/wiki/Lamborghini_Murci%C3%A9lago"
+        }
+      }
+    },
+    {
+      "key": "lamborghini_murcielago_lp640_roadster_e_gear",
+      "name": "Lamborghini Murcielago LP640 Roadster (e-gear)",
+      "short": "Murcielago LP640 Roadster",
+      "category": "car",
+      "make": "Lamborghini",
+      "color": "#6FA51E",
+      "source": "Bring a Trailer sold comps (via car-value-tracker)",
+      "note": "2007-10 6.5 V12 LP640 roadster with e-gear - about 414 built across all gearboxes.",
+      "currency": "USD",
+      "updated": "2026-10-10",
+      "start": "2022-12-31",
+      "latest": 425000,
+      "first": 341000,
+      "n_listings": 10,
+      "range_lo": 212000,
+      "range_hi": 700000,
+      "change": {
+        "d7": null,
+        "d30": null,
+        "d90": null,
+        "all": 24.6
+      },
+      "points": 3,
+      "series": [
+        {
+          "date": "2022-12-31",
+          "price": 341000,
+          "n": 2,
+          "lo": 300000,
+          "hi": 382000
+        },
+        {
+          "date": "2023-12-31",
+          "price": 270000,
+          "n": 3,
+          "lo": 212000,
+          "hi": 309000
+        },
+        {
+          "date": "2026-10-10",
+          "price": 425000,
+          "n": 3,
+          "lo": 418000,
+          "hi": 700000
+        }
+      ],
+      "series_label": "BaT sold median",
+      "n_label": "sold comps",
+      "value": 425000,
+      "value_note": "Median of this year's BaT sold prints",
+      "cadence": "annual",
+      "mirrored_from": "car-value-tracker",
+      "production": {
+        "last_my": 2010,
+        "world": {
+          "label": "~414 roadsters built",
+          "detail": "464 roadsters built 2007-10 (206 / 183 / 57 / 18) less the 50 LP650-4s, every gearbox. Factory six-speed LP640 roadsters are a handful - about 8 for the US.",
+          "src": "Wikipedia production table; duPont Registry (Volkswagen annual figures)",
+          "url": "https://en.wikipedia.org/wiki/Lamborghini_Murci%C3%A9lago"
+        }
+      }
+    },
+    {
+      "key": "lamborghini_murcielago_6_2_coupe_6_speed",
+      "name": "Lamborghini Murcielago 6.2 Coupe (6-speed)",
+      "short": "Murcielago 6.2 Coupe 6MT",
+      "category": "car",
+      "make": "Lamborghini",
+      "color": "#D35400",
+      "source": "Bring a Trailer sold comps (via car-value-tracker)",
+      "note": "2002-06 6.2 V12 coupe with the factory gated six-speed - the manual Murcielago that actually trades.",
+      "currency": "USD",
+      "updated": "2026-10-10",
+      "start": "2021-12-31",
+      "latest": 497500,
+      "first": 372000,
+      "n_listings": 24,
+      "range_lo": 227000,
+      "range_hi": 575000,
+      "change": {
+        "d7": null,
+        "d30": null,
+        "d90": null,
+        "all": 33.7
+      },
+      "points": 6,
+      "series": [
+        {
+          "date": "2021-12-31",
+          "price": 372000,
+          "n": 4,
+          "lo": 344000,
+          "hi": 400000
+        },
+        {
+          "date": "2022-12-31",
+          "price": 300000,
+          "n": 5,
+          "lo": 265000,
+          "hi": 311000
+        },
+        {
+          "date": "2023-12-31",
+          "price": 345500,
+          "n": 2,
+          "lo": 227000,
+          "hi": 464000
+        },
+        {
+          "date": "2024-12-31",
+          "price": 425500,
+          "n": 2,
+          "lo": 350000,
+          "hi": 501000
+        },
+        {
+          "date": "2025-12-31",
+          "price": 400000,
+          "n": 7,
+          "lo": 288000,
+          "hi": 406700
+        },
+        {
+          "date": "2026-10-10",
+          "price": 497500,
+          "n": 4,
+          "lo": 420000,
+          "hi": 575000
+        }
+      ],
+      "series_label": "BaT sold median",
+      "n_label": "sold comps",
+      "value": 497500,
+      "value_note": "Median of this year's BaT sold prints",
+      "cadence": "annual",
+      "mirrored_from": "car-value-tracker",
+      "production": {
+        "last_my": 2006,
+        "world": {
+          "label": "1,788 coupes built",
+          "detail": "All 2001-06 Murcielago coupes, every gearbox: 65 / 442 / 424 / 304 / 230 / 323 by year, including the 50 40th Anniversary cars. No gearbox or US split is published.",
+          "src": "Wikipedia - Lamborghini Murcielago (production table)",
+          "url": "https://en.wikipedia.org/wiki/Lamborghini_Murci%C3%A9lago"
+        }
+      }
+    },
+    {
+      "key": "lamborghini_murcielago_6_2_coupe_e_gear",
+      "name": "Lamborghini Murcielago 6.2 Coupe (e-gear)",
+      "short": "Murcielago 6.2 Coupe",
+      "category": "car",
+      "make": "Lamborghini",
+      "color": "#8E5B2A",
+      "source": "Bring a Trailer sold comps (via car-value-tracker)",
+      "note": "2002-06 6.2 V12 coupe with e-gear - the cheapest way into a Murcielago.",
+      "currency": "USD",
+      "updated": "2026-10-10",
+      "start": "2022-12-31",
+      "latest": 191000,
+      "first": 183000,
+      "n_listings": 8,
+      "range_lo": 176000,
+      "range_hi": 200000,
+      "change": {
+        "d7": null,
+        "d30": null,
+        "d90": null,
+        "all": 4.4
+      },
+      "points": 2,
+      "series": [
+        {
+          "date": "2022-12-31",
+          "price": 183000,
+          "n": 2,
+          "lo": 176000,
+          "hi": 190000
+        },
+        {
+          "date": "2026-10-10",
+          "price": 191000,
+          "n": 2,
+          "lo": 182000,
+          "hi": 200000
+        }
+      ],
+      "series_label": "BaT sold median",
+      "n_label": "sold comps",
+      "value": 191000,
+      "value_note": "Median of this year's BaT sold prints",
+      "cadence": "annual",
+      "mirrored_from": "car-value-tracker",
+      "production": {
+        "last_my": 2006,
+        "world": {
+          "label": "1,788 coupes built",
+          "detail": "All 2001-06 Murcielago coupes, every gearbox: 65 / 442 / 424 / 304 / 230 / 323 by year, including the 50 40th Anniversary cars. No gearbox or US split is published.",
+          "src": "Wikipedia - Lamborghini Murcielago (production table)",
+          "url": "https://en.wikipedia.org/wiki/Lamborghini_Murci%C3%A9lago"
+        }
+      }
+    },
+    {
+      "key": "lamborghini_murcielago_lp640_coupe_e_gear",
+      "name": "Lamborghini Murcielago LP640 Coupe (e-gear)",
+      "short": "Murcielago LP640 Coupe",
+      "category": "car",
+      "make": "Lamborghini",
+      "color": "#2E7D32",
+      "source": "Bring a Trailer sold comps (via car-value-tracker)",
+      "note": "2007-10 6.5 V12 LP640 coupe with e-gear; excludes the Versace, the SV and six-speeds.",
+      "currency": "USD",
+      "updated": "2026-10-10",
+      "start": "2023-12-31",
+      "latest": 625500,
+      "first": 290500,
+      "n_listings": 13,
+      "range_lo": 250000,
+      "range_hi": 735000,
+      "change": {
+        "d7": null,
+        "d30": null,
+        "d90": null,
+        "all": 115.3
+      },
+      "points": 3,
+      "series": [
+        {
+          "date": "2023-12-31",
+          "price": 290500,
+          "n": 2,
+          "lo": 250000,
+          "hi": 331000
+        },
+        {
+          "date": "2025-12-31",
+          "price": 382500,
+          "n": 4,
+          "lo": 375000,
+          "hi": 390000
+        },
+        {
+          "date": "2026-10-10",
+          "price": 625500,
+          "n": 6,
+          "lo": 501000,
+          "hi": 735000
+        }
+      ],
+      "series_label": "BaT sold median",
+      "n_label": "sold comps",
+      "value": 625500,
+      "value_note": "Median of this year's BaT sold prints",
+      "cadence": "annual",
+      "mirrored_from": "car-value-tracker",
+      "production": {
+        "last_my": 2010,
+        "world": {
+          "label": "1,296 coupes built 2007-10",
+          "detail": "All 2007-10 coupes (423 / 454 / 274 / 145), every gearbox - this INCLUDES the LP670-4 SuperVeloce, whose own count is disputed (186 commonly cited, a registry tracks 268), so no LP640-only figure is given.",
+          "src": "Wikipedia - Lamborghini Murcielago (production table)",
+          "url": "https://en.wikipedia.org/wiki/Lamborghini_Murci%C3%A9lago"
         }
       }
     }
@@ -15169,5 +15498,5 @@
       }
     ]
   },
-  "cvt_sync": "Ferrari 458 Italia: 7pts, $344,000 | Ferrari F12 Berlinetta: 7pts, $419,000 | Ferrari 812 Superfast: 7pts, $527,000 | Ferrari 812 GTS: 7pts, $696,000 | Acura NSX (NA2 manual): 10pts, $156,500 | Ferrari 360 (gated manual): 9pts, $233,000 | Audi R8 gen1 V10 (gated): 8pts, $141,000 | Alfa Romeo GTV 1750/2000: 12pts, $45,500 | Porsche Singer 911: 3pts, $1,275,000 | Ferrari 328 GTS/GTB: 11pts, $125,000 | Ferrari Dino 246 GT/GTS: 8pts, $420,000 | Lotus Evora GT (2020-21): 5pts, $88,000 | Lotus Emira V6 (2024-25): 3pts, $83,500 | Ferrari 550 Maranello: 9pts, $218,000 | Ferrari F355 Berlinetta (gated manual): 8pts, $245,400 | Ferrari F355 GTS (gated manual): 6pts, $250,700 | Porsche Carrera GT: 2pts, $1,810,400 | Ford GT (2005-2006): 9pts, $594,000 | Dodge Viper GTS/GT (Gen 5): 8pts, $154,000"
+  "cvt_sync": "Ferrari 458 Italia: 7pts, $344,000 | Ferrari F12 Berlinetta: 7pts, $419,000 | Ferrari 812 Superfast: 7pts, $527,000 | Ferrari 812 GTS: 7pts, $696,000 | Acura NSX (NA2 manual): 10pts, $156,500 | Ferrari 360 (gated manual): 9pts, $233,000 | Audi R8 gen1 V10 (gated): 8pts, $141,000 | Alfa Romeo GTV 1750/2000: 12pts, $45,500 | Porsche Singer 911: 3pts, $1,275,000 | Ferrari 328 GTS/GTB: 11pts, $125,000 | Ferrari Dino 246 GT/GTS: 8pts, $420,000 | Lotus Evora GT (2020-21): 5pts, $88,000 | Lotus Emira V6 (2024-25): 3pts, $83,500 | Ferrari 550 Maranello: 9pts, $218,000 | Ferrari F355 Berlinetta (gated manual): 8pts, $245,400 | Ferrari F355 GTS (gated manual): 6pts, $250,700 | Porsche Carrera GT: 2pts, $1,810,400 | Ford GT (2005-2006): 9pts, $594,000 | Dodge Viper GTS/GT (Gen 5): 8pts, $154,000 | Lamborghini Murcielago Roadster 6.2 (e-gear): 3pts, $260,500 | Lamborghini Murcielago LP640 Roadster (e-gear): 3pts, $425,000 | Lamborghini Murcielago 6.2 Coupe (6-speed): 6pts, $497,500 | Lamborghini Murcielago 6.2 Coupe (e-gear): 2pts, $191,000 | Lamborghini Murcielago LP640 Coupe (e-gear): 3pts, $625,500"
 }
