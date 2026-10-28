@@ -81,6 +81,7 @@ SHORT = {
     "Ford GT (2005-2006)": "Ford GT",
     "Dodge Viper GTS/GT (Gen 5)": "Viper GTS/GT (Gen 5)",
     "Ferrari 458 Italia": "458 Italia",
+    "Ferrari 458 Spider": "458 Spider",
     "Ferrari 812 Superfast": "812 Superfast",
     "Ferrari 812 GTS": "812 GTS",
     "Lamborghini Murcielago Roadster 6.2 (e-gear)": "Murcielago Roadster 6.2",
