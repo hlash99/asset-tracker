@@ -1,8 +1,8 @@
 {
-  "updated": "2026-10-30T18:36:13Z",
+  "updated": "2026-10-30T20:37:34Z",
   "generated_by": "publish_trackers.py",
   "summary": {
-    "portfolio_value": 12755549,
+    "portfolio_value": 12761984,
     "n_assets": 35,
     "n_cars": 33,
     "n_watches": 2
@@ -1854,9 +1854,9 @@
       "start": "2024-11-04",
       "latest": 67138,
       "first": 67500,
-      "n_listings": 60,
+      "n_listings": 33,
       "range_lo": 67138,
-      "range_hi": 82299,
+      "range_hi": 81820,
       "change": {
         "d7": -0.1,
         "d30": 4.9,
@@ -3714,10 +3714,9 @@
         {
           "date": "2026-10-30",
           "price": 67138,
-          "n": 60,
+          "n": 33,
           "lo": 67138,
-          "hi": 82299,
-          "src": "ci"
+          "hi": 81820
         }
       ],
       "ci": {
@@ -4777,15 +4776,7 @@
         }
       ],
       "value": 583060,
-      "value_note": "50% sold (365d) + 50% asking",
-      "comps": [
-        {
-          "date": "2025-12-19",
-          "price": 536000,
-          "title": "2025 Ferrari 12Cilindri",
-          "url": "https://bringatrailer.com/listing/2025-ferrari-12-cilindri/"
-        }
-      ]
+      "value_note": "50% sold (365d) + 50% asking"
     },
     {
       "key": "porsche_997_turbo_s",
@@ -5710,16 +5701,16 @@
       "currency": "USD",
       "updated": "2026-10-30",
       "start": "2026-01-04",
-      "latest": 270170,
+      "latest": 274410,
       "first": 298400,
-      "n_listings": 43,
-      "range_lo": 242583,
-      "range_hi": 275768,
+      "n_listings": 4,
+      "range_lo": 239998,
+      "range_hi": 280160,
       "change": {
-        "d7": -2.0,
-        "d30": -2.8,
-        "d90": -3.5,
-        "all": -9.5
+        "d7": -0.5,
+        "d30": -1.3,
+        "d90": -2.0,
+        "all": -8.0
       },
       "points": 213,
       "series": [
@@ -7285,11 +7276,10 @@
         },
         {
           "date": "2026-10-30",
-          "price": 270170,
-          "n": 43,
-          "lo": 242583,
-          "hi": 275768,
-          "src": "ci"
+          "price": 274410,
+          "n": 4,
+          "lo": 239998,
+          "hi": 280160
         }
       ],
       "ci": {
@@ -8039,28 +8029,8 @@
           "days": 90
         }
       ],
-      "value": 258792,
-      "value_note": "75% sold (90d) + 25% asking",
-      "comps": [
-        {
-          "date": "2026-10-24",
-          "price": 239333,
-          "title": "2022 Porsche 911 GT3 Touring 6-Speed",
-          "url": "https://bringatrailer.com/listing/2022-porsche-911-gt3-touring-171/"
-        },
-        {
-          "date": "2026-10-17",
-          "price": 265000,
-          "title": "2022 Porsche 911 GT3 Touring 6-Speed",
-          "url": "https://bringatrailer.com/listing/2022-porsche-911-gt3-touring-167/"
-        },
-        {
-          "date": "2026-09-08",
-          "price": 255000,
-          "title": "1,900-Mile Slate Gray 2022 Porsche 911 GT3 Touring 6-Speed",
-          "url": "https://bringatrailer.com/listing/2022-porsche-911-gt3-touring-161/"
-        }
-      ]
+      "value": 259852,
+      "value_note": "75% sold (90d) + 25% asking"
     },
     {
       "key": "ferrari_458_italia",
@@ -12946,8 +12916,8 @@
           "days": 90
         }
       ],
-      "value": 273500,
-      "value_note": "BaT sold median only \u2014 asking price 101d stale",
+      "value": 278875,
+      "value_note": "75% sold (90d) + 25% asking",
       "comps": [
         {
           "date": "2026-10-08",
@@ -17343,6 +17313,5 @@
         "n": 12
       }
     ]
-  },
-  "cvt_sync": "Ferrari 458 Italia: 7pts, $341,000 | Ferrari F12 Berlinetta: 7pts, $425,000 | Ferrari 812 Superfast: 7pts, $478,000 | Ferrari 812 GTS: 7pts, $765,000 | Acura NSX (NA2 manual): 10pts, $148,000 | Ferrari 360 (gated manual): 9pts, $285,000 | Audi R8 gen1 V10 (gated): 8pts, $141,000 | Alfa Romeo GTV 1750/2000: 12pts, $47,000 | Porsche Singer 911: 3pts, $1,275,000 | Ferrari 328 GTS/GTB: 11pts, $128,000 | Ferrari Dino 246 GT/GTS: 8pts, $455,000 | Lotus Evora GT (2020-21): 5pts, $89,500 | Lotus Emira V6 (2024-25): 3pts, $83,000 | Ferrari 550 Maranello: 9pts, $232,000 | Ferrari F355 Berlinetta (gated manual): 8pts, $245,400 | Ferrari F355 GTS (gated manual): 6pts, $257,700 | Porsche Carrera GT: 2pts, $1,810,400 | Ford GT (2005-2006): 9pts, $696,000 | Dodge Viper GTS/GT (Gen 5): 8pts, $186,500 | Lamborghini Murcielago Roadster 6.2 (e-gear): 3pts, $261,000 | Lamborghini Murcielago LP640 Roadster (e-gear): 3pts, $425,000 | Lamborghini Murcielago 6.2 Coupe (6-speed): 6pts, $575,000 | Lamborghini Murcielago 6.2 Coupe (e-gear): 2pts, $200,000 | Lamborghini Murcielago LP640 Coupe (e-gear): 3pts, $725,000 | Ferrari 458 Spider: 6pts, $410,000"
+  }
 }
