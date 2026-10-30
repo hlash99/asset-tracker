@@ -1,8 +1,8 @@
 {
-  "updated": "2026-10-30T16:43:03Z",
+  "updated": "2026-10-30T18:14:00Z",
   "generated_by": "publish_trackers.py",
   "summary": {
-    "portfolio_value": 11995274,
+    "portfolio_value": 12728474,
     "n_assets": 35,
     "n_cars": 33,
     "n_watches": 2
@@ -8044,16 +8044,16 @@
       "currency": "USD",
       "updated": "2026-10-30",
       "start": "2020-12-31",
-      "latest": 274000,
+      "latest": 341000,
       "first": 175000,
       "n_listings": null,
       "range_lo": 175000,
-      "range_hi": 290000,
+      "range_hi": 341000,
       "change": {
         "d7": null,
         "d30": null,
         "d90": null,
-        "all": 56.6
+        "all": 94.9
       },
       "points": 7,
       "series": [
@@ -8101,13 +8101,13 @@
         },
         {
           "date": "2026-10-30",
-          "price": 274000,
+          "price": 341000,
           "n": null,
-          "lo": 274000,
-          "hi": 274000
+          "lo": 341000,
+          "hi": 341000
         }
       ],
-      "value": 274000,
+      "value": 341000,
       "value_note": "asking median (no recent sold data)",
       "series_label": "asking median",
       "n_label": "listings",
@@ -8136,16 +8136,16 @@
       "currency": "USD",
       "updated": "2026-10-30",
       "start": "2020-12-31",
-      "latest": 509000,
+      "latest": 478000,
       "first": 320000,
       "n_listings": null,
       "range_lo": 320000,
-      "range_hi": 509000,
+      "range_hi": 478000,
       "change": {
         "d7": null,
         "d30": null,
         "d90": null,
-        "all": 59.1
+        "all": 49.4
       },
       "points": 7,
       "series": [
@@ -8193,13 +8193,13 @@
         },
         {
           "date": "2026-10-30",
-          "price": 509000,
+          "price": 478000,
           "n": null,
-          "lo": 509000,
-          "hi": 509000
+          "lo": 478000,
+          "hi": 478000
         }
       ],
-      "value": 509000,
+      "value": 478000,
       "value_note": "asking median (no recent sold data)",
       "series_label": "asking median",
       "n_label": "listings",
@@ -8228,16 +8228,16 @@
       "currency": "USD",
       "updated": "2026-10-30",
       "start": "2020-12-31",
-      "latest": 672000,
+      "latest": 765000,
       "first": 460000,
       "n_listings": null,
       "range_lo": 460000,
-      "range_hi": 730000,
+      "range_hi": 765000,
       "change": {
         "d7": null,
         "d30": null,
         "d90": null,
-        "all": 46.1
+        "all": 66.3
       },
       "points": 7,
       "series": [
@@ -8285,13 +8285,13 @@
         },
         {
           "date": "2026-10-30",
-          "price": 672000,
+          "price": 765000,
           "n": null,
-          "lo": 672000,
-          "hi": 672000
+          "lo": 765000,
+          "hi": 765000
         }
       ],
-      "value": 672000,
+      "value": 765000,
       "value_note": "asking median (no recent sold data)",
       "series_label": "asking median",
       "n_label": "listings",
@@ -14498,16 +14498,16 @@
       "currency": "USD",
       "updated": "2026-10-30",
       "start": "2020-12-31",
-      "latest": 414000,
+      "latest": 425000,
       "first": 210000,
       "n_listings": null,
       "range_lo": 210000,
-      "range_hi": 414000,
+      "range_hi": 425000,
       "change": {
         "d7": null,
         "d30": null,
         "d90": null,
-        "all": 97.1
+        "all": 102.4
       },
       "points": 7,
       "series": [
@@ -14555,15 +14555,15 @@
         },
         {
           "date": "2026-10-30",
-          "price": 414000,
+          "price": 425000,
           "n": null,
-          "lo": 414000,
-          "hi": 414000
+          "lo": 425000,
+          "hi": 425000
         }
       ],
       "series_label": "asking median",
       "n_label": "listings",
-      "value": 414000,
+      "value": 425000,
       "value_note": "asking median (no recent sold data)",
       "mirrored_from": "car-value-tracker",
       "cadence": "annual",
@@ -14669,7 +14669,7 @@
         {
           "date": "2026-10-30",
           "price": 148000,
-          "n": 15,
+          "n": 7,
           "lo": 136300,
           "hi": 175000
         }
@@ -14703,7 +14703,7 @@
       "currency": "USD",
       "updated": "2026-10-30",
       "start": "2018-12-31",
-      "latest": 230000,
+      "latest": 285000,
       "first": 95500,
       "n_listings": 172,
       "range_lo": 79000,
@@ -14712,7 +14712,7 @@
         "d7": null,
         "d30": null,
         "d90": null,
-        "all": 140.8
+        "all": 198.4
       },
       "points": 9,
       "series": [
@@ -14774,15 +14774,15 @@
         },
         {
           "date": "2026-10-30",
-          "price": 230000,
-          "n": 23,
+          "price": 285000,
+          "n": 7,
           "lo": 125000,
           "hi": 285000
         }
       ],
       "series_label": "BaT sold median",
       "n_label": "sold comps",
-      "value": 230000,
+      "value": 285000,
       "value_note": "asking median (no recent sold data)",
       "mirrored_from": "car-value-tracker",
       "cadence": "annual",
@@ -14874,7 +14874,7 @@
         {
           "date": "2026-10-30",
           "price": 141000,
-          "n": 7,
+          "n": 3,
           "lo": 136000,
           "hi": 142000
         }
@@ -14908,7 +14908,7 @@
       "currency": "USD",
       "updated": "2026-10-30",
       "start": "2015-12-31",
-      "latest": 45500,
+      "latest": 47000,
       "first": 25900,
       "n_listings": 313,
       "range_lo": 25000,
@@ -14917,7 +14917,7 @@
         "d7": null,
         "d30": null,
         "d90": null,
-        "all": 75.7
+        "all": 81.5
       },
       "points": 12,
       "series": [
@@ -15000,15 +15000,15 @@
         },
         {
           "date": "2026-10-30",
-          "price": 45500,
-          "n": 23,
+          "price": 47000,
+          "n": 7,
           "lo": 32000,
           "hi": 52000
         }
       ],
       "series_label": "BaT sold median",
       "n_label": "sold comps",
-      "value": 45500,
+      "value": 47000,
       "value_note": "asking median (no recent sold data)",
       "mirrored_from": "car-value-tracker",
       "cadence": "annual",
@@ -15035,7 +15035,7 @@
       "currency": "USD",
       "updated": "2026-10-30",
       "start": "2022-12-31",
-      "latest": 1240000,
+      "latest": 1275000,
       "first": 1150000,
       "n_listings": 20,
       "range_lo": 1025000,
@@ -15044,7 +15044,7 @@
         "d7": null,
         "d30": null,
         "d90": null,
-        "all": 7.8
+        "all": 10.9
       },
       "points": 3,
       "series": [
@@ -15064,15 +15064,15 @@
         },
         {
           "date": "2026-10-30",
-          "price": 1240000,
-          "n": 8,
+          "price": 1275000,
+          "n": 3,
           "lo": 1075000,
           "hi": 1275000
         }
       ],
       "series_label": "BaT sold median",
       "n_label": "sold comps",
-      "value": 1240000,
+      "value": 1275000,
       "value_note": "asking median (no recent sold data)",
       "mirrored_from": "car-value-tracker",
       "cadence": "annual",
@@ -15099,7 +15099,7 @@
       "currency": "USD",
       "updated": "2026-10-30",
       "start": "2016-12-31",
-      "latest": 125000,
+      "latest": 128000,
       "first": 81500,
       "n_listings": 204,
       "range_lo": 52000,
@@ -15108,7 +15108,7 @@
         "d7": null,
         "d30": null,
         "d90": null,
-        "all": 53.4
+        "all": 57.1
       },
       "points": 11,
       "series": [
@@ -15184,15 +15184,15 @@
         },
         {
           "date": "2026-10-30",
-          "price": 125000,
-          "n": 45,
+          "price": 128000,
+          "n": 7,
           "lo": 111000,
           "hi": 140000
         }
       ],
       "series_label": "BaT sold median",
       "n_label": "sold comps",
-      "value": 125000,
+      "value": 128000,
       "value_note": "asking median (no recent sold data)",
       "mirrored_from": "car-value-tracker",
       "cadence": "annual",
@@ -15219,7 +15219,7 @@
       "currency": "USD",
       "updated": "2026-10-30",
       "start": "2019-12-31",
-      "latest": 431000,
+      "latest": 455000,
       "first": 363000,
       "n_listings": 69,
       "range_lo": 290000,
@@ -15228,7 +15228,7 @@
         "d7": null,
         "d30": null,
         "d90": null,
-        "all": 18.7
+        "all": 25.3
       },
       "points": 8,
       "series": [
@@ -15283,15 +15283,15 @@
         },
         {
           "date": "2026-10-30",
-          "price": 431000,
-          "n": 8,
+          "price": 455000,
+          "n": 3,
           "lo": 393000,
           "hi": 452500
         }
       ],
       "series_label": "BaT sold median",
       "n_label": "sold comps",
-      "value": 431000,
+      "value": 455000,
       "value_note": "asking median (no recent sold data)",
       "mirrored_from": "car-value-tracker",
       "cadence": "annual",
@@ -15318,7 +15318,7 @@
       "currency": "USD",
       "updated": "2026-10-30",
       "start": "2022-12-31",
-      "latest": 88000,
+      "latest": 89500,
       "first": 88500,
       "n_listings": 18,
       "range_lo": 73500,
@@ -15327,7 +15327,7 @@
         "d7": null,
         "d30": null,
         "d90": null,
-        "all": -0.6
+        "all": 1.1
       },
       "points": 5,
       "series": [
@@ -15361,15 +15361,15 @@
         },
         {
           "date": "2026-10-30",
-          "price": 88000,
-          "n": 4,
+          "price": 89500,
+          "n": 3,
           "lo": 86500,
           "hi": 89500
         }
       ],
       "series_label": "BaT sold median",
       "n_label": "sold comps",
-      "value": 88000,
+      "value": 89500,
       "value_note": "asking median (no recent sold data)",
       "cadence": "annual",
       "mirrored_from": "car-value-tracker",
@@ -15396,7 +15396,7 @@
       "currency": "USD",
       "updated": "2026-10-30",
       "start": "2024-12-31",
-      "latest": 83500,
+      "latest": 83000,
       "first": 101000,
       "n_listings": 28,
       "range_lo": 82000,
@@ -15405,7 +15405,7 @@
         "d7": null,
         "d30": null,
         "d90": null,
-        "all": -17.3
+        "all": -17.8
       },
       "points": 3,
       "series": [
@@ -15425,15 +15425,15 @@
         },
         {
           "date": "2026-10-30",
-          "price": 83500,
-          "n": 11,
+          "price": 83000,
+          "n": 5,
           "lo": 82000,
           "hi": 89000
         }
       ],
       "series_label": "BaT sold median",
       "n_label": "sold comps",
-      "value": 83500,
+      "value": 83000,
       "value_note": "asking median (no recent sold data)",
       "cadence": "annual",
       "mirrored_from": "car-value-tracker"
@@ -15450,7 +15450,7 @@
       "currency": "USD",
       "updated": "2026-10-30",
       "start": "2018-12-31",
-      "latest": 223000,
+      "latest": 232000,
       "first": 130000,
       "n_listings": 132,
       "range_lo": 94200,
@@ -15459,7 +15459,7 @@
         "d7": null,
         "d30": null,
         "d90": null,
-        "all": 71.5
+        "all": 78.5
       },
       "points": 9,
       "series": [
@@ -15521,15 +15521,15 @@
         },
         {
           "date": "2026-10-30",
-          "price": 223000,
-          "n": 24,
+          "price": 232000,
+          "n": 7,
           "lo": 179500,
           "hi": 305000
         }
       ],
       "series_label": "BaT sold median",
       "n_label": "sold comps",
-      "value": 223000,
+      "value": 232000,
       "value_note": "asking median (no recent sold data)",
       "cadence": "annual",
       "mirrored_from": "car-value-tracker",
@@ -15556,7 +15556,7 @@
       "currency": "USD",
       "updated": "2026-10-30",
       "start": "2018-12-31",
-      "latest": 229200,
+      "latest": 245400,
       "first": 67500,
       "n_listings": 56,
       "range_lo": 64000,
@@ -15565,7 +15565,7 @@
         "d7": null,
         "d30": null,
         "d90": null,
-        "all": 239.6
+        "all": 263.6
       },
       "points": 8,
       "series": [
@@ -15620,15 +15620,15 @@
         },
         {
           "date": "2026-10-30",
-          "price": 229200,
-          "n": 4,
+          "price": 245400,
+          "n": 3,
           "lo": 213000,
           "hi": 245400
         }
       ],
       "series_label": "BaT sold median",
       "n_label": "sold comps",
-      "value": 229200,
+      "value": 245400,
       "value_note": "asking median (no recent sold data)",
       "cadence": "annual",
       "mirrored_from": "car-value-tracker",
@@ -15655,7 +15655,7 @@
       "currency": "USD",
       "updated": "2026-10-30",
       "start": "2021-12-31",
-      "latest": 250700,
+      "latest": 257700,
       "first": 150800,
       "n_listings": 39,
       "range_lo": 127000,
@@ -15664,7 +15664,7 @@
         "d7": null,
         "d30": null,
         "d90": null,
-        "all": 66.2
+        "all": 70.9
       },
       "points": 6,
       "series": [
@@ -15705,15 +15705,15 @@
         },
         {
           "date": "2026-10-30",
-          "price": 250700,
-          "n": 6,
+          "price": 257700,
+          "n": 4,
           "lo": 212000,
           "hi": 280000
         }
       ],
       "series_label": "BaT sold median",
       "n_label": "sold comps",
-      "value": 250700,
+      "value": 257700,
       "value_note": "asking median (no recent sold data)",
       "cadence": "annual",
       "mirrored_from": "car-value-tracker",
@@ -15802,7 +15802,7 @@
       "currency": "USD",
       "updated": "2026-10-30",
       "start": "2018-12-31",
-      "latest": 605000,
+      "latest": 696000,
       "first": 256000,
       "n_listings": 257,
       "range_lo": 235000,
@@ -15811,7 +15811,7 @@
         "d7": null,
         "d30": null,
         "d90": null,
-        "all": 136.3
+        "all": 171.9
       },
       "points": 9,
       "series": [
@@ -15873,15 +15873,15 @@
         },
         {
           "date": "2026-10-30",
-          "price": 605000,
-          "n": 33,
+          "price": 696000,
+          "n": 7,
           "lo": 504400,
           "hi": 725000
         }
       ],
       "series_label": "BaT sold median",
       "n_label": "sold comps",
-      "value": 605000,
+      "value": 696000,
       "value_note": "asking median (no recent sold data)",
       "cadence": "annual",
       "mirrored_from": "car-value-tracker",
@@ -15913,7 +15913,7 @@
       "currency": "USD",
       "updated": "2026-10-30",
       "start": "2018-12-31",
-      "latest": 155000,
+      "latest": 186500,
       "first": 101200,
       "n_listings": 73,
       "range_lo": 75500,
@@ -15922,7 +15922,7 @@
         "d7": null,
         "d30": null,
         "d90": null,
-        "all": 53.2
+        "all": 84.3
       },
       "points": 8,
       "series": [
@@ -15977,15 +15977,15 @@
         },
         {
           "date": "2026-10-30",
-          "price": 155000,
-          "n": 9,
+          "price": 186500,
+          "n": 4,
           "lo": 143000,
           "hi": 183000
         }
       ],
       "series_label": "BaT sold median",
       "n_label": "sold comps",
-      "value": 155000,
+      "value": 186500,
       "value_note": "asking median (no recent sold data)",
       "cadence": "annual",
       "mirrored_from": "car-value-tracker",
@@ -16143,7 +16143,7 @@
       "currency": "USD",
       "updated": "2026-10-30",
       "start": "2021-12-31",
-      "latest": 497500,
+      "latest": 575000,
       "first": 372000,
       "n_listings": 24,
       "range_lo": 227000,
@@ -16152,7 +16152,7 @@
         "d7": null,
         "d30": null,
         "d90": null,
-        "all": 33.7
+        "all": 54.6
       },
       "points": 6,
       "series": [
@@ -16193,15 +16193,15 @@
         },
         {
           "date": "2026-10-30",
-          "price": 497500,
-          "n": 4,
+          "price": 575000,
+          "n": 3,
           "lo": 420000,
           "hi": 575000
         }
       ],
       "series_label": "BaT sold median",
       "n_label": "sold comps",
-      "value": 497500,
+      "value": 575000,
       "value_note": "asking median (no recent sold data)",
       "cadence": "annual",
       "mirrored_from": "car-value-tracker",
@@ -16227,7 +16227,7 @@
       "currency": "USD",
       "updated": "2026-10-30",
       "start": "2022-12-31",
-      "latest": 191000,
+      "latest": 200000,
       "first": 183000,
       "n_listings": 8,
       "range_lo": 176000,
@@ -16236,7 +16236,7 @@
         "d7": null,
         "d30": null,
         "d90": null,
-        "all": 4.4
+        "all": 9.3
       },
       "points": 2,
       "series": [
@@ -16249,15 +16249,15 @@
         },
         {
           "date": "2026-10-30",
-          "price": 191000,
-          "n": 2,
+          "price": 200000,
+          "n": 3,
           "lo": 182000,
           "hi": 200000
         }
       ],
       "series_label": "BaT sold median",
       "n_label": "sold comps",
-      "value": 191000,
+      "value": 200000,
       "value_note": "asking median (no recent sold data)",
       "cadence": "annual",
       "mirrored_from": "car-value-tracker",
@@ -16283,16 +16283,16 @@
       "currency": "USD",
       "updated": "2026-10-30",
       "start": "2023-12-31",
-      "latest": 551000,
+      "latest": 725000,
       "first": 290500,
-      "n_listings": 14,
+      "n_listings": 15,
       "range_lo": 250000,
-      "range_hi": 700000,
+      "range_hi": 735000,
       "change": {
         "d7": null,
         "d30": null,
         "d90": null,
-        "all": 89.7
+        "all": 149.6
       },
       "points": 3,
       "series": [
@@ -16312,15 +16312,15 @@
         },
         {
           "date": "2026-10-30",
-          "price": 551000,
-          "n": 7,
+          "price": 725000,
+          "n": 4,
           "lo": 501000,
-          "hi": 700000
+          "hi": 735000
         }
       ],
       "series_label": "BaT sold median",
       "n_label": "sold comps",
-      "value": 551000,
+      "value": 725000,
       "value_note": "asking median (no recent sold data)",
       "cadence": "annual",
       "mirrored_from": "car-value-tracker",
@@ -16346,7 +16346,7 @@
       "currency": "USD",
       "updated": "2026-10-30",
       "start": "2020-12-31",
-      "latest": 351500,
+      "latest": 410000,
       "first": 171000,
       "n_listings": 72,
       "range_lo": 160000,
@@ -16355,7 +16355,7 @@
         "d7": null,
         "d30": null,
         "d90": null,
-        "all": 105.6
+        "all": 139.8
       },
       "points": 6,
       "series": [
@@ -16396,15 +16396,15 @@
         },
         {
           "date": "2026-10-30",
-          "price": 351500,
-          "n": 18,
+          "price": 410000,
+          "n": 7,
           "lo": 290000,
           "hi": 410000
         }
       ],
       "series_label": "BaT sold median",
       "n_label": "sold comps",
-      "value": 351500,
+      "value": 410000,
       "value_note": "asking median (no recent sold data)",
       "cadence": "annual",
       "mirrored_from": "car-value-tracker"
