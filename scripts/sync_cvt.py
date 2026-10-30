@@ -125,6 +125,8 @@ def build_series(car, years):
             date = TODAY if i == len(ann) - 1 else f"{p['year']}-12-31"
             out.append({"date": date, "price": round(p["median"] * 1000),
                         "n": p["n"], "lo": round(p["lo"] * 1000), "hi": round(p["hi"] * 1000)})
+        if car.get("recent"):       # today's point is the recent-sales value, not the year's median
+            out[-1].update(price=round(car["recent"]["value"] * 1000), n=car["recent"]["n"])
         return out, True
     hist = car.get("hist") or []
     out = []
