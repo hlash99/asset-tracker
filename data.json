@@ -1,8 +1,8 @@
 {
-  "updated": "2026-11-05T07:56:22Z",
+  "updated": "2026-11-05T20:39:59Z",
   "generated_by": "publish_trackers.py",
   "summary": {
-    "portfolio_value": 12486877,
+    "portfolio_value": 12449856,
     "n_assets": 35,
     "n_cars": 33,
     "n_watches": 2
@@ -5766,16 +5766,16 @@
       "currency": "USD",
       "updated": "2026-11-05",
       "start": "2026-01-04",
-      "latest": 283662,
+      "latest": 266881,
       "first": 298400,
-      "n_listings": 28,
-      "range_lo": 248989,
-      "range_hi": 320134,
+      "n_listings": 39,
+      "range_lo": 255490,
+      "range_hi": 299000,
       "change": {
-        "d7": -3.8,
-        "d30": 4.3,
-        "d90": 7.1,
-        "all": -4.9
+        "d7": -9.5,
+        "d30": -1.8,
+        "d90": 0.8,
+        "all": -10.6
       },
       "points": 219,
       "series": [
@@ -7388,10 +7388,10 @@
         },
         {
           "date": "2026-11-05",
-          "price": 283662,
-          "n": 28,
-          "lo": 248989,
-          "hi": 320134,
+          "price": 266881,
+          "n": 39,
+          "lo": 255490,
+          "hi": 299000,
           "src": "ci"
         }
       ],
@@ -8178,7 +8178,7 @@
           "days": 90
         }
       ],
-      "value": 262166,
+      "value": 257970,
       "value_note": "75% sold (90d) + 25% asking",
       "comps": [
         {
@@ -8500,16 +8500,16 @@
       "currency": "USD",
       "updated": "2026-11-05",
       "start": "2026-07-04",
-      "latest": 212520,
+      "latest": 192525,
       "first": 339995,
-      "n_listings": 6,
-      "range_lo": 190220,
-      "range_hi": 234820,
+      "n_listings": 5,
+      "range_lo": 192525,
+      "range_hi": 309863,
       "change": {
-        "d7": 6.8,
-        "d30": 0.9,
-        "d90": -3.9,
-        "all": -37.5
+        "d7": -3.2,
+        "d30": -8.6,
+        "d90": -13.0,
+        "all": -43.4
       },
       "points": 86,
       "series": [
@@ -9195,10 +9195,10 @@
         },
         {
           "date": "2026-11-05",
-          "price": 212520,
-          "n": 6,
-          "lo": 190220,
-          "hi": 234820,
+          "price": 192525,
+          "n": 5,
+          "lo": 192525,
+          "hi": 309863,
           "src": "ci"
         }
       ],
@@ -9986,7 +9986,7 @@
           "days": 90
         }
       ],
-      "value": 280380,
+      "value": 275381,
       "value_note": "75% sold (90d) + 25% asking",
       "comps": [
         {
@@ -10072,16 +10072,16 @@
       "currency": "USD",
       "updated": "2026-11-05",
       "start": "2026-07-04",
-      "latest": 114592,
+      "latest": 132872,
       "first": 161007,
-      "n_listings": 31,
-      "range_lo": 69460,
-      "range_hi": 131125,
+      "n_listings": 14,
+      "range_lo": 129348,
+      "range_hi": 146740,
       "change": {
-        "d7": -14.0,
-        "d30": -12.6,
-        "d90": -38.1,
-        "all": -28.8
+        "d7": -0.3,
+        "d30": 1.4,
+        "d90": -28.2,
+        "all": -17.5
       },
       "points": 108,
       "series": [
@@ -10941,10 +10941,10 @@
         },
         {
           "date": "2026-11-05",
-          "price": 114592,
-          "n": 31,
-          "lo": 69460,
-          "hi": 131125,
+          "price": 132872,
+          "n": 14,
+          "lo": 129348,
+          "hi": 146740,
           "src": "ci"
         }
       ],
@@ -11735,7 +11735,7 @@
         "hi": 300,
         "min_n": 1
       },
-      "value": 148007,
+      "value": 154405,
       "value_note": "65% sold (180d) + 35% asking",
       "comps": [
         {
@@ -11785,16 +11785,16 @@
       "currency": "USD",
       "updated": "2026-11-05",
       "start": "2026-07-21",
-      "latest": 143810,
+      "latest": 116991,
       "first": 125445,
-      "n_listings": 23,
-      "range_lo": 133890,
-      "range_hi": 149900,
+      "n_listings": 25,
+      "range_lo": 110087,
+      "range_hi": 139994,
       "change": {
-        "d7": 15.0,
-        "d30": 2.7,
-        "d90": 21.2,
-        "all": 14.6
+        "d7": -6.4,
+        "d30": -16.4,
+        "d90": -1.4,
+        "all": -6.7
       },
       "points": 104,
       "series": [
@@ -12624,10 +12624,10 @@
         },
         {
           "date": "2026-11-05",
-          "price": 143810,
-          "n": 23,
-          "lo": 133890,
-          "hi": 149900,
+          "price": 116991,
+          "n": 25,
+          "lo": 110087,
+          "hi": 139994,
           "src": "ci"
         }
       ],
@@ -12638,7 +12638,7 @@
         "hi": 160,
         "min_n": 3
       },
-      "value": 143810,
+      "value": 116991,
       "value_note": "asking median (no recent sold data)",
       "make": "Porsche"
     },
@@ -13394,16 +13394,16 @@
       "currency": "USD",
       "updated": "2026-11-05",
       "start": "2026-07-21",
-      "latest": 88219,
+      "latest": 85598,
       "first": 90683,
-      "n_listings": 27,
-      "range_lo": 83183,
-      "range_hi": 114999,
+      "n_listings": 39,
+      "range_lo": 80449,
+      "range_hi": 112525,
       "change": {
-        "d7": -33.2,
-        "d30": -8.9,
-        "d90": -13.1,
-        "all": -2.7
+        "d7": -35.1,
+        "d30": -11.6,
+        "d90": -15.7,
+        "all": -5.6
       },
       "points": 103,
       "series": [
@@ -14225,10 +14225,10 @@
         },
         {
           "date": "2026-11-05",
-          "price": 88219,
-          "n": 27,
-          "lo": 83183,
-          "hi": 114999,
+          "price": 85598,
+          "n": 39,
+          "lo": 80449,
+          "hi": 112525,
           "src": "ci"
         }
       ],
@@ -14269,16 +14269,16 @@
         ]
       },
       "sold": {
-        "median": 126000,
-        "n": 8,
+        "median": 117000,
+        "n": 9,
         "days": 90,
         "updated": "2026-11-05",
         "src": "bat",
         "latest": {
-          "url": "https://bringatrailer.com/listing/2014-audi-r8-spyder-41/",
-          "title": "27k-Mile 2014 Audi R8 V10 Spyder 6-Speed",
-          "price": 152500,
-          "date": "2026-10-23"
+          "url": "https://bringatrailer.com/listing/2011-audi-r8-spyder-72/",
+          "title": "28k-Mile 2011 Audi R8 V10 Spyder 6-Speed",
+          "price": 117000,
+          "date": "2026-11-05"
         }
       },
       "sold_series": [
@@ -14926,14 +14926,21 @@
         },
         {
           "date": "2026-11-05",
-          "price": 126000,
-          "n": 8,
+          "price": 117000,
+          "n": 9,
           "days": 90
         }
       ],
-      "value": 116555,
+      "value": 109150,
       "value_note": "75% sold (90d) + 25% asking",
       "comps": [
+        {
+          "date": "2026-11-05",
+          "price": 117000,
+          "title": "28k-Mile 2011 Audi R8 V10 Spyder 6-Speed",
+          "url": "https://bringatrailer.com/listing/2011-audi-r8-spyder-72/",
+          "tag": "Gated 6MT"
+        },
         {
           "date": "2026-10-23",
           "price": 152500,
@@ -15427,7 +15434,7 @@
       "start": "2015-12-31",
       "latest": 47000,
       "first": 25900,
-      "n_listings": 313,
+      "n_listings": 314,
       "range_lo": 25000,
       "range_hi": 62000,
       "change": {
