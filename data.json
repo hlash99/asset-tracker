@@ -1,8 +1,8 @@
 {
-  "updated": "2026-11-06T18:02:46Z",
+  "updated": "2026-11-06T19:57:40Z",
   "generated_by": "publish_trackers.py",
   "summary": {
-    "portfolio_value": 12505599,
+    "portfolio_value": 12500052,
     "n_assets": 35,
     "n_cars": 33,
     "n_watches": 2
@@ -4874,7 +4874,15 @@
         }
       ],
       "value": 580492,
-      "value_note": "50% sold (365d) + 50% asking"
+      "value_note": "50% sold (365d) + 50% asking",
+      "comps": [
+        {
+          "date": "2025-12-19",
+          "price": 536000,
+          "title": "2025 Ferrari 12Cilindri",
+          "url": "https://bringatrailer.com/listing/2025-ferrari-12-cilindri/"
+        }
+      ]
     },
     {
       "key": "porsche_997_turbo_s",
@@ -5813,16 +5821,16 @@
       "currency": "USD",
       "updated": "2026-11-06",
       "start": "2026-01-04",
-      "latest": 282552,
+      "latest": 270929,
       "first": 298400,
-      "n_listings": 4,
-      "range_lo": 268571,
-      "range_hi": 295317,
+      "n_listings": 32,
+      "range_lo": 241049,
+      "range_hi": 320134,
       "change": {
-        "d7": 3.0,
-        "d30": -4.2,
-        "d90": 6.6,
-        "all": -5.3
+        "d7": -1.3,
+        "d30": -8.2,
+        "d90": 2.2,
+        "all": -9.2
       },
       "points": 220,
       "series": [
@@ -7442,10 +7450,11 @@
         },
         {
           "date": "2026-11-06",
-          "price": 282552,
-          "n": 4,
-          "lo": 268571,
-          "hi": 295317
+          "price": 270929,
+          "n": 32,
+          "lo": 241049,
+          "hi": 320134,
+          "src": "ci"
         }
       ],
       "ci": {
@@ -8237,8 +8246,40 @@
           "days": 90
         }
       ],
-      "value": 261888,
-      "value_note": "75% sold (90d) + 25% asking"
+      "value": 258982,
+      "value_note": "75% sold (90d) + 25% asking",
+      "comps": [
+        {
+          "date": "2026-11-02",
+          "price": 250000,
+          "title": "2023 Porsche 911 GT3 Touring 6-Speed",
+          "url": "https://bringatrailer.com/listing/2023-porsche-911-gt3-touring-59/"
+        },
+        {
+          "date": "2026-10-31",
+          "price": 263000,
+          "title": "2,200-Mile 2022 Porsche 911 GT3 Touring 6-Speed",
+          "url": "https://bringatrailer.com/listing/2022-porsche-911-gt3-touring-168/"
+        },
+        {
+          "date": "2026-10-24",
+          "price": 239333,
+          "title": "2022 Porsche 911 GT3 Touring 6-Speed",
+          "url": "https://bringatrailer.com/listing/2022-porsche-911-gt3-touring-171/"
+        },
+        {
+          "date": "2026-10-17",
+          "price": 265000,
+          "title": "2022 Porsche 911 GT3 Touring 6-Speed",
+          "url": "https://bringatrailer.com/listing/2022-porsche-911-gt3-touring-167/"
+        },
+        {
+          "date": "2026-09-08",
+          "price": 255000,
+          "title": "1,900-Mile Slate Gray 2022 Porsche 911 GT3 Touring 6-Speed",
+          "url": "https://bringatrailer.com/listing/2022-porsche-911-gt3-touring-161/"
+        }
+      ]
     },
     {
       "key": "ferrari_458_italia",
@@ -10113,16 +10154,16 @@
       "currency": "USD",
       "updated": "2026-11-06",
       "start": "2026-07-04",
-      "latest": 131125,
+      "latest": 114592,
       "first": 161007,
-      "n_listings": 17,
-      "range_lo": 129142,
-      "range_hi": 147884,
+      "n_listings": 31,
+      "range_lo": 68001,
+      "range_hi": 131125,
       "change": {
-        "d7": 1.8,
-        "d30": -9.8,
-        "d90": -14.3,
-        "all": -18.6
+        "d7": -11.1,
+        "d30": -21.2,
+        "d90": -25.1,
+        "all": -28.8
       },
       "points": 109,
       "series": [
@@ -10990,10 +11031,10 @@
         },
         {
           "date": "2026-11-06",
-          "price": 131125,
-          "n": 17,
-          "lo": 129142,
-          "hi": 147884,
+          "price": 114592,
+          "n": 31,
+          "lo": 68001,
+          "hi": 131125,
           "src": "ci"
         }
       ],
@@ -11790,7 +11831,7 @@
         "hi": 300,
         "min_n": 1
       },
-      "value": 153794,
+      "value": 148007,
       "value_note": "65% sold (180d) + 35% asking",
       "comps": [
         {
@@ -11840,16 +11881,16 @@
       "currency": "USD",
       "updated": "2026-11-06",
       "start": "2026-07-21",
-      "latest": 133890,
+      "latest": 142997,
       "first": 125445,
-      "n_listings": 29,
+      "n_listings": 35,
       "range_lo": 125988,
-      "range_hi": 148810,
+      "range_hi": 149900,
       "change": {
-        "d7": -1.5,
-        "d30": 20.5,
-        "d90": 11.6,
-        "all": 6.7
+        "d7": 5.2,
+        "d30": 28.7,
+        "d90": 19.2,
+        "all": 14.0
       },
       "points": 105,
       "series": [
@@ -12687,10 +12728,10 @@
         },
         {
           "date": "2026-11-06",
-          "price": 133890,
-          "n": 29,
+          "price": 142997,
+          "n": 35,
           "lo": 125988,
-          "hi": 148810,
+          "hi": 149900,
           "src": "ci"
         }
       ],
@@ -12701,7 +12742,7 @@
         "hi": 160,
         "min_n": 3
       },
-      "value": 133890,
+      "value": 142997,
       "value_note": "asking median (no recent sold data)",
       "make": "Porsche"
     },
@@ -13418,8 +13459,8 @@
           "days": 90
         }
       ],
-      "value": 278875,
-      "value_note": "75% sold (90d) + 25% asking",
+      "value": 273500,
+      "value_note": "BaT sold median only \u2014 asking price 108d stale",
       "comps": [
         {
           "date": "2026-10-08",
@@ -13463,16 +13504,16 @@
       "currency": "USD",
       "updated": "2026-11-06",
       "start": "2026-07-21",
-      "latest": 90942,
+      "latest": 88599,
       "first": 90683,
       "n_listings": 33,
       "range_lo": 84219,
       "range_hi": 125810,
       "change": {
-        "d7": -8.1,
-        "d30": 0.1,
-        "d90": -17.7,
-        "all": 0.3
+        "d7": -10.5,
+        "d30": -2.5,
+        "d90": -19.8,
+        "all": -2.3
       },
       "points": 104,
       "series": [
@@ -14302,7 +14343,7 @@
         },
         {
           "date": "2026-11-06",
-          "price": 90942,
+          "price": 88599,
           "n": 33,
           "lo": 84219,
           "hi": 125810,
@@ -15014,7 +15055,7 @@
           "days": 90
         }
       ],
-      "value": 110486,
+      "value": 109900,
       "value_note": "75% sold (90d) + 25% asking",
       "comps": [
         {
@@ -17944,5 +17985,6 @@
         "n": 15
       }
     ]
-  }
+  },
+  "cvt_sync": "Ferrari 458 Italia: 7pts, $234,100 | Ferrari F12 Berlinetta: 7pts, $464,000 | Ferrari 812 Superfast: 7pts, $478,000 | Ferrari 812 GTS: 7pts, $765,000 | Acura NSX (NA2 manual): 10pts, $142,400 | Ferrari 360 (gated manual): 9pts, $236,000 | Audi R8 gen1 V10 (gated): 8pts, $141,000 | Alfa Romeo GTV 1750/2000: 12pts, $47,000 | Porsche Singer 911: 3pts, $1,275,000 | Ferrari 328 GTS/GTB: 11pts, $126,000 | Ferrari Dino 246 GT/GTS: 8pts, $448,500 | Lotus Evora GT (2020-21): 5pts, $89,500 | Lotus Emira V6 (2024-25): 3pts, $82,500 | Ferrari 550 Maranello: 9pts, $232,000 | Ferrari F355 Berlinetta (gated manual): 8pts, $245,400 | Ferrari F355 GTS (gated manual): 6pts, $257,700 | Porsche Carrera GT: 2pts, $1,810,400 | Ford GT (2005-2006): 9pts, $675,000 | Dodge Viper GTS/GT (Gen 5): 8pts, $183,000 | Lamborghini Murcielago Roadster 6.2 (e-gear): 3pts, $261,000 | Lamborghini Murcielago LP640 Roadster (e-gear): 3pts, $425,000 | Lamborghini Murcielago 6.2 Coupe (6-speed): 6pts, $575,000 | Lamborghini Murcielago 6.2 Coupe (e-gear): 2pts, $200,000 | Lamborghini Murcielago LP640 Coupe (e-gear): 3pts, $725,000 | Ferrari 458 Spider: 6pts, $310,000"
 }
