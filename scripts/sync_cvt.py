@@ -57,7 +57,8 @@ DROP = {
 # which this dashboard deliberately no longer has — add the marque when adding a car.
 MAKES = [("Acura", "Acura"), ("Ferrari", "Ferrari"), ("Audi", "Audi"),
          ("Porsche", "Porsche"), ("Volvo", "Volvo"), ("Alfa Romeo", "Alfa Romeo"),
-         ("Corvette", "Chevrolet"), ("Lotus", "Lotus"), ("Ford", "Ford"),
+         ("Corvette", "Chevrolet"), ("Chevrolet", "Chevrolet"),
+         ("Z06", "Chevrolet"), ("Lotus", "Lotus"), ("Ford", "Ford"),
          ("Dodge", "Dodge"), ("Lamborghini", "Lamborghini")]
 
 # Short card labels; anything unlisted falls back to the full name.
@@ -89,6 +90,7 @@ SHORT = {
     "Lamborghini Murcielago 6.2 Coupe (6-speed)": "Murcielago 6.2 Coupe 6MT",
     "Lamborghini Murcielago 6.2 Coupe (e-gear)": "Murcielago 6.2 Coupe",
     "Lamborghini Murcielago LP640 Coupe (e-gear)": "Murcielago LP640 Coupe",
+    "Chevrolet Corvette C8 Z06 (no Z07/wing)": "C8 Z06 (no wing)",
 }
 
 NOTE_EXTRA = {

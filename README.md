@@ -8,7 +8,10 @@ It publishes the historical + current results of `run_trackers.py` as an
 interactive page instead of a static PDF:
 
 - **Watches** — Rolex GMT-Master II 126719BLRO Meteorite, Patek 5326G (Chrono24)
-- **Cars** — Ferrari 458 Italia, 812 Superfast, 812 GTS, 12Cilindri, Porsche 997.2 Turbo S
+- **Cars** — Porsche 997.2 Turbo S (live asking tracker), plus every collector car on
+  [car-value-tracker](https://hlash99.github.io/car-value-tracker/) mirrored in by
+  `scripts/sync_cvt.py` (Ferraris, Lamborghinis, Acura, Audi, Lotus, Ford GT, Viper,
+  Chevrolet Corvette C8 Z06, ...) as BaT sold medians
 - **My 997.2 Turbo S** — personalized fair-market value with sold-comp percentile band
 
 ## How it updates
