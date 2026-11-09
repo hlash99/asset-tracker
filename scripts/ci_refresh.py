@@ -205,6 +205,88 @@ def watch_headline(vals):
     return kept[0]
 
 
+# ── Smoothed asking price (CarGurus assets only) ──────────────────────────────
+# One CarGurus page is a small, reshuffled sample of the listings, so the daily
+# median jumps 6-12% day to day with no market move behind it (R8: $86k, $135k,
+# $85k on three consecutive days). The headline ask is therefore the median of
+# the last SMOOTH_K daily readings, none older than SMOOTH_DAYS.
+# Walk-forward check on the stored history (2026-11-09, predict the next reading
+# from the past only, mean abs error, last reading -> 7-reading median):
+#   R8 16.3% -> 10.1%, 992 GT3T 5.9% -> 4.5%, 991.1 GTS 8.5% -> 6.9%,
+#   V12 Vantage S 15.6% -> 13.1%, V12 Vantage 6MT 13.2% -> 13.3% (tie).
+# The same test says the opposite for the Chrono24 watches and the locally
+# published trackers (their last reading is the better predictor), so those are
+# deliberately NOT smoothed. The raw daily readings stay in `series` untouched.
+SMOOTH_K, SMOOTH_DAYS = 7, 14
+
+
+def _d(s):
+    return datetime.strptime(s, "%Y-%m-%d")
+
+
+def smoothed_ask(series, upto=None):
+    """(median, n) of the last SMOOTH_K readings dated <= `upto` (default: the
+    newest reading) and within SMOOTH_DAYS of the newest of them. (None, 0) when
+    there is no reading that early."""
+    pts = [p for p in series if upto is None or p["date"] <= upto]
+    if not pts:
+        return None, 0
+    floor = (_d(pts[-1]["date"]) - timedelta(days=SMOOTH_DAYS)).strftime("%Y-%m-%d")
+    w = [p["price"] for p in pts[-SMOOTH_K:] if p["date"] >= floor]
+    return round(statistics.median(w)), len(w)
+
+
+def apply_smoothing(a):
+    """Set ask_smooth / ask_smooth_n / smooth and recompute `change` from the
+    smoothed level, so a 7d/30d chip compares two 7-reading medians rather than
+    two single noisy pages. `all` stays anchored on the first stored reading."""
+    s = a.get("series") or []
+    if (a.get("ci") or {}).get("type") != "cargurus" or len(s) < 2:
+        for k in ("ask_smooth", "ask_smooth_n", "smooth"):
+            a.pop(k, None)
+        return
+    cur, n = smoothed_ask(s)
+    a["ask_smooth"], a["ask_smooth_n"] = cur, n
+    a["smooth"] = {"k": SMOOTH_K, "days": SMOOTH_DAYS}
+    last = _d(s[-1]["date"])
+
+    def back(days):
+        v, _ = smoothed_ask(s, (last - timedelta(days=days)).strftime("%Y-%m-%d"))
+        return pct(cur, v)
+    a["change"] = {"d7": back(7), "d30": back(30), "d90": back(90),
+                   "all": pct(cur, s[0]["price"])}
+
+
+# ── Headline-value log: what moved since the last refresh ─────────────────────
+# One entry per change of an asset's headline `value` (not one per run), so the
+# page can show what actually moved over 7/30 days - including the cars mirrored
+# from car-value-tracker, whose annual series cannot say. Append-only, capped.
+VALUE_LOG_CAP = 800
+
+
+def log_value(a):
+    v = a.get("value")
+    if v is None:
+        return
+    log = a.setdefault("value_log", [])
+    if log and log[-1]["date"] == TODAY:
+        log[-1]["value"] = v
+        if len(log) > 1 and log[-2]["value"] == v:
+            log.pop()                       # moved and moved back within the day
+    elif not log or log[-1]["value"] != v:
+        log.append({"date": TODAY, "value": v})
+    del log[:-VALUE_LOG_CAP]
+
+
+def value_days_ago(log, days):
+    """Headline value `days` ago, or None when the log does not reach that far
+    back (never extrapolate a window the history does not cover)."""
+    cutoff = (_d(TODAY) - timedelta(days=days)).strftime("%Y-%m-%d")
+    if not log or log[0]["date"] > cutoff:
+        return None
+    return [e for e in log if e["date"] <= cutoff][-1]["value"]
+
+
 # Headline value: sold-weighted blend. Transactions beat asking prices (dealer asks
 # on these cars run +10-46% over hammer), so the sold median dominates — weighted by
 # how fresh the sold window is. Assets with no sold data fall back to the ask.
@@ -227,6 +309,8 @@ def blended_value(a):
         except ValueError:
             ask_age = None
     stale = ask_age is not None and ask_age > ASK_STALE_DAYS
+    ask = a.get("ask_smooth") or a["latest"]
+    how = f" ({a['ask_smooth_n']}-reading median)" if a.get("ask_smooth") else ""
 
     if s and s.get("median"):
         if stale:
@@ -234,12 +318,34 @@ def blended_value(a):
             a["value_note"] = f"BaT sold median only — asking price {ask_age}d stale"
         else:
             w = SOLD_WEIGHT.get(s.get("days"), 0.5)
-            a["value"] = round(w * s["median"] + (1 - w) * a["latest"])
-            a["value_note"] = f"{int(w*100)}% sold ({s['days']}d) + {int((1-w)*100)}% asking"
+            a["value"] = round(w * s["median"] + (1 - w) * ask)
+            a["value_note"] = f"{int(w*100)}% sold ({s['days']}d) + {int((1-w)*100)}% asking{how}"
     else:
-        a["value"] = a["latest"]
-        a["value_note"] = ("asking median (no recent sold data)" if not stale
+        a["value"] = ask
+        a["value_note"] = (f"asking median{how} (no recent sold data)" if not stale
                            else f"asking median — {ask_age}d stale, no sold data")
+
+
+def finalize(d):
+    """Derived fields for every asset, recomputed from stored data on each run
+    (so they self-heal after a local publish_trackers.py rewrite)."""
+    for a in d["assets"]:
+        if a.get("mirrored_from"):
+            # sync_cvt.py owns these: value == latest == car-value-tracker's
+            # figure, and its value_note says what that figure is. Running the
+            # blend here used to relabel every BaT sold median "asking median
+            # (no recent sold data)".
+            log_value(a)
+            vl = a.get("value_log", [])
+            a.setdefault("change", {}).update({k: pct(a.get("value"), value_days_ago(vl, n))
+                                for k, n in (("d7", 7), ("d30", 30), ("d90", 90))})
+            continue
+        apply_smoothing(a)
+        blended_value(a)
+        log_value(a)
+    # Always re-sum: a stale ask dropping out of a blend moves `value` even on a
+    # run where no source returned anything new.
+    d["summary"]["portfolio_value"] = sum(a.get("value", a["latest"]) for a in d["assets"])
 
 
 def main():
@@ -358,10 +464,7 @@ def main():
                 log.append(f"{a['short']}: failed ({e.__class__.__name__}) — kept last-good")
         browser.close()
 
-    for a in d["assets"]:
-        blended_value(a)
-    if changed:
-        d["summary"]["portfolio_value"] = sum(a.get("value", a["latest"]) for a in d["assets"])
+    finalize(d)
     d["updated"] = datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
     with open(DATA, "w") as f:
         json.dump(d, f, indent=2)
