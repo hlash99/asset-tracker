@@ -18,14 +18,15 @@ year's BaT sold prints, with the interquartile band. That is a different shape
 to the near-daily asking series the scraped assets carry, which is why each
 mirrored asset declares `series_label` and `n_label` for the UI to read.
 
-Stdlib only. Runs before ci_refresh.py in the refresh workflow, which
-re-serialises data.json at indent=2 - this script writes indent=1, so
-running it on its own reformats the whole file. Re-dump at indent=2 before
-committing or the diff buries the real change under 36k whitespace lines.
+Stdlib only. Runs before ci_refresh.py in the refresh workflow. Best-effort:
+if car-value-tracker cannot be fetched, or answers with something that does not
+look like its data.json, this exits 0 WITHOUT touching data.json - the mirrored
+cars keep their last-good values and ci_refresh.py still runs.
 """
 import json
 import os
 import re
+import sys
 import urllib.request
 from datetime import datetime, timezone
 
@@ -133,10 +134,28 @@ def build_series(car, years):
     hist = car.get("hist") or []
     out = []
     for i, (y, v) in enumerate(zip(years, hist)):
+        if v is None:               # year before the car existed / no estimate
+            continue
         date = TODAY if i == len(hist) - 1 else f"{y}-12-31"
         px = round(v * 1000)
         out.append({"date": date, "price": px, "n": None, "lo": px, "hi": px})
     return out, False
+
+
+def value_note(car, is_bat):
+    """Say what today's figure actually is. Since 2026-10-30 car-value-tracker
+    publishes a recent-sales value (`recent`) as the current point for most
+    cars - including the ones whose earlier years are Cars.com-asking based -
+    so "asking median" / "this year's median" would mislabel it."""
+    rec = car.get("recent") or {}
+    if rec.get("n") and rec.get("from") and rec.get("to"):
+        note = f"Median of the latest {rec['n']} BaT sales ({rec['from']} to {rec['to']})"
+        if rec.get("min_miles"):
+            note += f", {rec['min_miles']:,}+ mi cars only"
+        if rec.get("adj") or rec.get("pre_blend"):
+            note += " - mileage-adjusted / blended upstream, see car-value-tracker"
+        return note
+    return "Median of this year's BaT sold prints" if is_bat else "Cars.com asking-based estimate"
 
 
 def upsert(d, name, car, years):
@@ -157,7 +176,8 @@ def upsert(d, name, car, years):
         "make": make_of(name),
         "color": car.get("color", "#888"),
         "source": ("Bring a Trailer sold comps (via car-value-tracker)" if is_bat
-                   else "Cars.com asking (via car-value-tracker)"),
+                   else "Recent BaT sales; earlier years Cars.com asking (via car-value-tracker)"
+                   if car.get("recent") else "Cars.com asking (via car-value-tracker)"),
         "note": note,
         "currency": "USD",
         "updated": TODAY,
@@ -179,8 +199,7 @@ def upsert(d, name, car, years):
         "series_label": "BaT sold median" if is_bat else "asking median",
         "n_label": "sold comps" if is_bat else "listings",
         "value": latest,
-        "value_note": ("Median of this year's BaT sold prints"
-                       if is_bat else "Cars.com asking median"),
+        "value_note": value_note(car, is_bat),
         # One point per calendar year. The group aggregate must not read a
         # year-on-year step as a 7-day move, so it is told the cadence.
         "cadence": "annual",
@@ -202,10 +221,19 @@ def upsert(d, name, car, years):
 def main():
     with open(DATA) as f:
         d = json.load(f)
-    cvt = json.loads(urllib.request.urlopen(
-        urllib.request.Request(CVT_URL, headers={"User-Agent": "asset-tracker-sync"}),
-        timeout=60).read().decode())
-    years = cvt["years"]
+    try:
+        cvt = json.loads(urllib.request.urlopen(
+            urllib.request.Request(CVT_URL, headers={"User-Agent": "asset-tracker-sync"}),
+            timeout=60).read().decode())
+        years, cars_up = cvt["years"], cvt["cars"]
+        if not (isinstance(cars_up, dict) and cars_up and isinstance(years, list) and years):
+            raise ValueError("no cars / years in the payload")
+    except Exception as e:
+        # A Pages blip or a half-published file must not fail the whole refresh
+        # (ci_refresh.py runs next) and must never prune the mirrored cars.
+        print(f"::warning::car-value-tracker mirror skipped ({e.__class__.__name__}: {e}) "
+              "- mirrored cars keep their last-good values")
+        return 0
 
     log = []
     dropped = {slug(n) for n in DROP}
@@ -216,7 +244,12 @@ def main():
     for name, car in cvt["cars"].items():
         if name in SKIP or name in DROP:
             continue
-        r = upsert(d, name, car, years)
+        try:
+            r = upsert(d, name, car, years)
+        except Exception as e:      # one malformed car must not lose the other 25
+            log.append(f"{name}: FAILED ({e.__class__.__name__}) - kept last-good")
+            print(f"::warning::mirror of {name} failed ({e.__class__.__name__}: {e})")
+            continue
         log.append(f"{name}: {r[1]}pts, ${r[2]:,}" if r else f"{name}: SKIPPED (thin series)")
 
     # Prune mirrored cars car-value-tracker no longer publishes (the P1800 and the
@@ -225,9 +258,16 @@ def main():
     live = {slug(n) for n in cvt["cars"] if n not in SKIP}
     gone = [a["name"] for a in d["assets"]
             if a.get("mirrored_from") == "car-value-tracker" and a["key"] not in live]
-    d["assets"] = [a for a in d["assets"]
-                   if not (a.get("mirrored_from") == "car-value-tracker" and a["key"] not in live)]
-    if gone:
+    n_mirrored = sum(1 for a in d["assets"] if a.get("mirrored_from") == "car-value-tracker")
+    if len(gone) > max(3, n_mirrored // 4):
+        # Cars leave car-value-tracker one or two at a time. Losing a quarter of
+        # them in one run is a truncated upstream file, not an editorial choice.
+        print(f"::warning::car-value-tracker dropped {len(gone)} of {n_mirrored} mirrored cars "
+              "at once - NOT pruning; remove them by hand if that was intended")
+        log.append(f"prune refused ({len(gone)} missing upstream)")
+    elif gone:
+        d["assets"] = [a for a in d["assets"]
+                       if not (a.get("mirrored_from") == "car-value-tracker" and a["key"] not in live)]
         log.append("removed: " + ", ".join(gone))
 
     cars = [a for a in d["assets"] if a.get("category") == "car"]
@@ -240,10 +280,11 @@ def main():
     d["updated"] = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     d["cvt_sync"] = " | ".join(log)
     with open(DATA, "w") as f:
-        json.dump(d, f, indent=1)
+        json.dump(d, f, indent=2)       # same shape ci_refresh.py writes
     print("\n".join(log))
     print(f"\n{len(d['assets'])} assets ({len(cars)} cars)")
+    return 0
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())
