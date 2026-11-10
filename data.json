@@ -1,8 +1,8 @@
 {
-  "updated": "2026-11-10T00:29:10Z",
+  "updated": "2026-11-10T00:48:55Z",
   "generated_by": "publish_trackers.py",
   "summary": {
-    "portfolio_value": 12480650,
+    "portfolio_value": 12432165,
     "n_assets": 36,
     "n_cars": 34,
     "n_watches": 2
@@ -1917,20 +1917,20 @@
       "source": "Chrono24",
       "note": "White-gold annual-calendar travel-time, fluted-style dial.",
       "currency": "USD",
-      "updated": "2026-11-08",
+      "updated": "2026-11-10",
       "start": "2024-11-04",
-      "latest": 67340,
+      "latest": 65643,
       "first": 67500,
       "n_listings": 59,
-      "range_lo": 67340,
-      "range_hi": 82299,
+      "range_lo": 65643,
+      "range_hi": 81820,
       "change": {
-        "d7": 0.3,
-        "d30": 7.4,
-        "d90": 0.8,
-        "all": -0.2
+        "d7": -1.8,
+        "d30": 4.7,
+        "d90": -1.7,
+        "all": -2.8
       },
-      "points": 267,
+      "points": 268,
       "series": [
         {
           "date": "2024-11-04",
@@ -3821,6 +3821,14 @@
           "lo": 67340,
           "hi": 82299,
           "src": "ci"
+        },
+        {
+          "date": "2026-11-10",
+          "price": 65643,
+          "n": 59,
+          "lo": 65643,
+          "hi": 81820,
+          "src": "ci"
         }
       ],
       "ci": {
@@ -3830,7 +3838,7 @@
         "hi": 200,
         "min_n": 5
       },
-      "value": 67340,
+      "value": 65643,
       "value_note": "asking median (no recent sold data)",
       "value_log": [
         {
@@ -3944,6 +3952,10 @@
         {
           "date": "2026-11-06",
           "value": 67340
+        },
+        {
+          "date": "2026-11-10",
+          "value": 65643
         }
       ]
     },
@@ -6145,11 +6157,11 @@
       "currency": "USD",
       "updated": "2026-11-10",
       "start": "2026-01-04",
-      "latest": 248595,
+      "latest": 257252,
       "first": 298400,
-      "n_listings": 25,
-      "range_lo": 232969,
-      "range_hi": 254900,
+      "n_listings": 37,
+      "range_lo": 246816,
+      "range_hi": 315500,
       "change": {
         "d7": -5.9,
         "d30": -6.7,
@@ -7806,10 +7818,10 @@
         },
         {
           "date": "2026-11-10",
-          "price": 248595,
-          "n": 25,
-          "lo": 232969,
-          "hi": 254900,
+          "price": 257252,
+          "n": 37,
+          "lo": 246816,
+          "hi": 315500,
           "src": "ci"
         }
       ],
@@ -8913,16 +8925,16 @@
       "currency": "USD",
       "updated": "2026-11-10",
       "start": "2020-12-31",
-      "latest": 234100,
+      "latest": 260000,
       "first": 175000,
       "n_listings": null,
       "range_lo": 175000,
       "range_hi": 290000,
       "change": {
-        "d7": 0.0,
+        "d7": 11.1,
         "d30": null,
         "d90": null,
-        "all": 33.8
+        "all": 48.6
       },
       "points": 7,
       "series": [
@@ -8970,14 +8982,14 @@
         },
         {
           "date": "2026-11-10",
-          "price": 234100,
+          "price": 260000,
           "n": null,
-          "lo": 234100,
-          "hi": 234100
+          "lo": 260000,
+          "hi": 260000
         }
       ],
-      "value": 234100,
-      "value_note": "Median of the latest 3 BaT sales (2026-04-20 to 2026-10-15), 30,000+ mi cars only",
+      "value": 260000,
+      "value_note": "Median of the latest 24 BaT sales (2025-11-25 to 2026-11-09), 30,000+ mi cars only",
       "series_label": "asking median",
       "n_label": "listings",
       "cadence": "annual",
@@ -8996,6 +9008,10 @@
         {
           "date": "2026-10-31",
           "value": 234100
+        },
+        {
+          "date": "2026-11-10",
+          "value": 260000
         }
       ]
     },
@@ -9011,16 +9027,16 @@
       "currency": "USD",
       "updated": "2026-11-10",
       "start": "2020-12-31",
-      "latest": 478000,
+      "latest": 549900,
       "first": 320000,
       "n_listings": null,
       "range_lo": 320000,
-      "range_hi": 478000,
+      "range_hi": 549900,
       "change": {
-        "d7": 0.0,
+        "d7": 15.0,
         "d30": null,
         "d90": null,
-        "all": 49.4
+        "all": 71.8
       },
       "points": 7,
       "series": [
@@ -9068,14 +9084,14 @@
         },
         {
           "date": "2026-11-10",
-          "price": 478000,
+          "price": 549900,
           "n": null,
-          "lo": 478000,
-          "hi": 478000
+          "lo": 549900,
+          "hi": 549900
         }
       ],
-      "value": 478000,
-      "value_note": "Median of the latest 5 BaT sales (2026-08-12 to 2026-10-15)",
+      "value": 549900,
+      "value_note": "Median of the latest 11 BaT sales (2025-11-26 to 2026-10-15)",
       "series_label": "asking median",
       "n_label": "listings",
       "cadence": "annual",
@@ -9094,6 +9110,10 @@
         {
           "date": "2026-10-31",
           "value": 478000
+        },
+        {
+          "date": "2026-11-10",
+          "value": 549900
         }
       ]
     },
@@ -9109,16 +9129,16 @@
       "currency": "USD",
       "updated": "2026-11-10",
       "start": "2020-12-31",
-      "latest": 765000,
+      "latest": 782900,
       "first": 460000,
       "n_listings": null,
       "range_lo": 460000,
-      "range_hi": 765000,
+      "range_hi": 782900,
       "change": {
-        "d7": 0.0,
+        "d7": 2.3,
         "d30": null,
         "d90": null,
-        "all": 66.3
+        "all": 70.2
       },
       "points": 7,
       "series": [
@@ -9166,14 +9186,14 @@
         },
         {
           "date": "2026-11-10",
-          "price": 765000,
+          "price": 782900,
           "n": null,
-          "lo": 765000,
-          "hi": 765000
+          "lo": 782900,
+          "hi": 782900
         }
       ],
-      "value": 765000,
-      "value_note": "Median of the latest 7 BaT sales (2026-09-18 to 2026-10-30)",
+      "value": 782900,
+      "value_note": "Median of the latest 25 BaT sales (2025-11-13 to 2026-10-30)",
       "series_label": "asking median",
       "n_label": "listings",
       "cadence": "annual",
@@ -9192,6 +9212,10 @@
         {
           "date": "2026-10-31",
           "value": 765000
+        },
+        {
+          "date": "2026-11-10",
+          "value": 782900
         }
       ]
     },
@@ -9206,16 +9230,16 @@
       "currency": "USD",
       "updated": "2026-11-10",
       "start": "2026-07-04",
-      "latest": 209818,
+      "latest": 251372,
       "first": 339995,
-      "n_listings": 9,
-      "range_lo": 189810,
-      "range_hi": 209995,
+      "n_listings": 4,
+      "range_lo": 189960,
+      "range_hi": 312783,
       "change": {
-        "d7": 6.8,
-        "d30": 3.6,
-        "d90": -3.7,
-        "all": -37.5
+        "d7": 26.2,
+        "d30": 22.4,
+        "d90": 13.8,
+        "all": -26.1
       },
       "points": 91,
       "series": [
@@ -9941,10 +9965,10 @@
         },
         {
           "date": "2026-11-10",
-          "price": 209818,
-          "n": 9,
-          "lo": 189810,
-          "hi": 209995,
+          "price": 251372,
+          "n": 4,
+          "lo": 189960,
+          "hi": 312783,
           "src": "ci"
         }
       ],
@@ -10762,7 +10786,7 @@
           "days": 90
         }
       ],
-      "value": 280380,
+      "value": 290050,
       "value_note": "75% sold (90d) + 25% asking (7-reading median)",
       "comps": [
         {
@@ -11043,10 +11067,10 @@
         },
         {
           "date": "2026-11-10",
-          "value": 280380
+          "value": 290050
         }
       ],
-      "ask_smooth": 212520,
+      "ask_smooth": 251198,
       "ask_smooth_n": 7,
       "smooth": {
         "k": 7,
@@ -11064,11 +11088,11 @@
       "currency": "USD",
       "updated": "2026-11-10",
       "start": "2026-07-04",
-      "latest": 129998,
+      "latest": 130916,
       "first": 161007,
-      "n_listings": 45,
-      "range_lo": 127998,
-      "range_hi": 149900,
+      "n_listings": 13,
+      "range_lo": 129067,
+      "range_hi": 147818,
       "change": {
         "d7": 0.8,
         "d30": -0.9,
@@ -11973,10 +11997,10 @@
         },
         {
           "date": "2026-11-10",
-          "price": 129998,
-          "n": 45,
-          "lo": 127998,
-          "hi": 149900,
+          "price": 130916,
+          "n": 13,
+          "lo": 129067,
+          "hi": 147818,
           "src": "ci"
         }
       ],
@@ -13083,16 +13107,16 @@
       "currency": "USD",
       "updated": "2026-11-10",
       "start": "2026-07-21",
-      "latest": 130000,
+      "latest": 123167,
       "first": 125445,
-      "n_listings": 26,
-      "range_lo": 119995,
-      "range_hi": 139991,
+      "n_listings": 18,
+      "range_lo": 106183,
+      "range_hi": 134053,
       "change": {
-        "d7": 3.9,
-        "d30": 12.4,
-        "d90": 9.5,
-        "all": 3.6
+        "d7": 2.7,
+        "d30": 11.1,
+        "d90": 8.2,
+        "all": 2.4
       },
       "points": 109,
       "series": [
@@ -13962,10 +13986,10 @@
         },
         {
           "date": "2026-11-10",
-          "price": 130000,
-          "n": 26,
-          "lo": 119995,
-          "hi": 139991,
+          "price": 123167,
+          "n": 18,
+          "lo": 106183,
+          "hi": 134053,
           "src": "ci"
         }
       ],
@@ -13976,7 +14000,7 @@
         "hi": 160,
         "min_n": 3
       },
-      "value": 130000,
+      "value": 128492,
       "value_note": "asking median (7-reading median) (no recent sold data)",
       "make": "Porsche",
       "value_log": [
@@ -14211,13 +14235,9 @@
         {
           "date": "2026-11-09",
           "value": 128492
-        },
-        {
-          "date": "2026-11-10",
-          "value": 130000
         }
       ],
-      "ask_smooth": 130000,
+      "ask_smooth": 128492,
       "ask_smooth_n": 7,
       "smooth": {
         "k": 7,
@@ -15102,16 +15122,16 @@
       "currency": "USD",
       "updated": "2026-11-10",
       "start": "2026-07-21",
-      "latest": 125963,
+      "latest": 83417,
       "first": 90683,
-      "n_listings": 30,
-      "range_lo": 74999,
-      "range_hi": 138900,
+      "n_listings": 18,
+      "range_lo": 74327,
+      "range_hi": 87975,
       "change": {
-        "d7": -1.3,
-        "d30": -2.5,
-        "d90": -12.8,
-        "all": -2.3
+        "d7": -4.2,
+        "d30": -5.4,
+        "d90": -15.3,
+        "all": -5.2
       },
       "points": 108,
       "series": [
@@ -15973,10 +15993,10 @@
         },
         {
           "date": "2026-11-10",
-          "price": 125963,
-          "n": 30,
-          "lo": 74999,
-          "hi": 138900,
+          "price": 83417,
+          "n": 18,
+          "lo": 74327,
+          "hi": 87975,
           "src": "ci"
         }
       ],
@@ -16709,7 +16729,7 @@
           "days": 90
         }
       ],
-      "value": 121900,
+      "value": 121250,
       "value_note": "75% sold (90d) + 25% asking (7-reading median)",
       "comps": [
         {
@@ -17091,13 +17111,9 @@
         {
           "date": "2026-11-09",
           "value": 121250
-        },
-        {
-          "date": "2026-11-10",
-          "value": 121900
         }
       ],
-      "ask_smooth": 88599,
+      "ask_smooth": 86000,
       "ask_smooth_n": 7,
       "smooth": {
         "k": 7,
@@ -17116,16 +17132,16 @@
       "currency": "USD",
       "updated": "2026-11-10",
       "start": "2020-12-31",
-      "latest": 464000,
+      "latest": 385200,
       "first": 210000,
       "n_listings": null,
       "range_lo": 210000,
-      "range_hi": 464000,
+      "range_hi": 385200,
       "change": {
-        "d7": -7.2,
+        "d7": -23.0,
         "d30": null,
         "d90": null,
-        "all": 121.0
+        "all": 83.4
       },
       "points": 7,
       "series": [
@@ -17173,16 +17189,16 @@
         },
         {
           "date": "2026-11-10",
-          "price": 464000,
+          "price": 385200,
           "n": null,
-          "lo": 464000,
-          "hi": 464000
+          "lo": 385200,
+          "hi": 385200
         }
       ],
       "series_label": "asking median",
       "n_label": "listings",
-      "value": 464000,
-      "value_note": "Median of the latest 6 BaT sales (2026-09-30 to 2026-11-04)",
+      "value": 385200,
+      "value_note": "Median of the latest 16 BaT sales (2025-11-10 to 2026-11-04)",
       "mirrored_from": "car-value-tracker",
       "cadence": "annual",
       "production": {
@@ -17207,6 +17223,10 @@
         {
           "date": "2026-11-05",
           "value": 464000
+        },
+        {
+          "date": "2026-11-10",
+          "value": 385200
         }
       ]
     },
@@ -17222,16 +17242,16 @@
       "currency": "USD",
       "updated": "2026-11-10",
       "start": "2017-12-31",
-      "latest": 142400,
+      "latest": 132200,
       "first": 62000,
       "n_listings": 99,
       "range_lo": 55000,
       "range_hi": 175000,
       "change": {
-        "d7": 0.0,
+        "d7": -7.2,
         "d30": null,
         "d90": null,
-        "all": 129.7
+        "all": 113.2
       },
       "points": 10,
       "series": [
@@ -17300,16 +17320,16 @@
         },
         {
           "date": "2026-11-10",
-          "price": 142400,
-          "n": 4,
+          "price": 132200,
+          "n": 18,
           "lo": 136300,
           "hi": 175000
         }
       ],
       "series_label": "BaT sold median",
       "n_label": "sold comps",
-      "value": 142400,
-      "value_note": "Median of the latest 4 BaT sales (2026-08-30 to 2026-10-23), 40,000+ mi cars only",
+      "value": 132200,
+      "value_note": "Median of the latest 18 BaT sales (2025-11-17 to 2026-10-23), 40,000+ mi cars only",
       "mirrored_from": "car-value-tracker",
       "cadence": "annual",
       "production": {
@@ -17326,6 +17346,10 @@
         {
           "date": "2026-10-31",
           "value": 142400
+        },
+        {
+          "date": "2026-11-10",
+          "value": 132200
         }
       ]
     },
@@ -17341,16 +17365,16 @@
       "currency": "USD",
       "updated": "2026-11-10",
       "start": "2018-12-31",
-      "latest": 236000,
+      "latest": 235800,
       "first": 95500,
       "n_listings": 172,
       "range_lo": 79000,
       "range_hi": 285000,
       "change": {
-        "d7": 0.0,
+        "d7": -0.1,
         "d30": null,
         "d90": null,
-        "all": 147.1
+        "all": 146.9
       },
       "points": 9,
       "series": [
@@ -17412,16 +17436,16 @@
         },
         {
           "date": "2026-11-10",
-          "price": 236000,
-          "n": 5,
+          "price": 235800,
+          "n": 26,
           "lo": 125000,
           "hi": 285000
         }
       ],
       "series_label": "BaT sold median",
       "n_label": "sold comps",
-      "value": 236000,
-      "value_note": "Median of the latest 5 BaT sales (2026-08-27 to 2026-10-14)",
+      "value": 235800,
+      "value_note": "Median of the latest 26 BaT sales (2025-12-09 to 2026-10-14)",
       "mirrored_from": "car-value-tracker",
       "cadence": "annual",
       "production": {
@@ -17446,6 +17470,10 @@
         {
           "date": "2026-11-03",
           "value": 236000
+        },
+        {
+          "date": "2026-11-10",
+          "value": 235800
         }
       ]
     },
@@ -17461,16 +17489,16 @@
       "currency": "USD",
       "updated": "2026-11-10",
       "start": "2019-12-31",
-      "latest": 141000,
+      "latest": 153000,
       "first": 90000,
       "n_listings": 88,
       "range_lo": 73500,
       "range_hi": 177000,
       "change": {
-        "d7": 0.0,
+        "d7": 8.5,
         "d30": null,
         "d90": null,
-        "all": 56.7
+        "all": 70.0
       },
       "points": 8,
       "series": [
@@ -17525,16 +17553,16 @@
         },
         {
           "date": "2026-11-10",
-          "price": 141000,
-          "n": 3,
+          "price": 153000,
+          "n": 8,
           "lo": 136000,
           "hi": 142000
         }
       ],
       "series_label": "BaT sold median",
       "n_label": "sold comps",
-      "value": 141000,
-      "value_note": "Median of the latest 3 BaT sales (2026-07-07 to 2026-08-20)",
+      "value": 153000,
+      "value_note": "Median of the latest 8 BaT sales (2025-11-14 to 2026-08-20)",
       "mirrored_from": "car-value-tracker",
       "cadence": "annual",
       "production": {
@@ -17551,6 +17579,10 @@
         {
           "date": "2026-10-31",
           "value": 141000
+        },
+        {
+          "date": "2026-11-10",
+          "value": 153000
         }
       ]
     },
@@ -17566,16 +17598,16 @@
       "currency": "USD",
       "updated": "2026-11-10",
       "start": "2015-12-31",
-      "latest": 39800,
+      "latest": 46700,
       "first": 25900,
       "n_listings": 315,
       "range_lo": 25000,
       "range_hi": 62000,
       "change": {
-        "d7": -15.3,
+        "d7": -0.6,
         "d30": null,
         "d90": null,
-        "all": 53.7
+        "all": 80.3
       },
       "points": 12,
       "series": [
@@ -17658,16 +17690,16 @@
         },
         {
           "date": "2026-11-10",
-          "price": 39800,
-          "n": 7,
+          "price": 46700,
+          "n": 27,
           "lo": 28200,
           "hi": 52000
         }
       ],
       "series_label": "BaT sold median",
       "n_label": "sold comps",
-      "value": 39800,
-      "value_note": "Median of the latest 7 BaT sales (2026-09-18 to 2026-11-09)",
+      "value": 46700,
+      "value_note": "Median of the latest 27 BaT sales (2025-11-21 to 2026-11-09)",
       "mirrored_from": "car-value-tracker",
       "cadence": "annual",
       "production": {
@@ -17687,7 +17719,7 @@
         },
         {
           "date": "2026-11-10",
-          "value": 39800
+          "value": 46700
         }
       ]
     },
@@ -17703,16 +17735,16 @@
       "currency": "USD",
       "updated": "2026-11-10",
       "start": "2022-12-31",
-      "latest": 1125000,
+      "latest": 1126500,
       "first": 1150000,
       "n_listings": 21,
       "range_lo": 1025000,
       "range_hi": 1275000,
       "change": {
-        "d7": -11.8,
+        "d7": -11.6,
         "d30": null,
         "d90": null,
-        "all": -2.2
+        "all": -2.0
       },
       "points": 3,
       "series": [
@@ -17732,16 +17764,16 @@
         },
         {
           "date": "2026-11-10",
-          "price": 1125000,
-          "n": 3,
+          "price": 1126500,
+          "n": 10,
           "lo": 1075000,
           "hi": 1275000
         }
       ],
       "series_label": "BaT sold median",
       "n_label": "sold comps",
-      "value": 1125000,
-      "value_note": "Median of the latest 3 BaT sales (2026-08-07 to 2026-11-06)",
+      "value": 1126500,
+      "value_note": "Median of the latest 10 BaT sales (2025-11-21 to 2026-11-06)",
       "mirrored_from": "car-value-tracker",
       "cadence": "annual",
       "production": {
@@ -17762,6 +17794,10 @@
         {
           "date": "2026-11-07",
           "value": 1125000
+        },
+        {
+          "date": "2026-11-10",
+          "value": 1126500
         }
       ]
     },
@@ -17777,16 +17813,16 @@
       "currency": "USD",
       "updated": "2026-11-10",
       "start": "2016-12-31",
-      "latest": 126000,
+      "latest": 125700,
       "first": 81500,
       "n_listings": 205,
       "range_lo": 52000,
       "range_hi": 145000,
       "change": {
-        "d7": -1.6,
+        "d7": -1.8,
         "d30": null,
         "d90": null,
-        "all": 54.6
+        "all": 54.2
       },
       "points": 11,
       "series": [
@@ -17862,16 +17898,16 @@
         },
         {
           "date": "2026-11-10",
-          "price": 126000,
-          "n": 7,
+          "price": 125700,
+          "n": 47,
           "lo": 111000,
           "hi": 140000
         }
       ],
       "series_label": "BaT sold median",
       "n_label": "sold comps",
-      "value": 126000,
-      "value_note": "Median of the latest 7 BaT sales (2026-10-01 to 2026-11-05)",
+      "value": 125700,
+      "value_note": "Median of the latest 47 BaT sales (2025-11-19 to 2026-11-05)",
       "mirrored_from": "car-value-tracker",
       "cadence": "annual",
       "production": {
@@ -17892,6 +17928,10 @@
         {
           "date": "2026-11-06",
           "value": 126000
+        },
+        {
+          "date": "2026-11-10",
+          "value": 125700
         }
       ]
     },
@@ -17907,16 +17947,16 @@
       "currency": "USD",
       "updated": "2026-11-10",
       "start": "2019-12-31",
-      "latest": 448500,
+      "latest": 432100,
       "first": 363000,
-      "n_listings": 70,
+      "n_listings": 67,
       "range_lo": 290000,
       "range_hi": 599000,
       "change": {
-        "d7": 0.0,
+        "d7": -3.7,
         "d30": null,
         "d90": null,
-        "all": 23.6
+        "all": 19.0
       },
       "points": 8,
       "series": [
@@ -17957,10 +17997,10 @@
         },
         {
           "date": "2024-12-31",
-          "price": 450500,
-          "n": 12,
-          "lo": 362000,
-          "hi": 500000
+          "price": 450000,
+          "n": 11,
+          "lo": 355000,
+          "hi": 505500
         },
         {
           "date": "2025-12-31",
@@ -17971,16 +18011,16 @@
         },
         {
           "date": "2026-11-10",
-          "price": 448500,
-          "n": 4,
-          "lo": 305000,
-          "hi": 452500
+          "price": 432100,
+          "n": 7,
+          "lo": 393000,
+          "hi": 442000
         }
       ],
       "series_label": "BaT sold median",
       "n_label": "sold comps",
-      "value": 448500,
-      "value_note": "Median of the latest 4 BaT sales (2026-08-25 to 2026-10-31)",
+      "value": 432100,
+      "value_note": "Median of the latest 7 BaT sales (2026-03-04 to 2026-10-09)",
       "mirrored_from": "car-value-tracker",
       "cadence": "annual",
       "production": {
@@ -18001,6 +18041,10 @@
         {
           "date": "2026-11-01",
           "value": 448500
+        },
+        {
+          "date": "2026-11-10",
+          "value": 432100
         }
       ]
     },
@@ -18016,16 +18060,16 @@
       "currency": "USD",
       "updated": "2026-11-10",
       "start": "2022-12-31",
-      "latest": 89500,
+      "latest": 97300,
       "first": 88500,
       "n_listings": 18,
       "range_lo": 73500,
       "range_hi": 96500,
       "change": {
-        "d7": 0.0,
+        "d7": 8.7,
         "d30": null,
         "d90": null,
-        "all": 1.1
+        "all": 9.9
       },
       "points": 5,
       "series": [
@@ -18059,16 +18103,16 @@
         },
         {
           "date": "2026-11-10",
-          "price": 89500,
-          "n": 3,
+          "price": 97300,
+          "n": 5,
           "lo": 86500,
           "hi": 89500
         }
       ],
       "series_label": "BaT sold median",
       "n_label": "sold comps",
-      "value": 89500,
-      "value_note": "Median of the latest 3 BaT sales (2026-03-07 to 2026-09-09)",
+      "value": 97300,
+      "value_note": "Median of the latest 5 BaT sales (2025-12-04 to 2026-09-09)",
       "cadence": "annual",
       "mirrored_from": "car-value-tracker",
       "production": {
@@ -18085,6 +18129,10 @@
         {
           "date": "2026-10-31",
           "value": 89500
+        },
+        {
+          "date": "2026-11-10",
+          "value": 97300
         }
       ]
     },
@@ -18100,16 +18148,16 @@
       "currency": "USD",
       "updated": "2026-11-10",
       "start": "2024-12-31",
-      "latest": 82500,
+      "latest": 85100,
       "first": 101000,
       "n_listings": 28,
       "range_lo": 82000,
       "range_hi": 107000,
       "change": {
-        "d7": 0.0,
+        "d7": 3.2,
         "d30": null,
         "d90": null,
-        "all": -18.3
+        "all": -15.7
       },
       "points": 3,
       "series": [
@@ -18129,16 +18177,16 @@
         },
         {
           "date": "2026-11-10",
-          "price": 82500,
-          "n": 4,
+          "price": 85100,
+          "n": 13,
           "lo": 82000,
           "hi": 89000
         }
       ],
       "series_label": "BaT sold median",
       "n_label": "sold comps",
-      "value": 82500,
-      "value_note": "Median of the latest 4 BaT sales (2026-08-15 to 2026-10-02)",
+      "value": 85100,
+      "value_note": "Median of the latest 13 BaT sales (2025-11-13 to 2026-10-02)",
       "cadence": "annual",
       "mirrored_from": "car-value-tracker",
       "value_log": [
@@ -18149,6 +18197,10 @@
         {
           "date": "2026-11-01",
           "value": 82500
+        },
+        {
+          "date": "2026-11-10",
+          "value": 85100
         }
       ]
     },
@@ -18164,16 +18216,16 @@
       "currency": "USD",
       "updated": "2026-11-10",
       "start": "2018-12-31",
-      "latest": 232000,
+      "latest": 219000,
       "first": 130000,
       "n_listings": 134,
       "range_lo": 94200,
       "range_hi": 305000,
       "change": {
-        "d7": 0.0,
+        "d7": -5.6,
         "d30": null,
         "d90": null,
-        "all": 78.5
+        "all": 68.5
       },
       "points": 9,
       "series": [
@@ -18235,16 +18287,16 @@
         },
         {
           "date": "2026-11-10",
-          "price": 232000,
-          "n": 7,
+          "price": 219000,
+          "n": 32,
           "lo": 162000,
           "hi": 305000
         }
       ],
       "series_label": "BaT sold median",
       "n_label": "sold comps",
-      "value": 232000,
-      "value_note": "Median of the latest 7 BaT sales (2026-08-19 to 2026-11-09)",
+      "value": 219000,
+      "value_note": "Median of the latest 32 BaT sales (2025-11-10 to 2026-11-09)",
       "cadence": "annual",
       "mirrored_from": "car-value-tracker",
       "production": {
@@ -18261,6 +18313,10 @@
         {
           "date": "2026-10-31",
           "value": 232000
+        },
+        {
+          "date": "2026-11-10",
+          "value": 219000
         }
       ]
     },
@@ -18276,16 +18332,16 @@
       "currency": "USD",
       "updated": "2026-11-10",
       "start": "2018-12-31",
-      "latest": 245400,
+      "latest": 229000,
       "first": 67500,
       "n_listings": 56,
       "range_lo": 64000,
       "range_hi": 245400,
       "change": {
-        "d7": 0.0,
+        "d7": -6.7,
         "d30": null,
         "d90": null,
-        "all": 263.6
+        "all": 239.3
       },
       "points": 8,
       "series": [
@@ -18340,16 +18396,16 @@
         },
         {
           "date": "2026-11-10",
-          "price": 245400,
-          "n": 3,
+          "price": 229000,
+          "n": 6,
           "lo": 213000,
           "hi": 245400
         }
       ],
       "series_label": "BaT sold median",
       "n_label": "sold comps",
-      "value": 245400,
-      "value_note": "Median of the latest 3 BaT sales (2026-08-06 to 2026-10-23)",
+      "value": 229000,
+      "value_note": "Median of the latest 6 BaT sales (2025-11-21 to 2026-10-23)",
       "cadence": "annual",
       "mirrored_from": "car-value-tracker",
       "production": {
@@ -18366,6 +18422,10 @@
         {
           "date": "2026-10-31",
           "value": 245400
+        },
+        {
+          "date": "2026-11-10",
+          "value": 229000
         }
       ]
     },
@@ -18381,16 +18441,16 @@
       "currency": "USD",
       "updated": "2026-11-10",
       "start": "2021-12-31",
-      "latest": 257700,
+      "latest": 262300,
       "first": 150800,
       "n_listings": 39,
       "range_lo": 127000,
       "range_hi": 285000,
       "change": {
-        "d7": 0.0,
+        "d7": 1.8,
         "d30": null,
         "d90": null,
-        "all": 70.9
+        "all": 73.9
       },
       "points": 6,
       "series": [
@@ -18431,16 +18491,16 @@
         },
         {
           "date": "2026-11-10",
-          "price": 257700,
-          "n": 4,
+          "price": 262300,
+          "n": 6,
           "lo": 212000,
           "hi": 280000
         }
       ],
       "series_label": "BaT sold median",
       "n_label": "sold comps",
-      "value": 257700,
-      "value_note": "Median of the latest 4 BaT sales (2026-08-21 to 2026-10-06)",
+      "value": 262300,
+      "value_note": "Median of the latest 6 BaT sales (2026-03-12 to 2026-10-06)",
       "cadence": "annual",
       "mirrored_from": "car-value-tracker",
       "production": {
@@ -18457,6 +18517,10 @@
         {
           "date": "2026-10-31",
           "value": 257700
+        },
+        {
+          "date": "2026-11-10",
+          "value": 262300
         }
       ]
     },
@@ -18472,16 +18536,16 @@
       "currency": "USD",
       "updated": "2026-11-10",
       "start": "2022-12-31",
-      "latest": 1810400,
+      "latest": 1808600,
       "first": 1682000,
       "n_listings": 14,
       "range_lo": 1389000,
       "range_hi": 1921000,
       "change": {
-        "d7": 0.0,
+        "d7": -0.1,
         "d30": null,
         "d90": null,
-        "all": 7.6
+        "all": 7.5
       },
       "points": 2,
       "series": [
@@ -18494,16 +18558,16 @@
         },
         {
           "date": "2026-11-10",
-          "price": 1810400,
-          "n": 3,
+          "price": 1808600,
+          "n": 4,
           "lo": 1389000,
           "hi": 1921000
         }
       ],
       "series_label": "BaT sold median",
       "n_label": "sold comps",
-      "value": 1810400,
-      "value_note": "Median of the latest 3 BaT sales (2025-04-23 to 2025-09-18)",
+      "value": 1808600,
+      "value_note": "Median of the latest 4 BaT sales (2024-02-25 to 2025-09-18)",
       "cadence": "annual",
       "mirrored_from": "car-value-tracker",
       "production": {
@@ -18525,6 +18589,10 @@
         {
           "date": "2026-10-31",
           "value": 1810400
+        },
+        {
+          "date": "2026-11-10",
+          "value": 1808600
         }
       ]
     },
@@ -18540,16 +18608,16 @@
       "currency": "USD",
       "updated": "2026-11-10",
       "start": "2018-12-31",
-      "latest": 696000,
+      "latest": 708000,
       "first": 256000,
       "n_listings": 259,
       "range_lo": 235000,
       "range_hi": 735000,
       "change": {
-        "d7": 0.0,
+        "d7": 1.7,
         "d30": null,
         "d90": null,
-        "all": 171.9
+        "all": 176.6
       },
       "points": 9,
       "series": [
@@ -18611,16 +18679,16 @@
         },
         {
           "date": "2026-11-10",
-          "price": 696000,
-          "n": 7,
+          "price": 708000,
+          "n": 42,
           "lo": 504400,
           "hi": 735000
         }
       ],
       "series_label": "BaT sold median",
       "n_label": "sold comps",
-      "value": 696000,
-      "value_note": "Median of the latest 7 BaT sales (2026-10-12 to 2026-11-09)",
+      "value": 708000,
+      "value_note": "Median of the latest 42 BaT sales (2025-11-13 to 2026-11-09)",
       "cadence": "annual",
       "mirrored_from": "car-value-tracker",
       "production": {
@@ -18649,7 +18717,7 @@
         },
         {
           "date": "2026-11-10",
-          "value": 696000
+          "value": 708000
         }
       ]
     },
@@ -18665,16 +18733,16 @@
       "currency": "USD",
       "updated": "2026-11-10",
       "start": "2018-12-31",
-      "latest": 183000,
+      "latest": 166700,
       "first": 101200,
       "n_listings": 73,
       "range_lo": 75500,
       "range_hi": 183000,
       "change": {
-        "d7": 0.0,
+        "d7": -8.9,
         "d30": null,
         "d90": null,
-        "all": 80.8
+        "all": 64.7
       },
       "points": 8,
       "series": [
@@ -18729,16 +18797,16 @@
         },
         {
           "date": "2026-11-10",
-          "price": 183000,
-          "n": 3,
+          "price": 166700,
+          "n": 10,
           "lo": 143000,
           "hi": 183000
         }
       ],
       "series_label": "BaT sold median",
       "n_label": "sold comps",
-      "value": 183000,
-      "value_note": "Median of the latest 3 BaT sales (2026-09-24 to 2026-10-27)",
+      "value": 166700,
+      "value_note": "Median of the latest 10 BaT sales (2025-12-01 to 2026-10-27)",
       "cadence": "annual",
       "mirrored_from": "car-value-tracker",
       "production": {
@@ -18764,6 +18832,10 @@
         {
           "date": "2026-11-03",
           "value": 183000
+        },
+        {
+          "date": "2026-11-10",
+          "value": 166700
         }
       ]
     },
@@ -18779,16 +18851,16 @@
       "currency": "USD",
       "updated": "2026-11-10",
       "start": "2021-12-31",
-      "latest": 261000,
+      "latest": 340700,
       "first": 149200,
       "n_listings": 12,
       "range_lo": 123500,
       "range_hi": 476000,
       "change": {
-        "d7": 0.0,
+        "d7": 30.5,
         "d30": null,
         "d90": null,
-        "all": 74.9
+        "all": 128.4
       },
       "points": 3,
       "series": [
@@ -18808,16 +18880,16 @@
         },
         {
           "date": "2026-11-10",
-          "price": 261000,
-          "n": 3,
+          "price": 340700,
+          "n": 4,
           "lo": 260000,
           "hi": 476000
         }
       ],
       "series_label": "BaT sold median",
       "n_label": "sold comps",
-      "value": 261000,
-      "value_note": "Median of the latest 3 BaT sales (2026-01-16 to 2026-10-28)",
+      "value": 340700,
+      "value_note": "Median of the latest 4 BaT sales (2024-11-19 to 2026-10-28)",
       "cadence": "annual",
       "mirrored_from": "car-value-tracker",
       "production": {
@@ -18833,6 +18905,10 @@
         {
           "date": "2026-10-31",
           "value": 261000
+        },
+        {
+          "date": "2026-11-10",
+          "value": 340700
         }
       ]
     },
@@ -18848,16 +18924,16 @@
       "currency": "USD",
       "updated": "2026-11-10",
       "start": "2022-12-31",
-      "latest": 425000,
+      "latest": 487800,
       "first": 341000,
       "n_listings": 10,
       "range_lo": 212000,
       "range_hi": 700000,
       "change": {
-        "d7": 0.0,
+        "d7": 14.8,
         "d30": null,
         "d90": null,
-        "all": 24.6
+        "all": 43.0
       },
       "points": 3,
       "series": [
@@ -18877,7 +18953,7 @@
         },
         {
           "date": "2026-11-10",
-          "price": 425000,
+          "price": 487800,
           "n": 3,
           "lo": 418000,
           "hi": 700000
@@ -18885,7 +18961,7 @@
       ],
       "series_label": "BaT sold median",
       "n_label": "sold comps",
-      "value": 425000,
+      "value": 487800,
       "value_note": "Median of the latest 3 BaT sales (2026-03-03 to 2026-08-07)",
       "cadence": "annual",
       "mirrored_from": "car-value-tracker",
@@ -18902,6 +18978,10 @@
         {
           "date": "2026-10-31",
           "value": 425000
+        },
+        {
+          "date": "2026-11-10",
+          "value": 487800
         }
       ]
     },
@@ -18917,16 +18997,16 @@
       "currency": "USD",
       "updated": "2026-11-10",
       "start": "2021-12-31",
-      "latest": 575000,
+      "latest": 495000,
       "first": 372000,
       "n_listings": 24,
       "range_lo": 227000,
       "range_hi": 575000,
       "change": {
-        "d7": 0.0,
+        "d7": -13.9,
         "d30": null,
         "d90": null,
-        "all": 54.6
+        "all": 33.1
       },
       "points": 6,
       "series": [
@@ -18967,16 +19047,16 @@
         },
         {
           "date": "2026-11-10",
-          "price": 575000,
-          "n": 3,
+          "price": 495000,
+          "n": 6,
           "lo": 420000,
           "hi": 575000
         }
       ],
       "series_label": "BaT sold median",
       "n_label": "sold comps",
-      "value": 575000,
-      "value_note": "Median of the latest 3 BaT sales (2026-04-22 to 2026-06-18)",
+      "value": 495000,
+      "value_note": "Median of the latest 6 BaT sales (2025-09-22 to 2026-06-18)",
       "cadence": "annual",
       "mirrored_from": "car-value-tracker",
       "production": {
@@ -18992,6 +19072,10 @@
         {
           "date": "2026-10-31",
           "value": 575000
+        },
+        {
+          "date": "2026-11-10",
+          "value": 495000
         }
       ]
     },
@@ -19007,16 +19091,16 @@
       "currency": "USD",
       "updated": "2026-11-10",
       "start": "2022-12-31",
-      "latest": 200000,
+      "latest": 222900,
       "first": 183000,
       "n_listings": 8,
       "range_lo": 176000,
       "range_hi": 200000,
       "change": {
-        "d7": 0.0,
+        "d7": 11.5,
         "d30": null,
         "d90": null,
-        "all": 9.3
+        "all": 21.8
       },
       "points": 2,
       "series": [
@@ -19029,16 +19113,16 @@
         },
         {
           "date": "2026-11-10",
-          "price": 200000,
-          "n": 3,
+          "price": 222900,
+          "n": 4,
           "lo": 182000,
           "hi": 200000
         }
       ],
       "series_label": "BaT sold median",
       "n_label": "sold comps",
-      "value": 200000,
-      "value_note": "Median of the latest 3 BaT sales (2023-12-11 to 2026-03-09)",
+      "value": 222900,
+      "value_note": "Median of the latest 4 BaT sales (2023-10-16 to 2026-03-09)",
       "cadence": "annual",
       "mirrored_from": "car-value-tracker",
       "production": {
@@ -19054,6 +19138,10 @@
         {
           "date": "2026-10-31",
           "value": 200000
+        },
+        {
+          "date": "2026-11-10",
+          "value": 222900
         }
       ]
     },
@@ -19069,16 +19157,16 @@
       "currency": "USD",
       "updated": "2026-11-10",
       "start": "2023-12-31",
-      "latest": 725000,
+      "latest": 566600,
       "first": 290500,
       "n_listings": 15,
       "range_lo": 250000,
       "range_hi": 735000,
       "change": {
-        "d7": 0.0,
+        "d7": -21.8,
         "d30": null,
         "d90": null,
-        "all": 149.6
+        "all": 95.0
       },
       "points": 3,
       "series": [
@@ -19098,16 +19186,16 @@
         },
         {
           "date": "2026-11-10",
-          "price": 725000,
-          "n": 4,
+          "price": 566600,
+          "n": 9,
           "lo": 501000,
           "hi": 735000
         }
       ],
       "series_label": "BaT sold median",
       "n_label": "sold comps",
-      "value": 725000,
-      "value_note": "Median of the latest 4 BaT sales (2026-08-20 to 2026-10-30)",
+      "value": 566600,
+      "value_note": "Median of the latest 9 BaT sales (2025-12-24 to 2026-10-30)",
       "cadence": "annual",
       "mirrored_from": "car-value-tracker",
       "production": {
@@ -19123,6 +19211,10 @@
         {
           "date": "2026-10-31",
           "value": 725000
+        },
+        {
+          "date": "2026-11-10",
+          "value": 566600
         }
       ]
     },
@@ -19138,16 +19230,16 @@
       "currency": "USD",
       "updated": "2026-11-10",
       "start": "2020-12-31",
-      "latest": 310000,
+      "latest": 319000,
       "first": 171000,
       "n_listings": 74,
       "range_lo": 160000,
       "range_hi": 400100,
       "change": {
-        "d7": 20.4,
+        "d7": 23.9,
         "d30": null,
         "d90": null,
-        "all": 81.3
+        "all": 86.5
       },
       "points": 6,
       "series": [
@@ -19188,16 +19280,16 @@
         },
         {
           "date": "2026-11-10",
-          "price": 310000,
-          "n": 3,
+          "price": 319000,
+          "n": 22,
           "lo": 299000,
           "hi": 400100
         }
       ],
       "series_label": "BaT sold median",
       "n_label": "sold comps",
-      "value": 310000,
-      "value_note": "Median of the latest 3 BaT sales (2026-07-14 to 2026-11-05), 30,000+ mi cars only",
+      "value": 319000,
+      "value_note": "Median of the latest 22 BaT sales (2025-11-18 to 2026-11-05), 30,000+ mi cars only",
       "cadence": "annual",
       "mirrored_from": "car-value-tracker",
       "production": {
@@ -19218,6 +19310,10 @@
         {
           "date": "2026-11-06",
           "value": 310000
+        },
+        {
+          "date": "2026-11-10",
+          "value": 319000
         }
       ]
     },
@@ -20207,5 +20303,5 @@
       }
     ]
   },
-  "cvt_sync": "Ferrari 458 Italia: 7pts, $234,100 | Ferrari F12 Berlinetta: 7pts, $464,000 | Ferrari 812 Superfast: 7pts, $478,000 | Ferrari 812 GTS: 7pts, $765,000 | Acura NSX (NA2 manual): 10pts, $142,400 | Ferrari 360 (gated manual): 9pts, $236,000 | Audi R8 gen1 V10 (gated): 8pts, $141,000 | Alfa Romeo GTV 1750/2000: 12pts, $39,800 | Porsche Singer 911: 3pts, $1,125,000 | Ferrari 328 GTS/GTB: 11pts, $126,000 | Ferrari Dino 246 GT/GTS: 8pts, $448,500 | Lotus Evora GT (2020-21): 5pts, $89,500 | Lotus Emira V6 (2024-25): 3pts, $82,500 | Ferrari 550 Maranello: 9pts, $232,000 | Ferrari F355 Berlinetta (gated manual): 8pts, $245,400 | Ferrari F355 GTS (gated manual): 6pts, $257,700 | Porsche Carrera GT: 2pts, $1,810,400 | Ford GT (2005-2006): 9pts, $696,000 | Dodge Viper GTS/GT (Gen 5): 8pts, $183,000 | Lamborghini Murcielago Roadster 6.2 (e-gear): 3pts, $261,000 | Lamborghini Murcielago LP640 Roadster (e-gear): 3pts, $425,000 | Lamborghini Murcielago 6.2 Coupe (6-speed): 6pts, $575,000 | Lamborghini Murcielago 6.2 Coupe (e-gear): 2pts, $200,000 | Lamborghini Murcielago LP640 Coupe (e-gear): 3pts, $725,000 | Ferrari 458 Spider: 6pts, $310,000 | Chevrolet Corvette C8 Z06 (no Z07/wing): 4pts, $86,800"
+  "cvt_sync": "Ferrari 458 Italia: 7pts, $260,000 | Ferrari F12 Berlinetta: 7pts, $385,200 | Ferrari 812 Superfast: 7pts, $549,900 | Ferrari 812 GTS: 7pts, $782,900 | Acura NSX (NA2 manual): 10pts, $132,200 | Ferrari 360 (gated manual): 9pts, $235,800 | Audi R8 gen1 V10 (gated): 8pts, $153,000 | Alfa Romeo GTV 1750/2000: 12pts, $46,700 | Porsche Singer 911: 3pts, $1,126,500 | Ferrari 328 GTS/GTB: 11pts, $125,700 | Ferrari Dino 246 GT/GTS: 8pts, $432,100 | Lotus Evora GT (2020-21): 5pts, $97,300 | Lotus Emira V6 (2024-25): 3pts, $85,100 | Ferrari 550 Maranello: 9pts, $219,000 | Ferrari F355 Berlinetta (gated manual): 8pts, $229,000 | Ferrari F355 GTS (gated manual): 6pts, $262,300 | Porsche Carrera GT: 2pts, $1,808,600 | Ford GT (2005-2006): 9pts, $708,000 | Dodge Viper GTS/GT (Gen 5): 8pts, $166,700 | Lamborghini Murcielago Roadster 6.2 (e-gear): 3pts, $340,700 | Lamborghini Murcielago LP640 Roadster (e-gear): 3pts, $487,800 | Lamborghini Murcielago 6.2 Coupe (6-speed): 6pts, $495,000 | Lamborghini Murcielago 6.2 Coupe (e-gear): 2pts, $222,900 | Lamborghini Murcielago LP640 Coupe (e-gear): 3pts, $566,600 | Ferrari 458 Spider: 6pts, $319,000 | Chevrolet Corvette C8 Z06 (no Z07/wing): 4pts, $86,800"
 }
