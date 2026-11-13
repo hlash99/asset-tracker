@@ -1,8 +1,8 @@
 {
-  "updated": "2026-11-12T20:48:30Z",
+  "updated": "2026-11-13T08:03:02Z",
   "generated_by": "publish_trackers.py",
   "summary": {
-    "portfolio_value": 12449266,
+    "portfolio_value": 12424406,
     "n_assets": 36,
     "n_cars": 34,
     "n_watches": 2
@@ -4308,7 +4308,7 @@
         "median": 536000,
         "n": 1,
         "days": 365,
-        "updated": "2026-11-12",
+        "updated": "2026-11-13",
         "src": "bat",
         "latest": {
           "url": "https://bringatrailer.com/listing/2025-ferrari-12-cilindri/",
@@ -5106,6 +5106,12 @@
         },
         {
           "date": "2026-11-12",
+          "price": 536000,
+          "n": 1,
+          "days": 365
+        },
+        {
+          "date": "2026-11-13",
           "price": 536000,
           "n": 1,
           "days": 365
@@ -6192,20 +6198,20 @@
       "source": "AutoTrader + AutoTempest",
       "note": "Nationwide asking median for the 992.1 GT3 Touring.",
       "currency": "USD",
-      "updated": "2026-11-12",
+      "updated": "2026-11-13",
       "start": "2026-01-04",
-      "latest": 281281,
+      "latest": 266140,
       "first": 298400,
-      "n_listings": 34,
-      "range_lo": 241289,
-      "range_hi": 301016,
+      "n_listings": 38,
+      "range_lo": 242571,
+      "range_hi": 271290,
       "change": {
-        "d7": 7.7,
-        "d30": 1.6,
-        "d90": -3.0,
-        "all": -5.7
+        "d7": 5.3,
+        "d30": 1.5,
+        "d90": -5.2,
+        "all": -7.8
       },
-      "points": 226,
+      "points": 227,
       "series": [
         {
           "date": "2026-01-04",
@@ -7874,6 +7880,14 @@
           "lo": 241289,
           "hi": 301016,
           "src": "ci"
+        },
+        {
+          "date": "2026-11-13",
+          "price": 266140,
+          "n": 38,
+          "lo": 242571,
+          "hi": 271290,
+          "src": "ci"
         }
       ],
       "ci": {
@@ -7898,7 +7912,7 @@
         "median": 256500,
         "n": 4,
         "days": 90,
-        "updated": "2026-11-12",
+        "updated": "2026-11-13",
         "src": "bat",
         "latest": {
           "url": "https://bringatrailer.com/listing/2023-porsche-911-gt3-touring-59/",
@@ -8699,9 +8713,15 @@
           "price": 256500,
           "n": 4,
           "days": 90
+        },
+        {
+          "date": "2026-11-13",
+          "price": 256500,
+          "n": 4,
+          "days": 90
         }
       ],
-      "value": 262695,
+      "value": 261123,
       "value_note": "75% sold (90d) + 25% asking (7-reading median)",
       "comps": [
         {
@@ -8973,9 +8993,13 @@
         {
           "date": "2026-11-12",
           "value": 262695
+        },
+        {
+          "date": "2026-11-13",
+          "value": 261123
         }
       ],
-      "ask_smooth": 281281,
+      "ask_smooth": 274991,
       "ask_smooth_n": 7,
       "smooth": {
         "k": 7,
@@ -8992,18 +9016,18 @@
       "source": "Recent BaT sales; earlier years Cars.com asking (via car-value-tracker)",
       "note": "Last naturally-aspirated V8 Ferrari (2010-2015).",
       "currency": "USD",
-      "updated": "2026-11-12",
+      "updated": "2026-11-13",
       "start": "2020-12-31",
-      "latest": 260000,
+      "latest": 257900,
       "first": 175000,
       "n_listings": null,
       "range_lo": 175000,
       "range_hi": 290000,
       "change": {
-        "d7": 11.1,
+        "d7": 10.2,
         "d30": null,
         "d90": null,
-        "all": 48.6
+        "all": 47.4
       },
       "points": 7,
       "series": [
@@ -9050,15 +9074,15 @@
           "hi": 290000
         },
         {
-          "date": "2026-11-12",
-          "price": 260000,
+          "date": "2026-11-13",
+          "price": 257900,
           "n": null,
-          "lo": 260000,
-          "hi": 260000
+          "lo": 257900,
+          "hi": 257900
         }
       ],
-      "value": 260000,
-      "value_note": "Median of the latest 24 BaT sales (2025-11-25 to 2026-11-09), 30,000+ mi cars only",
+      "value": 257900,
+      "value_note": "Median of the latest 25 BaT sales (2025-11-25 to 2026-11-11), 30,000+ mi cars only",
       "series_label": "asking median",
       "n_label": "listings",
       "cadence": "annual",
@@ -9081,6 +9105,10 @@
         {
           "date": "2026-11-10",
           "value": 260000
+        },
+        {
+          "date": "2026-11-13",
+          "value": 257900
         }
       ]
     },
@@ -9094,7 +9122,7 @@
       "source": "Recent BaT sales; earlier years Cars.com asking (via car-value-tracker)",
       "note": "789 hp NA V12 coupe (2018-2024).",
       "currency": "USD",
-      "updated": "2026-11-12",
+      "updated": "2026-11-13",
       "start": "2020-12-31",
       "latest": 549900,
       "first": 320000,
@@ -9152,7 +9180,7 @@
           "hi": 410000
         },
         {
-          "date": "2026-11-12",
+          "date": "2026-11-13",
           "price": 549900,
           "n": null,
           "lo": 549900,
@@ -9196,7 +9224,7 @@
       "source": "Recent BaT sales; earlier years Cars.com asking (via car-value-tracker)",
       "note": "Open-top NA V12, limited run (2020-2024).",
       "currency": "USD",
-      "updated": "2026-11-12",
+      "updated": "2026-11-13",
       "start": "2020-12-31",
       "latest": 782900,
       "first": 460000,
@@ -9254,7 +9282,7 @@
           "hi": 730000
         },
         {
-          "date": "2026-11-12",
+          "date": "2026-11-13",
           "price": 782900,
           "n": null,
           "lo": 782900,
@@ -9297,20 +9325,20 @@
       "source": "CarGurus",
       "note": "5.9L NA V12 with the dogleg 7-speed manual \u2014 coupe only, MY2017 (a handful of '18s). ~100 US manual coupes.",
       "currency": "USD",
-      "updated": "2026-11-12",
+      "updated": "2026-11-13",
       "start": "2026-07-04",
-      "latest": 251198,
+      "latest": 301142,
       "first": 339995,
-      "n_listings": 4,
-      "range_lo": 190686,
-      "range_hi": 311710,
+      "n_listings": 8,
+      "range_lo": 192525,
+      "range_hi": 309863,
       "change": {
-        "d7": 25.6,
-        "d30": 21.8,
-        "d90": 13.0,
-        "all": -26.5
+        "d7": 30.5,
+        "d30": 21.7,
+        "d90": 13.6,
+        "all": -26.1
       },
-      "points": 93,
+      "points": 94,
       "series": [
         {
           "date": "2026-07-04",
@@ -10055,6 +10083,14 @@
           "lo": 190686,
           "hi": 311710,
           "src": "ci"
+        },
+        {
+          "date": "2026-11-13",
+          "price": 301142,
+          "n": 8,
+          "lo": 192525,
+          "hi": 309863,
+          "src": "ci"
         }
       ],
       "ci": {
@@ -10080,7 +10116,7 @@
         "median": 303000,
         "n": 3,
         "days": 90,
-        "updated": "2026-11-12",
+        "updated": "2026-11-13",
         "src": "bat",
         "latest": {
           "url": "https://bringatrailer.com/listing/2017-aston-martin-v12-vantage-s-43/",
@@ -10881,9 +10917,15 @@
           "price": 303000,
           "n": 3,
           "days": 90
+        },
+        {
+          "date": "2026-11-13",
+          "price": 303000,
+          "n": 3,
+          "days": 90
         }
       ],
-      "value": 289725,
+      "value": 290050,
       "value_note": "75% sold (90d) + 25% asking (7-reading median)",
       "comps": [
         {
@@ -11173,9 +11215,13 @@
         {
           "date": "2026-11-12",
           "value": 289725
+        },
+        {
+          "date": "2026-11-13",
+          "value": 290050
         }
       ],
-      "ask_smooth": 249900,
+      "ask_smooth": 251198,
       "ask_smooth_n": 7,
       "smooth": {
         "k": 7,
@@ -11191,20 +11237,20 @@
       "source": "CarGurus",
       "note": "First-gen 5.9L V12 in the compact Vantage, 6-speed manual only (US MY2011\u20132012). Rarely on dealer lots \u2014 value leans on BaT sales.",
       "currency": "USD",
-      "updated": "2026-11-12",
+      "updated": "2026-11-13",
       "start": "2026-07-04",
-      "latest": 131095,
+      "latest": 132569,
       "first": 161007,
-      "n_listings": 11,
-      "range_lo": 112874,
-      "range_hi": 131643,
+      "n_listings": 13,
+      "range_lo": 129348,
+      "range_hi": 184992,
       "change": {
-        "d7": 0.9,
-        "d30": -0.9,
-        "d90": -13.8,
-        "all": -19.3
+        "d7": 2.1,
+        "d30": 0.0,
+        "d90": -7.1,
+        "all": -18.6
       },
-      "points": 115,
+      "points": 116,
       "series": [
         {
           "date": "2026-07-04",
@@ -12123,13 +12169,21 @@
           "lo": 112874,
           "hi": 131643,
           "src": "ci"
+        },
+        {
+          "date": "2026-11-13",
+          "price": 132569,
+          "n": 13,
+          "lo": 129348,
+          "hi": 184992,
+          "src": "ci"
         }
       ],
       "sold": {
         "median": 166000,
         "n": 3,
         "days": 180,
-        "updated": "2026-11-12",
+        "updated": "2026-11-13",
         "src": "bat",
         "latest": {
           "url": "https://bringatrailer.com/listing/2012-aston-martin-v12-vantage-11/",
@@ -12930,6 +12984,12 @@
           "price": 166000,
           "n": 3,
           "days": 180
+        },
+        {
+          "date": "2026-11-13",
+          "price": 166000,
+          "n": 3,
+          "days": 180
         }
       ],
       "bat": {
@@ -12954,7 +13014,7 @@
         "hi": 300,
         "min_n": 1
       },
-      "value": 153365,
+      "value": 153783,
       "value_note": "65% sold (180d) + 35% asking (7-reading median)",
       "comps": [
         {
@@ -13224,9 +13284,13 @@
         {
           "date": "2026-11-11",
           "value": 153365
+        },
+        {
+          "date": "2026-11-13",
+          "value": 153783
         }
       ],
-      "ask_smooth": 129900,
+      "ask_smooth": 131095,
       "ask_smooth_n": 7,
       "smooth": {
         "k": 7,
@@ -13242,20 +13306,20 @@
       "source": "CarGurus",
       "note": "Nationwide asking median for the 2015\u20132016 991.1 Carrera GTS (coupe/cab/Targa, C2 + C4).",
       "currency": "USD",
-      "updated": "2026-11-12",
+      "updated": "2026-11-13",
       "start": "2026-07-21",
-      "latest": 131306,
+      "latest": 108991,
       "first": 125445,
-      "n_listings": 22,
-      "range_lo": 113561,
-      "range_hi": 140000,
+      "n_listings": 21,
+      "range_lo": 104881,
+      "range_hi": 150939,
       "change": {
-        "d7": 4.7,
-        "d30": 13.6,
-        "d90": 9.4,
-        "all": 4.7
+        "d7": 3.6,
+        "d30": 9.0,
+        "d90": 8.3,
+        "all": 3.6
       },
-      "points": 111,
+      "points": 112,
       "series": [
         {
           "date": "2026-07-21",
@@ -14144,6 +14208,14 @@
           "lo": 113561,
           "hi": 140000,
           "src": "ci"
+        },
+        {
+          "date": "2026-11-13",
+          "price": 108991,
+          "n": 21,
+          "lo": 104881,
+          "hi": 150939,
+          "src": "ci"
         }
       ],
       "ci": {
@@ -14153,7 +14225,7 @@
         "hi": 160,
         "min_n": 3
       },
-      "value": 131306,
+      "value": 129900,
       "value_note": "asking median (7-reading median) (no recent sold data)",
       "make": "Porsche",
       "value_log": [
@@ -14396,9 +14468,13 @@
         {
           "date": "2026-11-12",
           "value": 131306
+        },
+        {
+          "date": "2026-11-13",
+          "value": 129900
         }
       ],
-      "ask_smooth": 131306,
+      "ask_smooth": 129900,
       "ask_smooth_n": 7,
       "smooth": {
         "k": 7,
@@ -14453,7 +14529,7 @@
         "median": 296750,
         "n": 2,
         "days": 180,
-        "updated": "2026-11-12",
+        "updated": "2026-11-13",
         "src": "bat",
         "latest": {
           "url": "https://bringatrailer.com/listing/2019-porsche-911-gt3-touring-52/",
@@ -15152,10 +15228,16 @@
           "price": 296750,
           "n": 2,
           "days": 180
+        },
+        {
+          "date": "2026-11-13",
+          "price": 296750,
+          "n": 2,
+          "days": 180
         }
       ],
       "value": 296750,
-      "value_note": "BaT sold median only \u2014 asking price 114d stale",
+      "value_note": "BaT sold median only \u2014 asking price 115d stale",
       "comps": [
         {
           "date": "2026-10-08",
@@ -15293,20 +15375,20 @@
       "source": "CarGurus",
       "note": "2010\u20132015 R8 5.2 V10, all transmissions (gated 6MT, R-tronic, S-tronic), coupe + Spyder. BaT solds skew to manual/low-mile cars, so the sold median runs above the ask median.",
       "currency": "USD",
-      "updated": "2026-11-12",
+      "updated": "2026-11-13",
       "start": "2026-07-21",
-      "latest": 83756,
+      "latest": 85502,
       "first": 90683,
-      "n_listings": 16,
-      "range_lo": 79668,
-      "range_hi": 89195,
+      "n_listings": 23,
+      "range_lo": 78594,
+      "range_hi": 130491,
       "change": {
-        "d7": -4.0,
-        "d30": -7.0,
-        "d90": -15.3,
-        "all": -5.2
+        "d7": -3.8,
+        "d30": -9.9,
+        "d90": -15.8,
+        "all": -5.7
       },
-      "points": 110,
+      "points": 111,
       "series": [
         {
           "date": "2026-07-21",
@@ -16187,6 +16269,14 @@
           "lo": 79668,
           "hi": 89195,
           "src": "ci"
+        },
+        {
+          "date": "2026-11-13",
+          "price": 85502,
+          "n": 23,
+          "lo": 78594,
+          "hi": 130491,
+          "src": "ci"
         }
       ],
       "ci": {
@@ -16229,7 +16319,7 @@
         "median": 134500,
         "n": 8,
         "days": 90,
-        "updated": "2026-11-12",
+        "updated": "2026-11-13",
         "src": "bat",
         "latest": {
           "url": "https://bringatrailer.com/listing/2015-audi-r8-competition-10/",
@@ -16928,9 +17018,15 @@
           "price": 134500,
           "n": 8,
           "days": 90
+        },
+        {
+          "date": "2026-11-13",
+          "price": 134500,
+          "n": 8,
+          "days": 90
         }
       ],
-      "value": 122375,
+      "value": 122250,
       "value_note": "75% sold (90d) + 25% asking (7-reading median)",
       "comps": [
         {
@@ -17313,9 +17409,13 @@
         {
           "date": "2026-11-11",
           "value": 122375
+        },
+        {
+          "date": "2026-11-13",
+          "value": 122250
         }
       ],
-      "ask_smooth": 86000,
+      "ask_smooth": 85502,
       "ask_smooth_n": 7,
       "smooth": {
         "k": 7,
@@ -17332,7 +17432,7 @@
       "source": "Recent BaT sales; earlier years Cars.com asking (via car-value-tracker)",
       "note": "Front-engine NA V12 grand tourer (2013-2017).",
       "currency": "USD",
-      "updated": "2026-11-12",
+      "updated": "2026-11-13",
       "start": "2020-12-31",
       "latest": 385000,
       "first": 210000,
@@ -17390,7 +17490,7 @@
           "hi": 350000
         },
         {
-          "date": "2026-11-12",
+          "date": "2026-11-13",
           "price": 385000,
           "n": null,
           "lo": 385000,
@@ -17446,7 +17546,7 @@
       "source": "Bring a Trailer sold comps (via car-value-tracker)",
       "note": "Pre-facelift NA2, 1997-2001, six-speed, coupe and targa.",
       "currency": "USD",
-      "updated": "2026-11-12",
+      "updated": "2026-11-13",
       "start": "2017-12-31",
       "latest": 132200,
       "first": 62000,
@@ -17525,7 +17625,7 @@
           "hi": 170000
         },
         {
-          "date": "2026-11-12",
+          "date": "2026-11-13",
           "price": 132200,
           "n": 18,
           "lo": 136300,
@@ -17569,7 +17669,7 @@
       "source": "Bring a Trailer sold comps (via car-value-tracker)",
       "note": "Gated six-speed only - the F1 cars are a different market.",
       "currency": "USD",
-      "updated": "2026-11-12",
+      "updated": "2026-11-13",
       "start": "2018-12-31",
       "latest": 235800,
       "first": 95500,
@@ -17641,7 +17741,7 @@
           "hi": 171000
         },
         {
-          "date": "2026-11-12",
+          "date": "2026-11-13",
           "price": 235800,
           "n": 26,
           "lo": 125000,
@@ -17693,7 +17793,7 @@
       "source": "Bring a Trailer sold comps (via car-value-tracker)",
       "note": "Type 42 V10 coupe, gated six-speed, 2009-2015. Gated manual coupe only - the broader 'R8 V10 Gen 1' card on this page includes R-tronic/S-tronic and the Spyder, and prices lower as a result.",
       "currency": "USD",
-      "updated": "2026-11-12",
+      "updated": "2026-11-13",
       "start": "2019-12-31",
       "latest": 153000,
       "first": 90000,
@@ -17758,7 +17858,7 @@
           "hi": 159000
         },
         {
-          "date": "2026-11-12",
+          "date": "2026-11-13",
           "price": 153000,
           "n": 8,
           "lo": 136000,
@@ -17802,7 +17902,7 @@
       "source": "Bring a Trailer sold comps (via car-value-tracker)",
       "note": "105-series 1750 and 2000 GTV, 1967-1976 - the Bertone coupe.",
       "currency": "USD",
-      "updated": "2026-11-12",
+      "updated": "2026-11-13",
       "start": "2015-12-31",
       "latest": 46700,
       "first": 25900,
@@ -17895,7 +17995,7 @@
           "hi": 57000
         },
         {
-          "date": "2026-11-12",
+          "date": "2026-11-13",
           "price": 46700,
           "n": 27,
           "lo": 28200,
@@ -17939,7 +18039,7 @@
       "source": "Bring a Trailer sold comps (via car-value-tracker)",
       "note": "Singer-reimagined 964 - a different market to everything else here.",
       "currency": "USD",
-      "updated": "2026-11-12",
+      "updated": "2026-11-13",
       "start": "2022-12-31",
       "latest": 1126500,
       "first": 1150000,
@@ -17969,7 +18069,7 @@
           "hi": 1200000
         },
         {
-          "date": "2026-11-12",
+          "date": "2026-11-13",
           "price": 1126500,
           "n": 10,
           "lo": 1075000,
@@ -18017,7 +18117,7 @@
       "source": "Bring a Trailer sold comps (via car-value-tracker)",
       "note": "328 GTB and GTS, 1986-1989 - the last of the carburettor-era shape.",
       "currency": "USD",
-      "updated": "2026-11-12",
+      "updated": "2026-11-13",
       "start": "2016-12-31",
       "latest": 121700,
       "first": 81500,
@@ -18025,7 +18125,7 @@
       "range_lo": 52000,
       "range_hi": 145000,
       "change": {
-        "d7": -4.9,
+        "d7": -3.4,
         "d30": null,
         "d90": null,
         "all": 49.3
@@ -18103,7 +18203,7 @@
           "hi": 145000
         },
         {
-          "date": "2026-11-12",
+          "date": "2026-11-13",
           "price": 121700,
           "n": 48,
           "lo": 112000,
@@ -18155,7 +18255,7 @@
       "source": "Bring a Trailer sold comps (via car-value-tracker)",
       "note": "246 GT and GTS, 1969-1974 - the V6 junior Ferrari, badged Dino.",
       "currency": "USD",
-      "updated": "2026-11-12",
+      "updated": "2026-11-13",
       "start": "2019-12-31",
       "latest": 430800,
       "first": 363000,
@@ -18220,7 +18320,7 @@
           "hi": 525000
         },
         {
-          "date": "2026-11-12",
+          "date": "2026-11-13",
           "price": 430800,
           "n": 7,
           "lo": 393000,
@@ -18272,7 +18372,7 @@
       "source": "Bring a Trailer sold comps (via car-value-tracker)",
       "note": "Final US Evora, 2020-2021 - supercharged V6, manual and auto.",
       "currency": "USD",
-      "updated": "2026-11-12",
+      "updated": "2026-11-13",
       "start": "2022-12-31",
       "latest": 97300,
       "first": 88500,
@@ -18316,7 +18416,7 @@
           "hi": 94000
         },
         {
-          "date": "2026-11-12",
+          "date": "2026-11-13",
           "price": 97300,
           "n": 5,
           "lo": 86500,
@@ -18360,7 +18460,7 @@
       "source": "Bring a Trailer sold comps (via car-value-tracker)",
       "note": "Supercharged Toyota V6, six-speed - the last analogue Lotus.",
       "currency": "USD",
-      "updated": "2026-11-12",
+      "updated": "2026-11-13",
       "start": "2024-12-31",
       "latest": 85100,
       "first": 101000,
@@ -18390,7 +18490,7 @@
           "hi": 91600
         },
         {
-          "date": "2026-11-12",
+          "date": "2026-11-13",
           "price": 85100,
           "n": 13,
           "lo": 82000,
@@ -18428,7 +18528,7 @@
       "source": "Bring a Trailer sold comps (via car-value-tracker)",
       "note": "1996-2001 front-engined V12 coupe, gated six-speed - every one a manual.",
       "currency": "USD",
-      "updated": "2026-11-12",
+      "updated": "2026-11-13",
       "start": "2018-12-31",
       "latest": 233300,
       "first": 130000,
@@ -18500,7 +18600,7 @@
           "hi": 195000
         },
         {
-          "date": "2026-11-12",
+          "date": "2026-11-13",
           "price": 233300,
           "n": 31,
           "lo": 162000,
@@ -18552,7 +18652,7 @@
       "source": "Bring a Trailer sold comps (via car-value-tracker)",
       "note": "Gated six-speed coupe, 1995-1999 - the F1 paddle cars are a different market.",
       "currency": "USD",
-      "updated": "2026-11-12",
+      "updated": "2026-11-13",
       "start": "2018-12-31",
       "latest": 229000,
       "first": 67500,
@@ -18617,7 +18717,7 @@
           "hi": 162500
         },
         {
-          "date": "2026-11-12",
+          "date": "2026-11-13",
           "price": 229000,
           "n": 6,
           "lo": 213000,
@@ -18661,7 +18761,7 @@
       "source": "Bring a Trailer sold comps (via car-value-tracker)",
       "note": "Targa-top GTS, gated six-speed, 1995-1999 - the lift-out roof, not the Spider.",
       "currency": "USD",
-      "updated": "2026-11-12",
+      "updated": "2026-11-13",
       "start": "2021-12-31",
       "latest": 262300,
       "first": 150800,
@@ -18712,7 +18812,7 @@
           "hi": 165500
         },
         {
-          "date": "2026-11-12",
+          "date": "2026-11-13",
           "price": 262300,
           "n": 6,
           "lo": 212000,
@@ -18756,7 +18856,7 @@
       "source": "Bring a Trailer sold comps (via car-value-tracker)",
       "note": "2004-2006 Le Mans-derived 5.7 V10, six-speed - 1,270 built, and only 14 BaT sales ever, so the pre-2022 years are interpolated.",
       "currency": "USD",
-      "updated": "2026-11-12",
+      "updated": "2026-11-13",
       "start": "2022-12-31",
       "latest": 1808600,
       "first": 1682000,
@@ -18779,7 +18879,7 @@
           "hi": 1865000
         },
         {
-          "date": "2026-11-12",
+          "date": "2026-11-13",
           "price": 1808600,
           "n": 4,
           "lo": 1389000,
@@ -18828,7 +18928,7 @@
       "source": "Bring a Trailer sold comps (via car-value-tracker)",
       "note": "Supercharged 5.4 V8, six-speed - the Le Mans homage, 4,038 built.",
       "currency": "USD",
-      "updated": "2026-11-12",
+      "updated": "2026-11-13",
       "start": "2018-12-31",
       "latest": 708000,
       "first": 256000,
@@ -18836,7 +18936,7 @@
       "range_lo": 235000,
       "range_hi": 735000,
       "change": {
-        "d7": 1.7,
+        "d7": 4.9,
         "d30": null,
         "d90": null,
         "all": 176.6
@@ -18900,7 +19000,7 @@
           "hi": 605100
         },
         {
-          "date": "2026-11-12",
+          "date": "2026-11-13",
           "price": 708000,
           "n": 42,
           "lo": 504400,
@@ -18953,7 +19053,7 @@
       "source": "Bring a Trailer sold comps (via car-value-tracker)",
       "note": "2013-17 GTS and GT - 8.4 V10, six-speed, two-mode dampers; the road trims, not the ACR.",
       "currency": "USD",
-      "updated": "2026-11-12",
+      "updated": "2026-11-13",
       "start": "2018-12-31",
       "latest": 166700,
       "first": 101200,
@@ -19018,7 +19118,7 @@
           "hi": 138500
         },
         {
-          "date": "2026-11-12",
+          "date": "2026-11-13",
           "price": 166700,
           "n": 10,
           "lo": 143000,
@@ -19071,7 +19171,7 @@
       "source": "Bring a Trailer sold comps (via car-value-tracker)",
       "note": "2004-06 6.2 V12 roadster with the e-gear single-clutch automated manual - 435 roadsters built across all gearboxes.",
       "currency": "USD",
-      "updated": "2026-11-12",
+      "updated": "2026-11-13",
       "start": "2021-12-31",
       "latest": 338300,
       "first": 149200,
@@ -19101,7 +19201,7 @@
           "hi": 239000
         },
         {
-          "date": "2026-11-12",
+          "date": "2026-11-13",
           "price": 338300,
           "n": 4,
           "lo": 260000,
@@ -19144,7 +19244,7 @@
       "source": "Bring a Trailer sold comps (via car-value-tracker)",
       "note": "2007-10 6.5 V12 LP640 roadster with e-gear - about 414 built across all gearboxes.",
       "currency": "USD",
-      "updated": "2026-11-12",
+      "updated": "2026-11-13",
       "start": "2022-12-31",
       "latest": 487800,
       "first": 341000,
@@ -19174,7 +19274,7 @@
           "hi": 309000
         },
         {
-          "date": "2026-11-12",
+          "date": "2026-11-13",
           "price": 487800,
           "n": 3,
           "lo": 418000,
@@ -19217,7 +19317,7 @@
       "source": "Bring a Trailer sold comps (via car-value-tracker)",
       "note": "2002-06 6.2 V12 coupe with the factory gated six-speed - the manual Murcielago that actually trades.",
       "currency": "USD",
-      "updated": "2026-11-12",
+      "updated": "2026-11-13",
       "start": "2021-12-31",
       "latest": 495000,
       "first": 372000,
@@ -19268,7 +19368,7 @@
           "hi": 406700
         },
         {
-          "date": "2026-11-12",
+          "date": "2026-11-13",
           "price": 495000,
           "n": 6,
           "lo": 420000,
@@ -19311,7 +19411,7 @@
       "source": "Bring a Trailer sold comps (via car-value-tracker)",
       "note": "2002-06 6.2 V12 coupe with e-gear - the cheapest way into a Murcielago.",
       "currency": "USD",
-      "updated": "2026-11-12",
+      "updated": "2026-11-13",
       "start": "2022-12-31",
       "latest": 222900,
       "first": 183000,
@@ -19334,7 +19434,7 @@
           "hi": 190000
         },
         {
-          "date": "2026-11-12",
+          "date": "2026-11-13",
           "price": 222900,
           "n": 4,
           "lo": 182000,
@@ -19377,7 +19477,7 @@
       "source": "Bring a Trailer sold comps (via car-value-tracker)",
       "note": "2007-10 6.5 V12 LP640 coupe with e-gear; excludes the Versace, the SV and six-speeds.",
       "currency": "USD",
-      "updated": "2026-11-12",
+      "updated": "2026-11-13",
       "start": "2023-12-31",
       "latest": 566600,
       "first": 290500,
@@ -19407,7 +19507,7 @@
           "hi": 390000
         },
         {
-          "date": "2026-11-12",
+          "date": "2026-11-13",
           "price": 566600,
           "n": 9,
           "lo": 501000,
@@ -19450,18 +19550,18 @@
       "source": "Bring a Trailer sold comps (via car-value-tracker)",
       "note": "2012-2015 folding-hardtop 458 - 4.5 flat-plane V8 to 9,000 rpm, DCT only.",
       "currency": "USD",
-      "updated": "2026-11-12",
+      "updated": "2026-11-13",
       "start": "2020-12-31",
-      "latest": 319000,
+      "latest": 298600,
       "first": 171000,
-      "n_listings": 74,
+      "n_listings": 75,
       "range_lo": 160000,
       "range_hi": 400100,
       "change": {
-        "d7": 23.9,
+        "d7": -3.7,
         "d30": null,
         "d90": null,
-        "all": 86.5
+        "all": 74.6
       },
       "points": 6,
       "series": [
@@ -19501,17 +19601,17 @@
           "hi": 276500
         },
         {
-          "date": "2026-11-12",
-          "price": 319000,
-          "n": 22,
-          "lo": 299000,
+          "date": "2026-11-13",
+          "price": 298600,
+          "n": 23,
+          "lo": 290000,
           "hi": 400100
         }
       ],
       "series_label": "BaT sold median",
       "n_label": "sold comps",
-      "value": 319000,
-      "value_note": "Median of the latest 22 BaT sales (2025-11-18 to 2026-11-05), 30,000+ mi cars only",
+      "value": 298600,
+      "value_note": "Median of the latest 23 BaT sales (2025-11-18 to 2026-11-12), 30,000+ mi cars only",
       "cadence": "annual",
       "mirrored_from": "car-value-tracker",
       "production": {
@@ -19536,6 +19636,10 @@
         {
           "date": "2026-11-10",
           "value": 319000
+        },
+        {
+          "date": "2026-11-13",
+          "value": 298600
         }
       ]
     },
@@ -19549,7 +19653,7 @@
       "source": "Bring a Trailer sold comps (via car-value-tracker)",
       "note": "2023-on C8 Z06, flat-plane 5.5 LT6, coupe or convertible - used, 30k+ miles, no Z07 package and no high wing. Launched MY2023 (base MSRP $106,395 coupe), so there is no 2020-22 history.",
       "currency": "USD",
-      "updated": "2026-11-12",
+      "updated": "2026-11-13",
       "start": "2023-12-31",
       "latest": 86800,
       "first": 143900,
@@ -19586,7 +19690,7 @@
           "hi": 100900
         },
         {
-          "date": "2026-11-12",
+          "date": "2026-11-13",
           "price": 86800,
           "n": 4,
           "lo": 78700,
@@ -20532,5 +20636,5 @@
       }
     ]
   },
-  "cvt_sync": "Ferrari 458 Italia: 7pts, $260,000 | Ferrari F12 Berlinetta: 7pts, $385,000 | Ferrari 812 Superfast: 7pts, $549,900 | Ferrari 812 GTS: 7pts, $782,900 | Acura NSX (NA2 manual): 10pts, $132,200 | Ferrari 360 (gated manual): 9pts, $235,800 | Audi R8 gen1 V10 (gated): 8pts, $153,000 | Alfa Romeo GTV 1750/2000: 12pts, $46,700 | Porsche Singer 911: 3pts, $1,126,500 | Ferrari 328 GTS/GTB: 11pts, $121,700 | Ferrari Dino 246 GT/GTS: 8pts, $430,800 | Lotus Evora GT (2020-21): 5pts, $97,300 | Lotus Emira V6 (2024-25): 3pts, $85,100 | Ferrari 550 Maranello: 9pts, $233,300 | Ferrari F355 Berlinetta (gated manual): 8pts, $229,000 | Ferrari F355 GTS (gated manual): 6pts, $262,300 | Porsche Carrera GT: 2pts, $1,808,600 | Ford GT (2005-2006): 9pts, $708,000 | Dodge Viper GTS/GT (Gen 5): 8pts, $166,700 | Lamborghini Murcielago Roadster 6.2 (e-gear): 3pts, $338,300 | Lamborghini Murcielago LP640 Roadster (e-gear): 3pts, $487,800 | Lamborghini Murcielago 6.2 Coupe (6-speed): 6pts, $495,000 | Lamborghini Murcielago 6.2 Coupe (e-gear): 2pts, $222,900 | Lamborghini Murcielago LP640 Coupe (e-gear): 3pts, $566,600 | Ferrari 458 Spider: 6pts, $319,000 | Chevrolet Corvette C8 Z06 (no Z07/wing): 4pts, $86,800"
+  "cvt_sync": "Ferrari 458 Italia: 7pts, $257,900 | Ferrari F12 Berlinetta: 7pts, $385,000 | Ferrari 812 Superfast: 7pts, $549,900 | Ferrari 812 GTS: 7pts, $782,900 | Acura NSX (NA2 manual): 10pts, $132,200 | Ferrari 360 (gated manual): 9pts, $235,800 | Audi R8 gen1 V10 (gated): 8pts, $153,000 | Alfa Romeo GTV 1750/2000: 12pts, $46,700 | Porsche Singer 911: 3pts, $1,126,500 | Ferrari 328 GTS/GTB: 11pts, $121,700 | Ferrari Dino 246 GT/GTS: 8pts, $430,800 | Lotus Evora GT (2020-21): 5pts, $97,300 | Lotus Emira V6 (2024-25): 3pts, $85,100 | Ferrari 550 Maranello: 9pts, $233,300 | Ferrari F355 Berlinetta (gated manual): 8pts, $229,000 | Ferrari F355 GTS (gated manual): 6pts, $262,300 | Porsche Carrera GT: 2pts, $1,808,600 | Ford GT (2005-2006): 9pts, $708,000 | Dodge Viper GTS/GT (Gen 5): 8pts, $166,700 | Lamborghini Murcielago Roadster 6.2 (e-gear): 3pts, $338,300 | Lamborghini Murcielago LP640 Roadster (e-gear): 3pts, $487,800 | Lamborghini Murcielago 6.2 Coupe (6-speed): 6pts, $495,000 | Lamborghini Murcielago 6.2 Coupe (e-gear): 2pts, $222,900 | Lamborghini Murcielago LP640 Coupe (e-gear): 3pts, $566,600 | Ferrari 458 Spider: 6pts, $298,600 | Chevrolet Corvette C8 Z06 (no Z07/wing): 4pts, $86,800"
 }
