@@ -1,8 +1,8 @@
 {
-  "updated": "2026-11-14T16:32:47Z",
+  "updated": "2026-11-14T18:44:47Z",
   "generated_by": "publish_trackers.py",
   "summary": {
-    "portfolio_value": 12524211,
+    "portfolio_value": 12522629,
     "n_assets": 36,
     "n_cars": 34,
     "n_watches": 2
@@ -6246,16 +6246,16 @@
       "currency": "USD",
       "updated": "2026-11-14",
       "start": "2026-01-04",
-      "latest": 281975,
+      "latest": 264881,
       "first": 298400,
-      "n_listings": 5,
-      "range_lo": 275085,
-      "range_hi": 309995,
+      "n_listings": 38,
+      "range_lo": 246151,
+      "range_hi": 269875,
       "change": {
-        "d7": 8.0,
-        "d30": 3.7,
-        "d90": -2.8,
-        "all": -5.5
+        "d7": 7.7,
+        "d30": 3.5,
+        "d90": -3.0,
+        "all": -5.7
       },
       "points": 228,
       "series": [
@@ -7937,10 +7937,11 @@
         },
         {
           "date": "2026-11-14",
-          "price": 281975,
-          "n": 5,
-          "lo": 275085,
-          "hi": 309995
+          "price": 264881,
+          "n": 38,
+          "lo": 246151,
+          "hi": 269875,
+          "src": "ci"
         }
       ],
       "ci": {
@@ -8780,7 +8781,7 @@
           "days": 90
         }
       ],
-      "value": 262869,
+      "value": 262695,
       "value_note": "75% sold (90d) + 25% asking (7-reading median)",
       "comps": [
         {
@@ -9052,13 +9053,9 @@
         {
           "date": "2026-11-12",
           "value": 262695
-        },
-        {
-          "date": "2026-11-14",
-          "value": 262869
         }
       ],
-      "ask_smooth": 281975,
+      "ask_smooth": 281281,
       "ask_smooth_n": 7,
       "smooth": {
         "k": 7,
@@ -9390,11 +9387,11 @@
       "currency": "USD",
       "updated": "2026-11-14",
       "start": "2026-07-04",
-      "latest": 210994,
+      "latest": 301142,
       "first": 339995,
-      "n_listings": 10,
-      "range_lo": 203900,
-      "range_hi": 227499,
+      "n_listings": 8,
+      "range_lo": 192525,
+      "range_hi": 309863,
       "change": {
         "d7": 18.2,
         "d30": 21.7,
@@ -10157,10 +10154,10 @@
         },
         {
           "date": "2026-11-14",
-          "price": 210994,
-          "n": 10,
-          "lo": 203900,
-          "hi": 227499,
+          "price": 301142,
+          "n": 8,
+          "lo": 192525,
+          "hi": 309863,
           "src": "ci"
         }
       ],
@@ -11316,11 +11313,11 @@
       "currency": "USD",
       "updated": "2026-11-14",
       "start": "2026-07-04",
-      "latest": 129995,
+      "latest": 132569,
       "first": 161007,
-      "n_listings": 42,
-      "range_lo": 112700,
-      "range_hi": 145195,
+      "n_listings": 13,
+      "range_lo": 129348,
+      "range_hi": 184992,
       "change": {
         "d7": 2.1,
         "d30": 0.0,
@@ -12257,10 +12254,10 @@
         },
         {
           "date": "2026-11-14",
-          "price": 129995,
-          "n": 42,
-          "lo": 112700,
-          "hi": 145195,
+          "price": 132569,
+          "n": 13,
+          "lo": 129348,
+          "hi": 184992,
           "src": "ci"
         }
       ],
@@ -13399,16 +13396,16 @@
       "currency": "USD",
       "updated": "2026-11-14",
       "start": "2026-07-21",
-      "latest": 132844,
+      "latest": 114940,
       "first": 125445,
-      "n_listings": 30,
-      "range_lo": 124948,
-      "range_hi": 139900,
+      "n_listings": 22,
+      "range_lo": 108991,
+      "range_hi": 139994,
       "change": {
-        "d7": 3.6,
-        "d30": 8.3,
-        "d90": 8.3,
-        "all": 3.6
+        "d7": 2.5,
+        "d30": 7.1,
+        "d90": 7.1,
+        "all": 2.4
       },
       "points": 113,
       "series": [
@@ -14310,10 +14307,10 @@
         },
         {
           "date": "2026-11-14",
-          "price": 132844,
-          "n": 30,
-          "lo": 124948,
-          "hi": 139900,
+          "price": 114940,
+          "n": 22,
+          "lo": 108991,
+          "hi": 139994,
           "src": "ci"
         }
       ],
@@ -14324,7 +14321,7 @@
         "hi": 160,
         "min_n": 3
       },
-      "value": 129900,
+      "value": 128492,
       "value_note": "asking median (7-reading median) (no recent sold data)",
       "make": "Porsche",
       "value_log": [
@@ -14571,9 +14568,13 @@
         {
           "date": "2026-11-13",
           "value": 129900
+        },
+        {
+          "date": "2026-11-14",
+          "value": 128492
         }
       ],
-      "ask_smooth": 129900,
+      "ask_smooth": 128492,
       "ask_smooth_n": 7,
       "smooth": {
         "k": 7,
@@ -15482,11 +15483,11 @@
       "currency": "USD",
       "updated": "2026-11-14",
       "start": "2026-07-21",
-      "latest": 91990,
+      "latest": 85502,
       "first": 90683,
-      "n_listings": 53,
-      "range_lo": 77250,
-      "range_hi": 135269,
+      "n_listings": 27,
+      "range_lo": 80615,
+      "range_hi": 136394,
       "change": {
         "d7": -4.3,
         "d30": -10.6,
@@ -16385,10 +16386,10 @@
         },
         {
           "date": "2026-11-14",
-          "price": 91990,
-          "n": 53,
-          "lo": 77250,
-          "hi": 135269,
+          "price": 85502,
+          "n": 27,
+          "lo": 80615,
+          "hi": 136394,
           "src": "ci"
         }
       ],
@@ -20793,5 +20794,5 @@
       }
     ]
   },
-  "cvt_sync": "Ferrari 458 Italia: 7pts, $257,900 | Ferrari F12 Berlinetta: 7pts, $385,000 | Ferrari 812 Superfast: 7pts, $549,900 | Ferrari 812 GTS: 7pts, $782,900 | Acura NSX (NA2 manual): 10pts, $132,200 | Ferrari 360 (gated manual): 9pts, $236,000 | Audi R8 gen1 V10 (gated): 8pts, $153,000 | Alfa Romeo GTV 1750/2000: 12pts, $46,700 | Porsche Singer 911: 3pts, $1,126,500 | Ferrari 328 GTS/GTB: 11pts, $121,700 | Ferrari Dino 246 GT/GTS: 8pts, $430,800 | Lotus Evora GT (2020-21): 5pts, $97,300 | Lotus Emira V6 (2024-25): 3pts, $85,100 | Ferrari 550 Maranello: 9pts, $235,700 | Ferrari F355 Berlinetta (gated manual): 8pts, $229,000 | Ferrari F355 GTS (gated manual): 6pts, $262,300 | Porsche Carrera GT: 2pts, $1,808,600 | Ford GT (2005-2006): 9pts, $708,000 | Dodge Viper GTS/GT (Gen 5): 8pts, $166,800 | Lamborghini Murcielago Roadster 6.2 (e-gear): 3pts, $338,300 | Lamborghini Murcielago LP640 Roadster (e-gear): 3pts, $487,800 | Lamborghini Murcielago 6.2 Coupe (6-speed): 6pts, $495,000 | Lamborghini Murcielago 6.2 Coupe (e-gear): 2pts, $222,900 | Lamborghini Murcielago LP640 Coupe (e-gear): 3pts, $566,600 | Ferrari 458 Spider: 6pts, $298,600 | Chevrolet Corvette C8 Z06 (no Z07/wing): 4pts, $88,400"
+  "cvt_sync": "Ferrari 458 Italia: 7pts, $257,900 | Ferrari F12 Berlinetta: 7pts, $385,000 | Ferrari 812 Superfast: 7pts, $549,900 | Ferrari 812 GTS: 7pts, $784,300 | Acura NSX (NA2 manual): 10pts, $132,200 | Ferrari 360 (gated manual): 9pts, $236,000 | Audi R8 gen1 V10 (gated): 8pts, $153,000 | Alfa Romeo GTV 1750/2000: 12pts, $46,700 | Porsche Singer 911: 3pts, $1,126,500 | Ferrari 328 GTS/GTB: 11pts, $121,700 | Ferrari Dino 246 GT/GTS: 8pts, $430,800 | Lotus Evora GT (2020-21): 5pts, $97,300 | Lotus Emira V6 (2024-25): 3pts, $85,100 | Ferrari 550 Maranello: 9pts, $235,700 | Ferrari F355 Berlinetta (gated manual): 8pts, $229,000 | Ferrari F355 GTS (gated manual): 6pts, $262,300 | Porsche Carrera GT: 2pts, $1,808,600 | Ford GT (2005-2006): 9pts, $708,000 | Dodge Viper GTS/GT (Gen 5): 8pts, $166,800 | Lamborghini Murcielago Roadster 6.2 (e-gear): 3pts, $338,300 | Lamborghini Murcielago LP640 Roadster (e-gear): 3pts, $487,800 | Lamborghini Murcielago 6.2 Coupe (6-speed): 6pts, $495,000 | Lamborghini Murcielago 6.2 Coupe (e-gear): 3pts, $317,700 | Lamborghini Murcielago LP640 Coupe (e-gear): 3pts, $566,600 | Ferrari 458 Spider: 6pts, $298,300 | Chevrolet Corvette C8 Z06 (no Z07/wing): 4pts, $88,400"
 }
