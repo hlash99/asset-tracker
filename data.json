@@ -1,8 +1,8 @@
 {
-  "updated": "2026-11-17T09:14:48Z",
+  "updated": "2026-11-17T21:46:05Z",
   "generated_by": "publish_trackers.py",
   "summary": {
-    "portfolio_value": 12527680,
+    "portfolio_value": 12517613,
     "n_assets": 36,
     "n_cars": 34,
     "n_watches": 2
@@ -6293,11 +6293,11 @@
       "currency": "USD",
       "updated": "2026-11-17",
       "start": "2026-01-04",
-      "latest": 251500,
+      "latest": 248989,
       "first": 298400,
-      "n_listings": 38,
-      "range_lo": 241049,
-      "range_hi": 276919,
+      "n_listings": 34,
+      "range_lo": 241289,
+      "range_hi": 266137,
       "change": {
         "d7": 2.5,
         "d30": 3.7,
@@ -8006,10 +8006,10 @@
         },
         {
           "date": "2026-11-17",
-          "price": 251500,
-          "n": 38,
-          "lo": 241049,
-          "hi": 276919,
+          "price": 248989,
+          "n": 34,
+          "lo": 241289,
+          "hi": 266137,
           "src": "ci"
         }
       ],
@@ -9486,11 +9486,11 @@
       "currency": "USD",
       "updated": "2026-11-17",
       "start": "2026-07-04",
-      "latest": 190220,
+      "latest": 251198,
       "first": 339995,
-      "n_listings": 5,
-      "range_lo": 190220,
-      "range_hi": 312820,
+      "n_listings": 4,
+      "range_lo": 190686,
+      "range_hi": 311710,
       "change": {
         "d7": 0.5,
         "d30": 26.2,
@@ -10277,10 +10277,10 @@
         },
         {
           "date": "2026-11-17",
-          "price": 190220,
-          "n": 5,
-          "lo": 190220,
-          "hi": 312820,
+          "price": 251198,
+          "n": 4,
+          "lo": 190686,
+          "hi": 311710,
           "src": "ci"
         }
       ],
@@ -11190,12 +11190,6 @@
           "price": 276000,
           "title": "283-Mile 2017 Aston Martin V12 Vantage S 7-Speed",
           "url": "https://bringatrailer.com/listing/2017-aston-martin-v12-vantage-s-34/"
-        },
-        {
-          "date": "2025-11-17",
-          "price": 235000,
-          "title": "3,900-Mile 2017 Aston Martin V12 Vantage S 7-Speed",
-          "url": "https://bringatrailer.com/listing/2017-aston-martin-v12-vantage-s-33/"
         }
       ],
       "make": "Aston Martin",
@@ -11454,11 +11448,11 @@
       "currency": "USD",
       "updated": "2026-11-17",
       "start": "2026-07-04",
-      "latest": 129622,
+      "latest": 124144,
       "first": 161007,
-      "n_listings": 14,
-      "range_lo": 119810,
-      "range_hi": 131125,
+      "n_listings": 18,
+      "range_lo": 89780,
+      "range_hi": 129095,
       "change": {
         "d7": 2.1,
         "d30": -7.9,
@@ -12419,10 +12413,10 @@
         },
         {
           "date": "2026-11-17",
-          "price": 129622,
-          "n": 14,
-          "lo": 119810,
-          "hi": 131125,
+          "price": 124144,
+          "n": 18,
+          "lo": 89780,
+          "hi": 129095,
           "src": "ci"
         }
       ],
@@ -13579,16 +13573,16 @@
       "currency": "USD",
       "updated": "2026-11-17",
       "start": "2026-07-21",
-      "latest": 132790,
+      "latest": 114944,
       "first": 125445,
-      "n_listings": 30,
-      "range_lo": 125988,
-      "range_hi": 143191,
+      "n_listings": 24,
+      "range_lo": 105657,
+      "range_hi": 140389,
       "change": {
-        "d7": -0.7,
-        "d30": -2.6,
-        "d90": 7.6,
-        "all": 2.8
+        "d7": -7.5,
+        "d30": -9.3,
+        "d90": 0.2,
+        "all": -4.2
       },
       "points": 116,
       "series": [
@@ -14514,10 +14508,10 @@
         },
         {
           "date": "2026-11-17",
-          "price": 132790,
-          "n": 30,
-          "lo": 125988,
-          "hi": 143191,
+          "price": 114944,
+          "n": 24,
+          "lo": 105657,
+          "hi": 140389,
           "src": "ci"
         }
       ],
@@ -14528,7 +14522,7 @@
         "hi": 160,
         "min_n": 3
       },
-      "value": 128991,
+      "value": 120148,
       "value_note": "asking median (7-reading median) (no recent sold data)",
       "make": "Porsche",
       "value_log": [
@@ -14783,9 +14777,13 @@
         {
           "date": "2026-11-16",
           "value": 128991
+        },
+        {
+          "date": "2026-11-17",
+          "value": 120148
         }
       ],
-      "ask_smooth": 128991,
+      "ask_smooth": 120148,
       "ask_smooth_n": 7,
       "smooth": {
         "k": 7,
@@ -15712,11 +15710,11 @@
       "currency": "USD",
       "updated": "2026-11-17",
       "start": "2026-07-21",
-      "latest": 95873,
+      "latest": 114014,
       "first": 90683,
-      "n_listings": 18,
-      "range_lo": 82900,
-      "range_hi": 125810,
+      "n_listings": 28,
+      "range_lo": 81891,
+      "range_hi": 130561,
       "change": {
         "d7": -3.5,
         "d30": -7.5,
@@ -16639,10 +16637,10 @@
         },
         {
           "date": "2026-11-17",
-          "price": 95873,
-          "n": 18,
-          "lo": 82900,
-          "hi": 125810,
+          "price": 114014,
+          "n": 28,
+          "lo": 81891,
+          "hi": 130561,
           "src": "ci"
         }
       ],
@@ -16683,8 +16681,8 @@
         ]
       },
       "sold": {
-        "median": 134500,
-        "n": 8,
+        "median": 133000,
+        "n": 7,
         "days": 90,
         "updated": "2026-11-17",
         "src": "bat",
@@ -17412,12 +17410,12 @@
         },
         {
           "date": "2026-11-17",
-          "price": 134500,
-          "n": 8,
+          "price": 133000,
+          "n": 7,
           "days": 90
         }
       ],
-      "value": 122250,
+      "value": 121126,
       "value_note": "75% sold (90d) + 25% asking (7-reading median)",
       "comps": [
         {
@@ -17467,13 +17465,6 @@
           "price": 145000,
           "title": "9k-Mile 2011 Audi R8 V10 Spyder 6-Speed",
           "url": "https://bringatrailer.com/listing/2011-audi-r8-spyder-66/",
-          "tag": "Gated 6MT"
-        },
-        {
-          "date": "2026-08-20",
-          "price": 136000,
-          "title": "20k-Mile 2012 Audi R8 V10 Coupe 6-Speed",
-          "url": "https://bringatrailer.com/listing/2012-audi-r8-123/",
           "tag": "Gated 6MT"
         }
       ],
@@ -17808,6 +17799,10 @@
         {
           "date": "2026-11-16",
           "value": 122250
+        },
+        {
+          "date": "2026-11-17",
+          "value": 121126
         }
       ],
       "ask_smooth": 85502,
@@ -17943,16 +17938,16 @@
       "currency": "USD",
       "updated": "2026-11-17",
       "start": "2017-12-31",
-      "latest": 132200,
+      "latest": 132100,
       "first": 62000,
       "n_listings": 99,
       "range_lo": 55000,
       "range_hi": 175000,
       "change": {
-        "d7": 0.0,
+        "d7": -0.1,
         "d30": null,
         "d90": null,
-        "all": 113.2
+        "all": 113.1
       },
       "points": 10,
       "series": [
@@ -18021,7 +18016,7 @@
         },
         {
           "date": "2026-11-17",
-          "price": 132200,
+          "price": 132100,
           "n": 18,
           "lo": 136300,
           "hi": 175000
@@ -18029,7 +18024,7 @@
       ],
       "series_label": "BaT sold median",
       "n_label": "sold comps",
-      "value": 132200,
+      "value": 132100,
       "value_note": "Median of the latest 18 BaT sales (2025-11-17 to 2026-10-23), 40,000+ mi cars only",
       "mirrored_from": "car-value-tracker",
       "cadence": "annual",
@@ -18059,6 +18054,10 @@
         {
           "date": "2026-11-16",
           "value": 132200
+        },
+        {
+          "date": "2026-11-17",
+          "value": 132100
         }
       ]
     },
@@ -21116,5 +21115,5 @@
       }
     ]
   },
-  "cvt_sync": "Ferrari 458 Italia: 7pts, $257,900 | Ferrari F12 Berlinetta: 7pts, $385,000 | Ferrari 812 Superfast: 7pts, $550,500 | Ferrari 812 GTS: 7pts, $784,300 | Acura NSX (NA2 manual): 10pts, $132,200 | Ferrari 360 (gated manual): 9pts, $230,400 | Audi R8 gen1 V10 (gated): 8pts, $153,000 | Alfa Romeo GTV 1750/2000: 12pts, $46,700 | Porsche Singer 911: 3pts, $1,126,500 | Ferrari 328 GTS/GTB: 11pts, $121,700 | Ferrari Dino 246 GT/GTS: 8pts, $430,800 | Lotus Evora GT (2020-21): 5pts, $97,300 | Lotus Emira V6 (2024-25): 3pts, $85,100 | Ferrari 550 Maranello: 9pts, $235,500 | Ferrari F355 Berlinetta (gated manual): 8pts, $228,900 | Ferrari F355 GTS (gated manual): 6pts, $262,300 | Porsche Carrera GT: 2pts, $1,808,600 | Ford GT (2005-2006): 9pts, $707,900 | Dodge Viper GTS/GT (Gen 5): 8pts, $166,800 | Lamborghini Murcielago Roadster 6.2 (e-gear): 3pts, $338,300 | Lamborghini Murcielago LP640 Roadster (e-gear): 3pts, $487,800 | Lamborghini Murcielago 6.2 Coupe (6-speed): 6pts, $495,000 | Lamborghini Murcielago 6.2 Coupe (e-gear): 3pts, $317,700 | Lamborghini Murcielago LP640 Coupe (e-gear): 3pts, $566,600 | Ferrari 458 Spider: 6pts, $298,300 | Chevrolet Corvette C8 Z06 (no Z07/wing): 4pts, $88,400"
+  "cvt_sync": "Ferrari 458 Italia: 7pts, $257,900 | Ferrari F12 Berlinetta: 7pts, $385,000 | Ferrari 812 Superfast: 7pts, $550,500 | Ferrari 812 GTS: 7pts, $784,300 | Acura NSX (NA2 manual): 10pts, $132,100 | Ferrari 360 (gated manual): 9pts, $230,400 | Audi R8 gen1 V10 (gated): 8pts, $153,000 | Alfa Romeo GTV 1750/2000: 12pts, $46,700 | Porsche Singer 911: 3pts, $1,126,500 | Ferrari 328 GTS/GTB: 11pts, $121,700 | Ferrari Dino 246 GT/GTS: 8pts, $430,800 | Lotus Evora GT (2020-21): 5pts, $97,300 | Lotus Emira V6 (2024-25): 3pts, $85,100 | Ferrari 550 Maranello: 9pts, $235,500 | Ferrari F355 Berlinetta (gated manual): 8pts, $228,900 | Ferrari F355 GTS (gated manual): 6pts, $262,300 | Porsche Carrera GT: 2pts, $1,808,600 | Ford GT (2005-2006): 9pts, $707,900 | Dodge Viper GTS/GT (Gen 5): 8pts, $166,800 | Lamborghini Murcielago Roadster 6.2 (e-gear): 3pts, $338,300 | Lamborghini Murcielago LP640 Roadster (e-gear): 3pts, $487,800 | Lamborghini Murcielago 6.2 Coupe (6-speed): 6pts, $495,000 | Lamborghini Murcielago 6.2 Coupe (e-gear): 3pts, $317,700 | Lamborghini Murcielago LP640 Coupe (e-gear): 3pts, $566,600 | Ferrari 458 Spider: 6pts, $298,300 | Chevrolet Corvette C8 Z06 (no Z07/wing): 4pts, $88,400"
 }
