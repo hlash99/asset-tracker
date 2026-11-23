@@ -1,8 +1,8 @@
 {
-  "updated": "2026-11-23T09:08:40Z",
+  "updated": "2026-11-23T23:41:32Z",
   "generated_by": "publish_trackers.py",
   "summary": {
-    "portfolio_value": 12666886,
+    "portfolio_value": 12640636,
     "n_assets": 36,
     "n_cars": 34,
     "n_watches": 2
@@ -18,7 +18,7 @@
       "source": "Chrono24",
       "note": "Steel/white-gold GMT with a meteorite dial \u2014 bluespeak 'BLRO' bezel.",
       "currency": "USD",
-      "updated": "2026-11-21",
+      "updated": "2026-11-23",
       "start": "2024-11-04",
       "latest": 62000,
       "first": 47993,
@@ -31,7 +31,7 @@
         "d90": -2.4,
         "all": 29.2
       },
-      "points": 264,
+      "points": 265,
       "series": [
         {
           "date": "2024-11-04",
@@ -1900,6 +1900,13 @@
           "n": 22,
           "lo": 62000,
           "hi": 85800
+        },
+        {
+          "date": "2026-11-23",
+          "price": 62000,
+          "n": 22,
+          "lo": 62000,
+          "hi": 85800
         }
       ],
       "ci": {
@@ -1956,20 +1963,20 @@
       "source": "Chrono24",
       "note": "White-gold annual-calendar travel-time, fluted-style dial.",
       "currency": "USD",
-      "updated": "2026-11-21",
+      "updated": "2026-11-23",
       "start": "2024-11-04",
-      "latest": 65666,
+      "latest": 65650,
       "first": 67500,
-      "n_listings": 47,
-      "range_lo": 65666,
+      "n_listings": 33,
+      "range_lo": 65650,
       "range_hi": 82299,
       "change": {
         "d7": 0.1,
-        "d30": -2.3,
+        "d30": -2.5,
         "d90": -0.2,
         "all": -2.7
       },
-      "points": 273,
+      "points": 274,
       "series": [
         {
           "date": "2024-11-04",
@@ -3903,6 +3910,13 @@
           "n": 47,
           "lo": 65666,
           "hi": 82299
+        },
+        {
+          "date": "2026-11-23",
+          "price": 65650,
+          "n": 33,
+          "lo": 65650,
+          "hi": 82299
         }
       ],
       "ci": {
@@ -3912,7 +3926,7 @@
         "hi": 200,
         "min_n": 5
       },
-      "value": 65666,
+      "value": 65650,
       "value_note": "asking median (no recent sold data)",
       "value_log": [
         {
@@ -4042,6 +4056,10 @@
         {
           "date": "2026-11-20",
           "value": 65666
+        },
+        {
+          "date": "2026-11-23",
+          "value": 65650
         }
       ]
     },
@@ -4055,11 +4073,11 @@
       "source": "Cars.com",
       "note": "Current NA V12 GT (2024\u2013 ).",
       "currency": "USD",
-      "updated": "2026-11-14",
+      "updated": "2026-11-23",
       "start": "2026-05-29",
       "latest": 625107,
       "first": 638575,
-      "n_listings": 19,
+      "n_listings": 18,
       "range_lo": 625107,
       "range_hi": 900975,
       "change": {
@@ -4068,7 +4086,7 @@
         "d90": -0.7,
         "all": -2.1
       },
-      "points": 43,
+      "points": 44,
       "series": [
         {
           "date": "2026-05-29",
@@ -4368,6 +4386,13 @@
           "date": "2026-11-14",
           "price": 625107,
           "n": 19,
+          "lo": 625107,
+          "hi": 900975
+        },
+        {
+          "date": "2026-11-23",
+          "price": 625107,
+          "n": 18,
           "lo": 625107,
           "hi": 900975
         }
@@ -5315,20 +5340,20 @@
       "source": "BaT + AutoTrader + AutoTempest",
       "note": "Nationwide asking median for the 2010\u20132012 997.2 Turbo S.",
       "currency": "USD",
-      "updated": "2026-11-21",
+      "updated": "2026-11-23",
       "start": "2025-09-28",
-      "latest": 190144,
+      "latest": 161596,
       "first": 134995,
       "n_listings": 8,
       "range_lo": 120000,
-      "range_hi": 217648,
+      "range_hi": 199995,
       "change": {
-        "d7": 25.0,
-        "d30": 22.7,
-        "d90": 25.1,
-        "all": 40.9
+        "d7": -0.1,
+        "d30": 4.3,
+        "d90": 4.9,
+        "all": 19.7
       },
-      "points": 133,
+      "points": 134,
       "series": [
         {
           "date": "2025-09-28",
@@ -6260,9 +6285,16 @@
           "n": 8,
           "lo": 120000,
           "hi": 217648
+        },
+        {
+          "date": "2026-11-23",
+          "price": 161596,
+          "n": 8,
+          "lo": 120000,
+          "hi": 199995
         }
       ],
-      "value": 190144,
+      "value": 161596,
       "value_note": "asking median (no recent sold data)",
       "value_log": [
         {
@@ -6372,6 +6404,10 @@
         {
           "date": "2026-11-22",
           "value": 190144
+        },
+        {
+          "date": "2026-11-23",
+          "value": 161596
         }
       ]
     },
@@ -6387,16 +6423,16 @@
       "currency": "USD",
       "updated": "2026-11-23",
       "start": "2026-01-04",
-      "latest": 248989,
+      "latest": 271696,
       "first": 298400,
-      "n_listings": 34,
-      "range_lo": 241289,
-      "range_hi": 291668,
+      "n_listings": 4,
+      "range_lo": 267172,
+      "range_hi": 275242,
       "change": {
-        "d7": -6.9,
-        "d30": -9.9,
-        "d90": -7.9,
-        "all": -12.1
+        "d7": -3.6,
+        "d30": -6.7,
+        "d90": -4.7,
+        "all": -8.9
       },
       "points": 237,
       "series": [
@@ -8146,11 +8182,10 @@
         },
         {
           "date": "2026-11-23",
-          "price": 248989,
-          "n": 34,
-          "lo": 241289,
-          "hi": 291668,
-          "src": "ci"
+          "price": 271696,
+          "n": 4,
+          "lo": 267172,
+          "hi": 275242
         }
       ],
       "ci": {
@@ -9044,7 +9079,7 @@
           "days": 90
         }
       ],
-      "value": 262860,
+      "value": 265174,
       "value_note": "75% sold (90d) + 25% asking (7-reading median)",
       "comps": [
         {
@@ -9346,13 +9381,9 @@
         {
           "date": "2026-11-22",
           "value": 265174
-        },
-        {
-          "date": "2026-11-23",
-          "value": 262860
         }
       ],
-      "ask_smooth": 262442,
+      "ask_smooth": 271696,
       "ask_smooth_n": 7,
       "smooth": {
         "k": 7,
@@ -20859,17 +20890,17 @@
     "currency": "USD",
     "note": "Mirrors the live 997.2 Turbo S market median (BaT + AutoTrader + AutoTempest).",
     "basis": "market asking median",
-    "updated": "2026-11-21",
+    "updated": "2026-11-23",
     "start": "2025-09-28",
-    "latest_fmv": 190144,
+    "latest_fmv": 161596,
     "first_fmv": 134995,
     "mileage": 40000,
     "listings_n": 8,
     "change": {
-      "d7": 25.0,
-      "d30": 22.7,
-      "d90": 25.1,
-      "all": 40.9
+      "d7": -0.1,
+      "d30": 4.3,
+      "d90": 4.9,
+      "all": 19.7
     },
     "series": [
       {
@@ -21801,6 +21832,13 @@
         "fmv": 190144,
         "p25": 120000,
         "p75": 217648,
+        "n": 8
+      },
+      {
+        "date": "2026-11-23",
+        "fmv": 161596,
+        "p25": 120000,
+        "p75": 199995,
         "n": 8
       }
     ]
