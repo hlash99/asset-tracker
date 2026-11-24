@@ -1,8 +1,8 @@
 {
-  "updated": "2026-11-24T10:58:16Z",
+  "updated": "2026-11-24T23:01:10Z",
   "generated_by": "publish_trackers.py",
   "summary": {
-    "portfolio_value": 12642280,
+    "portfolio_value": 12642146,
     "n_assets": 36,
     "n_cars": 34,
     "n_watches": 2
@@ -6429,11 +6429,11 @@
       "currency": "USD",
       "updated": "2026-11-24",
       "start": "2026-01-04",
-      "latest": 263874,
+      "latest": 259881,
       "first": 298400,
-      "n_listings": 36,
-      "range_lo": 242085,
-      "range_hi": 304889,
+      "n_listings": 38,
+      "range_lo": 248937,
+      "range_hi": 267524,
       "change": {
         "d7": -3.6,
         "d30": -6.7,
@@ -8195,10 +8195,10 @@
         },
         {
           "date": "2026-11-24",
-          "price": 263874,
-          "n": 36,
-          "lo": 242085,
-          "hi": 304889,
+          "price": 259881,
+          "n": 38,
+          "lo": 248937,
+          "hi": 267524,
           "src": "ci"
         }
       ],
@@ -9739,11 +9739,11 @@
       "currency": "USD",
       "updated": "2026-11-24",
       "start": "2026-07-04",
-      "latest": 245000,
+      "latest": 288900,
       "first": 339995,
       "n_listings": 9,
-      "range_lo": 209818,
-      "range_hi": 299500,
+      "range_lo": 192525,
+      "range_hi": 357500,
       "change": {
         "d7": -24.1,
         "d30": -11.6,
@@ -10586,10 +10586,10 @@
         },
         {
           "date": "2026-11-24",
-          "price": 245000,
+          "price": 288900,
           "n": 9,
-          "lo": 209818,
-          "hi": 299500,
+          "lo": 192525,
+          "hi": 357500,
           "src": "ci"
         }
       ],
@@ -11815,16 +11815,16 @@
       "currency": "USD",
       "updated": "2026-11-24",
       "start": "2026-07-04",
-      "latest": 129995,
+      "latest": 128458,
       "first": 161007,
-      "n_listings": 36,
-      "range_lo": 124988,
-      "range_hi": 145195,
+      "n_listings": 20,
+      "range_lo": 97923,
+      "range_hi": 139881,
       "change": {
-        "d7": -1.7,
-        "d30": -11.1,
-        "d90": -8.2,
-        "all": -20.0
+        "d7": -2.0,
+        "d30": -11.4,
+        "d90": -8.5,
+        "all": -20.2
       },
       "points": 127,
       "series": [
@@ -12836,10 +12836,10 @@
         },
         {
           "date": "2026-11-24",
-          "price": 129995,
-          "n": 36,
-          "lo": 124988,
-          "hi": 145195,
+          "price": 128458,
+          "n": 20,
+          "lo": 97923,
+          "hi": 139881,
           "src": "ci"
         }
       ],
@@ -13744,7 +13744,7 @@
         "hi": 300,
         "min_n": 1
       },
-      "value": 152994,
+      "value": 152860,
       "value_note": "65% sold (180d) + 35% asking (7-reading median)",
       "comps": [
         {
@@ -14033,10 +14033,10 @@
         },
         {
           "date": "2026-11-24",
-          "value": 152994
+          "value": 152860
         }
       ],
-      "ask_smooth": 128840,
+      "ask_smooth": 128458,
       "ask_smooth_n": 7,
       "smooth": {
         "k": 7,
@@ -14054,11 +14054,11 @@
       "currency": "USD",
       "updated": "2026-11-24",
       "start": "2026-07-21",
-      "latest": 117992,
+      "latest": 114593,
       "first": 125445,
-      "n_listings": 22,
-      "range_lo": 106430,
-      "range_hi": 124888,
+      "n_listings": 32,
+      "range_lo": 99995,
+      "range_hi": 123597,
       "change": {
         "d7": 3.8,
         "d30": -0.3,
@@ -15045,10 +15045,10 @@
         },
         {
           "date": "2026-11-24",
-          "price": 117992,
-          "n": 22,
-          "lo": 106430,
-          "hi": 124888,
+          "price": 114593,
+          "n": 32,
+          "lo": 99995,
+          "hi": 123597,
           "src": "ci"
         }
       ],
@@ -16299,11 +16299,11 @@
       "currency": "USD",
       "updated": "2026-11-24",
       "start": "2026-07-21",
-      "latest": 88082,
+      "latest": 89627,
       "first": 90683,
-      "n_listings": 40,
-      "range_lo": 76995,
-      "range_hi": 125500,
+      "n_listings": 35,
+      "range_lo": 80615,
+      "range_hi": 98384,
       "change": {
         "d7": 2.4,
         "d30": -3.7,
@@ -17282,10 +17282,10 @@
         },
         {
           "date": "2026-11-24",
-          "price": 88082,
-          "n": 40,
-          "lo": 76995,
-          "hi": 125500,
+          "price": 89627,
+          "n": 35,
+          "lo": 80615,
+          "hi": 98384,
           "src": "ci"
         }
       ],
